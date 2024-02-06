@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main22-landing {
+  width: 100%;
+ 
+}
+.maindevelop-landing {
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+.leftdevelop-landing {
+  width: 45%;
+  /* margin-left: 4%; */
+  margin-top: 12%;
+}
+.landing-text-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.RightDevelop-landing {
+  width: 55%;
+  display: flex;
+  justify-content: end;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+
+.subleftdevelop1-landing h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 54px;
+  text-align: start;
+  font-family: "Libre Franklin";
+  margin-bottom: 3%;
+}
+.landing-text-para {
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  align-items: start;
+  text-align: start;
+}
+
+.servicesdevelop-landing {
+  background: linear-gradient(169deg, #6458e7 26.53%, #9760f4 55.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Libre Franklin";
+}
+
+.landing-btn {
+  display: flex;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+/* @keyframes bounceAndFade {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0) scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-20px) scale(1.2) rotate(15deg);
+    opacity: 0.8;
+  }
+  60% {
+    transform: translateY(-10px) scale(1.1) rotate(-10deg);
+    opacity: 0.9;
+  }
+}
+
+@keyframes pulsate {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.animated-image {
+  animation: bounceAndFade 2s ease-in-out infinite, pulsate 2s ease-in-out infinite;
+} */
+
+
+
