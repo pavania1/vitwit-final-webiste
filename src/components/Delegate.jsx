@@ -42,7 +42,9 @@ const Delegate = () => {
         <div className="main22-delegate">
           <div className="delegate-main-head">
             <div className="subleftdevelop1-delegate">
-              <h1>
+              <h1 style= {{
+                fontFamily :"Libre Franklin"
+              }}>
                 {typedText} &nbsp;
                 <span className="servicesdevelop">{typedText2}</span>
               </h1>

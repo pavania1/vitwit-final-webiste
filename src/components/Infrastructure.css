@@ -42,16 +42,11 @@
   gap: 67px;
 }
 .alert3001 {
-  /* background: rgba(255, 255, 255, 0.08); */
-  /* width: 70%; */
   text-align: start;
-  /* border-color: rgba(255, 255, 255, 0.04);
-  background: rgba(255, 255, 255, 0.04); */
   margin-bottom: 30%;
-  /* border-radius: 16px; */
   border-radius: 0px 16px 16px 0px;
   background: linear-gradient(
-    237deg,
+    257deg,
     rgba(255, 255, 255, 0.06) 0.04%,
     rgba(186, 88, 88, 0) 99.96%
   );
@@ -65,7 +60,7 @@
   border-radius: 16px; */
   border-radius: 0px 16px 16px 0px;
   background: linear-gradient(
-    230deg,
+    250deg,
     rgba(255, 255, 255, 0.06) 0.02%,
     rgba(255, 255, 255, 0) 100%
   );

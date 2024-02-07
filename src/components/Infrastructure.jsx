@@ -223,7 +223,7 @@ const Infrastructure = () => {
           <div className="right-infra">
             <div className="grid grid-cols-3 gap-x-6 gap-y-14">
               {LOGOS.map((logo, logoId) => (
-                <div key={logoId}>
+                <div key={logoId} className={`${logo.bgColor.length === 0? "cursor-pointer":"cursor-default"}`}>
                   <div className="comsos-logo-style">
                     {logo.icon && (
                       <img src={logo.icon} alt={`${logo.name}-logo`} height={logo.size} width={logo.size} />

@@ -22,7 +22,7 @@ function App() {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <div className="App w-full flex flex-col justify-center items-center justify-items-center">
-      <div className={`${colorChange ? "bg-[#00000040]":""} navbar-fixed z-50`}>
+      <div className={`${colorChange ? "bg-[#000000]":""} navbar-fixed z-50`}>
         <div className="max-w-[1280px]  mx-auto">
           <Navbar />
         </div>

@@ -51,29 +51,20 @@ const Landing = () => {
         <div className="leftdevelop-landing">
           <div className="subleftdevelop1-landing">
             <h1>
-              {typedText}
-              <br /> {typedText2}
-              <br />{" "}
+              {typedText} &nbsp;
+              {typedText2} &nbsp;
               <span className="servicesdevelop-landing">{typedText3}</span>
             </h1>
           </div>
           <div className="landing-text-main">
-            <div className="landing-text-para ">
-              We are a core tech company passionate about the research
-              <br /> and development of technology solutions that transform
-              businesses and <br />
-              people’s work styles.
-              <br></br>
-              <br></br>
-              We are a core tech company passionate about the research
-              <br /> and development of technology solutions that transform
-              businesses and <br />
+            <div className="landing-text-para">
+              We are a core tech company passionate about the research and
+              development of technology solutions that transform businesses and
               people’s work styles.
             </div>
-
-            <div>
-              <button className="landing-btn ">Connect With Us</button>
-            </div>
+          </div>
+          <div>
+            <button className="landing-btn-main mx-auto">Connect With Us</button>
           </div>
         </div>
         {/* leftdevelop cantioner end */}

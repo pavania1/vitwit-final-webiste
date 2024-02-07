@@ -46,18 +46,15 @@
   line-height: 9;
   font-family: "Libre Franklin";
 } */
-.landing-btn {
+/* .landing-btn {
   display: flex;
-  padding: 16px 40px;
+  padding: 8px 24px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 16px;
+  align-self: stretch;
+  border-radius: 4px;
   background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
-  color: #fff;
-  font-family: "Libre Franklin";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px; /* 150% */
-}
+  border-radius: 10px;
+  margin-bottom: 2%;
+} */

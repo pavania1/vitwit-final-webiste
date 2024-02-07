@@ -130,26 +130,57 @@ const Development = () => {
               people’s work styles.We are a core tech company passionate about
               the research andWe are a core tech company passionate about the
               research and development of technology solutions that transform
-          
             </p>
 
             <div className="figma2001-infra">
               <div className="circles-infra">
-                <span className="dot1-infra">
-                  4 + <br></br>Total Networks
-                </span>
-                <span className="dot2-infra">
-                  4 + <br></br>Total Networks
-                </span>
-                <span className="dot3-infra">
-                  4 + <br></br>Total Networks
-                </span>
-                <span className="dot4-infra">
-                  4 + <br></br>Total Networks
-                </span>
-                <span className="dot5-infra">
-                  4 + <br></br>Total Networks
-                </span>
+                <div className="dot1-infra flex flex-col justify-center items-center">
+                  <span className="text-5xl">
+                    4 <span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
+                  </span>
+                  <span className="text-sm">Total Networks</span>
+                </div>
+
+                <div className="dot2-infra flex flex-col justify-center items-center">
+                  <span className="text-3xl	">
+                    {" "}
+                    4<span className="text-[rgba(255,255,255,0.40)]">
+                      {" "}
+                      +
+                    </span>{" "}
+                  </span>
+
+                  <span className="text-sm">Total Networks</span>
+                </div>
+
+                <div className="dot3-infra flex flex-col justify-center items-center">
+                  <span className="text-lg	">
+                    {" "}
+                    4<span className="text-[rgba(255,255,255,0.40)]">
+                      {" "}
+                      +
+                    </span>{" "}
+                  </span>
+
+                  <span className="text-sm">Total Networks</span>
+                </div>
+
+                <div className="dot4-infra flex flex-col justify-center items-center">
+                  <span className="text-2xl">
+                    4<span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
+                  </span>
+                  <span className="text-sm">Total Networks</span>
+                </div>
+                <div className="dot5-infra flex flex-col justify-center items-center">
+                    <span className="text-lg">
+                      {" "}
+                      4 <span className="text-[rgba(255,255,255,0.40)]">
+                        +
+                      </span>{" "}
+                      <br></br>
+                    </span>
+                    <span className="text-xs">Total Networks</span>
+                  </div>
                 <span className="dot6-infra"></span>
                 <span className="dot7-infra"></span>
                 <span className="dot8-infra"></span>

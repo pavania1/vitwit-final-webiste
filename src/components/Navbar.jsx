@@ -14,7 +14,7 @@ const Navbar = () => {
         <div>Partners</div>
         <div>Ventures</div>
         <div>
-          <button className="landing-btn">Get in touch</button>
+          <button className="get-touch-btn">Get in touch</button>
         </div>
       </div>
     </div>

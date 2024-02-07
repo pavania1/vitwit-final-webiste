@@ -36,7 +36,7 @@ body {
     @apply flex justify-end items-start gap-20  cursor-pointer;
   }
   .get-touch-btn {
-    @apply flex justify-center items-center gap-2.5 h-10  px-6 py-2 border-[0.5px] border-solid border-[#2F50DA] rounded-2xl;
+    @apply flex justify-center items-center gap-2.5 h-10  px-6 py-2 border-[0.5px] border-solid border-[#2F50DA] rounded-xl;
     background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
   }
   .nav-text {

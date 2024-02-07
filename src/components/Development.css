@@ -107,11 +107,11 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 72%;
-  top: -490px;
+  left: 80%;
+  top: -498px;
   color: #fff;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   background: linear-gradient(60deg, #e0b0ff 0%, #9474f6 76.04%);
   /* filter: drop-shadow(4px 4px 100px rgba(255, 255, 255, 0.25)); */
 }
@@ -296,7 +296,7 @@
 }
 
 .dot6-infra {
-  animation: bounce 2s ease-in-out infinite, fadeInOut 2s ease-in-out infinite;
+  animation: fadeInOut 2s ease-in-out infinite, fadeInOut 2s ease-in-out infinite;
 }
 
 .dot7-infra {
@@ -308,7 +308,7 @@
 }
 
 .dot9-infra {
-  animation: faseInOut 2s ease-in-out infinite, bounce 2s linear infinite;
+  animation: faseInOut 2s ease-in-out infinite, fadeInOut 2s linear infinite;
 }
 
 .dot10-infra {

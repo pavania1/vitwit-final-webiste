@@ -18,7 +18,7 @@ const Footer = () => {
             us out <p className="">from the social media links below.</p>
           </p>
         </div>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 mt-10">
           <div className="text-white text-xl not-italic font-bold leading-5 text-left">
             {" "}
             Join our community
