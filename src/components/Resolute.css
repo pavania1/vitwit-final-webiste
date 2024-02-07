@@ -47,6 +47,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 171.429% */
+  width: 75%;
 }
 .text-frame p {
   display: flex;

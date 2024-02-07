@@ -10,18 +10,16 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="flex justify-between">
-        <div className="flex flex-col justify-center items-start gap-6">
+        <div className="flex flex-col items-start gap-6">
           <img className="" src={VitwitLogo} alt="Vitwit Logo" />
-          <p className="text-white text-sm not-italic font-normal leading-6">
-            Feel free to contact us by filling this form or you can even reach
-            us
-            <p className="text-white text-sm not-italic font-normal leading-6">
-              out from the social media links below.
-            </p>
+          <p className="text-white text-sm font-normal leading-6 text-left">
+          {" "}
+            Feel free to conatct us by filling this form or you can even reach
+            us out <p className="">from the social media links below.</p>
           </p>
         </div>
         <div className="flex flex-col gap-6">
-          <div className="text-white text-xl not-italic font-bold leading-5">
+          <div className="text-white text-xl not-italic font-bold leading-5 text-left">
             {" "}
             Join our community
           </div>

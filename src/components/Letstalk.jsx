@@ -52,11 +52,11 @@ const Letstalk = () => {
           <SocialIcons />
         </div>
       </div>
-      <div className="left-letstalk">
-        <div className="form-bg">
+      <div className="left-letstalk form-bg">
+        <div className="">
           <form onSubmit={handleSubmit} className=" space-y-10">
             <div className="letstalk-form">
-              <div className="flex gap-4">
+              <div className="flex gap-2  ">
                 <div className="text-field-bg">
                   <div className="gap-2 flex">
                     <img className="" src={PersonIcon} alt="Person Icon" />
@@ -66,12 +66,12 @@ const Letstalk = () => {
                       id="name"
                       name="name"
                       required
-                      style={{ background: "none" }}
+                      style={{ background: "none", margin: 0, width: "70%" }}
                     />
                   </div>
                 </div>
                 <div className="text-field-bg">
-                  <div className="gap-2 flex">
+                  <div className=" flex gap-2">
                     <img className="" src={EmailIcon} alt="Person Icon" />
                     <p className="nav-text">Email</p>
                     <input
@@ -79,7 +79,7 @@ const Letstalk = () => {
                       id="email"
                       name="email"
                       required
-                      style={{ background: "none" }}
+                      style={{ background: "none", margin: 0, width: "70%" }}
                     />
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const Letstalk = () => {
                   name="memo"
                   required
                   style={{ background: "none" }}
-                  className="h-[142px] w-["
+                  className="h-[142px] w-[80%]"
                 />
               </div>
             </div>
@@ -113,7 +113,7 @@ const SocialIcons = () => {
     <div className="flex gap-6">
       <SocialLink link="https://www.github.com" icon={GithubLogo} />
       <SocialLink link="https://www.linkedin.com" icon={LinkedInLogo} />
-      <SocialLink link="https://www.telegram.com" icon={TelegramLogo} />
+      <SocialLink link="https://www.telegram.com" icon={TelegramLogo} className="w-2 h-2"/>
       <SocialLink link="https://www.twitter.com" icon={TwitterLogo} />
     </div>
   );

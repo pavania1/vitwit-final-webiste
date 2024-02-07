@@ -112,7 +112,7 @@
   color: #fff;
   font-weight: 500;
   font-size: 16px;
-  background: linear-gradient(90deg, #e0b0ff 0%, #9474f6 76.04%);
+  background: linear-gradient(60deg, #e0b0ff 0%, #9474f6 76.04%);
   /* filter: drop-shadow(4px 4px 100px rgba(255, 255, 255, 0.25)); */
 }
 .dot4-infra {
@@ -236,7 +236,7 @@
 .figma2001-infra {
   margin-right: 20%;
   width: 100%;
-  margin-top: 30%;
+  margin-top: 45%;
 }
 .circles-infra {
   margin-right: -15%;

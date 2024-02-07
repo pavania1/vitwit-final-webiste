@@ -124,17 +124,15 @@ const Development = () => {
 
           {/* RightDevelop cantioner start */}
           <div className="RightDevelop-infra">
-            <div>
-              <p className="development-alert-text">
-                We are a core tech company passionate about the research and
-                development of technology solutions that transform businesses
-                and people’s work styles.We are a core tech company passionate
-                about the research andWe are a core tech company passionate
-                about the research and development of technology solutions that
-                transform businesses and people’s work styles.We are a core tech
-                company passionate about the research and
-              </p>
-            </div>
+            <p className="development-alert-text mt-10">
+              We are a core tech company passionate about the research and
+              development of technology solutions that transform businesses and
+              people’s work styles.We are a core tech company passionate about
+              the research andWe are a core tech company passionate about the
+              research and development of technology solutions that transform
+          
+            </p>
+
             <div className="figma2001-infra">
               <div className="circles-infra">
                 <span className="dot1-infra">

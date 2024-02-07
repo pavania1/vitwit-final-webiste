@@ -192,7 +192,7 @@ const Infrastructure = () => {
             </div>
             <div className="alert-right2-infra">
               <Alert
-                className="alert3002 border-none"
+                className="alert3003 border-none"
                 message={
                   <div>
                     <div className="enterprise-dot mb-3">

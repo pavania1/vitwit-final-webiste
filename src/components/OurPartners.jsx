@@ -5,7 +5,7 @@ import { Alert, Space } from "antd";
 import Engineering from "../assets/delegateus/engineering.svg";
 import Enterprise from "../assets/delegateus/enterprise.svg";
 import Security from "../assets/delegateus/security.svg";
-import Infrastructure  from "../assets/delegateus/infrastructure.svg"
+import Infrastructure from "../assets/delegateus/infrastructure.svg";
 const OurPartners = () => {
   const [typedText, setTypedText] = useState("");
   const [typedText2, setTypedText2] = useState("");
@@ -48,8 +48,10 @@ const OurPartners = () => {
             </div>
             <div className="ourpartners-text">
               <p>
-                We are a core tech company passionate about the research and<br></br>
-                development of technology solutions that transform businesses<br></br>
+                We are a core tech company passionate about the research and
+                <br></br>
+                development of technology solutions that transform businesses
+                <br></br>
                 and people’s work styles.
               </p>
             </div>
@@ -128,16 +130,18 @@ const OurPartners = () => {
                 <div className="alert-main">
                   <div className="alert-right1-partners">
                     <Alert
-                      className="alert2001"
+                      className="alert2001 border-none"
                       message={
-                        <div>
-                          <img
-                            className="eng-dot"
-                            src={""}
-                            alt="Alert Image"
-                          />
+                        <>
+                          <div className="eng-dot mb-3">
+                            <img
+                              className=""
+                              src={Infrastructure}
+                              alt="Alert Image"
+                            />
+                          </div>
                           <span className="head-text">Infrastructure</span>
-                        </div>
+                        </>
                       }
                       description={
                         <span className="para-text">
@@ -146,22 +150,23 @@ const OurPartners = () => {
                           Network.
                         </span>
                       }
-                      // style={{ marginLeft: "30%" }}
                     />
 
                     <Alert
                       className="alert2002"
                       message={
-                        <div>
-                          <img
-                            className="eng-dot4"
-                            src={Security}
-                            alt="Alert Image"
-                          />
+                        <>
+                          <div className="eng-dot4 mb-3">
+                            <img
+                              className=""
+                              src={Enterprise}
+                              alt="Alert Image"
+                            />
+                          </div>
                           <span className="head-text">
                             Enterprise-grade infrastructure
                           </span>
-                        </div>
+                        </>
                       }
                       description={
                         <span className="para-text">
@@ -170,7 +175,6 @@ const OurPartners = () => {
                           Network.
                         </span>
                       }
-                      // style={{ marginLeft: "30%" }}
                     />
                   </div>
 
@@ -178,14 +182,16 @@ const OurPartners = () => {
                     <Alert
                       className="alert2003"
                       message={
-                        <div>
-                          <img
-                            className="eng-dot2"
-                            src={Security}
-                            alt="Alert Image"
-                          />
+                        <>
+                          <div className="eng-dot2 mb-3">
+                            <img
+                              className=""
+                              src={Engineering}
+                              alt="Alert Image"
+                            />
+                          </div>
                           <span className="head-text">Engineering</span>
-                        </div>
+                        </>
                       }
                       description={
                         <span className="para-text">
@@ -194,22 +200,22 @@ const OurPartners = () => {
                           Network.
                         </span>
                       }
-                      // style={{ marginLeft: "30%" }}
                     />
                     <Alert
                       className="alert2004"
                       message={
-                        <div>
-                          <img
-                            className="eng-dot3"
-                            src={Security}
-                            alt="Alert Image"
-                          />
-
+                        <>
+                          <div className="eng-dot3 mb-3">
+                            <img
+                              className=""
+                              src={Security}
+                              alt="Alert Image"
+                            />
+                          </div>
                           <span className="head-text">
                             Security, Monitoring & Alerting
                           </span>
-                        </div>
+                        </>
                       }
                       description={
                         <span className="para-text">
