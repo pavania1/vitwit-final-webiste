@@ -52,8 +52,9 @@ const Landing = () => {
           <div className="subleftdevelop1-landing">
             <h1>
               {typedText} &nbsp;
-              {typedText2} &nbsp;
-              <span className="servicesdevelop-landing">{typedText3}</span>
+              <span className="servicesdevelop-landing">{typedText2} </span>
+              &nbsp;
+              {typedText3}
             </h1>
           </div>
           <div className="landing-text-main">
@@ -64,7 +65,9 @@ const Landing = () => {
             </div>
           </div>
           <div>
-            <button className="landing-btn-main mx-auto">Connect With Us</button>
+            <button className="landing-btn-main mx-auto">
+              Connect With Us
+            </button>
           </div>
         </div>
         {/* leftdevelop cantioner end */}

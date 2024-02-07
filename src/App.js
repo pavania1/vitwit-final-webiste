@@ -22,7 +22,7 @@ function App() {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <div className="App w-full flex flex-col justify-center items-center justify-items-center">
-      <div className={`${colorChange ? "bg-[#000000]":""} navbar-fixed z-50`}>
+      <div className={`${colorChange ? "background-nav" : ""} navbar-fixed z-50`}>
         <div className="max-w-[1280px]  mx-auto">
           <Navbar />
         </div>
@@ -45,15 +45,8 @@ function App() {
       <div className="max-w-[1280px] ">
         <Delegate />
       </div>
-      <div
-        className="w-full flex flex-col justify-center items-center justify-items-center"
-        style={{
-          background: "linear-gradient(180deg, #2f50da 0%, #a562f7 100%)",
-        }}
-      >
-        <div className="max-w-[1280px]">
-          <Resolute />
-        </div>
+      <div className="w-full relative">
+        <Resolute />
       </div>
       <div className="w-full flex flex-col justify-center items-center justify-items-center">
         <div className="w-[1280px] max-w-[1280px]">

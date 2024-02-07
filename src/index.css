@@ -36,7 +36,7 @@ body {
     @apply flex justify-end items-start gap-20  cursor-pointer;
   }
   .get-touch-btn {
-    @apply flex justify-center items-center gap-2.5 h-10  px-6 py-2 border-[0.5px] border-solid border-[#2F50DA] rounded-xl;
+    @apply flex justify-center items-center gap-2.5 h-10  px-6 py-2  border-solid  rounded-xl;
     background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
   }
   .nav-text {
@@ -45,6 +45,16 @@ body {
   }
   .navbar-fixed {
     @apply fixed top-0 w-full;
+  }
+  .background-nav {
+    @apply backdrop-blur-[6px];
+  background: linear-gradient(
+      180deg,
+      rgba(165, 98, 247, 0) 0%,
+      rgba(47, 80, 218, 0) 100%
+    ),
+    rgba(255, 255, 255, 0.08);
+
   }
 
   /* footer */
