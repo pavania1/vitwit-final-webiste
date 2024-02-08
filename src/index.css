@@ -27,13 +27,13 @@ body {
 } */
 @layer components {
   .nav {
-    @apply flex justify-between items-start pt-10 pb-6  w-full  ;
+    @apply flex justify-between items-start  w-full  ;
   }
   .nav__logo {
     @apply w-[150px] h-[39.725px] shrink-0;
   }
   .menu-list {
-    @apply flex justify-end items-start gap-20  cursor-pointer;
+    @apply flex justify-end items-start gap-12  cursor-pointer;
   }
   .get-touch-btn {
     @apply flex justify-center items-center gap-2.5 h-10  px-6 py-2  border-solid  rounded-xl;
@@ -65,7 +65,7 @@ body {
     @apply w-[25px] h-[25px];
   }
   .divider-line {
-    @apply h-0.5  self-stretch;
+    @apply h-0.5  self-stretch opacity-20;
     background: rgba(255, 255, 255, 0.2);
   }
   .contact__socials {

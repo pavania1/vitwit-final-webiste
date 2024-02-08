@@ -16,15 +16,21 @@ const Resolute = () => {
             type="video/mp4"
           />
         </video>
-        <div className="leftdevelop-resolute flex items-center  w-full ">
-          <div className=" left-bg p-10">
-            <div className="">
-              <span className="text-style-1">Resolute</span>
+        <div className="leftdevelop-resolute flex left-bg w-full ">
+          <div className=" text pl-10">
+            <div className="py-10 ">
+              <span className="text-style-1 ">Resolute</span>
               <span className="Resolute-Interchain-Interface">
                 Interchain Interface
               </span>
             </div>
             <div className="text-frame">
+              <p>
+                We are a core tech company passionate about the research and
+                development of technology solutions that transform
+                businesses.chnology solutions that transaction.
+              </p>
+              <br></br>
               <p>
                 We are a core tech company passionate about the research and
                 development of techn`ology solutions that transform
@@ -33,28 +39,31 @@ const Resolute = () => {
                 technology solutions that transform businesses.chnology
                 solutions that transaction.
               </p>
-              <br></br>
-              <p>
-                We are a core tech company passionate about the research and
-                development of technology solutions that transform
-                businesses.chnology solutions that transaction.
-              </p>
             </div>
 
-            <div className="">
+            <div className="pb-10">
               <button className="resolute-btn cursor-pointer">
                 Connect to resolute
               </button>
             </div>
           </div>
-          <div className="resolute-video">
-            <video className="w-full h-full" controls loop>
+          <div className="RightDevelop-delegate">
+            <video autoplay muted loop ref={videoRef} className="myVideop">
+              <source
+                src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          {/* <div className="resolute-video">
+            <video className="w-full h-full"  loop>
               <source
                 src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
                 type="video/mp4"
               />
             </video>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="RightDevelop-delegate">

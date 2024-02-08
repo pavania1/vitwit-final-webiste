@@ -5,7 +5,7 @@
 }
 .main-delegate {
   width: 100%;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 .main22-delegate {
   /* width: 90%; */
@@ -14,7 +14,7 @@
 
 .subleftdevelop1-delegate h1 {
   opacity: 0.8;
-  font-family: LibreFranklin;
+  font-family: "Libre Franklin";
   font-size: 54px;
   font-weight: bold;
   font-stretch: normal;
@@ -31,7 +31,7 @@
   align-self: stretch;
 
   opacity: 0.8;
-  font-family: LibreFranklin;
+  font-family: "Libre Franklin";
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -75,11 +75,11 @@
   align-items: center;
   padding: 0;
   opacity: 0.8;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 .bottom-text {
   opacity: 0.8;
-  font-family: LibreFranklin;
+  font-family: "Libre Franklin";
   font-size: 20px;
   font-weight: bold;
   font-stretch: normal;
@@ -88,7 +88,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
-  margin-bottom: 1%;
+  margin-bottom: 3%;
 }
 .alert2001 {
   /* background: rgba(255, 255, 255, 0.08); */
@@ -101,7 +101,7 @@
 .Jack-Zampolin {
   opacity: 0.8;
   background-image: linear-gradient(to bottom, #2f50da 0%, #a562f7 100%);
-  font-family: LibreFranklin;
+  font-family: "Libre Franklin";
   font-size: 14px;
   font-weight: bold;
   font-stretch: normal;

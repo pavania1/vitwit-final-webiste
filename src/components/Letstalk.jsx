@@ -86,15 +86,15 @@ const Letstalk = () => {
               </div>
             </div>
             <div className="text-field-bg">
-              <div className="gap-2 flex ">
-                <p className="nav-text">Message</p>
+              <div className="">
+                <p className="nav-text text-left p-2">Message</p>
                 <input
                   type="memo"
                   id="memo"
                   name="memo"
                   required
                   style={{ background: "none" }}
-                  className="h-[142px] w-[80%]"
+                  className="h-[142px] w-[100%]"
                 />
               </div>
             </div>

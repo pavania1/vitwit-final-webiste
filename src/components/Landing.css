@@ -12,7 +12,7 @@
   background-size: cover;
 }
 .leftdevelop-landing {
-  width: 50%;
+  width: 60%;
   /* margin-left: 4%; */
   /* margin-top: 12%; */
   border-radius: 24px;
@@ -65,12 +65,6 @@
 }
 
 .servicesdevelop-landing {
-  /* font-family: "Libre Franklin";
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 64px; /* 100% */
-
   font-family: "Libre Franklin";
   font-size: 64px;
   font-style: normal;
@@ -104,7 +98,7 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: 10;
+ opacity: 40%;
 }
 /* @keyframes bounceAndFade {
   0%, 20%, 50%, 80%, 100% {

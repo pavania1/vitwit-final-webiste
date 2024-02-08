@@ -20,7 +20,7 @@
   line-height: 1.5rem;
   color: #ffffff;
   text-align: left;
-  margin-bottom: 10%;
+  margin-bottom: 4%;
 }
 .letstalk-form {
   display: flex;
@@ -44,7 +44,7 @@
   font-weight: 700;
   line-height: 64px; /* 118.519% */
   text-align: left;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 .right-letstalk {
   margin-bottom: -5%;
@@ -64,7 +64,6 @@
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
-
   height: 54px;
   padding: 0px 24px;
   flex-direction: column;
@@ -90,9 +89,10 @@
   letter-spacing: 0.64px;
 }
 .text-field-bg {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 0.25px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   padding: 0px 10px;
+  
 }
 .left-letstalk {
   width: 50%
