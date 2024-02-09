@@ -347,7 +347,7 @@
 }
 
 .dot6 {
-  animation: bounce 2s ease-in-out infinite, fadeInOut 2s ease-in-out infinite;
+  animation: fadeInOut 2s ease-in-out infinite, fadeInOut 2s ease-in-out infinite;
 }
 
 .dot7 {
@@ -359,7 +359,7 @@
 }
 
 .dot9 {
-  animation: bounce 2s ease-in-out infinite, rotate 2s linear infinite;
+  animation: fadeInOut 2s ease-in-out infinite, rotate 2s linear infinite;
 }
 
 .dot10 {
