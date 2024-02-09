@@ -3,14 +3,27 @@ import LoginIn from "../assets/login-icon.png";
 import "./Resolute.css";
 
 const Resolute = () => {
-  const videoRef = useRef();
-  if (videoRef.current) {
-    videoRef.current.play();
-  }
+  const videoRef1 = useRef();
+  const videoRef2 = useRef();
+
+  // Auto play the videos when they are loaded
+  const handleVideoAutoPlay = (videoRef) => {
+    if (videoRef && videoRef.current) {
+      videoRef.current.play();
+    }
+  };
+
   return (
     <div className="resolute">
       <div className="maindevelop-resolute">
-        <video autoplay muted loop ref={videoRef} className="myVideores">
+        <video
+          autoPlay
+          muted
+          loop
+          ref={videoRef1}
+          className="myVideores"
+          onLoadedData={() => handleVideoAutoPlay(videoRef1)}
+        >
           <source
             src={process.env.PUBLIC_URL + "/videos/background-video.mp4"}
             type="video/mp4"
@@ -30,7 +43,7 @@ const Resolute = () => {
                 development of technology solutions that transform
                 businesses.chnology solutions that transaction.
               </p>
-              <br></br>
+              <br />
               <p>
                 We are a core tech company passionate about the research and
                 development of techn`ology solutions that transform
@@ -48,7 +61,14 @@ const Resolute = () => {
             </div>
           </div>
           <div className="RightDevelop-delegate">
-            <video autoplay muted loop ref={videoRef} className="myVideop">
+            <video
+              autoPlay
+              muted
+              loop
+              ref={videoRef2}
+              className="myVideop"
+              onLoadedData={() => handleVideoAutoPlay(videoRef2)}
+            >
               <source
                 src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
                 type="video/mp4"
@@ -56,25 +76,7 @@ const Resolute = () => {
               Your browser does not support the video tag.
             </video>
           </div>
-          {/* <div className="resolute-video">
-            <video className="w-full h-full"  loop>
-              <source
-                src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
-                type="video/mp4"
-              />
-            </video>
-          </div> */}
         </div>
-
-        {/* <div className="RightDevelop-delegate">
-          <video width="840" height="500" controls>
-            <source
-              src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </div> */}
       </div>
     </div>
   );
