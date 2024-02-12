@@ -59,7 +59,7 @@ body {
 
   /* footer */
   .footer {
-    @apply flex flex-col gap-10 pt-20 pb-10 px-20 w-full;
+    @apply flex flex-col gap-10 pt-10 pb-8 px-20 w-full;
   }
   .social-icon {
     @apply w-[25px] h-[25px];
@@ -74,5 +74,9 @@ body {
   }
   .contact__socials__icon {
     @apply  hover:scale-[1.1] hover:opacity-95 transition-all ease-in delay-75 transform;
+  }
+  .contact__socials-bg {
+    @apply w-10 h-9 shrink-0 rounded-lg;
+    background: rgba(255, 255, 255, 0.08);
   }
 }

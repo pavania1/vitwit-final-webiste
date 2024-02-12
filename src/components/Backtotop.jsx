@@ -23,15 +23,16 @@ const Backtotop = () => {
   return (
     <div className="App">
       {backtoTopButton && (
-        <button
+        <button className="contact__socials-bg"
           style={{
             position: "fixed",
             bottom: "50px",
             right: "50px",
-            height: "50px",
-            width: "50px",
+            // height: "50px",
+            // width: "50px",
             fontSize: "30px",
             color: "white",
+            
           }}
           title="BacktoTop" 
           onClick={scrollUp}
