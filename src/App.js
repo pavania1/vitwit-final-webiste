@@ -9,6 +9,7 @@ import Letstalk from "./components/Letstalk";
 import Navbar from "./components/Navbar";
 import OurPartners from "./components/OurPartners";
 import Resolute from "./components/Resolute";
+import Backtotop from "./components/Backtotop";
 
 function App() {
   const [colorChange, setColorchange] = useState(false);
@@ -63,6 +64,7 @@ function App() {
       >
         <Footer />
       </div>
+      <Backtotop />
     </div>
   );
 }

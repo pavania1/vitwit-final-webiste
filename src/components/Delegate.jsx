@@ -1,18 +1,23 @@
 import React, { useState, useEffect } from "react";
 import "./Delegate.css";
-import Akash from "../assets/partners/akash.svg";
-import Regen from "../assets/partners/regen.svg";
-import Polygen from "../assets/partners/polygon.svg";
-import Cosmos from "../assets/partners/cosmos.svg";
 import { Alert, Space } from "antd";
 import Person from "../assets/person.svg";
 import Twitter from "../assets/partnerstwitter.svg";
 import Favorite from "../assets/favorite.svg";
 import Passage from "../assets/partners/passage.svg";
 import Chainflow from "../assets/partners/chainflow.svg";
+import alertsData from "./alertdata";
+import Akash from "../assets/partners/akash.svg";
+import Regen from "../assets/partners/regen.svg";
+import Polygen from "../assets/partners/polygon.svg";
+import Cosmos from "../assets/partners/cosmos.svg";
+
 const Delegate = () => {
+  const currentAlerts = alertsData.slice(0, 3);
   const [typedText, setTypedText] = useState("");
   const [typedText2, setTypedText2] = useState("");
+  const [alertsToShow, setAlertsToShow] = useState(currentAlerts);
+  const [fixedAlertsCount, setFixedAlertsCount] = useState(3); // Number of fixed alerts initially
 
   const textsToType = ["Our", "Partners"];
 
@@ -36,27 +41,44 @@ const Delegate = () => {
     }, 200);
     return () => clearInterval(typingInterval);
   }, []);
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      if (fixedAlertsCount === 3) {
+        index += 3;
+        if(index > alertsData.length) index = 0;
+        
+        const currentAlerts = alertsData.slice(index, index+3);
+        
+        
+        if (currentAlerts.length > 0) {
+          setAlertsToShow(currentAlerts);
+          setFixedAlertsCount(0); 
+        }
+      } else {
+       
+        setFixedAlertsCount(3);
+      }
+    }, 2000); 
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <div className="main-delegate">
         <div className="main22-delegate">
           <div className="delegate-main-head">
             <div className="subleftdevelop1-delegate">
-              <h1 style= {{
-                fontFamily :"Libre Franklin"
-              }}>
+              <h1 style={{ fontFamily: "Libre Franklin" }}>
                 {typedText} &nbsp;
                 <span className="servicesdevelop">{typedText2}</span>
               </h1>
             </div>
             <div className="delegate-text-delegate">
-              We are a core tech company passionate about the research and
-              development of technology solutions that transform businesses and
-              people’s work <br></br>styles.We are a core tech company
-              passionate about the research and development of technology
-              solutions that transform.
+              We are a core tech company passionate about the research and development of technology solutions that transform businesses and people’s work <br></br>styles.We are a core tech company passionate about the research and development of technology solutions that transform.
             </div>
-
             <div className="">
               <div className="partners-logo-1">
                 <img src={Akash} alt="Akash" />
@@ -73,8 +95,7 @@ const Delegate = () => {
           </div>
           <div>
             <div className="bottom-text">
-              Don’t just take our word for it ! Here’s what people say about
-              Vitwit
+              Don’t just take our word for it! Here’s what people say about Vitwit
             </div>
             <div>
               <Space
@@ -84,111 +105,36 @@ const Delegate = () => {
                   width: "100%",
                 }}
               >
-                <Alert
-                  className="alert2001"
-                  message={
-                    <div className="flex justify-between">
-                      <div className="flex space-x-2">
-                        <img src={Person} alt="Person Image" />
-                        <div className="">
-                          <div className="Jack-Zampolin ">Jack-Zampolin </div>
-                          <span className="Jackk_1234">@Jackk_1234</span>
-                        </div>
-                      </div>
-                      <img src={Twitter} alt="Twitter" />
-                    </div>
-                  }
-                  description={
-                    <div className="">
-                      <span className="twitter-text">
-                        The @vitwit_team has been rocking it and contributing to
-                        all layers of the stack: #tendermint, #cosmossdk, and
-                        #ibc. Mad props, and look forward to continuing to work
-                        with y'all!
-                      </span>
+                {alertsToShow.map((alert, index) => (
+                  <Alert
+                    key={index}
+                    className="alert2001"
+                    message={
                       <div className="flex justify-between">
-                        <div className="flex">
-                          <img src={Favorite} alt="Favorite-icon" />
-                          <p className="date-text">12</p>
+                        <div className="flex space-x-2">
+                          <img src={Person} alt="Person Image" />
+                          <div className="">
+                            <div className="Jack-Zampolin ">{alert.name}</div>
+                            <span className="Jackk_1234">{alert.username}</span>
+                          </div>
                         </div>
-                        <div className="date-text">04 Dec 2023</div>
+                        <img src={Twitter} alt="Twitter" />
                       </div>
-                    </div>
-                  }
-                />
-                <Alert
-                  className="alert2001"
-                  message={
-                    <div className="flex justify-between">
-                      <div className="flex space-x-2">
-                        <img src={Person} alt="Person Image" />
-                        <div className="">
-                          <div className="Jack-Zampolin ">Jack-Zampolin </div>
-                          <span className="Jackk_1234">@Jackk_1234</span>
-                        </div>
-                      </div>
-                      <img src={Twitter} alt="Twitter" />
-                    </div>
-                  }
-                  description={
-                    <div className="">
-                      <span className="twitter-text">
-                        The @vitwit_team has been rocking it and contributing to
-                        all layers of the stack: #tendermint, #cosmossdk, and
-                        #ibc. Mad props, and look forward to continuing to work
-                        with y'all!
-                      </span>
-                      <p>
-                        <span className="twitter-text">
-                          The @vitwit_team has been rocking it and contributing
-                          to all layers of the stack: #tendermint, #cosmossdk,
-                          and #ibc. Mad props, and look forward to continuing to
-                          work with y'all!
-                        </span>
-                      </p>
-
-                      <div className="flex justify-between">
-                        <div className="flex">
-                          <img src={Favorite} alt="Favorite-icon" />
-                          <p className="date-text">12</p>
-                        </div>
-                        <div className="date-text">04 Dec 2023</div>
-                      </div>
-                    </div>
-                  }
-                />
-                <Alert
-                  className="alert2001"
-                  message={
-                    <div className="flex justify-between">
-                      <div className="flex space-x-2">
-                        <img src={Person} alt="Person Image" />
-                        <div className="">
-                          <div className="Jack-Zampolin ">Jack-Zampolin </div>
-                          <span className="Jackk_1234">@Jackk_1234</span>
+                    }
+                    description={
+                      <div className="">
+                        <span className="twitter-text">{alert.message}</span>
+                        <div className="flex justify-between">
+                          <div className="flex">
+                            <img src={Favorite} alt="Favorite-icon" />
+                            <p className="date-text">{alert.likes}</p>
+                          </div>
+                          <div className="date-text">{alert.date}</div>
                         </div>
                       </div>
-                      <img src={Twitter} alt="Twitter" />
-                    </div>
-                  }
-                  description={
-                    <div className="">
-                      <span className="twitter-text">
-                        The @vitwit_team has been rocking it and contributing to
-                        all layers of the stack: #tendermint, #cosmossdk, and
-                        #ibc. Mad props, and look forward to continuing to work
-                        with y'all!
-                      </span>
-                      <div className="flex justify-between">
-                        <div className="flex">
-                          <img src={Favorite} alt="Favorite-icon" />
-                          <p className="date-text">12</p>
-                        </div>
-                        <div className="date-text">04 Dec 2023</div>
-                      </div>
-                    </div>
-                  }
-                />
+                    }
+                  />
+                ))}
               </Space>
             </div>
           </div>
