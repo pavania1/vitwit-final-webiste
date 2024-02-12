@@ -99,7 +99,7 @@ const Delegate = () => {
             </div>
             <div>
               <Space
-                className="space-alert-dev"
+                className="space-alert-dev space-x-8"
                 direction=""
                 style={{
                   width: "100%",
