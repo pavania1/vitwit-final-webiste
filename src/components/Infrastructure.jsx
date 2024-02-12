@@ -41,7 +41,7 @@ const LOGOS = [
     name: "Akash",
     icon: Akash,
     size: 62,
-    bgColor: "#851c12",
+    bgColor: "#ed3524",
   },
   {
     name: "Passage",

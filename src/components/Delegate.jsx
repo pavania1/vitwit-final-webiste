@@ -60,7 +60,7 @@ const Delegate = () => {
        
         setFixedAlertsCount(3);
       }
-    }, 2000); 
+    }, 4000); 
 
     return () => clearInterval(interval);
   }, []);
@@ -95,7 +95,7 @@ const Delegate = () => {
           </div>
           <div>
             <div className="bottom-text">
-              Don’t just take our word for it! Here’s what people say about Vitwit
+              Don’t just take our word for it! Here’s what people say about &nbsp;<span className="vitwit-text">Vitwit</span>
             </div>
             <div>
               <Space
