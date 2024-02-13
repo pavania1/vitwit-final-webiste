@@ -54,7 +54,7 @@ function App() {
         <Resolute />
       </div>
       <div className="w-full flex flex-col justify-center items-center justify-items-center">
-        <div className="w-[1280px] max-w-[1280px]">
+        <div className=" max-w-[1280px]">
           <Letstalk />
         </div>
       </div>
