@@ -114,8 +114,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.delegate-main-head {
-}
+
 .Jackk_1234 {
   color: #fff;
   font-family: "Libre Franklin";
@@ -165,22 +164,26 @@
   margin-right: 20px; /* Adjust the margin between images as needed */
 }
 
+
+
+
+
+
+
 .alert-animation {
-  animation: slideInLeft 3s ease-in-out infinite forwards;
+  animation: scaleIn 3s ease-in-out infinite; /* Example animation */
 }
 
-@keyframes slideInLeft {
-  0% {
+@keyframes scaleIn {
+  from {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: scale(0.8); /* Start with smaller size */
   }
-  100% {
+  to {
     opacity: 1;
-    transform: translateX(0);
+    transform: scale(1); /* Increase size to normal */
   }
 }
-
-
 
 
 

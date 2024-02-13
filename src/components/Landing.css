@@ -45,11 +45,10 @@
 .subleftdevelop1-landing h1 {
   color: #fff;
   font-family: "Libre Franklin";
-  font-size: 64px;
+  font-size: 54px;
   font-style: normal;
   font-weight: 700;
-  line-height: 64px; /* 100% */
-
+  line-height: 64px; 
   margin-top: 1%;
 }
 .landing-text-para {
@@ -66,7 +65,7 @@
 
 .servicesdevelop-landing {
   font-family: "Libre Franklin";
-  font-size: 64px;
+  font-size: 54px;
   font-style: normal;
   font-weight: 700;
   line-height: 64px; /* 100% */

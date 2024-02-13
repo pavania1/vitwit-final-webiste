@@ -32,7 +32,7 @@ function App() {
           <Navbar />
         </div>
       </div>
-      <div className="w-full  ">
+      <div className="w-full">
         <Landing />
       </div>
       <div className="max-w-[1280px] ">
