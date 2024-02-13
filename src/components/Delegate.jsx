@@ -95,7 +95,7 @@ const Delegate = () => {
           </div>
           <div>
             <div className="bottom-text">
-              Don’t just take our word for it! Here’s what people say about &nbsp;<span className="vitwit-text">Vitwit</span>
+              Don’t just take our word for it! Here’s what people say about Vitwit
             </div>
             <div>
               <Space
@@ -106,34 +106,35 @@ const Delegate = () => {
                 }}
               >
                 {alertsToShow.map((alert, index) => (
-                  <Alert
-                    key={index}
-                    className="alert2001"
-                    message={
-                      <div className="flex justify-between">
-                        <div className="flex space-x-2">
-                          <img src={Person} alt="Person Image" />
-                          <div className="">
-                            <div className="Jack-Zampolin ">{alert.name}</div>
-                            <span className="Jackk_1234">{alert.username}</span>
-                          </div>
-                        </div>
-                        <img src={Twitter} alt="Twitter" />
-                      </div>
-                    }
-                    description={
-                      <div className="">
-                        <span className="twitter-text">{alert.message}</span>
+                  <div className="alert-animation" key={index}>
+                    <Alert
+                      className="alert2001 border-none"
+                      message={
                         <div className="flex justify-between">
-                          <div className="flex">
-                            <img src={Favorite} alt="Favorite-icon" />
-                            <p className="date-text">{alert.likes}</p>
+                          <div className="flex space-x-2">
+                            <img src={Person} alt="Person Image" />
+                            <div className="">
+                              <div className="Jack-Zampolin ">{alert.name}</div>
+                              <span className="Jackk_1234">{alert.username}</span>
+                            </div>
                           </div>
-                          <div className="date-text">{alert.date}</div>
+                          <img src={Twitter} alt="Twitter" />
                         </div>
-                      </div>
-                    }
-                  />
+                      }
+                      description={
+                        <div className="">
+                          <span className="twitter-text">{alert.message}</span>
+                          <div className="flex justify-between">
+                            <div className="flex">
+                              <img src={Favorite} alt="Favorite-icon" />
+                              <p className="date-text">{alert.likes}</p>
+                            </div>
+                            <div className="date-text">{alert.date}</div>
+                          </div>
+                        </div>
+                      }
+                    />
+                  </div>
                 ))}
               </Space>
             </div>

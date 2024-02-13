@@ -109,7 +109,7 @@
   font-style: normal;
   /* line-height: 1.71; */
   letter-spacing: 0.56px;
-
+ 
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -143,17 +143,7 @@
   line-height: 24px; /* 200% */
   letter-spacing: 1.2px;
 }
-.vitwit-text {
-  background: linear-gradient(180deg, #2f50da 78.66%, #a562f7 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Libre Franklin";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
-}
+
 @keyframes moveLeftToRight {
   0% {
     transform: translateX(-100%);
@@ -174,3 +164,25 @@
 .partners-logo-2 img {
   margin-right: 20px; /* Adjust the margin between images as needed */
 }
+
+.alert-animation {
+  animation: slideInLeft 3s ease-in-out infinite forwards;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
