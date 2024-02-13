@@ -38,7 +38,7 @@ const Landing = () => {
         {/* leftdevelop cantioner start */}
         <div className="leftdevelop-landing">
           <div className="subleftdevelop1-landing">
-            <h1>Trusted Partners for your</h1>
+            <h1>Trusted partners for your</h1>
             <span className="servicesdevelop-landing">{text}</span>
             <Cursor />
           </div>
