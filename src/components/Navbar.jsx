@@ -8,10 +8,10 @@ const Navbar = () => {
     <div className="nav">
       <img className="nav__logo" src={VitwitLogo} alt="Vitwit Logo" />
       <div className="menu-list nav-text">
-        <div>About Us</div>
-        <div>Services</div>
-        <div>Resolute</div>
-        <div>Partners</div>
+        <a href="#landing">About Us</a>
+        <a href="#infrastructure">Services</a>
+        <a href="#resolute">Resolute</a>
+        <a href="#partners">Partners</a>
         <div>Ventures</div>
         <div>
           <button className="get-touch-btn">Get in touch</button>

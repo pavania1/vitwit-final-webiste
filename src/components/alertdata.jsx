@@ -42,7 +42,7 @@ const alertsData = [
       borderRadius: 30,
     },
     name: "OmniFlixNetwork",
-    username: "",
+    username: "@OmniFlixNetwork",
     message: "Spl. thanks to our friends at @vitwit_/WitVal, who deployed @ankea_io for OmniFlix! FlixNet-2 saw a lot:-200+ validators bootstrap a chain in 1min-patch to fix the mismatch of IBC versions-high storage consumption & the best is yet to come!",
     likes: 10,
     date: "Sep 16, 2021",

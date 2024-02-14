@@ -26,7 +26,7 @@ const Landing = () => {
   }, []);
 
   return (
-    <div className="main22-landing">
+    <div id="landing" className="main22-landing">
       {/* maindevelop cantioner start */}
       <div className="maindevelop-landing">
         <video autoPlay muted loop ref={videoRef} className="myVideo">
@@ -53,8 +53,9 @@ const Landing = () => {
             </div>
           </div>
           <div>
-            <button className="landing-btn-main mx-auto">
-              Connect With Us
+            <button className="landing-btn-main mx-auto ">
+            <a href="#development">Know More</a>
+              
             </button>
           </div>
         </div>

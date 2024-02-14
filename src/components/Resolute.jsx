@@ -14,7 +14,7 @@ const Resolute = () => {
   };
 
   return (
-    <div className="resolute">
+    <div id="resolute" className="resolute">
       <div className="maindevelop-resolute">
         <video
           autoPlay

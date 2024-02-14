@@ -30,7 +30,7 @@ const Development = () => {
   }, []);
   return (
     <>
-      <div className="main22-infra">
+      <div id="development" className="main22-infra">
         {/* maindevelop cantioner start */}
         <div className="maindevelop-infra">
           {/* leftdevelop cantioner start */}

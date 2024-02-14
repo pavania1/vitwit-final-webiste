@@ -65,7 +65,7 @@ const Delegate = () => {
 
   return (
     <>
-      <div className="main-delegate">
+      <div id="partners" className="main-delegate">
         <div className="main22-delegate">
           <div className="delegate-main-head">
             <div className="subleftdevelop1-delegate">
@@ -101,13 +101,7 @@ const Delegate = () => {
               Vitwit
             </div>
             <div>
-              <Space
-                className="space-alert-dev space-x-8"
-                direction=""
-                style={{
-                  width: "100%",
-                }}
-              >
+              <div className="grid grid-cols-3 gap-6">
                 {alertsToShow.map((alert, index) => (
                   <div className="alert-animation" key={index}>
                     <a
@@ -160,7 +154,7 @@ const Delegate = () => {
                     </a>
                   </div>
                 ))}
-              </Space>
+              </div>
             </div>
           </div>
         </div>

@@ -48,12 +48,12 @@ const Letstalk = () => {
           out from the social media links below.
         </p>
         <div className="v-line"></div>
-        <div className="contact mt-10 cursor-pointer">Contact@vitwit.com</div>
+        <div className="contact mt-10 cursor-pointer underline">
+          <a href="mailto:contact@vitwit.com">contact@vitwit.com</a>
+        </div>
       </div>
     </div>
   );
-  
 };
 
 export default Letstalk;
-

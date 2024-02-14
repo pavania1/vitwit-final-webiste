@@ -18,70 +18,84 @@ import Agoric from "../assets/infra-icons/agoric-infra.png";
 import Oasis from "../assets/infra-icons/oasis-infra.png";
 const LOGOS = [
   {
-    name: "Cosmos Hub",
-    icon: Cosmos,
-    size: 58,
-    bgColor: "#393F68",
-  },
-  {
-    name: "Polygen",
-    icon: Polygen,
-    size: 62,
-    bgColor: "#9757da",
-  },
-  {
-    name: "Osmosis",
-    icon: Osmosis,
-    size: 62,
-    bgColor: "#a289bf",
-  },
-  {
     name: "Akash",
     icon: Akash,
     size: 62,
     bgColor: "#ed3524",
+    link: "https://akash.network/",
+  },
+  {
+    name: "Cosmos Hub",
+    icon: Cosmos,
+    size: 58,
+    bgColor: "#393F68",
+    link: "https://cosmos.network/",
+  },
+  {
+    name: "Polygon",
+    icon: Polygen,
+    size: 62,
+    bgColor: "#9757da",
+    link: "https://polygon.technology/",
   },
   {
     name: "Passage",
     icon: Passage,
     size: 62,
     bgColor: "rgba(255, 255, 255, 0.2)",
-  },
-  {
-    name: "Oasis",
-    icon: Oasis,
-    size: 62,
-    bgColor: " #00c6eb",
-  },
-  {
-    name: "Stargaze",
-    icon: Stargaze,
-    size: 58,
-    bgColor: "#c8dc7c",
+    link: "https://passage3d.com/",
   },
   {
     name: "Regen",
     icon: Regen,
     size: 58,
     bgColor: "#9bd5af",
+    link: "https://www.regen.network/",
   },
+  {
+    name: "Osmosis",
+    icon: Osmosis,
+    size: 62,
+    bgColor: "#a289bf",
+    link: "https://osmosis.zone/",
+  },
+
+  {
+    name: "Oasis",
+    icon: Oasis,
+    size: 62,
+    bgColor: " #00c6eb",
+    link: "https://oasisprotocol.org/",
+
+  },
+  {
+    name: "Stargaze",
+    icon: Stargaze,
+    size: 58,
+    bgColor: "#c8dc7c",
+    link: "https://stargaze.zone/",
+  },
+  
   {
     name: "Umee",
     icon: Umee,
     size: 62,
     bgColor: "#e0b0ff",
+    link:"https://www.umee.cc/",
   },
   {
     name: "Evmos",
     icon: Evmos,
     size: 58,
     bgColor: "#f1705b",
+    link:"https://evmos.org/",
   },
   {
     name: "Agoric",
     icon: Agoric,
     size: 58,
     bgColor: "#7D1729",
+    link: "https://agoric.com/",
   },
   {
     name: "10+ More",
@@ -130,9 +144,8 @@ const OurPartners = () => {
                 <span className="servicesdevelop">{typedText2}</span>
               </h1>
             </div>
-            
+
             <div className="figma2001-partners">
-              
               <div className="flex mt-10">
                 <div className="flex flex-col">
                   <div className="dot4  dot-animation flex flex-col justify-center items-center">
@@ -192,125 +205,8 @@ const OurPartners = () => {
               <span className="dot10"></span>
             </div>
           </div>
-          
-          {/* leftdevelop cantioner end */}
-
-          {/* RightDevelop cantioner start */}
-          {/* <div className="RightDevelop-partners">
-            <div className="subleftdevelop2-partners">
-              <Space
-                className="space-alert-dev"
-                direction="vertical"
-                style={{
-                  width: "100%",
-                }}
-              >
-                <div className="alert-main">
-                  <div className="alert-right1-partners">
-                    <Alert
-                      className="alert2001 border-none"
-                      message={
-                        <>
-                          <div className="eng-dot mb-3">
-                            <img
-                              className=""
-                              src={Infrastructure}
-                              alt="Alert Image"
-                            />
-                          </div>
-                          <span className="head-text">Infrastructure</span>
-                        </>
-                      }
-                      description={
-                        <span className="para-text">
-                          Akash Network, the world’s first decentralized and
-                          open-source cloud, accelerates deployment, scaleAkash
-                          Network.
-                        </span>
-                      }
-                    />
-
-                    <Alert
-                      className="alert2002"
-                      message={
-                        <>
-                          <div className="eng-dot4 mb-3">
-                            <img
-                              className=""
-                              src={Enterprise}
-                              alt="Alert Image"
-                            />
-                          </div>
-                          <span className="head-text">
-                            Enterprise-grade infrastructure
-                          </span>
-                        </>
-                      }
-                      description={
-                        <span className="para-text">
-                          Akash Network, the world’s first decentralized and
-                          open-source cloud, accelerates deployment, scaleAkash
-                          Network.
-                        </span>
-                      }
-                    />
-                  </div>
-
-                  <div className="alert-right2-partners ml-6">
-                    <Alert
-                      className="alert2003"
-                      message={
-                        <>
-                          <div className="eng-dot2 mb-3">
-                            <img
-                              className=""
-                              src={Engineering}
-                              alt="Alert Image"
-                            />
-                          </div>
-                          <span className="head-text">Engineering</span>
-                        </>
-                      }
-                      description={
-                        <span className="para-text">
-                          Akash Network, the world’s first decentralized and
-                          open-source cloud, accelerates deployment, scaleAkash
-                          Network.
-                        </span>
-                      }
-                    />
-                    <Alert
-                      className="alert2004"
-                      message={
-                        <>
-                          <div className="eng-dot3 mb-3">
-                            <img
-                              className=""
-                              src={Security}
-                              alt="Alert Image"
-                            />
-                          </div>
-                          <span className="head-text">
-                            Security, Monitoring & Alerting
-                          </span>
-                        </>
-                      }
-                      description={
-                        <span className="para-text">
-                          Akash Network, the world’s first decentralized and
-                          open-source cloud, accelerates deployment, scaleAkash
-                          Network.
-                        </span>
-                      }
-                      // style={{ marginLeft: "30%" }}
-                    />
-                  </div>
-                </div>
-              </Space>
-            </div>
-          </div> */}
           <div className="RightDevelop-partners">
-          <div className="ourpartners-text">
+            <div className="ourpartners-text">
               <p>
                 We are a core tech company passionate about the research and
                 <br></br>
@@ -320,36 +216,39 @@ const OurPartners = () => {
               </p>
             </div>
             <div className="grid grid-cols-3 gap-x-6 gap-y-14">
-              {LOGOS.map((logo, logoId) => (
-                <div
-                  key={logoId}
-                  className={`${
-                    logo.bgColor.length === 0
-                      ? "cursor-pointer"
-                      : "cursor-default"
-                  }`}
-                >
-                  <div className="comsos-logo-style">
-                    {logo.icon && (
-                      <img
-                        src={logo.icon}
-                        alt={`${logo.name}-logo`}
-                        height={logo.size}
-                        width={logo.size}
-                      />
-                    )}
-                  </div>
-                  <div>
-                    <button
-                      className="cosmos infra-icons-text"
-                      style={{ backgroundColor: logo.bgColor }}
-                    >
-                      {logo.name}
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
+  {LOGOS.map((logo, logoId) => (
+    <div key={logoId}>
+      <a href={logo.link} target="_blank" rel="noopener noreferrer">
+        <div
+          className={`${
+            logo.bgColor.length === 0
+              ? "cursor-pointer"
+              : "cursor-default"
+          }`}
+        >
+          <div className="comsos-logo-style">
+            {logo.icon && (
+              <img
+                src={logo.icon}
+                alt={`${logo.name}-logo`}
+                height={logo.size}
+                width={logo.size}
+              />
+            )}
+          </div>
+          <div>
+            <button
+              className="cosmos infra-icons-text"
+              style={{ backgroundColor: logo.bgColor }}
+            >
+              {logo.name}
+            </button>
+          </div>
+        </div>
+      </a>
+    </div>
+  ))}
+</div>
 
             <div className="">
               <button className="infra-btn infra-icons-text">

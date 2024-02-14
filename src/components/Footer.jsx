@@ -5,6 +5,8 @@ import SkypeLogo from "../assets/social-icons/skype.png";
 import GithubLogo from "../assets/social-icons/github.png";
 import LinkedInLogo from "../assets/social-icons/linkedln.png";
 import VitwitLogo from "../assets/footer-vitwit-logo.png";
+import TwitterLogo from "../assets/social-icons/twitter.png";
+import TelegramLogo from "../assets/social-icons/telegram.png";
 
 const Footer = () => {
   return (
@@ -13,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col items-start gap-6">
           <img className="" src={VitwitLogo} alt="Vitwit Logo" />
           <p className="text-white text-sm font-normal leading-6 text-left">
-          {" "}
+            {" "}
             Feel free to conatct us by filling this form or you can even reach
             us out <p className="">from the social media links below.</p>
           </p>
@@ -41,11 +43,20 @@ export default Footer;
 const SocialIcons = () => {
   return (
     <div className="flex gap-6">
-      <SocialLink link="https://www.gmail.com" icon={MailLogo} />
-      <SocialLink link="https://www.youtube.com" icon={YoutubeLogo} />
-      <SocialLink link="https://www.twitter.com" icon={SkypeLogo} />
-      <SocialLink link="https://www.github.com" icon={GithubLogo} />
-      <SocialLink link="https://www.linkedin.com" icon={LinkedInLogo} />
+      <SocialLink link="https://twitter.com/vitwit_" icon={TwitterLogo} />
+      <SocialLink link="https://github.com/vitwit" icon={GithubLogo} />
+      <SocialLink
+        link="https://www.youtube.com/@vitwit8623"
+        icon={YoutubeLogo}
+      />
+      <SocialLink
+        link="https://www.linkedin.com/company/vitwit/mycompany/"
+        icon={LinkedInLogo}
+      />
+      <SocialLink
+        link="https://web.telegram.org/k/#-1982236507"
+        icon={TelegramLogo}
+      />
     </div>
   );
 };

@@ -120,7 +120,7 @@ const Infrastructure = () => {
   }, []);
   return (
     <>
-      <div className="infrastructure">
+      <div id='infrastructure' className="infrastructure">
         <div className="infrastructure-main-head">
           <div className="infrastructure-services-h1">
             <h1>
