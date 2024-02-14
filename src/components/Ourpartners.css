@@ -17,6 +17,7 @@
 }
 .RightDevelop-partners {
   width: 50%;
+  /* margin-top: 10%; */
 }
 .RightDevelop-partners p {
   text-align: start;
@@ -301,6 +302,8 @@
   letter-spacing: normal;
   text-align: left;
   color: #fff;
+  margin-top: 5%;
+  margin-bottom: 20%;
 }
 .figma2001-partners {
   /* margin-left: -43%; */

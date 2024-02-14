@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Development.css";
 import { Alert, Space } from "antd";
+import CountUp from "react-countup";
 const Development = () => {
   const [typedText, setTypedText] = useState("");
   const [typedText2, setTypedText2] = useState("");
@@ -54,14 +55,15 @@ const Development = () => {
                   className="alert2001-infra border-none"
                   message={
                     <span className="development-alert-head">
-                      Cosmos Blockchain Development
+                      Blockchain Development Using Cosmos SDK
                     </span>
                   }
                   description={
                     <span className="development-alert-text">
-                      Akash Network, the world’s first decentralized and
-                      open-source cloud, accelerates <br />
-                      deployment, scaleAkash Network.
+                      Harness the power of the Cosmos SDK to build scalable,
+                      interoperable blockchain networks. Our expertise ensures
+                      your project is developed with cutting-edge technology for
+                      maximum efficiency and performance.
                     </span>
                   }
                   style={{
@@ -75,14 +77,16 @@ const Development = () => {
                   className="alert2001-infra border-none"
                   message={
                     <span className="development-alert-head">
-                      Blockchain Auditing
+                      IBC Apps and Rollapps Development
                     </span>
                   }
                   description={
                     <span className="development-alert-text">
-                      Akash Network, the world’s first decentralized and
-                      open-source cloud, accelerates <br /> deployment,
-                      scaleAkash Network.
+                      Expand your blockchain's capabilities with IBC apps and
+                      Rollapps, creating seamless connections and
+                      functionalities across different chains. Our development
+                      services open new pathways for interoperability and
+                      innovation.
                     </span>
                   }
                   style={{ padding: 15, marginBottom: "10px", width: "100%" }}
@@ -90,13 +94,14 @@ const Development = () => {
                 <Alert
                   className="alert2001-infra border-none"
                   message={
-                    <span className="development-alert-head">IBC Apps</span>
+                    <span className="development-alert-head">Code Audits</span>
                   }
                   description={
                     <span className="development-alert-text">
-                      Akash Network, the world’s first decentralized and
-                      open-source cloud, accelerates <br />
-                      deployment, scaleAkash Network.
+                      Elevate the security and reliability of your blockchain
+                      applications with our comprehensive code audit services.
+                      We scrutinize every line to identify vulnerabilities,
+                      ensuring your codebase is robust and ready for deployment.
                     </span>
                   }
                   style={{ padding: 15, marginBottom: "10px", width: "100%" }}
@@ -105,14 +110,16 @@ const Development = () => {
                   className="alert2001-infra border-none"
                   message={
                     <span className="development-alert-head">
-                      COSM WASM Smart Contracts
+                      CosmWasm Smart Contract Development
                     </span>
                   }
                   description={
                     <span className="development-alert-text">
-                      Akash Network, the world’s first decentralized and
-                      open-source cloud, accelerates <br />
-                      deployment, scaleAkash Network.
+                      Leverage the flexibility of CosmWasm for building
+                      powerful, secure smart contracts. Our team specializes in
+                      crafting custom solutions that bring your blockchain
+                      functionalities to life, meeting the highest standards of
+                      quality and innovation.
                     </span>
                   }
                   style={{ padding: 15, marginBottom: "10px", width: "100%" }}
@@ -125,62 +132,68 @@ const Development = () => {
           {/* RightDevelop cantioner start */}
           <div className="RightDevelop-infra">
             <p className="development-alert-text mt-10">
-              We are a core tech company passionate about the research and
-              development of technology solutions that transform businesses and
-              people’s work styles.We are a core tech company passionate about
-              the research andWe are a core tech company passionate about the
-              research and development of technology solutions that transform
+              Discover unparalleled expertise in blockchain development and
+              consulting. Our dedicated team guides you through the complexities
+              of blockchain technology, delivering innovative solutions that
+              drive your business forward
             </p>
 
             <div className="figma2001-infra">
               <div className="circles-infra">
-                <div className="dot1-infra flex flex-col justify-center items-center">
+                <div className="dot1-infra dot-animation flex flex-col justify-center items-center">
                   <span className="text-5xl">
-                    4 <span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
+                    <CountUp
+                      start={0}
+                      end={1000}
+                      duration={2.5}
+                      separator=","
+                    />
+                    <span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
                   </span>
-                  <span className="text-sm">Total Networks</span>
+                  <span className="text-base">Opensource commits</span>
                 </div>
 
-                <div className="dot2-infra flex flex-col justify-center items-center">
+                <div className="dot2-infra dot-animation flex flex-col justify-center items-center">
                   <span className="text-3xl	">
-                    {" "}
-                    4<span className="text-[rgba(255,255,255,0.40)]">
-                      {" "}
+                    <CountUp start={0} end={10} duration={2.5} separator="," />
+                    <span className="text-[rgba(255,255,255,0.40)]">
                       +
                     </span>{" "}
                   </span>
 
-                  <span className="text-sm">Total Networks</span>
+                  <span className="text-sm">Projects delivered</span>
                 </div>
 
-                <div className="dot3-infra flex flex-col justify-center items-center">
+                <div className="dot3-infra dot-animation flex flex-col justify-center items-center">
                   <span className="text-lg	">
-                    {" "}
-                    4<span className="text-[rgba(255,255,255,0.40)]">
-                      {" "}
+                    <CountUp start={0} end={4} duration={3} />
+                    <span className="text-[rgba(255,255,255,0.40)]">
                       +
                     </span>{" "}
                   </span>
 
-                  <span className="text-sm">Total Networks</span>
+                  <span className="text-sm">Mainnet launches</span>
                 </div>
 
-                <div className="dot4-infra flex flex-col justify-center items-center">
+                <div className="dot4-infra dot-animationflex flex-col justify-center items-center">
                   <span className="text-2xl">
-                    4<span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
+                    <CountUp start={0} end={8} duration={3} />
+                    <span className="text-[rgba(255,255,255,0.40)]">
+                      +
+                    </span>{" "}
                   </span>
-                  <span className="text-sm">Total Networks</span>
+                  <span className="text-sm">Partnerships</span>
                 </div>
-                <div className="dot5-infra flex flex-col justify-center items-center">
-                    <span className="text-lg">
-                      {" "}
-                      4 <span className="text-[rgba(255,255,255,0.40)]">
-                        +
-                      </span>{" "}
-                      <br></br>
-                    </span>
-                    <span className="text-xs">Total Networks</span>
-                  </div>
+                <div className="dot5-infra dot-animation flex flex-col justify-center items-center">
+                  <span className="text-lg">
+                    {" "}
+                    4 <span className="text-[rgba(255,255,255,0.40)]">
+                      +
+                    </span>{" "}
+                    <br></br>
+                  </span>
+                  <span className="text-xs">Total Networks</span>
+                </div>
                 <span className="dot6-infra"></span>
                 <span className="dot7-infra"></span>
                 <span className="dot8-infra"></span>

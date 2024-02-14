@@ -101,14 +101,14 @@
   position: relative;
   justify-content: flex-start;
   top: 0;
-  margin-top: 5%;
+  
 }
 .alert-right1-infra {
   width: 100%;
   margin: 0;
 }
 .alert-right2-infra {
-  margin-top: 20%;
+  /* margin-top: 20%; */
 }
 .cosmos {
   border-radius: 16px;
@@ -255,7 +255,7 @@
 .comsos-logo-style {
   position: absolute;
   margin-top: -2%;
-  margin-left: 3%;
+  margin-left: 3.5%;
   margin-bottom: 2%;
 }
 

@@ -5,11 +5,11 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 const Landing = () => {
   const videoRef = useRef();
   const words = [
-    "appchain development",
-    "ibc-app development",
-    "road to mainnet",
-    "protocol research",
-    "web3 infrastructure",
+    "Appchain development",
+    "Ibc-app development",
+    "Road to mainnet",
+    "Protocol research",
+    "Web3 infrastructure",
   ];
 
   const [text] = useTypewriter({

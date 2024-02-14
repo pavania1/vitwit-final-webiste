@@ -376,3 +376,16 @@
   line-height: 32px; 
   letter-spacing: 0.56px;
 } */
+/* Development.css */
+.dot-animation {
+  animation: dotFade 3s infinite alternate;
+}
+
+@keyframes dotFade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

@@ -47,20 +47,18 @@ const Delegate = () => {
     const interval = setInterval(() => {
       if (fixedAlertsCount === 3) {
         index += 3;
-        if(index > alertsData.length) index = 0;
-        
-        const currentAlerts = alertsData.slice(index, index+3);
-        
-        
+        if (index > alertsData.length) index = 0;
+
+        const currentAlerts = alertsData.slice(index, index + 3);
+
         if (currentAlerts.length > 0) {
           setAlertsToShow(currentAlerts);
-          setFixedAlertsCount(0); 
+          setFixedAlertsCount(0);
         }
       } else {
-       
         setFixedAlertsCount(3);
       }
-    }, 5000); 
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -77,25 +75,30 @@ const Delegate = () => {
               </h1>
             </div>
             <div className="delegate-text-delegate">
-              We are a core tech company passionate about the research and development of technology solutions that transform businesses and people’s work <br></br>styles.We are a core tech company passionate about the research and development of technology solutions that transform.
+              We are a core tech company passionate about the research and
+              development of technology solutions that transform businesses and
+              people’s work <br></br>styles.We are a core tech company
+              passionate about the research and development of technology
+              solutions that transform.
             </div>
             <div className="">
               <div className="partners-logo-1">
                 <img src={Akash} alt="Akash" />
-                <img src={Regen} alt="Regen" />
-                <img src={Polygen} alt="Polygen" />
                 <img src={Cosmos} alt="Cosmos" />
+                <img src={Polygen} alt="Polygen" />
+                <img src={Passage} alt="Passage" />
               </div>
               <div className="partners-logo-2">
+                <img src={Regen} alt="Regen" />
                 <img src={Chainflow} alt="Chainflow" />
                 <img src={Cosmos} alt="Cosmoa" />
-                <img src={Passage} alt="Passage" />
               </div>
             </div>
           </div>
           <div>
             <div className="bottom-text">
-              Don’t just take our word for it! Here’s what people say about Vitwit
+              Don’t just take our word for it! Here’s what people say about
+              Vitwit
             </div>
             <div>
               <Space
@@ -107,33 +110,54 @@ const Delegate = () => {
               >
                 {alertsToShow.map((alert, index) => (
                   <div className="alert-animation" key={index}>
-                    <Alert
-                      className="alert2001 border-none"
-                      message={
-                        <div className="flex justify-between">
-                          <div className="flex space-x-2">
-                            <img src={Person} alt="Person Image" />
-                            <div className="">
-                              <div className="Jack-Zampolin ">{alert.name}</div>
-                              <span className="Jackk_1234">{alert.username}</span>
-                            </div>
-                          </div>
-                          <img src={Twitter} alt="Twitter" />
-                        </div>
-                      }
-                      description={
-                        <div className="">
-                          <span className="twitter-text">{alert.message}</span>
+                    <a
+                      href={alert.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="alert-link"
+                    >
+                      <Alert
+                        className="alert2001 border-none"
+                        message={
                           <div className="flex justify-between">
-                            <div className="flex">
-                              <img src={Favorite} alt="Favorite-icon" />
-                              <p className="date-text">{alert.likes}</p>
+                            <div className="flex space-x-2">
+                              <img
+                                src={alert.profileImage.src}
+                                alt="Person Image"
+                                width={alert.profileImage.width}
+                                height={alert.profileImage.height}
+                                style={{
+                                  borderRadius: `${alert.profileImage.borderRadius}px`,
+                                }}
+                              />
+                              <div className="">
+                                <div className="Jack-Zampolin ">
+                                  {alert.name}
+                                </div>
+                                <span className="Jackk_1234">
+                                  {alert.username}
+                                </span>
+                              </div>
                             </div>
-                            <div className="date-text">{alert.date}</div>
+                            <img src={Twitter} alt="Twitter" />
                           </div>
-                        </div>
-                      }
-                    />
+                        }
+                        description={
+                          <div className="">
+                            <span className="twitter-text">
+                              {alert.message}
+                            </span>
+                            <div className="flex justify-between">
+                              <div className="flex">
+                                <img src={Favorite} alt="Favorite-icon" />
+                                <p className="date-text">{alert.likes}</p>
+                              </div>
+                              <div className="date-text">{alert.date}</div>
+                            </div>
+                          </div>
+                        }
+                      />
+                    </a>
                   </div>
                 ))}
               </Space>

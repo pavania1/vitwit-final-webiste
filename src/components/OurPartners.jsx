@@ -1,16 +1,100 @@
 import React, { useState, useEffect } from "react";
 import "./Ourpartners.css";
 import { Alert, Space } from "antd";
-
 import Engineering from "../assets/delegateus/engineering.svg";
 import Enterprise from "../assets/delegateus/enterprise.svg";
 import Security from "../assets/delegateus/security.svg";
 import Infrastructure from "../assets/delegateus/infrastructure.svg";
+import Cosmos from "../assets/infra-icons/comos-infra.png";
+import Polygen from "../assets/infra-icons/polygon-infra.png";
+import Osmosis from "../assets/infra-icons/osmosis-infra.png";
+import Akash from "../assets/infra-icons/akash-infra.png";
+import Passage from "../assets/infra-icons/passage-infra.png";
+import Stargaze from "../assets/infra-icons/stargaze-infra.png";
+import Regen from "../assets/infra-icons/regen-infra.png";
+import Umee from "../assets/infra-icons/umee-infra.png";
+import Evmos from "../assets/infra-icons/evmos-infra.png";
+import Agoric from "../assets/infra-icons/agoric-infra.png";
+import Oasis from "../assets/infra-icons/oasis-infra.png";
+const LOGOS = [
+  {
+    name: "Cosmos Hub",
+    icon: Cosmos,
+    size: 58,
+    bgColor: "#393F68",
+  },
+  {
+    name: "Polygen",
+    icon: Polygen,
+    size: 62,
+    bgColor: "#9757da",
+  },
+  {
+    name: "Osmosis",
+    icon: Osmosis,
+    size: 62,
+    bgColor: "#a289bf",
+  },
+  {
+    name: "Akash",
+    icon: Akash,
+    size: 62,
+    bgColor: "#ed3524",
+  },
+  {
+    name: "Passage",
+    icon: Passage,
+    size: 62,
+    bgColor: "rgba(255, 255, 255, 0.2)",
+  },
+  {
+    name: "Oasis",
+    icon: Oasis,
+    size: 62,
+    bgColor: " #00c6eb",
+  },
+  {
+    name: "Stargaze",
+    icon: Stargaze,
+    size: 58,
+    bgColor: "#c8dc7c",
+  },
+  {
+    name: "Regen",
+    icon: Regen,
+    size: 58,
+    bgColor: "#9bd5af",
+  },
+  {
+    name: "Umee",
+    icon: Umee,
+    size: 62,
+    bgColor: "#e0b0ff",
+  },
+  {
+    name: "Evmos",
+    icon: Evmos,
+    size: 58,
+    bgColor: "#f1705b",
+  },
+  {
+    name: "Agoric",
+    icon: Agoric,
+    size: 58,
+    bgColor: "#7D1729",
+  },
+  {
+    name: "10+ More",
+    icon: "",
+    size: 62,
+    bgColor: "",
+  },
+];
 const OurPartners = () => {
   const [typedText, setTypedText] = useState("");
   const [typedText2, setTypedText2] = useState("");
 
-  const textsToType = ["Why Delegate to", "Us ?"];
+  const textsToType = ["Why Delegate", "to us ?"];
 
   useEffect(() => {
     let textIndex = 0;
@@ -46,32 +130,25 @@ const OurPartners = () => {
                 <span className="servicesdevelop">{typedText2}</span>
               </h1>
             </div>
-            <div className="ourpartners-text">
-              <p>
-                We are a core tech company passionate about the research and
-                <br></br>
-                development of technology solutions that transform businesses
-                <br></br>
-                and people’s work styles.
-              </p>
-            </div>
+            
             <div className="figma2001-partners">
+              
               <div className="flex mt-10">
                 <div className="flex flex-col">
-                  <div className="dot4 flex flex-col justify-center items-center">
+                  <div className="dot4  dot-animation flex flex-col justify-center items-center">
                     <span className="text-2xl">
                       4<span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
                     </span>
                     <span className="text-sm">Total Networks</span>
                   </div>
-                  <div className="dot1 flex flex-col justify-center items-center">
+                  <div className="dot1 dot-animation flex flex-col justify-center items-center">
                     <span className="text-5xl">
                       4 <span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
                     </span>
                     <span className="text-sm">Total Networks</span>
                   </div>
 
-                  <div className="dot5 flex flex-col justify-center items-center">
+                  <div className="dot5 dot-animation flex flex-col justify-center items-center">
                     <span className="text-lg">
                       {" "}
                       4 <span className="text-[rgba(255,255,255,0.40)]">
@@ -83,7 +160,7 @@ const OurPartners = () => {
                   </div>
                 </div>
                 <div className="flex flex-col">
-                  <div className="dot2 flex flex-col justify-center items-center">
+                  <div className="dot2 dot-animation flex flex-col justify-center items-center">
                     <span className="text-3xl	">
                       {" "}
                       4<span className="text-[rgba(255,255,255,0.40)]">
@@ -94,7 +171,7 @@ const OurPartners = () => {
 
                     <span className="text-sm">Total Networks</span>
                   </div>
-                  <div className="dot3 flex flex-col justify-center items-center">
+                  <div className="dot3 dot-animation flex flex-col justify-center items-center">
                     <span className="text-lg	">
                       {" "}
                       4<span className="text-[rgba(255,255,255,0.40)]">
@@ -115,10 +192,11 @@ const OurPartners = () => {
               <span className="dot10"></span>
             </div>
           </div>
+          
           {/* leftdevelop cantioner end */}
 
           {/* RightDevelop cantioner start */}
-          <div className="RightDevelop-partners">
+          {/* <div className="RightDevelop-partners">
             <div className="subleftdevelop2-partners">
               <Space
                 className="space-alert-dev"
@@ -230,7 +308,56 @@ const OurPartners = () => {
                 </div>
               </Space>
             </div>
+          </div> */}
+          <div className="RightDevelop-partners">
+          <div className="ourpartners-text">
+              <p>
+                We are a core tech company passionate about the research and
+                <br></br>
+                development of technology solutions that transform businesses
+                <br></br>
+                and people’s work styles.
+              </p>
+            </div>
+            <div className="grid grid-cols-3 gap-x-6 gap-y-14">
+              {LOGOS.map((logo, logoId) => (
+                <div
+                  key={logoId}
+                  className={`${
+                    logo.bgColor.length === 0
+                      ? "cursor-pointer"
+                      : "cursor-default"
+                  }`}
+                >
+                  <div className="comsos-logo-style">
+                    {logo.icon && (
+                      <img
+                        src={logo.icon}
+                        alt={`${logo.name}-logo`}
+                        height={logo.size}
+                        width={logo.size}
+                      />
+                    )}
+                  </div>
+                  <div>
+                    <button
+                      className="cosmos infra-icons-text"
+                      style={{ backgroundColor: logo.bgColor }}
+                    >
+                      {logo.name}
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="">
+              <button className="infra-btn infra-icons-text">
+                Stake with VITWIT
+              </button>
+            </div>
           </div>
+
           {/*RightDevelop cantioner end */}
         </div>
         {/* maindevelop cantioner end */}
