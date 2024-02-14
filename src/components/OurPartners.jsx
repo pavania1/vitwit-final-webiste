@@ -208,11 +208,10 @@ const OurPartners = () => {
           <div className="RightDevelop-partners">
             <div className="ourpartners-text">
               <p>
-                We are a core tech company passionate about the research and
-                <br></br>
-                development of technology solutions that transform businesses
-                <br></br>
-                and people’s work styles.
+              Discover unparalleled expertise in blockchain development and
+              consulting. Our dedicated team guides you through the complexities
+              of blockchain technology, delivering innovative solutions that
+              drive your business forward.
               </p>
             </div>
             <div className="grid grid-cols-3 gap-x-6 gap-y-14">

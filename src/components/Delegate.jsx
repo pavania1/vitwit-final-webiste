@@ -4,7 +4,7 @@ import { Alert, Space } from "antd";
 import Person from "../assets/person.svg";
 import Twitter from "../assets/partnerstwitter.svg";
 import Favorite from "../assets/favorite.svg";
-import Passage from "../assets/partners/passage.svg";
+import Passage from "../assets/partners/passage.png";
 import Chainflow from "../assets/partners/chainflow.svg";
 import alertsData from "./alertdata";
 import Akash from "../assets/partners/akash.svg";
@@ -19,7 +19,7 @@ const Delegate = () => {
   const [alertsToShow, setAlertsToShow] = useState(currentAlerts);
   const [fixedAlertsCount, setFixedAlertsCount] = useState(3); // Number of fixed alerts initially
 
-  const textsToType = ["Our", "Partners"];
+  const textsToType = ["Our Partners", "& Clients"];
 
   useEffect(() => {
     let textIndex = 0;

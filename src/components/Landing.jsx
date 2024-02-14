@@ -38,17 +38,18 @@ const Landing = () => {
         {/* leftdevelop cantioner start */}
         <div className="leftdevelop-landing">
           <div className="subleftdevelop1-landing">
-            <h1>Trusted partners for your</h1>
+            <h1>Trusted partners for your &nbsp;
             <span className="servicesdevelop-landing">{text}</span>
             <Cursor />
+            </h1>
           </div>
 
           <div className="landing-text-main">
             <div className="landing-text-para">
               From strategic planning to execution, our comprehensive services
-              are tailored to meet your unique needs. Partner with us to harness
+              are tailored to meet your unique needs.<br/> Partner with us to harness
               the power of blockchain and unlock new opportunities for growth
-              and efficiency. With Vitwit, you get personalized support every
+              and efficiency.<br></br> With Vitwit, you get personalized support every
               step of the way.
             </div>
           </div>

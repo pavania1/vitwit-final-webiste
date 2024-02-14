@@ -135,7 +135,7 @@ const Development = () => {
               Discover unparalleled expertise in blockchain development and
               consulting. Our dedicated team guides you through the complexities
               of blockchain technology, delivering innovative solutions that
-              drive your business forward
+              drive your business forward.
             </p>
 
             <div className="figma2001-infra">
@@ -166,23 +166,23 @@ const Development = () => {
 
                 <div className="dot3-infra dot-animation flex flex-col justify-center items-center">
                   <span className="text-lg	">
-                    <CountUp start={0} end={4} duration={3} />
-                    <span className="text-[rgba(255,255,255,0.40)]">
-                      +
-                    </span>{" "}
-                  </span>
-
-                  <span className="text-sm">Mainnet launches</span>
-                </div>
-
-                <div className="dot4-infra dot-animationflex flex-col justify-center items-center">
-                  <span className="text-2xl">
                     <CountUp start={0} end={8} duration={3} />
                     <span className="text-[rgba(255,255,255,0.40)]">
                       +
                     </span>{" "}
                   </span>
-                  <span className="text-sm">Partnerships</span>
+
+                  <span className="text-sm"> Partnerships</span>
+                </div>
+
+                <div className="dot4-infra dot-animationflex flex-col justify-center items-center">
+                  <span className="text-2xl">
+                    <CountUp start={0} end={4} duration={3} />
+                    <span className="text-[rgba(255,255,255,0.40)]">
+                      +
+                    </span>{" "}
+                  </span>
+                  <span className="text-sm">Mainnet launches </span>
                 </div>
                 <div className="dot5-infra dot-animation flex flex-col justify-center items-center">
                   <span className="text-lg">

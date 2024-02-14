@@ -12,9 +12,11 @@ const Navbar = () => {
         <a href="#infrastructure">Services</a>
         <a href="#resolute">Resolute</a>
         <a href="#partners">Partners</a>
-        <div>Ventures</div>
+        {/* <div>Ventures</div> */}
         <div>
-          <button className="get-touch-btn">Get in touch</button>
+          <button className="get-touch-btn">
+            <a href="#letstalk">Get in touch</a>
+          </button>
         </div>
       </div>
     </div>

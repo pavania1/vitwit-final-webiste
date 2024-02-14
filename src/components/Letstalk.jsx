@@ -37,7 +37,7 @@ const Letstalk = () => {
     return () => clearInterval(typingInterval);
   }, []);
   return (
-    <div className="letstalk-main">
+    <div id="letstalk" className="letstalk-main">
       <div className="letstalk-head">
         <div className="lets-text">
           {typedText} <span className="talk-text">{typedText2}</span>
