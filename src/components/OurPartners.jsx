@@ -66,7 +66,6 @@ const LOGOS = [
     size: 62,
     bgColor: " #00c6eb",
     link: "https://oasisprotocol.org/",
-
   },
   {
     name: "Stargaze",
@@ -75,20 +74,20 @@ const LOGOS = [
     bgColor: "#c8dc7c",
     link: "https://stargaze.zone/",
   },
-  
+
   {
     name: "Umee",
     icon: Umee,
     size: 62,
     bgColor: "#e0b0ff",
-    link:"https://www.umee.cc/",
+    link: "https://www.umee.cc/",
   },
   {
     name: "Evmos",
     icon: Evmos,
     size: 58,
     bgColor: "#f1705b",
-    link:"https://evmos.org/",
+    link: "https://evmos.org/",
   },
   {
     name: "Agoric",
@@ -208,46 +207,46 @@ const OurPartners = () => {
           <div className="RightDevelop-partners">
             <div className="ourpartners-text">
               <p>
-              Discover unparalleled expertise in blockchain development and
-              consulting. Our dedicated team guides you through the complexities
-              of blockchain technology, delivering innovative solutions that
-              drive your business forward.
+                Discover unparalleled expertise in blockchain development and
+                consulting. Our dedicated team guides you through the
+                complexities of blockchain technology, delivering innovative
+                solutions that drive your business forward.
               </p>
             </div>
             <div className="grid grid-cols-3 gap-x-6 gap-y-14">
-  {LOGOS.map((logo, logoId) => (
-    <div key={logoId}>
-      <a href={logo.link} target="_blank" rel="noopener noreferrer">
-        <div
-          className={`${
-            logo.bgColor.length === 0
-              ? "cursor-pointer"
-              : "cursor-default"
-          }`}
-        >
-          <div className="comsos-logo-style">
-            {logo.icon && (
-              <img
-                src={logo.icon}
-                alt={`${logo.name}-logo`}
-                height={logo.size}
-                width={logo.size}
-              />
-            )}
-          </div>
-          <div>
-            <button
-              className="cosmos infra-icons-text"
-              style={{ backgroundColor: logo.bgColor }}
-            >
-              {logo.name}
-            </button>
-          </div>
-        </div>
-      </a>
-    </div>
-  ))}
-</div>
+              {LOGOS.map((logo, logoId) => (
+                <div key={logoId} className="grid-item">
+                  <a href={logo.link} target="_blank" rel="noopener noreferrer">
+                    <div
+                      className={`${
+                        logo.bgColor.length === 0
+                          ? "cursor-pointer"
+                          : "cursor-default"
+                      }`}
+                    >
+                      <div className="comsos-logo-style">
+                        {logo.icon && (
+                          <img
+                            src={logo.icon}
+                            alt={`${logo.name}-logo`}
+                            height={logo.size}
+                            width={logo.size}
+                          />
+                        )}
+                      </div>
+                      <div>
+                        <button
+                          className="cosmos infra-icons-text"
+                          style={{ backgroundColor: logo.bgColor }}
+                        >
+                          {logo.name}
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              ))}
+            </div>
 
             <div className="">
               <button className="infra-btn infra-icons-text">

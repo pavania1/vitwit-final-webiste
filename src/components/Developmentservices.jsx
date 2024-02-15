@@ -44,7 +44,7 @@ const Development = () => {
             </div>
 
             <div className="subleftdevelop2-infra">
-              <Space
+            <Space
                 className="space-alert-dev gap-10"
                 direction="vertical"
                 style={{
@@ -67,7 +67,7 @@ const Development = () => {
                     </span>
                   }
                   style={{
-                    padding: 15,
+                    padding: 30,
                     marginBottom: "10px",
                     marginTop: "15px",
                     width: "100%",
@@ -89,7 +89,7 @@ const Development = () => {
                       innovation.
                     </span>
                   }
-                  style={{ padding: 15, marginBottom: "10px", width: "100%" }}
+                  style={{ padding: 30, marginBottom: "10px", width: "100%" }}
                 />
                 <Alert
                   className="alert2001-infra border-none"
@@ -104,7 +104,7 @@ const Development = () => {
                       ensuring your codebase is robust and ready for deployment.
                     </span>
                   }
-                  style={{ padding: 15, marginBottom: "10px", width: "100%" }}
+                  style={{ padding: 30, marginBottom: "10px", width: "100%" }}
                 />
                 <Alert
                   className="alert2001-infra border-none"
@@ -122,9 +122,9 @@ const Development = () => {
                       quality and innovation.
                     </span>
                   }
-                  style={{ padding: 15, marginBottom: "10px", width: "100%" }}
+                  style={{ padding: 30, marginBottom: "10px", width: "100%" }}
                 />
-              </Space>
+               </Space>
             </div>
           </div>
           {/* leftdevelop cantioner end */}

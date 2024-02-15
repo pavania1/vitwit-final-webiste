@@ -74,6 +74,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+ 
 }
 
 .landing-btn-main {
@@ -89,9 +90,14 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
+  line-height: 24px; 
   margin-top: 3%;
   cursor: pointer;
+  
+}
+.landing-btn-main:hover {
+  background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%); 
+  transform: scale(1.1);
 }
 .myVideo {
   right: 0;

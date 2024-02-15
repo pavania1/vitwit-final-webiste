@@ -74,6 +74,9 @@
     rgba(255, 255, 255, 0) 101.65%
   );
 }
+.alert3003:hover {
+  background: #372752;
+}
 .right {
   display: flex;
   flex-direction: column;
@@ -123,16 +126,7 @@
   display: flex;
   flex-direction: column;
 }
-.infra-btn {
-  display: flex;
-  width: 100%;
-  height: 80px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
-  margin-top: 5%;
-}
+
 .right-infra {
   /* margin-right: 5%; */
   margin-top: 2%;
