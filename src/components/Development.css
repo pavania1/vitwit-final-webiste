@@ -26,7 +26,7 @@
 }
 .RightDevelop-infra p {
   text-align: start;
-  color: #fff;
+  color:rgb(225, 225, 225);
   margin-left: 18px;
 }
 .subleftdevelop1-infra h1 {
@@ -79,7 +79,6 @@
       rgba(0, 0, 0, 0.08) 100%
     ),
     linear-gradient(90deg, #e0b0ff 0%, #9474f6 76.04%);
-  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(50px);
 }
 
@@ -251,7 +250,7 @@
   line-height: 24px; /* 120% */
 }
 .development-alert-text {
-  color: #fff;
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 14px;
   font-style: normal;

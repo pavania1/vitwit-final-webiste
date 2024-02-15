@@ -45,16 +45,15 @@
 .subleftdevelop1-landing h1 {
   color: #fff;
   font-family: "Libre Franklin";
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 64px;
   margin-top: 1%;
-  width: 120%;
   text-align: left;
 }
 .landing-text-para {
-  color: #fff;
+  color:rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 20px;
   font-style: normal;

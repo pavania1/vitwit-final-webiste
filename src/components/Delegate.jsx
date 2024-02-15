@@ -11,6 +11,7 @@ import Akash from "../assets/partners/akash.svg";
 import Regen from "../assets/partners/regen.svg";
 import Polygen from "../assets/partners/polygon.svg";
 import Cosmos from "../assets/partners/cosmos.svg";
+import Polama from "../assets/partners/paloma final.png"
 
 const Delegate = () => {
   const currentAlerts = alertsData.slice(0, 3);
@@ -20,6 +21,7 @@ const Delegate = () => {
   const [fixedAlertsCount, setFixedAlertsCount] = useState(3); // Number of fixed alerts initially
 
   const textsToType = ["Our Partners", "& Clients"];
+  
 
   useEffect(() => {
     let textIndex = 0;
@@ -86,12 +88,14 @@ const Delegate = () => {
                 <img src={Akash} alt="Akash" />
                 <img src={Cosmos} alt="Cosmos" />
                 <img src={Polygen} alt="Polygen" />
-                <img src={Passage} alt="Passage" />
+                <img src={Passage} alt="Passage" 
+                style={{width: '200px'}}/>
               </div>
               <div className="partners-logo-2">
                 <img src={Regen} alt="Regen" />
                 <img src={Chainflow} alt="Chainflow" />
-                <img src={Cosmos} alt="Cosmoa" />
+                <img src={Polama} alt="Cosmoa" 
+                style={{width: '177px'}}/>
               </div>
             </div>
           </div>

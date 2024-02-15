@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="flex justify-between">
         <div className="flex flex-col items-start gap-6">
           <img className="" src={VitwitLogo} alt="Vitwit Logo" />
-          <p className="text-white text-sm font-normal leading-6 text-left">
+          <p className="text-[rgb(225,225,225)] text-sm font-normal leading-6 text-left">
             {" "}
             Feel free to conatct us by filling this form or you can even reach
             us out <p className="">from the social media links below.</p>

@@ -40,7 +40,7 @@
   line-height: 24px;
   letter-spacing: normal;
   text-align: center;
-  color: #fff;
+  color: rgb(225, 225, 225);
   margin-bottom: 3%;
 }
 .partners-logos {
@@ -153,17 +153,17 @@
   }
 }
 
-.partners-logo-1,
+/* .partners-logo-1,
 .partners-logo-2 {
   display: flex;
   overflow: hidden;
-  animation: moveLeftToRight 15s linear; /* Adjust the duration as needed */
+  animation: moveLeftToRight 15s linear; 
 }
 
 .partners-logo-1 img,
 .partners-logo-2 img {
-  margin-right: 20px; /* Adjust the margin between images as needed */
-}
+  margin-right: 20px; 
+} */
 
 
 
@@ -171,7 +171,7 @@
 
 
 
-.alert-animation {
+/* .alert-animation {
   animation: scaleIn 3s ease-in-out infinite; 
 }
 
@@ -184,9 +184,16 @@
     opacity: 1;
     transform: scale(1);
   }
+} */
+
+
+.center-buttons {
+  /* text-align: center; */
+  /* margin-top: 20px;  */
 }
 
-
-
+.center-buttons button {
+  margin: 100px  10px; 
+}
 
 
