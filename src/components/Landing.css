@@ -11,21 +11,24 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.leftdevelop-landing {
-  width: 65%;
-  /* margin-left: 4%; */
-  /* margin-top: 12%; */
-  border-radius: 24px;
-
-  padding: 40px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+.landing {
+  width: 100%;
+  max-width: 1280px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  gap: 10;
+  z-index: 30;
+}
+.leftdevelop-landing {
+  width: 60%;
+  /* margin-left: 4%; */
+  margin-top: 12%;
+  border-radius: 24px;
+  padding: 40px;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
 }
 .landing-text-main {
   display: flex;
@@ -35,17 +38,20 @@
   gap: 24px;
 }
 .RightDevelop-landing {
-  width: 55%;
-  display: flex;
-  justify-content: end;
-  margin-left: 5%;
-  margin-top: 6%;
+  width: 60%;
+  /* overflow: hidden; */
+  position: relative;
+  /* margin-top: 12%; */
+ text-align: end;
+}
+.subleftdevelop1-landing {
+  text-align: left;
 }
 
 .subleftdevelop1-landing h1 {
   color: #fff;
   font-family: "Libre Franklin";
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 64px;
@@ -53,20 +59,19 @@
   text-align: left;
 }
 .landing-text-para {
-  color:rgb(225, 225, 225);
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 40px; /* 171.429% */
- 
-
+  line-height: 20px; /* 171.429% */
+  text-align: left;
   margin-top: 3%;
 }
 
 .servicesdevelop-landing {
   font-family: "Libre Franklin";
-  font-size: 54px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 54px; /* 100% */
@@ -74,14 +79,13 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- 
+  text-align: left;
 }
 
 .landing-btn-main {
   display: flex;
   padding: 16px 40px;
-  justify-content: center;
-  align-items: center;
+  
   gap: 10px;
   border-radius: 16px;
   background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
@@ -90,13 +94,13 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; 
+  line-height: 24px;
   margin-top: 3%;
   cursor: pointer;
-  
+  text-align: left;
 }
 .landing-btn-main:hover {
-  background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%); 
+  background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%);
   transform: scale(1.1);
 }
 .myVideo {
@@ -133,3 +137,8 @@
 .animated-image {
   animation: bounceAndFade 2s ease-in-out infinite, pulsate 2s ease-in-out infinite;
 } */
+.leftlanding-bg {
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+}

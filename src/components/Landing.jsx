@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Landing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import LandingImage from "../assets/landing-image.png"
 
 const Landing = () => {
   const videoRef = useRef();
@@ -36,37 +37,37 @@ const Landing = () => {
           />
         </video>
         {/* leftdevelop cantioner start */}
-        <div className="leftdevelop-landing">
-          <div className="subleftdevelop1-landing">
-            <h1>Trusted partners for your  </h1>
-            <span className="servicesdevelop-landing">{text}</span>
-            <Cursor />
-           
-          </div>
+        <div className="landing flex w-full">
+          <div className="leftdevelop-landing leftlanding-bg">
+            <div className="subleftdevelop1-landing">
+              <h1>Trusted partners for your </h1>
+              <span className="servicesdevelop-landing">{text}</span>
+              <Cursor />
+            </div>
 
-          <div className="landing-text-main">
-            <div className="landing-text-para">
-              From strategic planning to execution, our comprehensive services
-              are tailored to meet your unique needs. Partner with us to harness
-              the power of blockchain and unlock new opportunities for growth
-              and efficiency. With Vitwit, you get personalized support every
-              step of the way.
+            <div className="landing-text-main">
+              <div className="landing-text-para">
+                From strategic planning to execution, our comprehensive services
+                are tailored to meet your unique needs. <p className="mt-5">Partner with us to
+                harness the power of blockchain and unlock new opportunities for
+                growth and efficiency. With Vitwit, you get personalized support
+                every step of the way.</p>
+              </div>
+            </div>
+            <div>
+              <button className="landing-btn-main ">
+                <a href="#development">Know More</a>
+              </button>
             </div>
           </div>
-          <div>
-            <button className="landing-btn-main mx-auto ">
-            <a href="#development">Know More</a>
-              
-            </button>
-          </div>
-        </div>
-        {/* leftdevelop cantioner end */}
+          {/* leftdevelop cantioner end */}
 
-        {/* RightDevelop cantioner start */}
-        {/* <div className="RightDevelop-landing animated-image">
+          {/* RightDevelop cantioner start */}
+          {/* <div className="RightDevelop-landing animated-image">
           <img src={LandingImage} alt="Landing-Image" />
         </div> */}
-        {/*RightDevelop cantioner end */}
+          {/*RightDevelop cantioner end */}
+        </div>
       </div>
       {/* maindevelop cantioner end */}
     </div>

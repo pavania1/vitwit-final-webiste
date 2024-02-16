@@ -44,8 +44,8 @@ const Development = () => {
             </div>
 
             <div className="subleftdevelop2-infra">
-            <Space
-                className="space-alert-dev gap-10"
+              <Space
+                className="space-alert-dev gap-4"
                 direction="vertical"
                 style={{
                   width: "100%",
@@ -124,7 +124,7 @@ const Development = () => {
                   }
                   style={{ padding: 30, marginBottom: "10px", width: "100%" }}
                 />
-               </Space>
+              </Space>
             </div>
           </div>
           {/* leftdevelop cantioner end */}
@@ -137,68 +137,49 @@ const Development = () => {
               of blockchain technology, delivering innovative solutions that
               drive your business forward.
             </p>
-
             <div className="figma2001-infra">
               <div className="circles-infra">
-                <div className="dot1-infra dot-animation flex flex-col justify-center items-center">
-                  <span className="text-5xl">
+                <div className="dot1-infra flex flex-col justify-center items-center">
+                  <span className="count-text">
                     <CountUp
                       start={0}
                       end={1000}
                       duration={2.5}
                       separator=","
                     />
-                    <span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
+                    <span>+</span>{" "}
                   </span>
-                  <span className="text-base">Opensource commits</span>
+                  <span className="text-stats">Open Source Commits</span>
                 </div>
-
-                <div className="dot2-infra dot-animation flex flex-col justify-center items-center">
-                  <span className="text-3xl	">
+                <div className="dot2-infra flex flex-col justify-center items-center">
+                  <span className="count-text">
                     <CountUp start={0} end={10} duration={2.5} separator="," />
-                    <span className="text-[rgba(255,255,255,0.40)]">
-                      +
-                    </span>{" "}
+                    <span>+</span>{" "}
                   </span>
 
-                  <span className="text-sm">Projects delivered</span>
+                  <span className="text-stats">Projects Delivered</span>
                 </div>
-
-                <div className="dot3-infra dot-animation flex flex-col justify-center items-center">
-                  <span className="text-lg	">
+                <div className="dot3-infra flex flex-col justify-center items-center">
+                  <span className="count-text">
                     <CountUp start={0} end={8} duration={3} />
-                    <span className="text-[rgba(255,255,255,0.40)]">
-                      +
-                    </span>{" "}
+                    <span>+</span>{" "}
                   </span>
 
-                  <span className="text-sm"> Partnerships</span>
+                  <span className="text-stats"> Partnerships</span>
                 </div>
-
                 <div className="dot4-infra dot-animationflex flex-col justify-center items-center">
-                  <span className="text-2xl">
+                  <span className="count-text">
                     <CountUp start={0} end={4} duration={3} />
-                    <span className="text-[rgba(255,255,255,0.40)]">
-                      +
-                    </span>{" "}
+                    <span>+</span>{" "}
                   </span>
-                  <span className="text-sm">Mainnet launches </span>
-                </div>
-                <div className="dot5-infra dot-animation flex flex-col justify-center items-center">
-                  <span className="text-lg">
-                    {" "}
-                    4 <span className="text-[rgba(255,255,255,0.40)]">
-                      +
-                    </span>{" "}
-                    <br></br>
+                  <span className="text-stats">
+                    Mainnet <br></br>Launches{" "}
                   </span>
-                  <span className="text-xs">Total Networks</span>
                 </div>
                 <span className="dot6-infra"></span>
-                <span className="dot7-infra"></span>
-                <span className="dot8-infra"></span>
-                <span className="dot9-infra"></span>
                 <span className="dot10-infra"></span>
+                <span className="dot7-infra"></span>
+                <span className="dot9-infra"></span>
               </div>
             </div>
           </div>
