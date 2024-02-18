@@ -86,65 +86,71 @@
   font-family: "Libre Franklin";
 }
 .dot1 {
-  height: 314px;
-  width: 314px;
+  height: 275px;
+  width: 275px;
   border-radius: 50%;
-  /* display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 25%;
-  margin-top: 25%; */
-  position: relative;
-  top: 10%;
+  left: 21%;
+  margin-top: 45%;
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.08) 0%,
-      rgba(0, 0, 0, 0.08) 100%
-    ),
-    linear-gradient(90deg, #e0b0ff 0%, #9474f6 76.04%);
-  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(50px);
+  background: #f07576;
 }
 
 .dot2 {
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 47%;
+  top: -345px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  background: #9474f6;
+}
+.dot3 {
+  height: 206px;
+  width: 206px;
+  /* background: linear-gradient(169deg, #6458e7 26.53%, #9760f4 55.47%); */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* left: 80%; */
+  right: -5%;
+  top: -562px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  background: #84e0c2;
+}
+.dot4 {
   height: 180px;
   width: 180px;
   border-radius: 50%;
+  display: flex;
   position: relative;
-  left: 23%;
-  top: 11%;
+  left: 21%;
+  margin-top: -844px;
   color: #fff;
-  font-weight: 500;
-  font-size: 16px;
-  background: linear-gradient(90deg, #e0b0ff 0%, #9474f6 76.04%);
-}
-.dot3 {
-  height: 125px;
-  width: 125px;
-
-  border-radius: 50%;
-  color: #fff;
-  left: 64%;
-  position: relative;
-  top: 3%;
-  font-weight: 500;
-  font-size: 16px;
-  background: linear-gradient(60deg, #e0b0ff 0%, #9474f6 76.04%);
-}
-.dot4 {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-
-  color: #fff;
-  font-weight: 500;
-  font-size: 16px;
+  text-align: center;
+  font-family: "Libre Franklin";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  background: #e0b0ff;
   padding: 2px;
-  background: linear-gradient(90deg, #e0b0ff 0%, #9474f6 76.04%);
 }
 .dot5 {
   height: 122px;
@@ -158,39 +164,29 @@
   background: linear-gradient(90deg, #e0b0ff 0%, #9474f6 76.04%);
 }
 .dot6 {
-  height: 35px;
-  width: 35px;
+  height: 58px;
+  width: 58px;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: rgba(251, 250, 250, 0.04); */
   border-radius: 50%;
   position: relative;
-  left: -7%;
-  
-  margin-top: -62%;
-  background: linear-gradient(
-    90deg,
-    rgba(224, 176, 255, 0.2) 0%,
-    rgba(148, 116, 246, 0.2) 76.04%
-  );
+  left: 4%;
+  margin-top: -20%;
+  background: rgba(148, 116, 246, 0.4);
 }
 .dot7 {
-  height: 37px;
-  width: 37px;
+  height: 41px;
+  width: 41px;
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50%;
   position: relative;
   left: 65%;
-  margin-top: 20%;
-  background: linear-gradient(
-    90deg,
-    rgba(224, 176, 255, 0.2) 0%,
-    rgba(148, 116, 246, 0.2) 76.04%
-  );
+  margin-top: 33%;
+  background: rgba(224, 176, 255, 0.2);
 }
 .dot8 {
   height: 16px;
@@ -201,7 +197,7 @@
   /* background-color: rgba(251, 250, 250, 0.04); */
   border-radius: 50%;
   position: relative;
-  left: 60%;
+  left: 72%;
   margin-top: -10%;
   background: linear-gradient(
     90deg,
@@ -209,36 +205,30 @@
     rgba(148, 116, 246, 0.2) 76.04%
   );
 }
-.dot9 {
-  height: 13px;
-  width: 13px;
+.dot9{
+  height: 58px;
+  width: 58px;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: rgba(251, 250, 250, 0.04); */
   border-radius: 50%;
   position: relative;
-  left: 32%;
-  margin-top: 20%;
-  background: linear-gradient(
-    90deg,
-    rgba(224, 176, 255, 0.2) 0%,
-    rgba(148, 116, 246, 0.2) 76.04%
-  );
+  left: 14%;
+  margin-top: 2%;
+  background: rgba(132, 224, 194, 0.8);
 }
 .dot10 {
-  height: 37px;
-  width: 37px;
-
+  height: 58px;
+  width: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   position: relative;
-  left: 81%;
-  margin-top: -48%;
-  background: linear-gradient(
-    90deg,
-    rgba(224, 176, 255, 0.2) 0%,
-    rgba(148, 116, 246, 0.2) 76.04%
-  );
+  left: 52%;
+  margin-top: -12%;
+  background: rgba(240, 117, 118, 0.6);
 }
 .alert-right1 {
   margin-top: 15%;
@@ -349,25 +339,7 @@
   }
 }
 
-.dot6 {
-  animation: fadeInOut 2s ease-in-out infinite, fadeInOut 2s ease-in-out infinite;
-}
 
-.dot7 {
-  animation: rotate 3s linear infinite, fadeInOut 2s ease-in-out infinite;
-}
-
-.dot8 {
-  animation: fadeInOut 2s ease-in-out infinite, rotate 2s linear infinite;
-}
-
-.dot9 {
-  animation: fadeInOut 2s ease-in-out infinite, rotate 2s linear infinite;
-}
-
-.dot10 {
-  animation: rotate 3s linear infinite, fadeInOut 2s ease-in-out infinite;
-}
 
 .infra-btn {
   display: flex;

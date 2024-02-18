@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import LoginIn from "../assets/login-icon.png";
 import "./Resolute.css";
 
 const Resolute = () => {

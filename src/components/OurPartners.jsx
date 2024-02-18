@@ -16,6 +16,7 @@ import Umee from "../assets/infra-icons/umee-infra.png";
 import Evmos from "../assets/infra-icons/evmos-infra.png";
 import Agoric from "../assets/infra-icons/agoric-infra.png";
 import Oasis from "../assets/infra-icons/oasis-infra.png";
+import CountUp from "react-countup";
 const LOGOS = [
   {
     name: "Akash",
@@ -144,64 +145,50 @@ const OurPartners = () => {
               </h1>
             </div>
 
-            <div className="figma2001-partners">
-              <div className="flex mt-10">
-                <div className="flex flex-col">
-                  <div className="dot4  dot-animation flex flex-col justify-center items-center">
-                    <span className="text-2xl">
-                      4<span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
-                    </span>
-                    <span className="text-sm">Total Networks</span>
-                  </div>
-                  <div className="dot1 dot-animation flex flex-col justify-center items-center">
-                    <span className="text-5xl">
-                      4 <span className="text-[rgba(255,255,255,0.40)]">+</span>{" "}
-                    </span>
-                    <span className="text-sm">Total Networks</span>
-                  </div>
-
-                  <div className="dot5 dot-animation flex flex-col justify-center items-center">
-                    <span className="text-lg">
-                      {" "}
-                      4 <span className="text-[rgba(255,255,255,0.40)]">
-                        +
-                      </span>{" "}
-                      <br></br>
-                    </span>
-                    <span className="text-xs">Total Networks</span>
-                  </div>
+            <div className="figma2001-infra">
+              <div className="circles-infra">
+                <div className="dot1 flex flex-col justify-center items-center">
+                  <span className="count-text">
+                    <CountUp
+                      start={0}
+                      end={1000}
+                      duration={2.5}
+                      separator=","
+                    />
+                    <span>+</span>{" "}
+                  </span>
+                  <span className="text-stats">Open Source Commits</span>
                 </div>
-                <div className="flex flex-col">
-                  <div className="dot2 dot-animation flex flex-col justify-center items-center">
-                    <span className="text-3xl	">
-                      {" "}
-                      4<span className="text-[rgba(255,255,255,0.40)]">
-                        {" "}
-                        +
-                      </span>{" "}
-                    </span>
+                <div className="dot2 flex flex-col justify-center items-center">
+                  <span className="count-text">
+                    <CountUp start={0} end={10} duration={2.5} separator="," />
+                    <span>+</span>{" "}
+                  </span>
 
-                    <span className="text-sm">Total Networks</span>
-                  </div>
-                  <div className="dot3 dot-animation flex flex-col justify-center items-center">
-                    <span className="text-lg	">
-                      {" "}
-                      4<span className="text-[rgba(255,255,255,0.40)]">
-                        {" "}
-                        +
-                      </span>{" "}
-                    </span>
-
-                    <span className="text-sm">Total Networks</span>
-                  </div>
+                  <span className="text-stats">Projects Delivered</span>
                 </div>
+                <div className="dot3 flex flex-col justify-center items-center">
+                  <span className="count-text">
+                    <CountUp start={0} end={8} duration={3} />
+                    <span>+</span>{" "}
+                  </span>
+
+                  <span className="text-stats"> Partnerships</span>
+                </div>
+                <div className="dot4 dot-animationflex flex-col justify-center items-center">
+                  <span className="count-text">
+                    <CountUp start={0} end={4} duration={3} />
+                    <span>+</span>{" "}
+                  </span>
+                  <span className="text-stats">
+                    Mainnet <br></br>Launches{" "}
+                  </span>
+                </div>
+                <span className="dot6"></span>
+                <span className="dot10"></span>
+                <span className="dot7"></span>
+                <span className="dot9"></span>
               </div>
-
-              <span className="dot6"></span>
-              <span className="dot7"></span>
-              <span className="dot8"></span>
-              <span className="dot9"></span>
-              <span className="dot10"></span>
             </div>
           </div>
           <div className="RightDevelop-partners">

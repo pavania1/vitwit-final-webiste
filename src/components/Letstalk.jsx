@@ -48,9 +48,10 @@ const Letstalk = () => {
           out from the social media links below.
         </p>
         <div className="v-line"></div>
-        <div className="contact mt-10 cursor-pointer underline">
-          <a href="mailto:contact@vitwit.com">contact@vitwit.com</a>
-        </div>
+
+        <button className="contact-btn mx-auto">
+          <a href="mailto:contact@vitwit.com">Connect to us</a>
+        </button>
       </div>
     </div>
   );

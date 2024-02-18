@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import "./Landing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import LandingImage from "../assets/landing-image.png"
+// import LandingImage from "../assets/landing-image.png"
+import LandingImage from "../assets/landing.png"
 
 const Landing = () => {
   const videoRef = useRef();
@@ -55,7 +56,7 @@ const Landing = () => {
               </div>
             </div>
             <div>
-              <button className="landing-btn-main ">
+              <button className="landing-btn-main">
                 <a href="#development">Know More</a>
               </button>
             </div>
@@ -63,7 +64,7 @@ const Landing = () => {
           {/* leftdevelop cantioner end */}
 
           {/* RightDevelop cantioner start */}
-          {/* <div className="RightDevelop-landing animated-image">
+          {/* <div className="RightDevelop-landing bulb glow">
           <img src={LandingImage} alt="Landing-Image" />
         </div> */}
           {/*RightDevelop cantioner end */}
