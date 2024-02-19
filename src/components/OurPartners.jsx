@@ -202,10 +202,10 @@ const OurPartners = () => {
             </div>
             <div className="grid grid-cols-3 gap-x-6 gap-y-14">
               {LOGOS.map((logo, logoId) => (
-                <div key={logoId} className="grid-item">
+                <div key={logoId} className="grid-item ">
                   <a href={logo.link} target="_blank" rel="noopener noreferrer">
                     <div
-                      className={`${
+                      className={`icon-container ${
                         logo.bgColor.length === 0
                           ? "cursor-pointer"
                           : "cursor-default"

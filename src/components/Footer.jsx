@@ -7,6 +7,7 @@ import LinkedInLogo from "../assets/social-icons/linkedln.png";
 import VitwitLogo from "../assets/footer-vitwit-logo.png";
 import TwitterLogo from "../assets/social-icons/twitter.png";
 import TelegramLogo from "../assets/social-icons/telegram.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -30,9 +31,13 @@ const Footer = () => {
       </div>
       <div className="divider-line"></div>
       <div className="flex items-center justify-center gap-6 nav-text">
-        <p className="cursor-pointer">Privacy Policy</p>
+        <p className="cursor-pointer">
+          <Link to="/privacy-policy">Privacy Policy</Link>
+        </p>
         <p>@2023vitwit.com</p>
-        <p className="cursor-pointer">Terms of use</p>
+        <p className="cursor-pointer">
+          <Link to="/terms-of-use">Terms of use</Link>
+        </p>
       </div>
     </div>
   );
@@ -53,10 +58,7 @@ const SocialIcons = () => {
         link="https://www.linkedin.com/company/vitwit/mycompany/"
         icon={LinkedInLogo}
       />
-      <SocialLink
-        link="https://t.me/+3bXmS6GE4HRjYmU1"
-        icon={TelegramLogo}
-      />
+      <SocialLink link="https://t.me/+3bXmS6GE4HRjYmU1" icon={TelegramLogo} />
     </div>
   );
 };

@@ -338,9 +338,16 @@
     transform: rotate(360deg);
   }
 }
+.icon-container {
+  position: relative;
+}
 
-
-
+.comsos-logo-style {
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .infra-btn {
   display: flex;
   width: 100%;
@@ -352,6 +359,5 @@
   margin-top: 5%;
 }
 .infra-btn:hover {
-  transform: scale(1.1);
-  background: linear-gradient(180deg, #a562f7 0%, #2f50da 100%,);
+  background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%);
 }

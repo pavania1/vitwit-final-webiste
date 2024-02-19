@@ -59,6 +59,9 @@ body {
       ),
       rgba(255, 255, 255, 0.08);
   }
+  .get-touch-btn:hover {
+    background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%);
+  }
 
   /* footer */
   .footer {
@@ -77,6 +80,9 @@ body {
   }
   .contact__socials__icon {
     @apply hover:scale-[1.1] hover:opacity-95 transition-all ease-in delay-75 transform;
+  }
+  .contact__socials:hover {
+    background: #201334;
   }
   .contact__socials-bg {
     @apply w-10 h-9 shrink-0 rounded-lg;

@@ -23,18 +23,18 @@
 .leftdevelop-landing {
   width: 40%;
   /* margin-left: 4%; */
-  margin-top: 12%;
+  /* margin-top: 12%; */
   border-radius: 24px;
-  padding: 40px;
+  /* padding: 40px; */
   flex-direction: column;
-  top: 50%;
-  left: 50%;
+  /* top: 50%;
+  left: 50%; */
+  /* height: 70vh; */
+ 
 }
 .landing-text-main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
   gap: 24px;
 }
 .RightDevelop-landing {
@@ -54,9 +54,10 @@
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
-  line-height: 64px;
+  /* line-height: 64px; */
   margin-top: 1%;
   text-align: left;
+  padding-bottom: 12px;
 }
 .landing-text-para {
   color: rgb(225, 225, 225);

@@ -1,0 +1,27 @@
+.policy-container {
+  width: 1280px;
+}
+.policy-head {
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+.policy-para-text {
+    color: #fff;
+    font-family: "Libre Franklin";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 228.571% */
+  }
+  .policy-list-text {
+    list-style-type: disc;
+  }
+  
+  .policy-list-text li {
+    margin-bottom: 0.5rem; 
+  }

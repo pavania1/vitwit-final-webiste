@@ -1,0 +1,59 @@
+.terms-container {
+    width: 1280px;
+}
+.terms-head {
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+.date {
+  text-align: right;
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.divider-line {
+  background: rgba(255, 255, 255, 0.2);
+  height: 2px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.welcome-head {
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+}
+.term-para-text {
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 228.571% */
+}
+.item-para {
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.item-text {
+  color: #fff;
+  font-family: "Libre Franklin";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+}

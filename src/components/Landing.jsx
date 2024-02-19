@@ -39,7 +39,7 @@ const Landing = () => {
         </video>
         {/* leftdevelop cantioner start */}
         <div className="landing flex w-full">
-          <div className="leftdevelop-landing leftlanding-bg">
+          <div className="leftdevelop-landing py-32 px-8 leftlanding-bg">
             <div className="subleftdevelop1-landing">
               <h1>Trusted partners for your </h1>
               <span className="servicesdevelop-landing">{text}</span>
@@ -54,6 +54,7 @@ const Landing = () => {
                 growth and efficiency. With Vitwit, you get personalized support
                 every step of the way.</p>
               </div>
+              
             </div>
             <div>
               <button className="get-touch-btn nav-text mt-8">
