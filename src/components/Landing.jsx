@@ -56,7 +56,7 @@ const Landing = () => {
               </div>
             </div>
             <div>
-              <button className="landing-btn-main">
+              <button className="get-touch-btn nav-text mt-8">
                 <a href="#development">Know More</a>
               </button>
             </div>

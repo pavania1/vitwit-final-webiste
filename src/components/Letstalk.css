@@ -100,11 +100,8 @@
   line-height: 24px; /* 70.588% */
   justify-content: center;
 }
-.contact-btn {
-  display: flex;
-  padding: 16px 40px;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
+/* .contact-btn {
+  
   color: #fff;
   font-family: "Libre Franklin";
   font-size: 16px;
@@ -117,11 +114,8 @@ justify-content: center;
 align-items: center;
 
   
-}
-.contact-btn:hover {
-  background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%);
-  transform: scale(1.1);
-}
+} */
+
 .v-line {
   height: 1px;
   background: rgba(255, 255, 255, 0.2);

@@ -49,7 +49,7 @@ const Letstalk = () => {
         </p>
         <div className="v-line"></div>
 
-        <button className="contact-btn mx-auto">
+        <button className="get-touch-btn nav-text mt-5 mx-auto">
           <a href="mailto:contact@vitwit.com">Connect to us</a>
         </button>
       </div>

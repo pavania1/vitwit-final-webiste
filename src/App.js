@@ -10,8 +10,29 @@ import Navbar from "./components/Navbar";
 import OurPartners from "./components/OurPartners";
 import Resolute from "./components/Resolute";
 import Backtotop from "./components/Backtotop";
+import Carousel from "./components/Carousel";
 
 function App() {
+  const items = [
+    {
+      imageUrl: 'https://example.com/image1.jpg',
+      alt: 'Image 1',
+      title: 'Title 1',
+      description: 'Description 1'
+    },
+    {
+      imageUrl: 'https://example.com/image2.jpg',
+      alt: 'Image 2',
+      title: 'Title 2',
+      description: 'Description 2'
+    },
+    {
+      imageUrl: 'https://example.com/image3.jpg',
+      alt: 'Image 3',
+      title: 'Title 3',
+      description: 'Description 3'
+    }
+  ];
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
@@ -63,6 +84,7 @@ function App() {
         style={{ background: "rgba(255, 255, 255, 0.06)" }}
       >
         <Footer />
+        {/* <Carousel items={items} /> */}
       </div>
       <Backtotop />
     </div>

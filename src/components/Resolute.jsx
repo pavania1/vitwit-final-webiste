@@ -55,7 +55,7 @@ const Resolute = () => {
 
             <div className="pb-10">
               <a href="https://resolute.vitwit.com" target="_blank" rel="noopener noreferrer">
-                <button className="resolute-btn cursor-pointer">
+                <button className="get-touch-btn nav-text mt-6 cursor-pointer">
                   Connect to resolute
                 </button>
               </a>

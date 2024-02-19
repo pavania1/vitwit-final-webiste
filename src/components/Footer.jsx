@@ -54,7 +54,7 @@ const SocialIcons = () => {
         icon={LinkedInLogo}
       />
       <SocialLink
-        link="https://web.telegram.org/k/#-1982236507"
+        link="https://t.me/+3bXmS6GE4HRjYmU1"
         icon={TelegramLogo}
       />
     </div>

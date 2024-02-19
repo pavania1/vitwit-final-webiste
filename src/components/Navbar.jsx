@@ -10,8 +10,9 @@ const Navbar = () => {
       <div className="menu-list nav-text">
         <a href="#landing">About Us</a>
         <a href="#infrastructure">Services</a>
-        <a href="#resolute">Resolute</a>
+       
         <a href="#partners">Partners</a>
+        <a href="#resolute">Resolute</a>
         {/* <div>Ventures</div> */}
         <div>
           <button className="get-touch-btn">
