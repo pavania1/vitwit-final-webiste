@@ -112,7 +112,7 @@ const LOGOS = [
     name: "10+ More",
     icon: "",
     size: 62,
-    bgColor: "#376151",
+    bgColor: "#808080",
   },
 ];
 const OurPartners = () => {

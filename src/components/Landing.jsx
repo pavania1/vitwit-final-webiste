@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./Landing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 // import LandingImage from "../assets/landing-image.png"
-import LandingImage from "../assets/landing.png"
+import LandingImage from "../assets/landing.png";
 
 const Landing = () => {
   const videoRef = useRef();
@@ -39,7 +39,7 @@ const Landing = () => {
         </video>
         {/* leftdevelop cantioner start */}
         <div className="landing flex w-full">
-          <div className="leftdevelop-landing py-32 px-8 leftlanding-bg">
+          <div className="leftdevelop-landing py-24 px-8 leftlanding-bg">
             <div className="subleftdevelop1-landing">
               <h1>Trusted partners for your </h1>
               <span className="servicesdevelop-landing">{text}</span>
@@ -49,12 +49,18 @@ const Landing = () => {
             <div className="landing-text-main">
               <div className="landing-text-para">
                 From strategic planning to execution, our comprehensive services
-                are tailored to meet your unique needs. <p className="mt-5">Partner with us to
-                harness the power of blockchain and unlock new opportunities for
-                growth and efficiency. With Vitwit, you get personalized support
-                every step of the way.</p>
+                are tailored to meet your unique needs.{" "}
+                <p className="mt-5">
+                  Partner with us to harness the power of blockchain and unlock
+                  new opportunities for growth and efficiency. With Vitwit, you
+                  get personalized support every step of the way.
+                </p>
+                <p className="mt-5">
+                  Partner with us to harness the power of blockchain and unlock
+                  new opportunities for growth and efficiency. With Vitwit, you
+                  get personalized support every step of the way.
+                </p>
               </div>
-              
             </div>
             <div>
               <button className="get-touch-btn nav-text mt-8">

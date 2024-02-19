@@ -31,11 +31,11 @@ const Footer = () => {
       </div>
       <div className="divider-line"></div>
       <div className="flex items-center justify-center gap-6 nav-text">
-        <p className="cursor-pointer">
+        <p className="cursor-pointer underline">
           <Link to="/privacy-policy">Privacy Policy</Link>
         </p>
         <p>@2023vitwit.com</p>
-        <p className="cursor-pointer">
+        <p className="cursor-pointer underline">
           <Link to="/terms-of-use">Terms of use</Link>
         </p>
       </div>
