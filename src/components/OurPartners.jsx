@@ -23,6 +23,7 @@ const LOGOS = [
     icon: Akash,
     size: 62,
     bgColor: "#ed3524",
+    hoverColor: "#7D1729",
     link: "https://akash.network/",
   },
   {
@@ -30,6 +31,7 @@ const LOGOS = [
     icon: Cosmos,
     size: 58,
     bgColor: "#393F68",
+    hoverColor: "black",
     link: "https://cosmos.network/",
   },
   {
@@ -37,13 +39,15 @@ const LOGOS = [
     icon: Polygen,
     size: 62,
     bgColor: "#9757da",
+    hoverColor: "#11208a",
     link: "https://polygon.technology/",
   },
   {
     name: "Passage",
     icon: Passage,
     size: 62,
-    bgColor: "rgba(255, 255, 255, 0.2)",
+    bgColor: "#808080",
+    hoverColor: "",
     link: "https://passage3d.com/",
   },
   {
@@ -51,6 +55,7 @@ const LOGOS = [
     icon: Regen,
     size: 58,
     bgColor: "#9bd5af",
+    hoverColor: "",
     link: "https://www.regen.network/",
   },
   {
@@ -58,6 +63,7 @@ const LOGOS = [
     icon: Osmosis,
     size: 62,
     bgColor: "#a289bf",
+    hoverColor: "",
     link: "https://osmosis.zone/",
   },
 
@@ -65,7 +71,8 @@ const LOGOS = [
     name: "Oasis",
     icon: Oasis,
     size: 62,
-    bgColor: " #00c6eb",
+    bgColor: "#00c6eb",
+    hoverColor: "",
     link: "https://oasisprotocol.org/",
   },
   {
@@ -73,6 +80,7 @@ const LOGOS = [
     icon: Stargaze,
     size: 58,
     bgColor: "#c8dc7c",
+    hoverColor: "",
     link: "https://stargaze.zone/",
   },
 
@@ -81,6 +89,7 @@ const LOGOS = [
     icon: Umee,
     size: 62,
     bgColor: "#e0b0ff",
+    hoverColor: "",
     link: "https://www.umee.cc/",
   },
   {
@@ -88,6 +97,7 @@ const LOGOS = [
     icon: Evmos,
     size: 58,
     bgColor: "#f1705b",
+    hoverColor: "",
     link: "https://evmos.org/",
   },
   {
@@ -95,13 +105,14 @@ const LOGOS = [
     icon: Agoric,
     size: 58,
     bgColor: "#7D1729",
+    hoverColor: "",
     link: "https://agoric.com/",
   },
   {
     name: "10+ More",
     icon: "",
     size: 62,
-    bgColor: "",
+    bgColor: "#376151",
   },
 ];
 const OurPartners = () => {
@@ -223,7 +234,7 @@ const OurPartners = () => {
                       </div>
                       <div>
                         <button
-                          className="cosmos infra-icons-text"
+                          className="cosmos"
                           style={{ backgroundColor: logo.bgColor }}
                         >
                           {logo.name}

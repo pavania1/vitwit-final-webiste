@@ -13,85 +13,10 @@ import Umee from "../assets/infra-icons/umee-infra.png";
 import Evmos from "../assets/infra-icons/evmos-infra.png";
 import Agoric from "../assets/infra-icons/agoric-infra.png";
 import Oasis from "../assets/infra-icons/oasis-infra.png";
-import Mainnet from "../assets/mainnet.svg";
 import Devops from "../assets/devops.svg";
-import WhiteLabelinfra from "../assets/whitelabelinfra.svg";
 
-const LOGOS = [
-  {
-    name: "Cosmos Hub",
-    icon: Cosmos,
-    size: 58,
-    bgColor: "#393F68",
-    
-  },
-  {
-    name: "Polygen",
-    icon: Polygen,
-    size: 62,
-    bgColor: "#9757da",
-  },
-  {
-    name: "Osmosis",
-    icon: Osmosis,
-    size: 62,
-    bgColor: "#a289bf",
-  },
-  {
-    name: "Akash",
-    icon: Akash,
-    size: 62,
-    bgColor: "#ed3524",
-  },
-  {
-    name: "Passage",
-    icon: Passage,
-    size: 62,
-    bgColor: "rgba(255, 255, 255, 0.2)",
-  },
-  {
-    name: "Oasis",
-    icon: Oasis,
-    size: 62,
-    bgColor: " #00c6eb",
-  },
-  {
-    name: "Stargaze",
-    icon: Stargaze,
-    size: 58,
-    bgColor: "#c8dc7c",
-  },
-  {
-    name: "Regen",
-    icon: Regen,
-    size: 58,
-    bgColor: "#9bd5af",
-  },
-  {
-    name: "Umee",
-    icon: Umee,
-    size: 62,
-    bgColor: "#e0b0ff",
-  },
-  {
-    name: "Evmos",
-    icon: Evmos,
-    size: 58,
-    bgColor: "#f1705b",
-  },
-  {
-    name: "Agoric",
-    icon: Agoric,
-    size: 58,
-    bgColor: "#7D1729",
-  },
-  {
-    name: "10+ More",
-    icon: "",
-    size: 62,
-    bgColor: "",
-  },
-];
+
+
 const Infrastructure = () => {
   const [typedText, setTypedText] = useState("");
   const [typedText2, setTypedText2] = useState("");
