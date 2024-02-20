@@ -21,16 +21,15 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 64px;
-  letter-spacing: normal;
+  letter-spacing: 0.6px;
   text-align: center;
-  color: #fff;
+  color: rgb(225, 225, 225);
   justify-content: center;
   align-self: stretch;
   margin-bottom: 0.5%;
 }
 .delegate-text-delegate {
   align-self: stretch;
-
   opacity: 0.8;
   font-family: "Libre Franklin";
   font-size: 14px;
@@ -38,7 +37,7 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: normal;
+  letter-spacing: 0.6px;
   text-align: center;
   color: rgb(225, 225, 225);
   margin-bottom: 3%;
@@ -86,9 +85,9 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 2.4;
-  letter-spacing: normal;
+  letter-spacing: 0.6px;
   text-align: center;
-  color: #fff;
+  color: rgb(225, 225, 225);
   margin-bottom: 4%;
 }
 .alert2001 {
@@ -126,13 +125,13 @@
   letter-spacing: 1.2px;
 }
 .twitter-text {
-  color: #fff;
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 200% */
-  letter-spacing: 1.2px;
+  letter-spacing: 0.6px;
 }
 .date-text {
   color: rgba(255, 255, 255, 0.5);

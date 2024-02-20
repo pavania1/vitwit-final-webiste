@@ -1,16 +1,8 @@
 import React, { useState, useEffect } from "react";
-import GithubLogo from "../assets/social-icons/github.png";
-import LinkedInLogo from "../assets/social-icons/linkedln.png";
-import TelegramLogo from "../assets/social-icons/telegram.png";
-import TwitterLogo from "../assets/social-icons/twitter.png";
-import PersonIcon from "../assets/person-icon.svg";
-import EmailIcon from "../assets/gmail.svg";
 import "./Letstalk.css";
 
 const Letstalk = () => {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  };
+  
   const [typedText, setTypedText] = useState("");
   const [typedText2, setTypedText2] = useState("");
 

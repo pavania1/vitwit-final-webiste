@@ -25,7 +25,7 @@
   /* margin-left: 18px; */
 }
 .subleftdevelop1-partners h1 {
-  color: #fff;
+  color: rgb(225, 225, 225);
   font-weight: 600;
   font-size: 54px;
   text-align: start;
@@ -148,7 +148,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 1.6px;
+  letter-spacing: 0.6px;
   background: #e0b0ff;
   padding: 2px;
 }
@@ -163,7 +163,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 1.6px;
+  letter-spacing: 0.6px;
   background: #D59BB7;
   left: 50%;
   position: relative;
@@ -260,7 +260,7 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
+  letter-spacing: 0.6px;
   text-align: left;
   color: rgb(225, 225, 225);
   margin-top: 5%;

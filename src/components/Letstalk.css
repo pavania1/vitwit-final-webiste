@@ -15,6 +15,7 @@
   color: rgb(225, 225, 225);
   text-align: left;
   margin-bottom: 4%;
+  letter-spacing: 0.6px;
 }
 .letstalk-form {
   display: flex;
@@ -31,13 +32,12 @@
   line-height: 64px;
 }
 .lets-text {
-  color: #fff;
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 54px;
   font-style: normal;
   font-weight: 700;
   line-height: 64px; /* 118.519% */
-
   margin-bottom: 3%;
 }
 .right-letstalk {
@@ -80,7 +80,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  letter-spacing: 0.6px;
 }
 .text-field-bg {
   border: 0.25px solid rgba(255, 255, 255, 0.2);

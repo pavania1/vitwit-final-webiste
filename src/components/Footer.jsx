@@ -15,14 +15,14 @@ const Footer = () => {
       <div className="flex justify-between">
         <div className="flex flex-col items-start gap-6">
           <img className="" src={VitwitLogo} alt="Vitwit Logo" />
-          <p className="text-[rgb(225,225,225)] text-sm font-normal leading-6 text-left">
+          <p className="text-[rgb(225,225,225)] text-sm font-normal leading-6 text-left  tracking-[0.6px]">
             {" "}
             Feel free to conatct us by filling this form or you can even reach
             us out <p className="">from the social media links below.</p>
           </p>
         </div>
         <div className="flex flex-col gap-6 mt-12">
-          <div className="text-white text-xl not-italic font-bold leading-5 text-left">
+          <div className="text-[rgb(255,255,255)] text-xl not-italic font-bold leading-5 text-left">
             {" "}
             Join our community
           </div>

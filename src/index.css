@@ -44,8 +44,9 @@ body {
     background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
   }
   .nav-text {
-    @apply text-white text-center text-sm not-italic font-normal leading-9;
+    @apply text-center text-sm not-italic font-normal leading-9;
     font-family: "Libre Franklin";
+    color: rgb(225, 225, 225);
   }
   .navbar-fixed {
     @apply fixed top-0 w-full;

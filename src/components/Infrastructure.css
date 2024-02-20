@@ -26,7 +26,7 @@
   line-height: 64px;
 }
 .infrastructure-services-h1 {
-  color: #fff;
+  color: rgb(225, 225, 225);
   text-align: center;
   font-family: "Libre Franklin";
   font-size: 54px;
@@ -97,7 +97,8 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px; 
+  letter-spacing: 0.6px;
 }
 .infrastructure-left {
   display: flex;
@@ -115,17 +116,15 @@
 }
 .cosmos {
   border-radius: 16px;
-  /* background: #393f68; */
   width: 100%;
   height: 80px;
   flex-shrink: 0;
-  color: #fff;
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 120% */
-  
 }
 .cosmos-infra {
   text-align: center;
@@ -201,7 +200,7 @@
   height: 80px;
 }
 .infra-icons-text {
-  color: #fff;
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 20px;
   font-style: normal;
@@ -211,7 +210,7 @@
 .relayer-dot {
   width: 60px;
   height: 60px;
-  background: #9474F6;;
+  background: #9474f6;
   border-radius: 50%;
 }
 .relayer-dot img {
@@ -223,7 +222,7 @@
 .advisory-dot {
   width: 60px;
   height: 60px;
-  background: #84E0C2;;
+  background: #84e0c2;
   border-radius: 50%;
 }
 .advisory-dot img {
@@ -235,7 +234,7 @@
 .validator-dot {
   width: 60px;
   height: 60px;
-  background: #E0B0FF;;
+  background: #e0b0ff;
   border-radius: 50%;
 }
 .validator-dot img {
@@ -247,7 +246,7 @@
 .testing-dot {
   width: 60px;
   height: 60px;
-  background: #F07576;;
+  background: #f07576;
   border-radius: 50%;
 }
 .testing-dot img {
@@ -259,7 +258,7 @@
 .genesis-dot {
   width: 60px;
   height: 60px;
-  background: #83A9F5;;
+  background: #83a9f5;
   border-radius: 50%;
 }
 .genesis-dot img {
@@ -271,7 +270,7 @@
 .white-label {
   width: 60px;
   height: 60px;
-  background: #E19B49;;
+  background: #e19b49;
   border-radius: 50%;
 }
 .white-label img {
@@ -287,6 +286,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.6px;
 }
 
 .icons-infra {
