@@ -15,8 +15,6 @@ import Agoric from "../assets/infra-icons/agoric-infra.png";
 import Oasis from "../assets/infra-icons/oasis-infra.png";
 import Devops from "../assets/devops.svg";
 
-
-
 const Infrastructure = () => {
   const [typedText, setTypedText] = useState("");
   const [typedText2, setTypedText2] = useState("");
@@ -45,7 +43,7 @@ const Infrastructure = () => {
   }, []);
   return (
     <>
-      <div id='infrastructure' className="infrastructure">
+      <div id="infrastructure" className="infrastructure">
         <div className="infrastructure-main-head">
           <div className="infrastructure-services-h1">
             <h1>
@@ -55,16 +53,12 @@ const Infrastructure = () => {
           </div>
 
           <div className="infrastructure-text">
-            We are a core tech company passionate about the research and
-            development of technology solutions that transform businesses and
-            people’s work <br></br>styles.We are a core tech company passionate about the
-            research and development of technology solutions that transform
-            businesses and people’s<br></br> work styles.
+            we specialize in providing robust and scalable infrastructure
+            solutions tailored to the unique needs of your blockchain projects.
           </div>
         </div>
         <div className="bottom-infrastructure flex-col">
           <div className="infrastructure-left">
-           
             <div className="alert-right2-infra">
               <Alert
                 className="alert3003 border-none"
@@ -73,9 +67,7 @@ const Infrastructure = () => {
                     <div className="enterprise-dot mb-3">
                       <img src={Devops} alt="Alert Image" />
                     </div>
-                    <span className="infra-icons-text">
-                      Enterprise-grade infrastructure
-                    </span>
+                    <span className="infra-icons-text">Validator</span>
                   </div>
                 }
                 description={
@@ -102,9 +94,7 @@ const Infrastructure = () => {
                     <div className="mainnet-dot mb-3">
                       <img src={Devops} alt="Alert Image" />
                     </div>
-                    <span className="infra-icons-text">
-                      Enterprise-grade infrastructure
-                    </span>
+                    <span className="infra-icons-text">Relayer</span>
                   </div>
                 }
                 description={
@@ -131,9 +121,7 @@ const Infrastructure = () => {
                     <div className="whitelabel-dot mb-3">
                       <img src={Devops} alt="Alert Image" />
                     </div>
-                    <span className="infra-icons-text">
-                      Enterprise-grade infrastructure
-                    </span>
+                    <span className="infra-icons-text">Validator advisory</span>
                   </div>
                 }
                 description={
@@ -154,96 +142,90 @@ const Infrastructure = () => {
             </div>
           </div>
           <div className="infrastructure-left">
-           
-           <div className="alert-right2-infra">
-             <Alert
-               className="alert3003 border-none"
-               message={
-                 <div>
-                   <div className="eng-dot2 mb-3">
-                     <img src={Devops} alt="Alert Image" />
-                   </div>
-                   <span className="infra-icons-text">
-                     Enterprise-grade infrastructure
-                   </span>
-                 </div>
-               }
-               description={
-                 <span className="infra-text-para">
-                   Akash Network, the world’s first decentralized and
-                   open-source cloud, accelerates deployment, scaleAkash
-                   Network.
-                 </span>
-               }
-               style={{
-                 marginBottom: "10%",
-                 // width: "70%",
-                 // height: "55%",
-                 marginLeft: 30,
-                 // marginLeft: "-30%",
-               }}
-             />
-           </div>
-           <div className="alert-right2-infra">
-             <Alert
-               className="alert3003 border-none"
-               message={
-                 <div>
-                   <div className="eng-dot4 mb-3">
-                     <img src={Devops} alt="Alert Image" />
-                   </div>
-                   <span className="infra-icons-text">
-                     Enterprise-grade infrastructure
-                   </span>
-                 </div>
-               }
-               description={
-                 <span className="infra-text-para">
-                   Akash Network, the world’s first decentralized and
-                   open-source cloud, accelerates deployment, scaleAkash
-                   Network.
-                 </span>
-               }
-               style={{
-                 marginBottom: "10%",
-                 // width: "70%",
-                 // height: "55%",
-                 marginLeft: 30,
-                 // marginLeft: "-30%",
-               }}
-             />
-           </div>
-           <div className="alert-right2-infra">
-             <Alert
-               className="alert3003 border-none"
-               message={
-                 <div>
-                   <div className="enterprise-dot mb-3">
-                     <img src={Devops} alt="Alert Image" />
-                   </div>
-                   <span className="infra-icons-text">
-                     Enterprise-grade infrastructure
-                   </span>
-                 </div>
-               }
-               description={
-                 <span className="infra-text-para">
-                   Akash Network, the world’s first decentralized and
-                   open-source cloud, accelerates deployment, scaleAkash
-                   Network.
-                 </span>
-               }
-               style={{
-                 marginBottom: "10%",
-                 // width: "70%",
-                 // height: "55%",
-                 marginLeft: 30,
-                 // marginLeft: "-30%",
-               }}
-             />
-           </div>
-         </div>
-          
+            <div className="alert-right2-infra">
+              <Alert
+                className="alert3003 border-none"
+                message={
+                  <div>
+                    <div className="eng-dot2 mb-3">
+                      <img src={Devops} alt="Alert Image" />
+                    </div>
+                    <span className="infra-icons-text">E2E testing</span>
+                  </div>
+                }
+                description={
+                  <span className="infra-text-para">
+                    Akash Network, the world’s first decentralized and
+                    open-source cloud, accelerates deployment, scaleAkash
+                    Network.
+                  </span>
+                }
+                style={{
+                  marginBottom: "10%",
+                  // width: "70%",
+                  // height: "55%",
+                  marginLeft: 30,
+                  // marginLeft: "-30%",
+                }}
+              />
+            </div>
+            <div className="alert-right2-infra">
+              <Alert
+                className="alert3003 border-none"
+                message={
+                  <div>
+                    <div className="eng-dot4 mb-3">
+                      <img src={Devops} alt="Alert Image" />
+                    </div>
+                    <span className="infra-icons-text">
+                      White-label services
+                    </span>
+                  </div>
+                }
+                description={
+                  <span className="infra-text-para">
+                    Akash Network, the world’s first decentralized and
+                    open-source cloud, accelerates deployment, scaleAkash
+                    Network.
+                  </span>
+                }
+                style={{
+                  marginBottom: "10%",
+                  // width: "70%",
+                  // height: "55%",
+                  marginLeft: 30,
+                  // marginLeft: "-30%",
+                }}
+              />
+            </div>
+            <div className="alert-right2-infra">
+              <Alert
+                className="alert3003 border-none"
+                message={
+                  <div>
+                    <div className="enterprise-dot mb-3">
+                      <img src={Devops} alt="Alert Image" />
+                    </div>
+                    <span className="infra-icons-text">Genesis Launch</span>
+                  </div>
+                }
+                description={
+                  <span className="infra-text-para">
+                    Akash Network, the world’s first decentralized and
+                    open-source cloud, accelerates deployment, scaleAkash
+                    Network.
+                  </span>
+                }
+                style={{
+                  marginBottom: "10%",
+                  // width: "70%",
+                  // height: "55%",
+                  marginLeft: 30,
+                  // marginLeft: "-30%",
+                }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>

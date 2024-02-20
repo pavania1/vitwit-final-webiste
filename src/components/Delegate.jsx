@@ -11,7 +11,7 @@ import Akash from "../assets/partners/akash.svg";
 import Regen from "../assets/partners/regen.svg";
 import Polygen from "../assets/partners/polygon.svg";
 import Cosmos from "../assets/partners/cosmos.svg";
-import Polama from "../assets/partners/paloma final.png"
+import Polama from "../assets/partners/paloma final.png";
 
 const Delegate = () => {
   const currentAlerts = alertsData.slice(0, 3);
@@ -21,7 +21,6 @@ const Delegate = () => {
   const [fixedAlertsCount, setFixedAlertsCount] = useState(3); // Number of fixed alerts initially
 
   const textsToType = ["Our Partners", "& Clients"];
-  
 
   useEffect(() => {
     let textIndex = 0;
@@ -77,25 +76,21 @@ const Delegate = () => {
               </h1>
             </div>
             <div className="delegate-text-delegate">
-              We are a core tech company passionate about the research and
-              development of technology solutions that transform businesses and
-              people’s work <br></br>styles.We are a core tech company
-              passionate about the research and development of technology
-              solutions that transform.
+              Showcasing our esteemed partners and satisfied clients, whose
+              collaborative spirit and trust in our services have driven
+              remarkable innovations and achievements.
             </div>
             <div className="">
               <div className="partners-logo-1">
                 <img src={Akash} alt="Akash" />
                 <img src={Cosmos} alt="Cosmos" />
                 <img src={Polygen} alt="Polygen" />
-                <img src={Passage} alt="Passage" 
-                style={{width: '200px'}}/>
+                <img src={Passage} alt="Passage" style={{ width: "200px" }} />
               </div>
               <div className="partners-logo-2">
                 <img src={Regen} alt="Regen" />
                 <img src={Chainflow} alt="Chainflow" />
-                <img src={Polama} alt="Cosmoa" 
-                style={{width: '177px'}}/>
+                <img src={Polama} alt="Cosmoa" style={{ width: "177px" }} />
               </div>
             </div>
           </div>

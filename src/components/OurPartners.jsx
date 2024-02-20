@@ -162,13 +162,13 @@ const OurPartners = () => {
                   <span className="count-text">
                     <CountUp
                       start={0}
-                      end={1000}
+                      end={22}
                       duration={2.5}
                       separator=","
                     />
                     <span>+</span>{" "}
                   </span>
-                  <span className="text-stats">Open Source Commits</span>
+                  <span className="text-stats">Validators</span>
                 </div>
                 <div className="dot2 flex flex-col justify-center items-center">
                   <span className="count-text">

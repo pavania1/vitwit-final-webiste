@@ -55,11 +55,6 @@ const Landing = () => {
                   new opportunities for growth and efficiency. With Vitwit, you
                   get personalized support every step of the way.
                 </p>
-                <p className="mt-5">
-                  Partner with us to harness the power of blockchain and unlock
-                  new opportunities for growth and efficiency. With Vitwit, you
-                  get personalized support every step of the way.
-                </p>
               </div>
             </div>
             <div>
