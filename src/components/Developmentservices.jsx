@@ -139,7 +139,7 @@ const Development = () => {
             </p>
             <div className="figma2001-infra">
               <div className="circles-infra">
-                <div className="dot1-infra flex flex-col justify-center items-center">
+                <div className="dot1-infra dot-animationflex flex flex-col justify-center items-center">
                   <span className="count-text">
                     <CountUp
                       start={0}
@@ -151,7 +151,7 @@ const Development = () => {
                   </span>
                   <span className="text-stats">Open Source Commits</span>
                 </div>
-                <div className="dot2-infra flex flex-col justify-center items-center">
+                <div className="dot2-infra dot-animationflex flex flex-col justify-center items-center">
                   <span className="count-text">
                     <CountUp start={0} end={10} duration={2.5} separator="," />
                     <span>+</span>{" "}
@@ -159,7 +159,7 @@ const Development = () => {
 
                   <span className="text-stats">Projects Delivered</span>
                 </div>
-                <div className="dot3-infra flex flex-col justify-center items-center">
+                <div className="dot3-infra dot-animationflex flex flex-col justify-center items-center">
                   <span className="count-text">
                     <CountUp start={0} end={8} duration={3} />
                     <span>+</span>{" "}

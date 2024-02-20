@@ -158,42 +158,43 @@ const OurPartners = () => {
 
             <div className="figma2001-infra">
               <div className="circles-infra">
-                <div className="dot1 flex flex-col justify-center items-center">
+                <div className="dot1 dot-animationflex flex flex-col justify-center items-center">
                   <span className="count-text">
-                    <CountUp
-                      start={0}
-                      end={22}
-                      duration={2.5}
-                      separator=","
-                    />
-                    <span>+</span>{" "}
+                    $<CountUp start={0} end={40} duration={2.5} separator="," />
+                    M<span>+</span>{" "}
                   </span>
-                  <span className="text-stats">Validators</span>
+                  <span className="text-stats">AUM</span>
                 </div>
-                <div className="dot2 flex flex-col justify-center items-center">
+                <div className="dot2 dot-animationflex flex flex-col justify-center items-center">
                   <span className="count-text">
-                    <CountUp start={0} end={10} duration={2.5} separator="," />
+                    <CountUp start={0} end={"19"} duration={2.5} separator="," />
+                   K <span>+</span>{" "}
+                  </span>
+
+                  <span className="text-stats">Deligators</span>
+                </div>
+                <div className="dot3 dot-animationflex flex flex-col justify-center items-center">
+                  <span className="count-text">
+                    <CountUp start={0} end={22} duration={3} />
                     <span>+</span>{" "}
                   </span>
 
-                  <span className="text-stats">Projects Delivered</span>
-                </div>
-                <div className="dot3 flex flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp start={0} end={8} duration={3} />
-                    <span>+</span>{" "}
-                  </span>
-
-                  <span className="text-stats"> Partnerships</span>
+                  <span className="text-stats"> Validators</span>
                 </div>
                 <div className="dot4 dot-animationflex flex-col justify-center items-center">
                   <span className="count-text">
-                    <CountUp start={0} end={4} duration={3} />
-                    <span>+</span>{" "}
+                    <CountUp start={0} end={5} duration={3} />
                   </span>
                   <span className="text-stats">
-                    Mainnet <br></br>Launches{" "}
+                    Validator <br></br>Advisors{" "}
                   </span>
+                </div>
+                <div className="dot5 dot-animationflex flex-col flex justify-center items-center">
+                  <span className="count-text">
+                    <CountUp start={0} end={10} duration={3} />
+                    <span>+</span>
+                  </span>
+                  <span className="text-stats">Relayers</span>
                 </div>
                 <span className="dot6"></span>
                 <span className="dot10"></span>

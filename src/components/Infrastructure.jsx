@@ -2,18 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./Infrastructure.css";
 import { Alert } from "antd";
 
-import Cosmos from "../assets/infra-icons/comos-infra.png";
-import Polygen from "../assets/infra-icons/polygon-infra.png";
-import Osmosis from "../assets/infra-icons/osmosis-infra.png";
-import Akash from "../assets/infra-icons/akash-infra.png";
-import Passage from "../assets/infra-icons/passage-infra.png";
-import Stargaze from "../assets/infra-icons/stargaze-infra.png";
-import Regen from "../assets/infra-icons/regen-infra.png";
-import Umee from "../assets/infra-icons/umee-infra.png";
-import Evmos from "../assets/infra-icons/evmos-infra.png";
-import Agoric from "../assets/infra-icons/agoric-infra.png";
-import Oasis from "../assets/infra-icons/oasis-infra.png";
-import Devops from "../assets/devops.svg";
+import Advisory from "../assets/infra-icons/advisory.svg"
+import Genesis from "../assets/infra-icons/genesis.svg";
+import Relayer from "../assets/infra-icons/relayer.svg";
+import Testing from "../assets/infra-icons/testing.png";
+import Validator from "../assets/infra-icons/validator.svg";
+import WhiteLabel from "../assets/infra-icons/whitelabel.svg";
 
 const Infrastructure = () => {
   const [typedText, setTypedText] = useState("");
@@ -64,8 +58,8 @@ const Infrastructure = () => {
                 className="alert3003 border-none"
                 message={
                   <div>
-                    <div className="enterprise-dot mb-3">
-                      <img src={Devops} alt="Alert Image" />
+                    <div className="validator-dot mb-3">
+                      <img src={Validator} alt="Validator-icon" />
                     </div>
                     <span className="infra-icons-text">Validator</span>
                   </div>
@@ -91,8 +85,8 @@ const Infrastructure = () => {
                 className="alert3003 border-none"
                 message={
                   <div>
-                    <div className="mainnet-dot mb-3">
-                      <img src={Devops} alt="Alert Image" />
+                    <div className="relayer-dot mb-3">
+                      <img src={Relayer} alt="Relayer-icon" />
                     </div>
                     <span className="infra-icons-text">Relayer</span>
                   </div>
@@ -118,8 +112,8 @@ const Infrastructure = () => {
                 className="alert3003 border-none"
                 message={
                   <div>
-                    <div className="whitelabel-dot mb-3">
-                      <img src={Devops} alt="Alert Image" />
+                    <div className="advisory-dot mb-3">
+                      <img src={Advisory} alt="validatoradvisory-icon" />
                     </div>
                     <span className="infra-icons-text">Validator advisory</span>
                   </div>
@@ -147,8 +141,8 @@ const Infrastructure = () => {
                 className="alert3003 border-none"
                 message={
                   <div>
-                    <div className="eng-dot2 mb-3">
-                      <img src={Devops} alt="Alert Image" />
+                    <div className="testing-dot mb-3">
+                      <img src={Testing} alt="testing-icon" />
                     </div>
                     <span className="infra-icons-text">E2E testing</span>
                   </div>
@@ -174,8 +168,8 @@ const Infrastructure = () => {
                 className="alert3003 border-none"
                 message={
                   <div>
-                    <div className="eng-dot4 mb-3">
-                      <img src={Devops} alt="Alert Image" />
+                    <div className="white-label mb-3">
+                      <img src={WhiteLabel} alt="whitelabel-icon" />
                     </div>
                     <span className="infra-icons-text">
                       White-label services
@@ -203,8 +197,8 @@ const Infrastructure = () => {
                 className="alert3003 border-none"
                 message={
                   <div>
-                    <div className="enterprise-dot mb-3">
-                      <img src={Devops} alt="Alert Image" />
+                    <div className="genesis-dot mb-3">
+                      <img src={Genesis} alt="genesis-icon" />
                     </div>
                     <span className="infra-icons-text">Genesis Launch</span>
                   </div>

@@ -104,6 +104,7 @@
   position: relative;
   justify-content: flex-start;
   top: 0;
+  gap: 64px;
 }
 .alert-right1-infra {
   width: 100%;
@@ -207,37 +208,73 @@
   font-weight: 700;
   line-height: 24px; /* 120% */
 }
-.mainnet-dot {
+.relayer-dot {
   width: 60px;
   height: 60px;
-  background: #e0b0ff;
+  background: #9474F6;;
   border-radius: 50%;
 }
-.mainnet-dot img {
+.relayer-dot img {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.whitelabel-dot {
+.advisory-dot {
   width: 60px;
   height: 60px;
-  background: #9474f6;
+  background: #84E0C2;;
   border-radius: 50%;
 }
-.whitelabel-dot img {
+.advisory-dot img {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.enterprise-dot {
+.validator-dot {
   width: 60px;
   height: 60px;
-  background: #f07576;
+  background: #E0B0FF;;
   border-radius: 50%;
 }
-.enterprise-dot img {
+.validator-dot img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testing-dot {
+  width: 60px;
+  height: 60px;
+  background: #F07576;;
+  border-radius: 50%;
+}
+.testing-dot img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.genesis-dot {
+  width: 60px;
+  height: 60px;
+  background: #83A9F5;;
+  border-radius: 50%;
+}
+.genesis-dot img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.white-label {
+  width: 60px;
+  height: 60px;
+  background: #E19B49;;
+  border-radius: 50%;
+}
+.white-label img {
   position: relative;
   top: 50%;
   left: 50%;

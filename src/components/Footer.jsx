@@ -34,7 +34,7 @@ const Footer = () => {
         <p className="cursor-pointer underline">
           <Link to="/privacy-policy">Privacy Policy</Link>
         </p>
-        <p>@2023vitwit.com</p>
+        <p>@2024vitwit.com</p>
         <p className="cursor-pointer underline">
           <Link to="/terms-of-use">Terms of use</Link>
         </p>
