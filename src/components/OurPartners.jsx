@@ -1,27 +1,22 @@
 import React, { useState, useEffect } from "react";
 import "./Ourpartners.css";
-import { Alert, Space } from "antd";
-import Engineering from "../assets/delegateus/engineering.svg";
-import Enterprise from "../assets/delegateus/enterprise.svg";
-import Security from "../assets/delegateus/security.svg";
-import Infrastructure from "../assets/delegateus/infrastructure.svg";
-import Cosmos from "../assets/infra-icons/comos-infra.png";
-import Polygen from "../assets/infra-icons/polygon-infra.png";
-import Osmosis from "../assets/infra-icons/osmosis-infra.png";
-import Akash from "../assets/infra-icons/akash-infra.png";
-import Passage from "../assets/infra-icons/passage-infra.png";
-import Stargaze from "../assets/infra-icons/stargaze-infra.png";
-import Regen from "../assets/infra-icons/regen-infra.png";
-import Umee from "../assets/infra-icons/umee-infra.png";
-import Evmos from "../assets/infra-icons/evmos-infra.png";
-import Agoric from "../assets/infra-icons/agoric-infra.png";
-import Oasis from "../assets/infra-icons/oasis-infra.png";
+import Cosmos from "../assets/infra-icons/cosmos.png";
+import Polygen from "../assets/infra-icons/polygon.png";
+import Osmosis from "../assets/infra-icons/osmosis.png";
+import Akash from "../assets/infra-icons/akash.png";
+import Passage from "../assets/infra-icons/passage.png";
+import Stargaze from "../assets/infra-icons/stargaze.png";
+import Regen from "../assets/infra-icons/regen.png";
+import Umee from "../assets/infra-icons/umee.png";
+import Evmos from "../assets/infra-icons/evmos.png";
+import Agoric from "../assets/infra-icons/agoric.png";
+import Oasis from "../assets/infra-icons/oasis.png";
 import CountUp from "react-countup";
 const LOGOS = [
   {
     name: "Akash",
     icon: Akash,
-    size: 62,
+    size: 58,
     bgColor: "#ed3524",
     hoverColor: "#7D1729",
     link: "https://akash.network/",
@@ -31,7 +26,7 @@ const LOGOS = [
     icon: Cosmos,
     size: 58,
     bgColor: "#393F68",
-    hoverColor: "black",
+    hoverColor: "#1e2763",
     link: "https://cosmos.network/",
   },
   {
@@ -39,7 +34,7 @@ const LOGOS = [
     icon: Polygen,
     size: 62,
     bgColor: "#9757da",
-    hoverColor: "#11208a",
+    hoverColor: "#5b1b9e",
     link: "https://polygon.technology/",
   },
   {
@@ -47,7 +42,7 @@ const LOGOS = [
     icon: Passage,
     size: 62,
     bgColor: "#808080",
-    hoverColor: "",
+    hoverColor: "#8a7c7c",
     link: "https://passage3d.com/",
   },
   {
@@ -55,7 +50,7 @@ const LOGOS = [
     icon: Regen,
     size: 58,
     bgColor: "#9bd5af",
-    hoverColor: "",
+    hoverColor: "#5cbf7e",
     link: "https://www.regen.network/",
   },
   {
@@ -63,7 +58,7 @@ const LOGOS = [
     icon: Osmosis,
     size: 62,
     bgColor: "#a289bf",
-    hoverColor: "",
+    hoverColor: "#6428a8",
     link: "https://osmosis.zone/",
   },
 
@@ -72,7 +67,7 @@ const LOGOS = [
     icon: Oasis,
     size: 62,
     bgColor: "#00c6eb",
-    hoverColor: "",
+    hoverColor: "#3da0b3",
     link: "https://oasisprotocol.org/",
   },
   {
@@ -80,7 +75,7 @@ const LOGOS = [
     icon: Stargaze,
     size: 58,
     bgColor: "#c8dc7c",
-    hoverColor: "",
+    hoverColor: "#98b52a",
     link: "https://stargaze.zone/",
   },
 
@@ -89,7 +84,7 @@ const LOGOS = [
     icon: Umee,
     size: 62,
     bgColor: "#e0b0ff",
-    hoverColor: "",
+    hoverColor: "#611d8c",
     link: "https://www.umee.cc/",
   },
   {
@@ -97,7 +92,7 @@ const LOGOS = [
     icon: Evmos,
     size: 58,
     bgColor: "#f1705b",
-    hoverColor: "",
+    hoverColor: "#ad3e2b",
     link: "https://evmos.org/",
   },
   {
@@ -105,7 +100,7 @@ const LOGOS = [
     icon: Agoric,
     size: 58,
     bgColor: "#7D1729",
-    hoverColor: "",
+    hoverColor: "#7a071c",
     link: "https://agoric.com/",
   },
   {
@@ -167,8 +162,13 @@ const OurPartners = () => {
                 </div>
                 <div className="dot2 dot-animationflex flex flex-col justify-center items-center">
                   <span className="count-text">
-                    <CountUp start={0} end={"19"} duration={2.5} separator="," />
-                   K <span>+</span>{" "}
+                    <CountUp
+                      start={0}
+                      end={"19"}
+                      duration={2.5}
+                      separator=","
+                    />
+                    K <span>+</span>{" "}
                   </span>
 
                   <span className="text-stats">Deligators</span>
@@ -237,6 +237,12 @@ const OurPartners = () => {
                         <button
                           className="cosmos"
                           style={{ backgroundColor: logo.bgColor }}
+                          onMouseOver={(e) =>
+                            (e.target.style.backgroundColor = logo.hoverColor)
+                          }
+                          onMouseOut={(e) =>
+                            (e.target.style.backgroundColor = logo.bgColor)
+                          }
                         >
                           {logo.name}
                         </button>

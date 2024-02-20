@@ -18,7 +18,7 @@ const Delegate = () => {
   const [typedText, setTypedText] = useState("");
   const [typedText2, setTypedText2] = useState("");
   const [alertsToShow, setAlertsToShow] = useState(currentAlerts);
-  const [fixedAlertsCount, setFixedAlertsCount] = useState(3); // Number of fixed alerts initially
+  const [fixedAlertsCount, setFixedAlertsCount] = useState(3); 
 
   const textsToType = ["Our Partners", "& Clients"];
 
@@ -77,8 +77,8 @@ const Delegate = () => {
             </div>
             <div className="delegate-text-delegate">
               Showcasing our esteemed partners and satisfied clients, whose
-              collaborative spirit and trust in our services have driven
-              remarkable innovations and achievements.
+              collaborative spirit and trust <p> in our services have driven
+              remarkable innovations and achievements.</p>
             </div>
             <div className="">
               <div className="partners-logo-1">
@@ -102,7 +102,7 @@ const Delegate = () => {
             <div>
               <div className="grid grid-cols-3 gap-6">
                 {alertsToShow.map((alert, index) => (
-                  <div className="alert-animation" key={index}>
+                  <div className="alert-animation cardsanimation" key={index}>
                     <a
                       href={alert.link}
                       target="_blank"

@@ -166,6 +166,24 @@
 
 
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.cardsanimation {
+  animation: fade 10s infinite; 
+}
+
 
 
 

@@ -1,6 +1,5 @@
 import React from "react";
 import VitwitLogo from "../assets/vitwit-logo.png";
-
 import "./Navbar.css";
 
 const Navbar = () => {
