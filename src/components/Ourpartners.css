@@ -388,7 +388,7 @@
 }
 
 .dot1, .dot2, .dot3, .dot4, .dot5 {
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -398,18 +398,18 @@
 }
 
 .dot2 {
-  animation-delay: 1s; 
+  animation-delay: 0.5s; 
 }
 
 .dot3 {
-  animation-delay: 2s; 
+  animation-delay: 1s; 
 }
 
 .dot4 {
-  animation-delay: 3s; 
+  animation-delay: 1.5s; 
 }
 
 .dot5 {
-  animation-delay: 4s; 
+  animation-delay: 2s; 
 }
 

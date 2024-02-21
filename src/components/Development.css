@@ -233,59 +233,6 @@
   line-height: 18px; 
   letter-spacing: 0.6px;
 }
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-20px);
-  }
-  60% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes fadeInOut {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-
-.dot-animation {
-  animation: dotFade 3s infinite alternate;
-}
-
-@keyframes dotFade {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
 .text-stats {
   color: #fff;
   text-align: center;
@@ -306,10 +253,6 @@
   line-height: normal;
   letter-spacing: 0.6px;
 }
-
-
-
-
 .dot-animation {
   animation: scaleAndOpacityChange 5s ease-in-out infinite; 
 }
