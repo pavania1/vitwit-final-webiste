@@ -3,36 +3,36 @@ import "./Letstalk.css";
 
 const Letstalk = () => {
   
-  const [typedText, setTypedText] = useState("");
-  const [typedText2, setTypedText2] = useState("");
+  // const [typedText, setTypedText] = useState("");
+  // const [typedText2, setTypedText2] = useState("");
 
-  const textsToType = ["Let's", "Talk"];
+  // const textsToType = ["Let's", "Talk"];
 
-  useEffect(() => {
-    let textIndex = 0;
-    let charIndex = 0;
+  // useEffect(() => {
+  //   let textIndex = 0;
+  //   let charIndex = 0;
 
-    const typingInterval = setInterval(() => {
-      if (textsToType[textIndex].length === charIndex && textIndex === 1) {
-        clearInterval(typingInterval);
-      } else if (textIndex === 0 && charIndex === textsToType[0].length) {
-        charIndex = 0;
-        textIndex++;
-      } else if (textIndex === 1) {
-        charIndex++;
-        setTypedText2(textsToType[1].slice(0, charIndex));
-      } else {
-        charIndex++;
-        setTypedText(textsToType[0].slice(0, charIndex));
-      }
-    }, 200);
-    return () => clearInterval(typingInterval);
-  }, []);
+  //   const typingInterval = setInterval(() => {
+  //     if (textsToType[textIndex].length === charIndex && textIndex === 1) {
+  //       clearInterval(typingInterval);
+  //     } else if (textIndex === 0 && charIndex === textsToType[0].length) {
+  //       charIndex = 0;
+  //       textIndex++;
+  //     } else if (textIndex === 1) {
+  //       charIndex++;
+  //       setTypedText2(textsToType[1].slice(0, charIndex));
+  //     } else {
+  //       charIndex++;
+  //       setTypedText(textsToType[0].slice(0, charIndex));
+  //     }
+  //   }, 200);
+  //   return () => clearInterval(typingInterval);
+  // }, []);
   return (
     <div id="letstalk" className="letstalk-main">
       <div className="letstalk-head">
         <div className="lets-text">
-          {typedText} <span className="talk-text">{typedText2}</span>
+         Let's <span className="talk-text">Talk</span>
         </div>
         <p className="letstalk-para-text">
           {" "}

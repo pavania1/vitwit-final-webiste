@@ -111,31 +111,31 @@ const LOGOS = [
   },
 ];
 const OurPartners = () => {
-  const [typedText, setTypedText] = useState("");
-  const [typedText2, setTypedText2] = useState("");
+  // const [typedText, setTypedText] = useState("");
+  // const [typedText2, setTypedText2] = useState("");
 
-  const textsToType = ["Why Delegate", "to us ?"];
+  // const textsToType = ["Why Delegate", "to us ?"];
 
-  useEffect(() => {
-    let textIndex = 0;
-    let charIndex = 0;
+  // useEffect(() => {
+  //   let textIndex = 0;
+  //   let charIndex = 0;
 
-    const typingInterval = setInterval(() => {
-      if (textsToType[textIndex].length === charIndex && textIndex === 1) {
-        clearInterval(typingInterval);
-      } else if (textIndex === 0 && charIndex === textsToType[0].length) {
-        charIndex = 0;
-        textIndex++;
-      } else if (textIndex === 1) {
-        charIndex++;
-        setTypedText2(textsToType[1].slice(0, charIndex));
-      } else {
-        charIndex++;
-        setTypedText(textsToType[0].slice(0, charIndex));
-      }
-    }, 200);
-    return () => clearInterval(typingInterval);
-  }, []);
+  //   const typingInterval = setInterval(() => {
+  //     if (textsToType[textIndex].length === charIndex && textIndex === 1) {
+  //       clearInterval(typingInterval);
+  //     } else if (textIndex === 0 && charIndex === textsToType[0].length) {
+  //       charIndex = 0;
+  //       textIndex++;
+  //     } else if (textIndex === 1) {
+  //       charIndex++;
+  //       setTypedText2(textsToType[1].slice(0, charIndex));
+  //     } else {
+  //       charIndex++;
+  //       setTypedText(textsToType[0].slice(0, charIndex));
+  //     }
+  //   }, 200);
+  //   return () => clearInterval(typingInterval);
+  // }, []);
   return (
     <>
       <div className="main22-ourpartners">
@@ -145,9 +145,9 @@ const OurPartners = () => {
           <div className="leftdevelop-partners">
             <div className="subleftdevelop1-partners">
               <h1>
-                {typedText}
+                Why Delegate
                 <br></br>
-                <span className="servicesdevelop">{typedText2}</span>
+                <span className="servicesdevelop">to us?</span>
               </h1>
             </div>
 

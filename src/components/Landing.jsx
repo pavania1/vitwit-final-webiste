@@ -39,46 +39,43 @@ const Landing = () => {
         </video>
         {/* leftdevelop cantioner start */}
         <div className="landing flex w-full">
-          <div className="flex justify-between">
-            <div className="h-full items-center flex">
-              <div className="leftdevelop-landing">
-                <div className="subleftdevelop1-landing">
-                  <h1>Trusted partners for your </h1>
-                  <span className="servicesdevelop-landing">{text}</span>
-                  <Cursor />
-                </div>
+          <div className="h-full">
+            <div className="leftdevelop-landing mx-auto">
+              <div className="subleftdevelop1-landing">
+                <h1>Trusted partners for your </h1>
+                <span className="servicesdevelop-landing">{text}</span>
+                <Cursor />
+              </div>
 
-                <div className="landing-text-main">
-                  <div className="landing-text-para">
-                    From strategic planning to execution, our comprehensive
-                    services are tailored to meet your unique needs. <br></br>
-                    <br></br>
-                    <p className="">
-                      Partner with us to harness the power of blockchain and
-                      unlock new opportunities for growth and efficiency. With
-                      Vitwit, you get personalized support every step of the
-                      way.
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <button className="get-touch-btn nav-text">
-                    <a href="#development">Know More</a>
-                  </button>
+              <div className="landing-text-main">
+                <div className="landing-text-para">
+                  From strategic planning to execution, our comprehensive
+                  services are tailored to meet your unique needs. <br></br>
+                  <br></br>
+                  <p className="">
+                    Partner with us to harness the power of blockchain and
+                    unlock new opportunities for growth and efficiency. With
+                    Vitwit, you get personalized support every step of the way.
+                  </p>
                 </div>
               </div>
+              <div>
+                <button className="get-touch-btn nav-text">
+                  <a href="#development">Know More</a>
+                </button>
+              </div>
             </div>
-            {/* leftdevelop cantioner end */}
-
-            {/* RightDevelop cantioner start */}
-            <div className="RightDevelop-landing">
-              <img src={LandingImage} alt="Landing-Image" className=" h-[36rem] w-[57rem]"/>
-            </div>
-            {/*RightDevelop cantioner end */}
           </div>
+          {/* leftdevelop cantioner end */}
+
+          {/* RightDevelop cantioner start */}
+          {/* <div className="RightDevelop-landing">
+              <img src={LandingImage} alt="Landing-Image" className=" h-[36rem] w-[57rem]"/>
+            </div> */}
+          {/*RightDevelop cantioner end */}
         </div>
-        {/* maindevelop cantioner end */}
       </div>
+      {/* maindevelop cantioner end */}
     </div>
   );
 };

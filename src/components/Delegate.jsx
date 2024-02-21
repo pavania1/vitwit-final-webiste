@@ -15,33 +15,31 @@ import Polama from "../assets/partners/paloma final.png";
 
 const Delegate = () => {
   const currentAlerts = alertsData.slice(0, 3);
-  const [typedText, setTypedText] = useState("");
-  const [typedText2, setTypedText2] = useState("");
   const [alertsToShow, setAlertsToShow] = useState(currentAlerts);
   const [fixedAlertsCount, setFixedAlertsCount] = useState(3); 
 
-  const textsToType = ["Our Partners", "& Clients"];
+  // const textsToType = ["Our Partners", "& Clients"];
 
-  useEffect(() => {
-    let textIndex = 0;
-    let charIndex = 0;
+  // useEffect(() => {
+  //   let textIndex = 0;
+  //   let charIndex = 0;
 
-    const typingInterval = setInterval(() => {
-      if (textsToType[textIndex].length === charIndex && textIndex === 1) {
-        clearInterval(typingInterval);
-      } else if (textIndex === 0 && charIndex === textsToType[0].length) {
-        charIndex = 0;
-        textIndex++;
-      } else if (textIndex === 1) {
-        charIndex++;
-        setTypedText2(textsToType[1].slice(0, charIndex));
-      } else {
-        charIndex++;
-        setTypedText(textsToType[0].slice(0, charIndex));
-      }
-    }, 200);
-    return () => clearInterval(typingInterval);
-  }, []);
+  //   const typingInterval = setInterval(() => {
+  //     if (textsToType[textIndex].length === charIndex && textIndex === 1) {
+  //       clearInterval(typingInterval);
+  //     } else if (textIndex === 0 && charIndex === textsToType[0].length) {
+  //       charIndex = 0;
+  //       textIndex++;
+  //     } else if (textIndex === 1) {
+  //       charIndex++;
+  //       setTypedText2(textsToType[1].slice(0, charIndex));
+  //     } else {
+  //       charIndex++;
+  //       setTypedText(textsToType[0].slice(0, charIndex));
+  //     }
+  //   }, 200);
+  //   return () => clearInterval(typingInterval);
+  // }, []);
 
   useEffect(() => {
     let index = 0;
@@ -71,8 +69,8 @@ const Delegate = () => {
           <div className="delegate-main-head">
             <div className="subleftdevelop1-delegate">
               <h1 style={{ fontFamily: "Libre Franklin" }}>
-                {typedText} &nbsp;
-                <span className="servicesdevelop">{typedText2}</span>
+                Our Partners  &nbsp;
+                <span className="servicesdevelop">& Clients</span>
               </h1>
             </div>
             <div className="delegate-text-delegate">
