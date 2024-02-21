@@ -16,7 +16,7 @@ const LOGOS = [
   {
     name: "Akash",
     icon: Akash,
-    size: 58,
+    size: 55,
     bgColor: "#ed3524",
     hoverColor: "#7D1729",
     link: "https://akash.network/",
@@ -24,7 +24,7 @@ const LOGOS = [
   {
     name: "Cosmos Hub",
     icon: Cosmos,
-    size: 58,
+    size: 55,
     bgColor: "#393F68",
     hoverColor: "#1e2763",
     link: "https://cosmos.network/",
@@ -32,7 +32,7 @@ const LOGOS = [
   {
     name: "Polygon",
     icon: Polygen,
-    size: 62,
+    size: 60,
     bgColor: "#9757da",
     hoverColor: "#5b1b9e",
     link: "https://polygon.technology/",
@@ -40,7 +40,7 @@ const LOGOS = [
   {
     name: "Passage",
     icon: Passage,
-    size: 62,
+    size: 60,
     bgColor: "#808080",
     hoverColor: "#8a7c7c",
     link: "https://passage3d.com/",
@@ -48,7 +48,7 @@ const LOGOS = [
   {
     name: "Regen",
     icon: Regen,
-    size: 58,
+    size: 50,
     bgColor: "#9bd5af",
     hoverColor: "#5cbf7e",
     link: "https://www.regen.network/",
@@ -56,7 +56,7 @@ const LOGOS = [
   {
     name: "Osmosis",
     icon: Osmosis,
-    size: 62,
+    size: 55,
     bgColor: "#a289bf",
     hoverColor: "#6428a8",
     link: "https://osmosis.zone/",
@@ -65,7 +65,7 @@ const LOGOS = [
   {
     name: "Oasis",
     icon: Oasis,
-    size: 62,
+    size: 55,
     bgColor: "#00c6eb",
     hoverColor: "#3da0b3",
     link: "https://oasisprotocol.org/",
@@ -73,7 +73,7 @@ const LOGOS = [
   {
     name: "Stargaze",
     icon: Stargaze,
-    size: 58,
+    size: 50,
     bgColor: "#c8dc7c",
     hoverColor: "#98b52a",
     link: "https://stargaze.zone/",
@@ -82,7 +82,7 @@ const LOGOS = [
   {
     name: "Umee",
     icon: Umee,
-    size: 62,
+    size: 53,
     bgColor: "#e0b0ff",
     hoverColor: "#611d8c",
     link: "https://www.umee.cc/",
@@ -90,7 +90,7 @@ const LOGOS = [
   {
     name: "Evmos",
     icon: Evmos,
-    size: 58,
+    size: 53,
     bgColor: "#f1705b",
     hoverColor: "#ad3e2b",
     link: "https://evmos.org/",
@@ -98,7 +98,7 @@ const LOGOS = [
   {
     name: "Agoric",
     icon: Agoric,
-    size: 58,
+    size: 50,
     bgColor: "#7D1729",
     hoverColor: "#7a071c",
     link: "https://agoric.com/",

@@ -36,7 +36,7 @@
   margin-top: 5%;
 }
 
-.alert2001 {
+/* .alert2001 {
   text-align: start;
   border-radius: 16px;
   background: linear-gradient(
@@ -45,7 +45,7 @@
     rgba(255, 255, 255, 0) 100.03%
   );
   margin-bottom: 8%;
-}
+} */
 .alert2002 {
   text-align: start;
   border-radius: 16px;
@@ -332,60 +332,17 @@
 .infra-btn:hover {
   background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%);
 }
-/* @keyframes pulse {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.2);
-    opacity: 0.5;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.dot-animationflex {
-  animation: pulse 5s infinite; 
-} */
-
-
-/* @keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.dot-animationflex {
-  animation: fade 5s linear infinite; 
-} */
-
-
-/* 
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-.dot-animationflex {
-  animation: bounce 1s ease-in-out infinite;
-} */
 
 
 
-@keyframes scale {
+
+
+
+
+
+
+
+/* @keyframes scale {
   0%, 100% {
     transform: scale(1);
   }
@@ -395,20 +352,64 @@
 }
 
 .dot-animationflex {
-  animation: scale 5s ease-in-out infinite; 
+  animation: scale 5s  ease-in infinite; 
 }
-
-
-
-/* @keyframes slide {
-  0%, 100% {
-    transform: translateX(-100%);
-  }
-  50% {
-    transform: translateX(0);
-  }
+.dot1 {
+  animation-delay: 3s;
 }
+.dot2 {
+  animation-delay: 1s;
+}
+.dot3 {
+  animation-delay: 1.5s;
+}
+.dot4 {
+  animation-delay: 2s;
+} */
+
+
+
+
+
 
 .dot-animationflex {
-  animation: slide 2s ease-in-out infinite;
-} */
+  animation: scaleAndOpacityChange 5s ease-in-out infinite; 
+}
+
+@keyframes scaleAndOpacityChange {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+}
+
+.dot1, .dot2, .dot3, .dot4, .dot5 {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.dot1 {
+  animation-delay: 0s;
+}
+
+.dot2 {
+  animation-delay: 1s; 
+}
+
+.dot3 {
+  animation-delay: 2s; 
+}
+
+.dot4 {
+  animation-delay: 3s; 
+}
+
+.dot5 {
+  animation-delay: 4s; 
+}
+

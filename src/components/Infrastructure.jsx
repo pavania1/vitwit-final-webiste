@@ -47,7 +47,7 @@ const Infrastructure = () => {
           </div>
 
           <div className="infrastructure-text">
-            we specialize in providing robust and scalable infrastructure
+            We specialize in providing robust and scalable infrastructure
             solutions tailored to the unique needs of your blockchain projects.
           </div>
         </div>
@@ -67,15 +67,14 @@ const Infrastructure = () => {
                 description={
                   <span className="infra-text-para">
                     Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment, scaleAkash
-                    Network.
+                    open-source cloud, accelerates deployment.
                   </span>
                 }
                 style={{
-                  marginBottom: "10%",
+                  // marginBottom: "10%",
                   // width: "70%",
                   // height: "55%",
-                  marginLeft: 30,
+                  // marginLeft: 30,
                   // marginLeft: "-30%",
                 }}
               />
@@ -94,8 +93,7 @@ const Infrastructure = () => {
                 description={
                   <span className="infra-text-para">
                     Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment, scaleAkash
-                    Network.
+                    open-source cloud, accelerates deployment.
                   </span>
                 }
                 style={{
@@ -121,8 +119,7 @@ const Infrastructure = () => {
                 description={
                   <span className="infra-text-para">
                     Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment, scaleAkash
-                    Network.
+                    open-source cloud, accelerates deployment.
                   </span>
                 }
                 style={{
@@ -150,15 +147,14 @@ const Infrastructure = () => {
                 description={
                   <span className="infra-text-para">
                     Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment, scaleAkash
-                    Network.
+                    open-source cloud, accelerates deployment.
                   </span>
                 }
                 style={{
                   marginBottom: "10%",
                   // width: "70%",
                   // height: "55%",
-                  marginLeft: 30,
+                  // marginLeft: 30,
                   // marginLeft: "-30%",
                 }}
               />
@@ -179,8 +175,7 @@ const Infrastructure = () => {
                 description={
                   <span className="infra-text-para">
                     Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment, scaleAkash
-                    Network.
+                    open-source cloud, accelerates deployment.
                   </span>
                 }
                 style={{
@@ -206,8 +201,7 @@ const Infrastructure = () => {
                 description={
                   <span className="infra-text-para">
                     Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment, scaleAkash
-                    Network.
+                    open-source cloud, accelerates deployment.
                   </span>
                 }
                 style={{

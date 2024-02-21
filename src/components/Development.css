@@ -227,10 +227,10 @@
 .development-alert-text {
   color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 18px; 
   letter-spacing: 0.6px;
 }
 @keyframes bounce {
@@ -306,3 +306,45 @@
   line-height: normal;
   letter-spacing: 0.6px;
 }
+
+
+
+
+.dot-animation {
+  animation: scaleAndOpacityChange 5s ease-in-out infinite; 
+}
+
+@keyframes scaleAndOpacityChange {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+}
+
+.dot1-infra, .dot2-infra, .dot3-infra, .dot4-infra {
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.dot1-infra {
+  animation-delay: 0s;
+}
+
+.dot2-infra {
+  animation-delay: 1s; 
+}
+
+.dot3-infra {
+  animation-delay: 2s; 
+}
+
+.dot4-infra {
+  animation-delay: 3s; 
+}
+
+

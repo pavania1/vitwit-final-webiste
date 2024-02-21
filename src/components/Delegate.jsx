@@ -100,7 +100,7 @@ const Delegate = () => {
               Vitwit
             </div>
             <div>
-              <div className="grid grid-cols-3 gap-6">
+              <div className="grid grid-cols-3 gap-14">
                 {alertsToShow.map((alert, index) => (
                   <div className="alert-animation cardsanimation" key={index}>
                     <a
