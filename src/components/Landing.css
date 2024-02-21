@@ -58,11 +58,12 @@
 .landing-text-para {
   color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 30px; 
   letter-spacing: 0.6px;
+  text-align: left;
 }
 
 .servicesdevelop-landing {
@@ -106,7 +107,7 @@
 }
 .bg-cover {
   border-radius: 16px;
-background: rgba(1, 1, 1, 0.1);
+background: rgba(1, 1, 1, 0.025);
 backdrop-filter: blur(12px);
 
 }
