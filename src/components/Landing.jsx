@@ -40,7 +40,7 @@ const Landing = () => {
         {/* leftdevelop cantioner start */}
         <div className="landing flex w-full">
           <div className="h-full">
-            <div className="leftdevelop-landing mx-auto">
+            <div className="leftdevelop-landing mx-auto bg-cover ">
               <div className="subleftdevelop1-landing">
                 <h1>Trusted partners for your </h1>
                 <span className="servicesdevelop-landing">{text}</span>
@@ -50,13 +50,10 @@ const Landing = () => {
               <div className="landing-text-main">
                 <div className="landing-text-para">
                   From strategic planning to execution, our comprehensive
-                  services are tailored to meet your unique needs. <br></br>
-                  <br></br>
-                  <p className="">
-                    Partner with us to harness the power of blockchain and
-                    unlock new opportunities for growth and efficiency. With
-                    Vitwit, you get personalized support every step of the way.
-                  </p>
+                  services are tailored to meet your unique needs. Partner with
+                  us to harness the power of blockchain and unlock new
+                  opportunities for growth and efficiency. With Vitwit, you get
+                  personalized support every step of the way.
                 </div>
               </div>
               <div>
