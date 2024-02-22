@@ -38,17 +38,17 @@ const Landing = () => {
           />
         </video>
         {/* leftdevelop cantioner start */}
-        <div className="landing flex w-full">
+        <div className="landing flex w-full ">
           <div className="h-full">
-            <div className="leftdevelop-landing mx-auto bg-cover ">
-              <div className="subleftdevelop1-landing">
+            <div className="leftdevelop-landing mx-auto lg:background-layer md:background-layer">
+              <div className="subleftdevelop1-landing lg:text-4xl md:text-3xl sm:text-base xs:text-sm">
                 <h1>Trusted partners for your </h1>
-                <span className="servicesdevelop-landing">{text}</span>
+                <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl">{text}</span>
                 <Cursor />
               </div>
 
               <div className="landing-text-main">
-                <div className="landing-text-para">
+                <div className="landing-text-para lg:text-base md:text-sm sm:text-xs xs:text-xs">
                   From strategic planning to execution, our comprehensive
                   services are tailored to meet your unique needs. Partner with
                   us to harness the power of blockchain and unlock new

@@ -63,6 +63,10 @@ body {
   .get-touch-btn:hover {
     background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%);
   }
+  .mobile-list {
+    @apply flex flex-col justify-between items-center px-0 py-6 w-full top-0 absolute ;
+    background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
+  }
 
   /* footer */
   .footer {
@@ -89,4 +93,13 @@ body {
     @apply w-10 h-9 shrink-0 rounded-lg;
     background: rgba(255, 255, 255, 0.08);
   }
+  
+  /* Landing */
+  .background-layer {
+    @apply backdrop-blur-md rounded-2xl;
+    background: rgba(1, 1, 1, 0.025);
+  }
 }
+
+
+

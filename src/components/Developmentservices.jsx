@@ -3,47 +3,31 @@ import "./Development.css";
 import { Alert, Space } from "antd";
 import CountUp from "react-countup";
 const Development = () => {
-  // const [typedText, setTypedText] = useState("");
-  // const [typedText2, setTypedText2] = useState("");
-
-  // const textsToType = ["Development", "Services"];
-
-  // useEffect(() => {
-  //   let textIndex = 0;
-  //   let charIndex = 0;
-
-  //   const typingInterval = setInterval(() => {
-  //     if (textsToType[textIndex].length === charIndex && textIndex === 1) {
-  //       clearInterval(typingInterval);
-  //     } else if (textIndex === 0 && charIndex === textsToType[0].length) {
-  //       charIndex = 0;
-  //       textIndex++;
-  //     } else if (textIndex === 1) {
-  //       charIndex++;
-  //       setTypedText2(textsToType[1].slice(0, charIndex));
-  //     } else {
-  //       charIndex++;
-  //       setTypedText(textsToType[0].slice(0, charIndex));
-  //     }
-  //   }, 200);
-  //   return () => clearInterval(typingInterval);
-  // }, []);
   return (
     <>
       <div id="development" className="main22-infra">
         {/* maindevelop cantioner start */}
-        <div className="maindevelop-infra">
+        <div className="flex m-auto flex-col">
           {/* leftdevelop cantioner start */}
-          <div className="leftdevelop-infra">
+          <div className="flex justify-between">
             <div className="subleftdevelop1-infra">
-              <h1>
+              <h1 className="lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl m-0 p-0">
                 Development
                 <br></br>
-                <span className="servicesdevelop-infra">Services</span>
+                <span className="servicesdevelop-infra lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
+                  Services
+                </span>
               </h1>
             </div>
-
-            <div className="subleftdevelop2-infra">
+            <div className="development-alert-text w-[50%]">
+              Discover unparalleled expertise in blockchain development and
+              consulting. Our dedicated team guides you through the complexities
+              of blockchain technology, delivering innovative solutions that
+              drive your business forward.
+            </div>
+          </div>
+          <div className="flex flex-col-reverse md:flex-row">
+            <div className="leftdevelop-infra ">
               <Space
                 className="space-alert-dev gap-4"
                 direction="vertical"
@@ -126,60 +110,59 @@ const Development = () => {
                 />
               </Space>
             </div>
-          </div>
-          {/* leftdevelop cantioner end */}
+            {/* leftdevelop cantioner end */}
 
-          {/* RightDevelop cantioner start */}
-          <div className="RightDevelop-infra">
-            <p className="development-alert-text mt-10">
-              Discover unparalleled expertise in blockchain development and
-              consulting. Our dedicated team guides you through the complexities
-              of blockchain technology, delivering innovative solutions that
-              drive your business forward.
-            </p>
-            <div className="figma2001-infra">
-              <div className="circles-infra">
-                <div className="dot1-infra dot-animation flex flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp
-                      start={0}
-                      end={1000}
-                      duration={2.5}
-                      separator=","
-                    />
-                    <span>+</span>{" "}
-                  </span>
-                  <span className="text-stats">Open Source Commits</span>
-                </div>
-                <div className="dot2-infra dot-animation flex flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp start={0} end={10} duration={2.5} separator="," />
-                    <span>+</span>{" "}
-                  </span>
+            {/* RightDevelop cantioner start */}
+            <div className="RightDevelop-infra ">
+              <div className="figma2001-infra">
+                <div className="circles-infra">
+                  <div className="dot1-infra dot-animation flex flex-col justify-center items-center">
+                    <span className="count-text">
+                      <CountUp
+                        start={0}
+                        end={1000}
+                        duration={2.5}
+                        separator=","
+                      />
+                      <span>+</span>{" "}
+                    </span>
+                    <span className="text-stats">Open Source Commits</span>
+                  </div>
+                  <div className="dot2-infra dot-animation flex flex-col justify-center items-center">
+                    <span className="count-text">
+                      <CountUp
+                        start={0}
+                        end={10}
+                        duration={2.5}
+                        separator=","
+                      />
+                      <span>+</span>{" "}
+                    </span>
 
-                  <span className="text-stats">Projects Delivered</span>
-                </div>
-                <div className="dot3-infra dot-animation flex flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp start={0} end={8} duration={3} />
-                    <span>+</span>{" "}
-                  </span>
+                    <span className="text-stats">Projects Delivered</span>
+                  </div>
+                  <div className="dot3-infra dot-animation flex flex-col justify-center items-center">
+                    <span className="count-text">
+                      <CountUp start={0} end={8} duration={3} />
+                      <span>+</span>{" "}
+                    </span>
 
-                  <span className="text-stats"> Partnerships</span>
+                    <span className="text-stats"> Partnerships</span>
+                  </div>
+                  <div className="dot4-infra dot-animation flex-col justify-center items-center">
+                    <span className="count-text">
+                      <CountUp start={0} end={4} duration={3} />
+                      <span>+</span>{" "}
+                    </span>
+                    <span className="text-stats">
+                      Mainnet <br></br>Launches{" "}
+                    </span>
+                  </div>
+                  <span className="dot6-infra"></span>
+                  <span className="dot10-infra"></span>
+                  <span className="dot7-infra"></span>
+                  <span className="dot9-infra"></span>
                 </div>
-                <div className="dot4-infra dot-animation flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp start={0} end={4} duration={3} />
-                    <span>+</span>{" "}
-                  </span>
-                  <span className="text-stats">
-                    Mainnet <br></br>Launches{" "}
-                  </span>
-                </div>
-                <span className="dot6-infra"></span>
-                <span className="dot10-infra"></span>
-                <span className="dot7-infra"></span>
-                <span className="dot9-infra"></span>
               </div>
             </div>
           </div>
