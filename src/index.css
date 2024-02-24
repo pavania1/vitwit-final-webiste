@@ -31,7 +31,7 @@ body {
 } */
 @layer components {
   .nav {
-    @apply flex justify-between items-start  w-full;
+    @apply flex justify-between items-start  w-full px-6 lg:px-0;;
   }
   .nav__logo {
     @apply w-[150px] h-[39.725px] shrink-0;
@@ -64,7 +64,7 @@ body {
     background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%);
   }
   .mobile-list {
-    @apply flex flex-col justify-between items-center px-0 py-6 w-full top-0 absolute ;
+    @apply flex flex-col justify-between items-center px-0 py-6 w-full top-0 absolute;
     background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
   }
 
@@ -93,13 +93,75 @@ body {
     @apply w-10 h-9 shrink-0 rounded-lg;
     background: rgba(255, 255, 255, 0.08);
   }
-  
+  .fotter-text {
+    @apply text-center not-italic font-normal leading-9;
+    font-family: "Libre Franklin";
+    color: rgb(225, 225, 225);
+  }
+
   /* Landing */
   .background-layer {
     @apply backdrop-blur-md rounded-2xl;
     background: rgba(1, 1, 1, 0.025);
   }
+  .develop-alert-background {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.06) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  /* Infrastructure */
+  .infra {
+    @apply text-start rounded-2xl;
+    background: linear-gradient(
+      86deg,
+      rgba(255, 255, 255, 0.06) 0.03%,
+      rgba(255, 255, 255, 0) 101.65%
+    );
+  }
+  .infra-bg {
+    background: linear-gradient(
+      86deg,
+      rgba(255, 255, 255, 0.06) 0.03%,
+      rgba(255, 255, 255, 0) 101.65%
+    );
+  }
+  .infra-left {
+    @apply text-start rounded-[0px_16px_16px_0px] w-[80%];
+    background: linear-gradient(
+      237deg,
+      rgba(255, 255, 255, 0.16) 0.04%,
+      rgba(186, 88, 88, 0) 99.96%
+    );
+  }
+
+  .infra-right-parent {
+    @apply flex justify-end;
+  }
+
+  .infra-right {
+    @apply text-start rounded-[16px_0px_0px_16px] w-[80%];
+    background: linear-gradient(
+      237deg,
+      rgba(186, 88, 88, 0) 0.04%,
+      rgba(255, 255, 255, 0.16) 99.96%
+    );
+  }
+  .left-head {
+    @apply text-start w-[70%] rounded-[0px_16px_16px_0px];
+    background: linear-gradient(
+      237deg,
+      rgba(255, 255, 255, 0.16) 0.04%,
+      rgba(186, 88, 88, 0) 99.96%
+    );
+  }
+  .right-head {
+    @apply justify-end w-[70%] rounded-[16px_0px_0px_16px];
+    background: linear-gradient(
+      237deg,
+      rgba(186, 88, 88, 0) 0.04%,
+      rgba(255, 255, 255, 0.16) 99.96%
+    );
+  }
 }
-
-
-

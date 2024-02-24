@@ -27,7 +27,7 @@ const Development = () => {
             </div>
           </div>
           <div className="flex flex-col-reverse md:flex-row">
-            <div className="leftdevelop-infra ">
+            <div className="leftdevelop-infra md:w-[45%]">
               <Space
                 className="space-alert-dev gap-4"
                 direction="vertical"
@@ -36,7 +36,7 @@ const Development = () => {
                 }}
               >
                 <Alert
-                  className="alert2001-infra border-none"
+                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background"
                   message={
                     <span className="development-alert-head">
                       Blockchain Development Using Cosmos SDK
@@ -58,7 +58,7 @@ const Development = () => {
                   }}
                 />
                 <Alert
-                  className="alert2001-infra border-none"
+                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background"
                   message={
                     <span className="development-alert-head">
                       IBC Apps and Rollapps Development
@@ -76,7 +76,7 @@ const Development = () => {
                   style={{ padding: 30, marginBottom: "10px", width: "100%" }}
                 />
                 <Alert
-                  className="alert2001-infra border-none"
+                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background"
                   message={
                     <span className="development-alert-head">Code Audits</span>
                   }
@@ -91,7 +91,7 @@ const Development = () => {
                   style={{ padding: 30, marginBottom: "10px", width: "100%" }}
                 />
                 <Alert
-                  className="alert2001-infra border-none"
+                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background"
                   message={
                     <span className="development-alert-head">
                       CosmWasm Smart Contract Development

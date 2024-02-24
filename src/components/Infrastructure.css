@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 40px;
+  @apply px-6 lg:px-0
   /* background: rgba(255, 255, 255, 0.06); */
 }
 .infrasturcture-main-head {
@@ -20,19 +21,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Libre Franklin";
-  font-size: 54px;
+
   font-style: normal;
   font-weight: 700;
-  line-height: 64px;
 }
 .infrastructure-services-h1 {
   color: rgb(225, 225, 225);
   text-align: center;
   font-family: "Libre Franklin";
-  font-size: 54px;
+
   font-style: normal;
   font-weight: 700;
-  line-height: 64px; /* 118.519% */
+
   justify-content: center;
 }
 .bottom-infrastructure {
@@ -60,13 +60,13 @@
     rgba(255, 255, 255, 0) 100%
   );
 }
-.alert3003 {
-  text-align: start;
-  border-radius: 16px;
+
+.alert3003-mobile {
+  border-radius: 0px 16px 16px 0px;
   background: linear-gradient(
-    86deg,
-    rgba(255, 255, 255, 0.06) 0.03%,
-    rgba(255, 255, 255, 0) 101.65%
+    237deg,
+    rgba(255, 255, 255, 0.16) 0.04%,
+    rgba(186, 88, 88, 0) 99.96%
   );
 }
 .alert3003:hover {
@@ -79,6 +79,7 @@
   gap: 24px;
   flex: 1 0 0;
 }
+
 .infrastructure-main-head {
   display: flex;
   flex-direction: column;
@@ -89,10 +90,10 @@
   color: rgb(225, 225, 225);
   text-align: center;
   font-family: "Libre Franklin";
-  font-size: 14px;
+
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+
   letter-spacing: 0.6px;
 }
 .infrastructure-left {

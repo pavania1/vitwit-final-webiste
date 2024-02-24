@@ -16,7 +16,7 @@ import Polama from "../assets/partners/paloma final.png";
 const Delegate = () => {
   const currentAlerts = alertsData.slice(0, 3);
   const [alertsToShow, setAlertsToShow] = useState(currentAlerts);
-  const [fixedAlertsCount, setFixedAlertsCount] = useState(3); 
+  const [fixedAlertsCount, setFixedAlertsCount] = useState(3);
 
   // const textsToType = ["Our Partners", "& Clients"];
 
@@ -67,37 +67,53 @@ const Delegate = () => {
       <div id="partners" className="main-delegate">
         <div className="main22-delegate">
           <div className="delegate-main-head">
-            <div className="subleftdevelop1-delegate">
+            <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
               <h1 style={{ fontFamily: "Libre Franklin" }}>
-                Our Partners  &nbsp;
+                Our Partners &nbsp;
                 <span className="servicesdevelop">& Clients</span>
               </h1>
             </div>
-            <div className="delegate-text-delegate">
+            <div className="delegate-text-delegate sm:hidden xs:hidden md:block">
               Showcasing our esteemed partners and satisfied clients, whose
-              collaborative spirit and trust <p> in our services have driven
-              remarkable innovations and achievements.</p>
+              collaborative spirit and trust{" "}
+              <p>
+                {" "}
+                in our services have driven remarkable innovations and
+                achievements.
+              </p>
             </div>
             <div className="">
-              <div className="partners-logo-1">
-                <img src={Akash} alt="Akash" />
-                <img src={Cosmos} alt="Cosmos" />
-                <img src={Polygen} alt="Polygen" />
-                <img src={Passage} alt="Passage" style={{ width: "200px" }} />
-              </div>
-              <div className="partners-logo-2">
-                <img src={Regen} alt="Regen" />
-                <img src={Chainflow} alt="Chainflow" />
-                <img src={Polama} alt="Cosmoa" style={{ width: "177px" }} />
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
+                <div className="flex justify-center items-center">
+                  <img src={Akash} alt="Akash" className="w-[100px] md:w-fit" />
+                </div>
+                <div className="flex justify-center items-center">
+                  <img src={Cosmos} alt="Cosmos" className="w-[100px] md:w-fit" />
+                </div>
+                <div className="flex justify-center items-center">
+                  <img src={Polygen} alt="Polygen" className="w-[100px] md:w-fit" />
+                </div>
+                <div className="flex justify-center items-center">
+                  <img src={Passage} alt="Passage" className="w-[100px] md:w-[200px]" />
+                </div>
+                <div className="flex items-center justify-center">
+                  <img src={Regen} alt="Regen" className="w-[100px] md:w-fit" />
+                </div>
+                <div className="flex justify-center items-center">
+                  <img src={Chainflow} alt="Chainflow" className="w-[100px] md:w-fit" />
+                </div>
+                <div className="flex justify-center items-center">
+                  <img src={Polama} alt="Cosmoa" className="w-[100px] md:w-[177px]" />
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <div className="bottom-text">
+            <div className="bottom-text xs:hidden sm:hidden md:block">
               Don’t just take our word for it! Here’s what people say about
               Vitwit
             </div>
-            <div>
+            <div className="xs:hidden sm:hidden md:block lg:block">
               <div className="grid grid-cols-3 gap-14">
                 {alertsToShow.map((alert, index) => (
                   <div className="alert-animation cardsanimation" key={index}>

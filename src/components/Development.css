@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  @apply px-6 lg:px-0
 }
 .maindevelop-infra {
   /* width: 90%; */
@@ -17,7 +18,7 @@
   display: flex;
 }
 .leftdevelop-infra {
-  width: 45%;
+  /* width: 45%; */
   /* margin-left: -1%; */
 }
 .RightDevelop-infra {
@@ -38,16 +39,18 @@
   margin-bottom: 1%;
 }
 
+/* .alert2001-infra-mobile {
+  width: 100%;
+  padding: 30px;
+  text-align: start;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+} */
 .alert2001-infra {
   width: 100%;
   padding: 30px;
   text-align: start;
   border-radius: 16px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.06) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
 }
 .alert2001-infra:hover {
   background: #372752;
@@ -230,7 +233,7 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; 
+  line-height: 18px;
   letter-spacing: 0.6px;
 }
 .text-stats {
@@ -254,11 +257,12 @@
   letter-spacing: 0.6px;
 }
 .dot-animation {
-  animation: scaleAndOpacityChange 5s ease-in-out infinite; 
+  animation: scaleAndOpacityChange 5s ease-in-out infinite;
 }
 
 @keyframes scaleAndOpacityChange {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     opacity: 1;
   }
@@ -268,7 +272,10 @@
   }
 }
 
-.dot1-infra, .dot2-infra, .dot3-infra, .dot4-infra {
+.dot1-infra,
+.dot2-infra,
+.dot3-infra,
+.dot4-infra {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -279,15 +286,13 @@
 }
 
 .dot2-infra {
-  animation-delay: 1s; 
+  animation-delay: 1s;
 }
 
 .dot3-infra {
-  animation-delay: 2s; 
+  animation-delay: 2s;
 }
 
 .dot4-infra {
-  animation-delay: 3s; 
+  animation-delay: 3s;
 }
-
-

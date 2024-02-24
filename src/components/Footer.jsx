@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="flex justify-between">
-        <div className="flex flex-col items-start gap-6">
+        <div className="flex flex-col items-start gap-6 sm:hidden xs:hidden md:block">
           <img className="" src={VitwitLogo} alt="Vitwit Logo" />
           <p className="text-[rgb(225,225,225)] text-sm font-normal leading-6 text-left  tracking-[0.6px]">
             {" "}
@@ -21,7 +21,8 @@ const Footer = () => {
             us out <p className="">from the social media links below.</p>
           </p>
         </div>
-        <div className="flex flex-col gap-6 mt-12">
+        <img className="md:hidden sm:block" src={VitwitLogo} alt="Vitwit Logo" />
+        <div className="flex flex-col gap-6 mt-12 xs:hidden sm:hidden md:block">
           <div className="text-[rgb(255,255,255)] text-xl not-italic font-bold leading-5 text-left">
             {" "}
             Join our community
@@ -30,7 +31,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="divider-line"></div>
-      <div className="flex items-center justify-center gap-6 nav-text">
+      <div className="lg:hidden sm:block mx-auto">
+      <SocialIcons/>
+      </div>
+      <div className="flex items-center justify-center gap-6 fotter-text lg:text-base md:text-sm sm:text-sm xs:text-xs">
         <p className="cursor-pointer underline">
           <Link to="/privacy-policy">Privacy Policy</Link>
         </p>

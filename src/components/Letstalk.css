@@ -4,6 +4,7 @@
   width: 100%;
   margin-top: 20%;
   margin-bottom: 20%;
+  @apply px-6 lg:px-0;
 }
 
 .letstalk-para-text {
@@ -26,18 +27,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Libre Franklin";
-  font-size: 54px;
+
   font-style: normal;
   font-weight: 700;
-  line-height: 64px;
+ 
 }
 .lets-text {
   color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
-  font-size: 54px;
+  /* font-size: 54px; */
   font-style: normal;
   font-weight: 700;
-  line-height: 64px; /* 118.519% */
+  /* line-height: 64px;  */
   margin-bottom: 3%;
 }
 .right-letstalk {

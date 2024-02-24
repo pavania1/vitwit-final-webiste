@@ -17,6 +17,7 @@ const LOGOS = [
     name: "Akash",
     icon: Akash,
     size: 55,
+    mobileSize: 30,
     bgColor: "#ed3524",
     hoverColor: "#7D1729",
     link: "https://akash.network/",
@@ -25,6 +26,7 @@ const LOGOS = [
     name: "Cosmos Hub",
     icon: Cosmos,
     size: 55,
+    mobileSize: 30,
     bgColor: "#393F68",
     hoverColor: "#1e2763",
     link: "https://cosmos.network/",
@@ -32,7 +34,8 @@ const LOGOS = [
   {
     name: "Polygon",
     icon: Polygen,
-    size: 60,
+    size: 55,
+    mobileSize: 30,
     bgColor: "#9757da",
     hoverColor: "#5b1b9e",
     link: "https://polygon.technology/",
@@ -40,7 +43,8 @@ const LOGOS = [
   {
     name: "Passage",
     icon: Passage,
-    size: 60,
+    size: 55,
+    mobileSize: 30,
     bgColor: "#808080",
     hoverColor: "#8a7c7c",
     link: "https://passage3d.com/",
@@ -48,7 +52,8 @@ const LOGOS = [
   {
     name: "Regen",
     icon: Regen,
-    size: 50,
+    size: 55,
+    mobileSize: 30,
     bgColor: "#9bd5af",
     hoverColor: "#5cbf7e",
     link: "https://www.regen.network/",
@@ -57,6 +62,7 @@ const LOGOS = [
     name: "Osmosis",
     icon: Osmosis,
     size: 55,
+    mobileSize: 30,
     bgColor: "#a289bf",
     hoverColor: "#6428a8",
     link: "https://osmosis.zone/",
@@ -66,6 +72,7 @@ const LOGOS = [
     name: "Oasis",
     icon: Oasis,
     size: 55,
+    mobileSize: 30,
     bgColor: "#00c6eb",
     hoverColor: "#3da0b3",
     link: "https://oasisprotocol.org/",
@@ -73,7 +80,8 @@ const LOGOS = [
   {
     name: "Stargaze",
     icon: Stargaze,
-    size: 50,
+    size: 55,
+    mobileSize: 30,
     bgColor: "#c8dc7c",
     hoverColor: "#98b52a",
     link: "https://stargaze.zone/",
@@ -82,7 +90,8 @@ const LOGOS = [
   {
     name: "Umee",
     icon: Umee,
-    size: 53,
+    size: 55,
+    mobileSize: 30,
     bgColor: "#e0b0ff",
     hoverColor: "#611d8c",
     link: "https://www.umee.cc/",
@@ -90,7 +99,8 @@ const LOGOS = [
   {
     name: "Evmos",
     icon: Evmos,
-    size: 53,
+    size: 55,
+    mobileSize: 30,
     bgColor: "#f1705b",
     hoverColor: "#ad3e2b",
     link: "https://evmos.org/",
@@ -98,7 +108,8 @@ const LOGOS = [
   {
     name: "Agoric",
     icon: Agoric,
-    size: 50,
+    size: 55,
+    mobileSize: 30,
     bgColor: "#7D1729",
     hoverColor: "#7a071c",
     link: "https://agoric.com/",
@@ -106,7 +117,8 @@ const LOGOS = [
   {
     name: "10+ More",
     icon: "",
-    size: 62,
+    size: 55,
+    mobileSize: 30,
     bgColor: "#808080",
   },
 ];
@@ -143,74 +155,85 @@ const OurPartners = () => {
         <div className="maindevelop-partners">
           {/* leftdevelop cantioner start */}
           <div className="leftdevelop-partners">
-            <div className="subleftdevelop1-partners">
-              <h1>
+            <div className="subleftdevelop1-partners text-start hidden md:block">
+              <h1 className="lg:text-5xl md:text-4xl">
                 Why Delegate
                 <br></br>
-                <span className="servicesdevelop">to us?</span>
+                <span className="servicesdevelop lg:text-5xl md:text-4xl">to us?</span>
               </h1>
             </div>
+            <div className="">
+              <div className="figma2001-infra">
+                <div className="circles-infra ">
+                  <div className="dot1 dot-animationflex flex flex-col justify-center items-center">
+                    <span className="count-text">
+                      $
+                      <CountUp
+                        start={0}
+                        end={40}
+                        duration={2.5}
+                        separator=","
+                      />
+                      M<span>+</span>{" "}
+                    </span>
+                    <span className="text-stats">AUM</span>
+                  </div>
+                  <div className="dot2 dot-animationflex flex flex-col justify-center items-center">
+                    <span className="count-text">
+                      <CountUp
+                        start={0}
+                        end={"19"}
+                        duration={2.5}
+                        separator=","
+                      />
+                      K <span>+</span>{" "}
+                    </span>
 
-            <div className="figma2001-infra">
-              <div className="circles-infra">
-                <div className="dot1 dot-animationflex flex flex-col justify-center items-center">
-                  <span className="count-text">
-                    $<CountUp start={0} end={40} duration={2.5} separator="," />
-                    M<span>+</span>{" "}
-                  </span>
-                  <span className="text-stats">AUM</span>
-                </div>
-                <div className="dot2 dot-animationflex flex flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp
-                      start={0}
-                      end={"19"}
-                      duration={2.5}
-                      separator=","
-                    />
-                    K <span>+</span>{" "}
-                  </span>
+                    <span className="text-stats">Deligators</span>
+                  </div>
+                  <div className="dot3 dot-animationflex flex flex-col justify-center items-center">
+                    <span className="count-text">
+                      <CountUp start={0} end={22} duration={3} />
+                      <span>+</span>{" "}
+                    </span>
 
-                  <span className="text-stats">Deligators</span>
+                    <span className="text-stats"> Validators</span>
+                  </div>
+                  <div className="dot4 dot-animationflex flex-col justify-center items-center">
+                    <span className="count-text">
+                      <CountUp start={0} end={5} duration={3} />
+                    </span>
+                    <span className="text-stats">
+                      Validator <br></br>Advisors{" "}
+                    </span>
+                  </div>
+                  <div className="dot5 dot-animationflex flex-col flex justify-center items-center">
+                    <span className="count-text">
+                      <CountUp start={0} end={10} duration={3} />
+                      <span>+</span>
+                    </span>
+                    <span className="text-stats">Relayers</span>
+                  </div>
+                  <span className="dot6"></span>
+                  <span className="dot10"></span>
+                  <span className="dot7"></span>
+                  <span className="dot9"></span>
                 </div>
-                <div className="dot3 dot-animationflex flex flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp start={0} end={22} duration={3} />
-                    <span>+</span>{" "}
-                  </span>
-
-                  <span className="text-stats"> Validators</span>
-                </div>
-                <div className="dot4 dot-animationflex flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp start={0} end={5} duration={3} />
-                  </span>
-                  <span className="text-stats">
-                    Validator <br></br>Advisors{" "}
-                  </span>
-                </div>
-                <div className="dot5 dot-animationflex flex-col flex justify-center items-center">
-                  <span className="count-text">
-                    <CountUp start={0} end={10} duration={3} />
-                    <span>+</span>
-                  </span>
-                  <span className="text-stats">Relayers</span>
-                </div>
-                <span className="dot6"></span>
-                <span className="dot10"></span>
-                <span className="dot7"></span>
-                <span className="dot9"></span>
               </div>
             </div>
           </div>
           <div className="RightDevelop-partners">
-            <div className="ourpartners-text">
+            <div className="ourpartners-text hidden md:block">
               <p>
                 Discover unparalleled expertise in blockchain development and
                 consulting. Our dedicated team guides you through the
                 complexities of blockchain technology, delivering innovative
                 solutions that drive your business forward.
               </p>
+            </div>
+            <div className="subleftdevelop1-partners text-center  justify-center flex md:hidden">
+              <h1 className="sm:text-2xl xs:text-xl mb-[80px]">Networks</h1> &nbsp;
+              <span className="servicesdevelop sm:text-2xl xs:text-xl mb-10">We Support</span>
             </div>
             <div className="grid grid-cols-3 gap-x-6 gap-y-14">
               {LOGOS.map((logo, logoId) => (
@@ -228,8 +251,7 @@ const OurPartners = () => {
                           <img
                             src={logo.icon}
                             alt={`${logo.name}-logo`}
-                            height={logo.size}
-                            width={logo.size}
+                            className={`w-[${logo.mobileSize}px] h-[${logo.mobileSize}px] lg:w-[${logo.size}px] lg:h-[${logo.size}px]`}
                           />
                         )}
                       </div>
@@ -253,7 +275,7 @@ const OurPartners = () => {
               ))}
             </div>
 
-            <div className="">
+            <div className="hidden md:block">
               <button className="infra-btn infra-icons-text">
                 Stake with VITWIT
               </button>

@@ -1,9 +1,24 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "./Resolute.css";
 
 const Resolute = () => {
   const videoRef1 = useRef();
   const videoRef2 = useRef();
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  // Check screen size on component mount and on resize
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsSmallScreen(window.innerWidth <= 640); // Adjust breakpoint as needed
+    };
+
+    checkScreenSize();
+
+    window.addEventListener("resize", checkScreenSize);
+    return () => {
+      window.removeEventListener("resize", checkScreenSize);
+    };
+  }, []);
 
   // Auto play the videos when they are loaded
   const handleVideoAutoPlay = (videoRef) => {
@@ -14,70 +29,118 @@ const Resolute = () => {
 
   return (
     <div id="resolute" className="resolute">
-      <div className="maindevelop-resolute">
-        <video
-          autoPlay
-          muted
-          loop
-          ref={videoRef1}
-          className="myVideores"
-          onLoadedData={() => handleVideoAutoPlay(videoRef1)}
-        >
-          <source
-            src={process.env.PUBLIC_URL + "/videos/background-video.mp4"}
-            type="video/mp4"
-          />
-        </video>
-        <div className="leftdevelop-resolute flex left-bg w-full ">
-          <div className=" text pl-10">
-            <div className="py-10 ">
-              <span className="text-style-1 ">Resolute</span>
-              <span className="Resolute-Interchain-Interface">
-                Interchain Interface
-              </span>
+      <div
+        className={
+          isSmallScreen ? "flex flex-col items-center" : "maindevelop-resolute"
+        }
+      >
+        {isSmallScreen ? (
+          <div className="small-screen-interface">
+            {/* Your small screen interface here */}
+            <div className="flex flex-col">
+              <div className="text-style-1 text-base mx-auto mb-5">Resolute Interface</div>
+              <video
+                autoPlay
+                muted
+                loop
+                ref={videoRef2}
+                className="myVideop"
+                onLoadedData={() => handleVideoAutoPlay(videoRef2)}
+              >
+                <source
+                  src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
             </div>
-            <div className="text-frame">
-              <p>
+
+            <div className="text-white text-xs not-italic font-normal leading-[18px] justify-center mt-5 pr-4 pl-4 ">
+              <p className="text-center">
                 We are a core tech company passionate about the research and
                 development of technology solutions that transform
                 businesses.chnology solutions that transaction.
               </p>
-              <br />
-              <p>
+              
+              <p className="text-center">
                 We are a core tech company passionate about the research and
                 development of techn`ology solutions that transform
-                businesses.chnology solutions that transaction. We are a core
-                tech company passionate about the research and development of
-                technology solutions that transform businesses.chnology
-                solutions that transaction.
+                businesses.chnology solutions that transaction. 
               </p>
             </div>
-
-            <div className="pb-10">
-              <a href="https://resolute.vitwit.com" target="_blank" rel="noopener noreferrer">
-                <button className="get-touch-btn nav-text mt-6 cursor-pointer">
-                  Connect to resolute
-                </button>
-              </a>
-            </div>
           </div>
-          <div className="RightDevelop-delegate">
+        ) : (
+          <>
+            {/* Your large screen interface here */}
             <video
               autoPlay
               muted
               loop
-              ref={videoRef2}
-              className="myVideop"
-              onLoadedData={() => handleVideoAutoPlay(videoRef2)}
+              ref={videoRef1}
+              className="myVideores"
+              onLoadedData={() => handleVideoAutoPlay(videoRef1)}
             >
               <source
-                src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
+                src={process.env.PUBLIC_URL + "/videos/background-video.mp4"}
                 type="video/mp4"
               />
-              Your browser does not support the video tag.
             </video>
-          </div>
-        </div>
+            <div className="leftdevelop-resolute flex left-bg w-full ">
+              <div className=" text pl-10">
+                <div className="py-10 ">
+                  <span className="text-style-1 ">Resolute</span>
+                  <span className="Resolute-Interchain-Interface">
+                    Interchain Interface
+                  </span>
+                </div>
+                <div className="text-frame">
+                  <p>
+                    We are a core tech company passionate about the research and
+                    development of technology solutions that transform
+                    businesses.chnology solutions that transaction.
+                  </p>
+                  <br />
+                  <p>
+                    We are a core tech company passionate about the research and
+                    development of techn`ology solutions that transform
+                    businesses.chnology solutions that transaction. We are a
+                    core tech company passionate about the research and
+                    development of technology solutions that transform
+                    businesses.chnology solutions that transaction.
+                  </p>
+                </div>
+
+                <div className="pb-10">
+                  <a
+                    href="https://resolute.vitwit.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="get-touch-btn nav-text mt-6 cursor-pointer">
+                      Connect to resolute
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div className="RightDevelop-delegate">
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  ref={videoRef2}
+                  className="myVideop"
+                  onLoadedData={() => handleVideoAutoPlay(videoRef2)}
+                >
+                  <source
+                    src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

@@ -16,11 +16,11 @@
 .subleftdevelop1-delegate h1 {
   opacity: 0.8;
   font-family: "Libre Franklin";
-  font-size: 54px;
+
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 64px;
+
   letter-spacing: 0.6px;
   text-align: center;
   color: rgb(225, 225, 225);
@@ -91,12 +91,9 @@
   margin-bottom: 4%;
 }
 .alert2001 {
- 
   text-align: start;
   background: #1e0b1f;
   margin-bottom: 30%;
-
- 
 }
 .Jack-Zampolin {
   opacity: 0.8;
@@ -108,7 +105,7 @@
   font-style: normal;
   /* line-height: 1.71; */
   letter-spacing: 0.56px;
- 
+
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -163,8 +160,6 @@
   margin-right: 20px; 
 } */
 
-
-
 @keyframes fade {
   0% {
     opacity: 0;
@@ -180,12 +175,8 @@
   }
 }
 .cardsanimation {
-  animation: fade 10s infinite; 
+  animation: fade 10s infinite;
 }
-
-
-
-
 
 /* .alert-animation {
   animation: scaleIn 3s ease-in-out infinite; 
@@ -202,14 +193,11 @@
   }
 } */
 
-
 .center-buttons {
   /* text-align: center; */
   /* margin-top: 20px;  */
 }
 
 .center-buttons button {
-  margin: 100px  10px; 
+  margin: 100px 10px;
 }
-
-

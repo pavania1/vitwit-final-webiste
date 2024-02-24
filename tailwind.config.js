@@ -4,7 +4,11 @@ module.exports = {
   "./src/components/*.{html,js,jsx}"
 ],
   theme: {
-    extend: {},
+    extend: {
+      gridColumn: {
+        'span-1.5' : 'span 1.5 / span 1.5',
+      }
+    },
     screens: {
       'xs': '350px',
       'sm': '640px',
