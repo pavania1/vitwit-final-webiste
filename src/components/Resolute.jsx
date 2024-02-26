@@ -47,9 +47,10 @@ const Resolute = () => {
                 </h1>
               </div>
               <video
-                autoPlay
+                // autoPlay
                 muted
-                loop
+                // loop
+                controls
                 ref={videoRef2}
                 className="myVideop"
                 onLoadedData={() => handleVideoAutoPlay(videoRef2)}
