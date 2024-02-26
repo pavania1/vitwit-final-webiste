@@ -72,6 +72,25 @@
   justify-content: start;
   text-align: start;
 }
+.background-video {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  opacity: 50%;
+}
+.mobile-reolute {
+  width: 100%;
+  max-width: 1280px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 30;
+}
 /* .resolute-btn {
   display: flex;
   padding: 16px 40px;
@@ -109,6 +128,14 @@
   object-position: left;
 
   @apply md:h-[100%]
+}
+.video-control-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .myVideores {
   right: 0;

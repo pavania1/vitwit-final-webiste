@@ -37,7 +37,7 @@ body {
     @apply w-[150px] h-[39.725px] shrink-0;
   }
   .menu-list {
-    @apply flex justify-end items-start gap-12 py-12 cursor-pointer;
+    @apply flex justify-end items-start gap-12  cursor-pointer;
   }
   .get-touch-btn {
     @apply flex justify-center items-center gap-2.5 h-10  px-6 py-2  border-solid  rounded-xl;

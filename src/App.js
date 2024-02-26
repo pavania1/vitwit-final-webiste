@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import OurPartners from "./components/OurPartners";
 import Resolute from "./components/Resolute";
 import Backtotop from "./components/Backtotop";
+import ContactPopup from "./components/ContactPopup";
 
 function App() {
   const [colorChange, setColorchange] = useState(false);
@@ -63,6 +64,7 @@ function App() {
         style={{ background: "rgba(255, 255, 255, 0.06)" }}
       >
         <Footer />
+       
       </div>
       <Backtotop />
     </div>

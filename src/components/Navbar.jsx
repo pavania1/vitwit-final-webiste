@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="nav">
       <img className="nav__logo px-4" src={VitwitLogo} alt="Vitwit Logo" />
-      <div className="menu-list nav-text sm:hidden py-10 xs:hidden md:flex lg:flex">
+      <div className="menu-list nav-text sm:hidden  xs:hidden md:flex lg:flex">
         <a href="#landing">About Us</a>
         <a href="#infrastructure">Services</a>
 

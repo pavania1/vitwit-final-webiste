@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   /* gap: 40px; */
-  @apply px-6 pb-0 pt-6 lg:px-0 lg:py-10;
+  @apply px-6 pb-6 pt-10 lg:px-0 lg:py-10;
 }
 .maindevelop-infra {
   /* width: 90%; */

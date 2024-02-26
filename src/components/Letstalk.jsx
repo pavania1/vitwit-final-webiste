@@ -11,7 +11,7 @@ const Letstalk = () => {
         <div className="lets-text lg:hidden lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl ">
          Get in &nbsp;<span className="talk-text lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">Touch</span>
         </div>
-        <p className="letstalk-para-text  sm:text-xs xs:text-xs lg:text-sm md:text-sm">
+        <p className="letstalk-para-text  sm:text-xs xs:text-xs lg:text-sm md:text-sm text-center">
           {" "}
           Feel free to conatct us by filling this form or you can even reach us
           out from the social media links below.
