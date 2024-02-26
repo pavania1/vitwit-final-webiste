@@ -38,7 +38,14 @@ const Resolute = () => {
           <div className="small-screen-interface">
             {/* Your small screen interface here */}
             <div className="flex flex-col">
-              <div className="text-style-1 text-base mx-auto mb-5">Resolute Interface</div>
+              <div className="infrastructure-services-h1 lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-4 mt-4">
+                <h1>
+                  Resolute &nbsp;
+                  <span className="infrastructure-services lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
+                    Interchain Interface
+                  </span>
+                </h1>
+              </div>
               <video
                 autoPlay
                 muted
@@ -55,17 +62,17 @@ const Resolute = () => {
               </video>
             </div>
 
-            <div className="text-white text-xs not-italic font-normal leading-[18px] justify-center mt-5 pr-4 pl-4 ">
-              <p className="text-center">
+            <div className=" text-xs not-italic font-normal leading-[18px] justify-center mt-4 pr-4 pl-4 text-[rgb(225,225,225)]">
+              <p className="text-left">
                 We are a core tech company passionate about the research and
                 development of technology solutions that transform
                 businesses.chnology solutions that transaction.
               </p>
-              
-              <p className="text-center">
+
+              <p className="text-left">
                 We are a core tech company passionate about the research and
                 development of techn`ology solutions that transform
-                businesses.chnology solutions that transaction. 
+                businesses.chnology solutions that transaction.
               </p>
             </div>
           </div>

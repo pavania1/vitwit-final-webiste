@@ -23,7 +23,7 @@ const Infrastructure = () => {
             </h1>
           </div>
 
-          <div className="infrastructure-text sm:text-xs xs:text-xs lg:text-sm md:text-sm ">
+          <div className="infrastructure-text sm:text-xs xs:text-xs lg:text-sm md:text-sm">
             We specialize in providing robust and scalable infrastructure
             solutions tailored to the unique needs of your blockchain projects.
           </div>

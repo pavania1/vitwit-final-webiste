@@ -9,8 +9,8 @@
   padding: 40px 0px;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
-  @apply px-6 lg:px-0
+  /* gap: 40px; */
+  @apply px-6 pb-0 pt-6 lg:px-0 lg:py-10;
 }
 .maindevelop-infra {
   /* width: 90%; */
@@ -33,8 +33,8 @@
 .subleftdevelop1-infra h1 {
   color: rgb(225, 225, 225);
   font-weight: 600;
-  width: 50%;
-  text-align: start;
+  /* width: 50%; */
+  /* text-align: start; */
   font-family: "Libre Franklin";
   margin-bottom: 1%;
 }
@@ -70,7 +70,8 @@
   align-items: center;
   position: relative;
   left: 30%;
-  margin-top: 45%;
+  /* margin-top: 45%; */
+  top: 10rem;
   color: #fff;
   font-weight: 600;
   font-size: 18px;
@@ -84,9 +85,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  left: 63%;
-  top: -345px;
+  position: absolute;
+  /* left: 63%; */
+  right: 0;
+  /* top: -345px; */
+  top: 7rem;
   color: #fff;
   font-weight: 500;
   font-size: 16px;
@@ -100,10 +103,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  /* left: 80%; */
-  right: -6%;
-  top: -562px;
+  position: absolute;
+  left: 5%;
+  /* right: -6%; */
+  /* top: -562px; */
+  top: 13rem;
   color: #fff;
   font-weight: 500;
   font-size: 12px;
@@ -114,9 +118,9 @@
   width: 208px;
   border-radius: 50%;
   display: flex;
-  position: relative;
+  position: absolute;
   left: 23%;
-  margin-top: -935px;
+  top: 5rem;
   color: #fff;
   text-align: center;
   font-family: "Libre Franklin";
@@ -150,11 +154,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(251, 250, 250, 0.04); */
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   left: 10%;
-  margin-top: -20%;
+  top: 30%;
   background: rgba(148, 116, 246, 0.4);
 }
 .dot7-infra {
@@ -164,9 +167,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  position: relative;
-  left: 78%;
-  margin-top: 40%;
+  position: absolute;
+  left: 68%;
+  top: 15%;
+  /* margin-top: 40%; */
   background: rgba(224, 176, 255, 0.2);
 }
 .dot8-infra {
@@ -179,7 +183,7 @@
   border-radius: 50%;
   position: relative;
   left: 72%;
-  margin-top: -10%;
+  /* margin-top: -10%; */
   background: linear-gradient(
     90deg,
     rgba(224, 176, 255, 0.2) 0%,
@@ -194,9 +198,11 @@
   align-items: center;
   /* background-color: rgba(251, 250, 250, 0.04); */
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   left: 26%;
-  margin-top: 2%;
+  /* top: 100%; */
+  bottom: -12rem;
+  /* margin-top: 2%; */
   background: rgba(132, 224, 194, 0.8);
 }
 .dot10-infra {
@@ -206,9 +212,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  position: relative;
-  left: 71%;
-  margin-top: -12%;
+  position: absolute;
+  /* left: 71%; */
+  right: 60px;
+  top: 23rem;
+  /* margin-top: -12%; */
   background: rgba(240, 117, 118, 0.6);
 }
 .figma2001-infra {

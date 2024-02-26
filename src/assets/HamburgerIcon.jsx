@@ -1,6 +1,6 @@
 import React from "react";
 
-const HamburgerIcon = ({height=48, width=48, stroke="#FFFFFF"}) => {
+const HamburgerIcon = ({height=35, width=35, stroke="#FFFFFF"}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

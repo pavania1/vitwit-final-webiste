@@ -83,27 +83,47 @@ const Delegate = () => {
               </p>
             </div>
             <div className="">
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8">
                 <div className="flex justify-center items-center">
                   <img src={Akash} alt="Akash" className="w-[100px] md:w-fit" />
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src={Cosmos} alt="Cosmos" className="w-[100px] md:w-fit" />
+                  <img
+                    src={Cosmos}
+                    alt="Cosmos"
+                    className="w-[100px] md:w-fit"
+                  />
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src={Polygen} alt="Polygen" className="w-[100px] md:w-fit" />
+                  <img
+                    src={Polygen}
+                    alt="Polygen"
+                    className="w-[100px] md:w-fit"
+                  />
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src={Passage} alt="Passage" className="w-[100px] md:w-[200px]" />
+                  <img
+                    src={Passage}
+                    alt="Passage"
+                    className="w-[100px] md:w-[200px]"
+                  />
                 </div>
                 <div className="flex items-center justify-center">
                   <img src={Regen} alt="Regen" className="w-[100px] md:w-fit" />
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src={Chainflow} alt="Chainflow" className="w-[100px] md:w-fit" />
+                  <img
+                    src={Chainflow}
+                    alt="Chainflow"
+                    className="w-[100px] md:w-fit"
+                  />
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src={Polama} alt="Cosmoa" className="w-[100px] md:w-[177px]" />
+                  <img
+                    src={Polama}
+                    alt="Cosmoa"
+                    className="w-[100px] md:w-[177px]"
+                  />
                 </div>
               </div>
             </div>

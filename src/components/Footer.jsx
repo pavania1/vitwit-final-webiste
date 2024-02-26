@@ -21,9 +21,9 @@ const Footer = () => {
             us out <p className="">from the social media links below.</p>
           </p>
         </div>
-        <img className="md:hidden sm:block" src={VitwitLogo} alt="Vitwit Logo" />
+        <img className="md:hidden sm:block w-[100px]" src={VitwitLogo} alt="Vitwit Logo" />
         <div className="flex flex-col gap-6 mt-12 xs:hidden sm:hidden md:block">
-          <div className="text-[rgb(255,255,255)] text-xl not-italic font-bold leading-5 text-left">
+          <div className="text-[rgb(255,255,255)] text-xl not-italic font-bold leading-5 text-left mb-5">
             {" "}
             Join our community
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="divider-line"></div>
-      <div className="lg:hidden sm:block mx-auto">
+      <div className="lg:hidden sm:block">
       <SocialIcons/>
       </div>
       <div className="flex items-center justify-center gap-6 fotter-text lg:text-base md:text-sm sm:text-sm xs:text-xs">
@@ -51,7 +51,7 @@ export default Footer;
 
 const SocialIcons = () => {
   return (
-    <div className="flex gap-6">
+    <div className="flex lg:gap-6 justify-between">
       <SocialLink link="https://twitter.com/vitwit_" icon={TwitterLogo} />
       <SocialLink link="https://github.com/vitwit" icon={GithubLogo} />
       <SocialLink

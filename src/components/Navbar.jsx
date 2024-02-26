@@ -9,8 +9,8 @@ const Navbar = () => {
   const handleClick = () => setOpen(!open);
   return (
     <div className="nav">
-      <img className="nav__logo" src={VitwitLogo} alt="Vitwit Logo" />
-      <div className="menu-list nav-text sm:hidden xs:hidden md:flex lg:flex">
+      <img className="nav__logo px-4" src={VitwitLogo} alt="Vitwit Logo" />
+      <div className="menu-list nav-text sm:hidden py-10 xs:hidden md:flex lg:flex">
         <a href="#landing">About Us</a>
         <a href="#infrastructure">Services</a>
 
@@ -24,24 +24,32 @@ const Navbar = () => {
       </div>
       <div
         onClick={handleClick}
-        className="md:hidden lg:hidden xs:block sm:block cursor-pointer"
+        className="md:hidden lg:hidden xs:block sm:block cursor-pointer pr-4"
       >
         <HamburgerIcon />
       </div>
 
       {open ? (
-        <div className="mobile-list nav-text md:hidden lg:hidden xs:flex sm:flex cursor-pointer">
+        <div className="w-full h-full absolute top-0">
+          <div className="mobile-list nav-text md:hidden lg:hidden xs:flex sm:flex cursor-pointer">
+            <a className="my-2" href="#landing">
+              About Us
+            </a>
+            <a className="my-2" href="#infrastructure">
+              Services
+            </a>
+
+            <a className="my-2" href="#partners">
+              Partners
+            </a>
+            <a className="my-2" href="#resolute">
+              Resolute
+            </a>
+          </div>
           <div
             onClick={handleClick}
-            className="md:hidden lg:hidden xs:block sm:block cursor-pointer right-10 absolute"
-          >
-            <CloseIcon />
-          </div>
-          <a href="#landing">About Us</a>
-          <a href="#infrastructure">Services</a>
-
-          <a href="#partners">Partners</a>
-          <a href="#resolute">Resolute</a>
+            className="md:hidden lg:hidden xs:block sm:block cursor-pointer absolute h-[70vh] z-50 top-[30vh] w-full"
+          ></div>
         </div>
       ) : null}
     </div>

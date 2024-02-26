@@ -159,10 +159,12 @@ const OurPartners = () => {
               <h1 className="lg:text-5xl md:text-4xl">
                 Why Delegate
                 <br></br>
-                <span className="servicesdevelop lg:text-5xl md:text-4xl">to us?</span>
+                <span className="servicesdevelop lg:text-5xl md:text-4xl">
+                  to us?
+                </span>
               </h1>
             </div>
-            <div className="">
+            <div className="sm:hidden xs:hidden lg:block">
               <div className="figma2001-infra">
                 <div className="circles-infra ">
                   <div className="dot1 dot-animationflex flex flex-col justify-center items-center">
@@ -232,10 +234,13 @@ const OurPartners = () => {
               </p>
             </div>
             <div className="subleftdevelop1-partners text-center  justify-center flex md:hidden">
-              <h1 className="sm:text-2xl xs:text-xl mb-[80px]">Networks</h1> &nbsp;
-              <span className="servicesdevelop sm:text-2xl xs:text-xl mb-10">We Support</span>
+              <h1 className="sm:text-2xl xs:text-xl ">Networks</h1>{" "}
+              &nbsp;
+              <span className="servicesdevelop sm:text-2xl xs:text-xl mb-10">
+                We Support
+              </span>
             </div>
-            <div className="grid grid-cols-3 gap-x-6 gap-y-14">
+            <div className="grid grid-cols-3  gap-y-14">
               {LOGOS.map((logo, logoId) => (
                 <div key={logoId} className="grid-item ">
                   <a href={logo.link} target="_blank" rel="noopener noreferrer">
@@ -251,7 +256,8 @@ const OurPartners = () => {
                           <img
                             src={logo.icon}
                             alt={`${logo.name}-logo`}
-                            className={`w-[${logo.mobileSize}px] h-[${logo.mobileSize}px] lg:w-[${logo.size}px] lg:h-[${logo.size}px]`}
+                            // className={`w-[${logo.mobileSize}px] h-[${logo.mobileSize}px] lg:w-[${logo.size}px] lg:h-[${logo.size}px]`}
+                          className="sm:w-[30px] xs:w-[40px] lg:w-[55px]"
                           />
                         )}
                       </div>

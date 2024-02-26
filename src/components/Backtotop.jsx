@@ -26,8 +26,8 @@ const Backtotop = () => {
         <button className="contact__socials-bg"
           style={{
             position: "fixed",
-            bottom: "50px",
-            right: "50px",
+            bottom: "10px",
+            right: "5px",
             // height: "50px",
             // width: "50px",
             fontSize: "30px",
