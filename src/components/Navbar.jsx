@@ -2,11 +2,17 @@ import React, { useState } from "react";
 import VitwitLogo from "../assets/vitwit-logo.png";
 import HamburgerIcon from "../assets/HamburgerIcon";
 import CloseIcon from "../assets/CloseIcon";
+import GetinTouch from "./GetinTouch";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const handleClick = () => setOpen(!open);
+  const [showGetInTouch, setShowGetInTouch] = useState(false);
+
+  const handleGetInTouchClick = () => {
+    setShowGetInTouch(true);
+  }
   return (
     <div className="nav">
       <img className="nav__logo px-4" src={VitwitLogo} alt="Vitwit Logo" />
@@ -17,8 +23,8 @@ const Navbar = () => {
         <a href="#partners">Partners</a>
         <a href="#resolute">Resolute</a>
         <div>
-          <button className="get-touch-btn">
-            <a href="#letstalk">Get in touch</a>
+          <button className="get-touch-btn" onClick={handleGetInTouchClick}>
+            Get in touch
           </button>
         </div>
       </div>
@@ -52,6 +58,7 @@ const Navbar = () => {
           ></div>
         </div>
       ) : null}
+      {showGetInTouch && <GetinTouch open={true} />}
     </div>
   );
 };

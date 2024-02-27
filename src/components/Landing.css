@@ -26,7 +26,8 @@
   /* padding: 60px 40px; */
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
+  /* gap: 40px; */
+  @apply xs:gap-5 sm:gap-5 lg:gap-10;
 }
 .landing-text-main {
   display: flex;

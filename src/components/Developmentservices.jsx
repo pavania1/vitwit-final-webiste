@@ -10,7 +10,7 @@ const Development = () => {
         <div className="flex m-auto flex-col">
           {/* leftdevelop cantioner start */}
           <div className="justify-between xs:hidden sm:hidden lg:flex">
-            <div className="subleftdevelop1-infra">
+            <div className="subleftdevelop1-infra lg:text-left mb-4">
               <h1 className="lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl m-0 p-0">
                 Development
                 <br></br>
@@ -19,7 +19,7 @@ const Development = () => {
                 </span>
               </h1>
             </div>
-            <div className="development-alert-text w-[50%]">
+            <div className="development-alert-text w-[50%]  lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px] text-left">
               Discover unparalleled expertise in blockchain development and
               consulting. Our dedicated team guides you through the complexities
               of blockchain technology, delivering innovative solutions that
@@ -35,7 +35,7 @@ const Development = () => {
                 </span>
               </h1>
             </div>
-            <div className="development-alert-text">
+            <div className="development-alert-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px] mb-4">
               Discover unparalleled expertise in blockchain development and
               consulting. Our dedicated team guides you through the complexities
               of blockchain technology, delivering innovative solutions that
@@ -45,21 +45,21 @@ const Development = () => {
           <div className="flex flex-col-reverse md:flex-row">
             <div className="leftdevelop-infra md:w-[45%]">
               <Space
-                className="space-alert-dev gap-4"
+                className="space-alert-dev gap-8"
                 direction="vertical"
                 style={{
                   width: "100%",
                 }}
               >
                 <Alert
-                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background"
+                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
                   message={
-                    <span className="development-alert-head">
+                    <span className="development-alert-head lg:text-sm md:text-sm sm:text-xs xs:text-xs ">
                       Blockchain Development Using Cosmos SDK
                     </span>
                   }
                   description={
-                    <span className="development-alert-text">
+                    <span className="development-alert-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
                       Harness the power of the Cosmos SDK to build scalable,
                       interoperable blockchain networks. Our expertise ensures
                       your project is developed with cutting-edge technology for
@@ -74,14 +74,14 @@ const Development = () => {
                   }}
                 />
                 <Alert
-                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background"
+                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
                   message={
-                    <span className="development-alert-head">
+                    <span className="development-alert-head lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                       IBC Apps and Rollapps Development
                     </span>
                   }
                   description={
-                    <span className="development-alert-text">
+                    <span className="development-alert-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
                       Expand your blockchain's capabilities with IBC apps and
                       Rollapps, creating seamless connections and
                       functionalities across different chains. Our development
@@ -107,14 +107,14 @@ const Development = () => {
                   style={{ padding: 30, marginBottom: "10px", width: "100%" }}
                 /> */}
                 <Alert
-                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background"
+                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
                   message={
-                    <span className="development-alert-head">
+                    <span className="development-alert-head lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                       CosmWasm Smart Contract Development
                     </span>
                   }
                   description={
-                    <span className="development-alert-text">
+                    <span className="development-alert-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
                       Leverage the flexibility of CosmWasm for building
                       powerful, secure smart contracts. Our team specializes in
                       crafting custom solutions that bring your blockchain

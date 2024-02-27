@@ -83,7 +83,7 @@ const Delegate = () => {
               </p>
             </div>
             <div className="">
-              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8">
+              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-10">
                 <div className="flex justify-center items-center">
                   <img src={Akash} alt="Akash" className="w-[100px] md:w-fit" />
                 </div>
@@ -129,11 +129,11 @@ const Delegate = () => {
             </div>
           </div>
           <div>
-            <div className="bottom-text xs:hidden sm:hidden md:block">
+            <div className="bottom-text xs:hidden sm:hidden md:block mt-10 mb-40">
               Don’t just take our word for it! Here’s what people say about
               Vitwit
             </div>
-            <div className="xs:hidden sm:hidden md:block lg:block">
+            <div className="xs:hidden sm:hidden md:block lg:block mt-10">
               <div className="grid grid-cols-3 gap-14">
                 {alertsToShow.map((alert, index) => (
                   <div className="alert-animation cardsanimation" key={index}>

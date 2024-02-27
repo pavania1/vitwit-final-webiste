@@ -31,7 +31,7 @@ body {
 } */
 @layer components {
   .nav {
-    @apply flex justify-between items-start w-full  lg:px-0;;
+    @apply flex justify-between items-start w-full  lg:px-0;
   }
   .nav__logo {
     @apply w-[150px] h-[39.725px] shrink-0;
@@ -163,5 +163,18 @@ body {
       rgba(186, 88, 88, 0) 0.04%,
       rgba(255, 255, 255, 0.16) 99.96%
     );
+  }
+  /* Get in Touch */
+  .getintouch-grid {
+    @apply flex flex-col justify-center items-center gap-10 shrink-0 p-10;
+    background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
+  }
+  .getintouch-v-line {
+    @apply h-0.5 self-stretch;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  /* ContactPopup */
+  .contact-grid {
+    background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
   }
 }
