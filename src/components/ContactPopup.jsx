@@ -3,9 +3,9 @@ import { Dialog, DialogContent } from "@mui/material";
 import Envelope from "../assets/envelope.svg";
 import Map from "../assets/map.svg";
 
-const ContactPopup = ({ open }) => {
+const ContactPopup = ({ open, close }) => {
   return (
-    <Dialog open={open} maxWidth="sm" PaperProps={{
+    <Dialog open={open} onClose={close} maxWidth="sm" PaperProps={{
         sx:{
             borderRadius: 4
         }

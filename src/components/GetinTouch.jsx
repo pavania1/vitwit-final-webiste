@@ -7,9 +7,9 @@ import LinkedInLogo from "../assets/social-icons/linkedln.png";
 import TwitterLogo from "../assets/social-icons/twitter.png";
 import TelegramLogo from "../assets/social-icons/telegram.png";
 
-const GetinTouch = ({ open }) => {
+const GetinTouch = ({ open, close }) => {
   return (
-    <Dialog open={open} maxWidth="lg" PaperProps={{
+    <Dialog open={open} onClose={close} maxWidth="lg" PaperProps={{
         sx:{
             borderRadius: 4
         }

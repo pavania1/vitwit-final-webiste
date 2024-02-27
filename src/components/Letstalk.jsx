@@ -39,7 +39,9 @@ const Letstalk = () => {
           </button>
         </div>
       </div>
-      {showContactPopup && <ContactPopup open={true} />}
+      <ContactPopup open={showContactPopup} close={()=>{
+        setShowContactPopup(false)
+      }}/>
     </div>
   );
 };

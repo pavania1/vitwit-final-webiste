@@ -7,7 +7,7 @@ const Landing = () => {
   const videoRef = useRef();
   const words = [
     "Appchain development",
-    "Ibc-app development",
+    "IBC-app development",
     "Road to mainnet",
     "Protocol research",
     "Web3 infrastructure",

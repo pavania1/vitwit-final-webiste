@@ -58,7 +58,10 @@ const Navbar = () => {
           ></div>
         </div>
       ) : null}
-      {showGetInTouch && <GetinTouch open={true} />}
+  
+      <GetinTouch open={showGetInTouch} close={()=> {
+        setShowGetInTouch(false)
+      }}/>
     </div>
   );
 };
