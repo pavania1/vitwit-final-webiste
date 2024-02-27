@@ -73,7 +73,7 @@ const Delegate = () => {
                 <span className="servicesdevelop">& Clients</span>
               </h1>
             </div>
-            <div className="delegate-text-delegate sm:hidden xs:hidden md:block">
+            <div className="delegate-text-delegate  sm:hidden xs:hidden md:block">
               Showcasing our esteemed partners and satisfied clients, whose
               collaborative spirit and trust{" "}
               <p>

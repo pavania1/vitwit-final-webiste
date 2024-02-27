@@ -10,7 +10,6 @@ import Navbar from "./components/Navbar";
 import OurPartners from "./components/OurPartners";
 import Resolute from "./components/Resolute";
 import Backtotop from "./components/Backtotop";
-import ContactPopup from "./components/ContactPopup";
 
 function App() {
   const [colorChange, setColorchange] = useState(false);
@@ -26,8 +25,8 @@ function App() {
     <div className="App w-full flex flex-col justify-center items-center justify-items-center overflow-x-hidden">
       <div
         className={`${
-          colorChange ? "background-nav   pt-4 pb-4  " : "pt-6 pb-6 "
-        } navbar-fixed z-50`}
+          colorChange ? "   pt-6 pb-6 " : "pt-6 pb-6 "
+        } navbar-fixed z-50 background-nav `}
       >
         <div className="max-w-[1280px]  mx-auto">
           <Navbar />

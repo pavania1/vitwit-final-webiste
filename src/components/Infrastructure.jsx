@@ -23,7 +23,7 @@ const Infrastructure = () => {
             </h1>
           </div>
 
-          <div className="infrastructure-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+          <div className="infrastructure-text  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
             We specialize in providing robust and scalable infrastructure
             solutions tailored to the unique needs of your blockchain projects.
           </div>
@@ -38,11 +38,11 @@ const Infrastructure = () => {
                     <div className="validator-dot mb-3">
                       <img src={Validator} alt="Validator-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-sm md:text-sm sm:text-xs xs:text-xs ">Validator</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Validator</span>
                   </div>
                 }
                 description={
-                  <span className="infra-text-para lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+                  <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                     Akash Network, the world’s first decentralized and
                     open-source cloud, accelerates deployment.
                   </span>
@@ -57,11 +57,11 @@ const Infrastructure = () => {
                     <div className="relayer-dot mb-3">
                       <img src={Relayer} alt="Relayer-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">Relayer</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Relayer</span>
                   </div>
                 }
                 description={
-                  <span className="infra-text-para lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+                  <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                     Akash Network, the world’s first decentralized and
                     open-source cloud, accelerates deployment.
                   </span>
@@ -76,11 +76,11 @@ const Infrastructure = () => {
                     <div className="advisory-dot mb-3">
                       <img src={Advisory} alt="validatoradvisory-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">Validator advisory</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Validator advisory</span>
                   </div>
                 }
                 description={
-                  <span className="infra-text-para lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+                  <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                     Akash Network, the world’s first decentralized and
                     open-source cloud, accelerates deployment.
                   </span>
@@ -95,11 +95,11 @@ const Infrastructure = () => {
                     <div className="testing-dot mb-3">
                       <img src={Testing} alt="testing-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">E2E testing</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">E2E testing</span>
                   </div>
                 }
                 description={
-                  <span className="infra-text-para lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px] ">
+                  <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs ">
                     Akash Network, the world’s first decentralized and
                     open-source cloud, accelerates deployment.
                   </span>
@@ -114,13 +114,13 @@ const Infrastructure = () => {
                     <div className="white-label mb-3">
                       <img src={WhiteLabel} alt="whitelabel-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                       White-label services
                     </span>
                   </div>
                 }
                 description={
-                  <span className="infra-text-para lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+                  <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                     Akash Network, the world’s first decentralized and
                     open-source cloud, accelerates deployment.
                   </span>
@@ -135,11 +135,11 @@ const Infrastructure = () => {
                     <div className="genesis-dot mb-3">
                       <img src={Genesis} alt="genesis-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">Genesis Launch</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Genesis Launch</span>
                   </div>
                 }
                 description={
-                  <span className="infra-text-para lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+                  <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                     Akash Network, the world’s first decentralized and
                     open-source cloud, accelerates deployment.
                   </span>

@@ -225,7 +225,7 @@ const OurPartners = () => {
             </div>
           </div>
           <div className="RightDevelop-partners">
-            <div className="ourpartners-text hidden md:block">
+            <div className="ourpartners-text hidden  lg:text-sm md:text-sm sm:text-xs xs:text-xs md:block">
               <p>
                 Discover unparalleled expertise in blockchain development and
                 consulting. Our dedicated team guides you through the

@@ -19,7 +19,7 @@ const Development = () => {
                 </span>
               </h1>
             </div>
-            <div className="development-alert-text w-[50%]  lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px] text-left">
+            <div className="development-alert-text w-[50%]  lg:text-sm md:text-sm sm:text-xs xs:text-xs text-left">
               Discover unparalleled expertise in blockchain development and
               consulting. Our dedicated team guides you through the complexities
               of blockchain technology, delivering innovative solutions that
@@ -35,7 +35,7 @@ const Development = () => {
                 </span>
               </h1>
             </div>
-            <div className="development-alert-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px] mb-4">
+            <div className="development-alert-text lg:text-sm md:text-sm sm:text-xs xs:text-xs mb-4">
               Discover unparalleled expertise in blockchain development and
               consulting. Our dedicated team guides you through the complexities
               of blockchain technology, delivering innovative solutions that
@@ -54,12 +54,12 @@ const Development = () => {
                 <Alert
                   className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
                   message={
-                    <span className="development-alert-head lg:text-sm md:text-sm sm:text-xs xs:text-xs ">
+                    <span className="development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm ">
                       Blockchain Development Using Cosmos SDK
                     </span>
                   }
                   description={
-                    <span className="development-alert-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+                    <span className="development-alert-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                       Harness the power of the Cosmos SDK to build scalable,
                       interoperable blockchain networks. Our expertise ensures
                       your project is developed with cutting-edge technology for
@@ -76,12 +76,12 @@ const Development = () => {
                 <Alert
                   className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
                   message={
-                    <span className="development-alert-head lg:text-sm md:text-sm sm:text-xs xs:text-xs">
+                    <span className="development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm">
                       IBC Apps and Rollapps Development
                     </span>
                   }
                   description={
-                    <span className="development-alert-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+                    <span className="development-alert-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                       Expand your blockchain's capabilities with IBC apps and
                       Rollapps, creating seamless connections and
                       functionalities across different chains. Our development
@@ -109,12 +109,12 @@ const Development = () => {
                 <Alert
                   className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
                   message={
-                    <span className="development-alert-head lg:text-sm md:text-sm sm:text-xs xs:text-xs">
+                    <span className="development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm">
                       CosmWasm Smart Contract Development
                     </span>
                   }
                   description={
-                    <span className="development-alert-text lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+                    <span className="development-alert-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                       Leverage the flexibility of CosmWasm for building
                       powerful, secure smart contracts. Our team specializes in
                       crafting custom solutions that bring your blockchain
