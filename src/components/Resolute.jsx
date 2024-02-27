@@ -117,7 +117,7 @@ const Resolute = () => {
             <div className="leftdevelop-resolute flex left-bg w-full ">
               <div className=" text pl-10">
                 <div className="py-10 ">
-                  <span className="text-style-1 ">Resolute</span>
+                  <span className="text-style-1 text-[35px]">Resolute</span>
                   <span className="Resolute-Interchain-Interface">
                     Interchain Interface
                   </span>

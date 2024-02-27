@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Landing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-// import LandingImage from "../assets/landing-image.png"
-import LandingImage from "../assets/laning-image.png";
+
 
 const Landing = () => {
   const videoRef = useRef();

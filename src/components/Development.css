@@ -27,11 +27,11 @@
 }
 .RightDevelop-infra p {
   text-align: start;
-  color: rgb(225, 225, 225);
+  color: white;
   margin-left: 18px;
 }
 .subleftdevelop1-infra h1 {
-  color: rgb(225, 225, 225);
+  color: white;
   font-weight: 600;
   /* width: 50%; */
   /* text-align: start; */
@@ -228,7 +228,7 @@
   /* margin-right: -15%; */
 }
 .development-alert-head {
-  color: rgb(225, 225, 225);
+  color: white;
   font-family: "Libre Franklin";
   /* font-size: 20px; */
   font-style: normal;
@@ -236,7 +236,7 @@
   line-height: 24px; 
 }
 .development-alert-text {
-  color: rgb(225, 225, 225);
+  color: white;
   font-family: "Libre Franklin";
   /* font-size: 12px; */
   font-style: normal;

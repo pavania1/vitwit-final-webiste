@@ -29,7 +29,7 @@ const Backtotop = () => {
             bottom: "10px",
             right: "5px",
             // height: "50px",
-            // width: "50px",
+            width: "50px",
             fontSize: "30px",
             color: "white",
             

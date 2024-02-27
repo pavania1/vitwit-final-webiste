@@ -44,9 +44,9 @@ body {
     background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
   }
   .nav-text {
-    @apply text-center text-sm not-italic font-normal leading-9;
+    @apply text-white text-center text-sm not-italic font-normal leading-9;
     font-family: "Libre Franklin";
-    color: rgb(225, 225, 225);
+   
   }
   .navbar-fixed {
     @apply fixed top-0 w-full;
@@ -94,9 +94,9 @@ body {
     background: rgba(255, 255, 255, 0.08);
   }
   .fotter-text {
-    @apply text-center not-italic font-normal leading-9;
+    @apply text-white text-center not-italic font-normal leading-9;
     font-family: "Libre Franklin";
-    color: rgb(225, 225, 225);
+    /* color: rgb(225, 225, 225); */
   }
 
   /* Landing */
