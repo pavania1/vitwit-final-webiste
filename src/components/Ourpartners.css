@@ -5,7 +5,8 @@
 }
 .main22-ourpartners {
   width: 100%;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
+  padding: 40px 0px;
   @apply flex justify-center px-6 lg:px-0;
 }
 .maindevelop-partners {

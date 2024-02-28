@@ -32,7 +32,7 @@ const Letstalk = () => {
         </div>
         <div className="lg:hidden">
           <button
-            className="text-white text-sm not-italic font-bold leading-6 mt-5"
+            className="nav-text mt-5 get-touch-btn mx-auto"
             onClick={handleConnectClick}
           >
             Connect With Us

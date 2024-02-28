@@ -6,7 +6,7 @@
 .main22-infra {
   width: 100%;
   display: flex;
-  padding: 40px 0px;
+  /* padding: 80px 0px; */
   flex-direction: column;
   align-items: center;
   /* gap: 40px; */
@@ -76,6 +76,13 @@
   font-weight: 600;
   font-size: 18px;
   background: #f07576;
+  transition: transform 0.3s ease;
+}
+dot1-infra:hover {
+  transform: scale(1.2); /* Increase size on hover */
+}
+.figma2001-infra:hover .dot1-infra:not(:hover) {
+  transform: scale(0.8); /* Decrease size of non-hovered circles on hover */
 }
 
 .dot2-infra {
@@ -89,11 +96,18 @@
   /* left: 63%; */
   right: 0;
   /* top: -345px; */
+  transition: transform 0.3s ease;
   top: 7rem;
   color: #fff;
   font-weight: 500;
   font-size: 16px;
   background: #9474f6;
+}
+dot2-infra:hover {
+  transform: scale(1.2); /* Increase size on hover */
+}
+.figma2001-infra:hover .dot2-infra:not(:hover) {
+  transform: scale(0.8); /* Decrease size of non-hovered circles on hover */
 }
 .dot3-infra {
   height: 240px;
@@ -107,11 +121,18 @@
   left: 5%;
   /* right: -6%; */
   /* top: -562px; */
+  transition: transform 0.3s ease;
   top: 13rem;
   color: #fff;
   font-weight: 500;
   font-size: 12px;
   background: #84e0c2;
+}
+.dot3-infra:hover {
+  transform: scale(1.2); /* Increase size on hover */
+}
+.figma2001-infra:hover .dot3-infra:not(:hover) {
+  transform: scale(0.8); /* Decrease size of non-hovered circles on hover */
 }
 .dot4-infra {
   height: 208px;
@@ -131,6 +152,13 @@
   letter-spacing: 0.6px;
   background: #e0b0ff;
   padding: 2px;
+  transition: transform 0.3s ease;
+}
+.dot4-infra:hover {
+  transform: scale(1.2); /* Increase size on hover */
+}
+.figma2001-infra:hover .dot4-infra:not(:hover) {
+  transform: scale(0.8); /* Decrease size of non-hovered circles on hover */
 }
 .dot5-infra {
   height: 132px;

@@ -29,7 +29,7 @@ const Infrastructure = () => {
           </div>
         </div>
         <div className="bottom-infrastructure flex-col">
-          <div className="grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-10 lg:gap-20 md:grid-cols-2 lg:grid-cols-3">
             <div className="">
               <Alert
                 className="infra-bg infra-left md:infra border-none hover:bg-[#372752]"

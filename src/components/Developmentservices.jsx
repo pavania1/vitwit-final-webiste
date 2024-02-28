@@ -131,7 +131,7 @@ const Development = () => {
             {/* RightDevelop cantioner start */}
             <div className="RightDevelop-infra sm:hidden xs:hidden lg:block">
               <div className="figma2001-infra relative">
-                <div className="dot1-infra  dot-animation flex flex-col justify-center items-center">
+                <div className="dot1-infra   flex flex-col justify-center items-center">
                   <span className="count-text">
                     <CountUp
                       start={0}
@@ -143,7 +143,7 @@ const Development = () => {
                   </span>
                   <span className="text-stats">Open Source Commits</span>
                 </div>
-                <div className="dot2-infra dot-animation flex flex-col justify-center items-center">
+                <div className="dot2-infra  flex flex-col justify-center items-center">
                   <span className="count-text">
                     <CountUp start={0} end={10} duration={2.5} separator="," />
                     <span>+</span>{" "}
@@ -151,7 +151,7 @@ const Development = () => {
 
                   <span className="text-stats">Projects Delivered</span>
                 </div>
-                <div className="dot3-infra dot-animation flex flex-col justify-center items-center">
+                <div className="dot3-infra  flex flex-col justify-center items-center">
                   <span className="count-text">
                     <CountUp start={0} end={8} duration={3} />
                     <span>+</span>{" "}
@@ -159,7 +159,7 @@ const Development = () => {
 
                   <span className="text-stats"> Partnerships</span>
                 </div>
-                <div className="dot4-infra dot-animation flex-col justify-center items-center">
+                <div className="dot4-infra  flex-col justify-center items-center">
                   <span className="count-text">
                     <CountUp start={0} end={4} duration={3} />
                     <span>+</span>{" "}

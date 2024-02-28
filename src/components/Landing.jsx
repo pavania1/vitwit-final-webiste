@@ -47,7 +47,7 @@ const Landing = () => {
               </div>
 
               <div className="landing-text-main">
-                <div className="landing-text-para lg:text-base md:text-sm sm:text-xs xs:text-xs xs:text-left sm:text-left w-[80%]">
+                <div className="landing-text-para lg:text-center lg:w-full lg:text-base md:text-sm sm:text-xs xs:text-xs xs:text-left sm:text-left xs:w-[80%] sm:w-[80%]">
                   From strategic planning to execution, our comprehensive
                   services are tailored to meet your unique needs. Partner with
                   us to harness the power of blockchain and unlock new

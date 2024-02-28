@@ -38,17 +38,17 @@ const Navbar = () => {
       {open ? (
         <div className="w-full h-full absolute top-0">
           <div className="mobile-list nav-text md:hidden lg:hidden xs:flex sm:flex cursor-pointer">
-            <a className="my-2" href="#landing">
+            <a className="my-4" href="#landing">
               About Us
             </a>
-            <a className="my-2" href="#infrastructure">
+            <a className="my-4" href="#infrastructure">
               Services
             </a>
 
-            <a className="my-2" href="#partners">
+            <a className="my-4" href="#partners">
               Partners
             </a>
-            <a className="my-2" href="#resolute">
+            <a className="my-4" href="#resolute">
               Resolute
             </a>
           </div>
