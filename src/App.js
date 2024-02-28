@@ -26,7 +26,7 @@ function App() {
       <div
         className={`${
           colorChange ? "   pt-6 pb-6 " : "pt-6 pb-6 "
-        } navbar-fixed z-50 background-nav `}
+        } navbar-fixed z-50 background-layer `}
       >
         <div className="max-w-[1280px]  mx-auto">
           <Navbar />

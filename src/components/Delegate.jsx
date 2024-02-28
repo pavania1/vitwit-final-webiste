@@ -67,7 +67,7 @@ const Delegate = () => {
       <div id="partners" className="main-delegate">
         <div className="main22-delegate">
           <div className="delegate-main-head">
-            <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
+            <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-5">
               <h1 style={{ fontFamily: "Libre Franklin" }}>
                 Our Partners &nbsp;
                 <span className="servicesdevelop">& Clients</span>

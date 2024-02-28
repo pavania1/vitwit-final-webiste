@@ -11,7 +11,7 @@ const Development = () => {
           {/* leftdevelop cantioner start */}
           <div className="justify-between xs:hidden sm:hidden lg:flex">
             <div className="subleftdevelop1-infra lg:text-left mb-4">
-              <h1 className="lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl m-0 p-0">
+              <h1 className="lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl m-0 p-0 ">
                 Development
                 <br></br>
                 <span className="servicesdevelop-infra lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
@@ -19,7 +19,7 @@ const Development = () => {
                 </span>
               </h1>
             </div>
-            <div className="development-alert-text w-[50%]  lg:text-sm md:text-sm sm:text-xs xs:text-xs text-left">
+            <div className="development-alert-text w-[50%]  lg:text-sm md:text-sm sm:text-xs xs:text-xs text-left xs:mt-5">
               Discover unparalleled expertise in blockchain development and
               consulting. Our dedicated team guides you through the complexities
               of blockchain technology, delivering innovative solutions that

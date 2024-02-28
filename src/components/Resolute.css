@@ -135,6 +135,14 @@
 
   @apply md:h-[100%]
 }
+.myVideopsmall {
+  width: 140%;
+  object-fit: cover;
+  object-position: left;
+  transform: translateX(-10%);
+
+  
+}
 .video-control-overlay {
   position: absolute;
   top: 0;

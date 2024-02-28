@@ -16,7 +16,7 @@ const GetinTouch = ({ open, close }) => {
     }}>
       <DialogContent sx={{ padding: 0 }}>
         <div className="getintouch-grid">
-          <div className="flex">
+          <div className="flex gap-10">
             <div>
               <img src={GetinTouchImage} alt="GetinTouch Image" />
             </div>
@@ -42,7 +42,7 @@ export default GetinTouch;
 
 const SocialIcons = () => {
   return (
-    <div className="flex lg:gap-10 justify-between">
+    <div className="flex w-full justify-between">
       <SocialLink link="https://twitter.com/vitwit_" icon={TwitterLogo} />
       <SocialLink link="https://github.com/vitwit" icon={GithubLogo} />
       <SocialLink
