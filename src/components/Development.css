@@ -70,100 +70,73 @@
   align-items: center;
   position: relative;
   left: 30%;
-  /* margin-top: 45%; */
   top: 10rem;
   color: #fff;
   font-weight: 600;
   font-size: 18px;
   background: #f07576;
-  transition: transform 0.3s ease;
+  z-index: 1; 
+  transition: transform 0.8s ease;
 }
-dot1-infra:hover {
-  transform: scale(1.2); /* Increase size on hover */
+
+.dot1-infra:hover {
+  transform: scale(1.2);
+  z-index: 9999; 
 }
-.figma2001-infra:hover .dot1-infra:not(:hover) {
-  transform: scale(0.8); /* Decrease size of non-hovered circles on hover */
+
+.dot2-infra,
+.dot3-infra,
+.dot4-infra {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transition: transform 0.8s ease;
+  color: #fff;
 }
 
 .dot2-infra {
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  /* left: 63%; */
   right: 0;
-  /* top: -345px; */
-  transition: transform 0.3s ease;
   top: 7rem;
-  color: #fff;
-  font-weight: 500;
-  font-size: 16px;
   background: #9474f6;
+  z-index: 2; 
 }
-dot2-infra:hover {
-  transform: scale(1.2); /* Increase size on hover */
+
+.dot2-infra:hover {
+  transform: scale(1.2);
+  z-index: 999;
 }
-.figma2001-infra:hover .dot2-infra:not(:hover) {
-  transform: scale(0.8); /* Decrease size of non-hovered circles on hover */
-}
+
 .dot3-infra {
-  height: 240px;
-  width: 240px;
-  /* background: linear-gradient(169deg, #6458e7 26.53%, #9760f4 55.47%); */
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 5%;
-  /* right: -6%; */
-  /* top: -562px; */
-  transition: transform 0.3s ease;
-  top: 13rem;
-  color: #fff;
-  font-weight: 500;
-  font-size: 12px;
+  left: 1%;
+  top: 12rem;
   background: #84e0c2;
+  z-index: 3; 
 }
+
 .dot3-infra:hover {
-  transform: scale(1.2); /* Increase size on hover */
+  transform: scale(1.2);
+  z-index: 999; 
 }
-.figma2001-infra:hover .dot3-infra:not(:hover) {
-  transform: scale(0.8); /* Decrease size of non-hovered circles on hover */
-}
+
 .dot4-infra {
-  height: 208px;
-  width: 208px;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-  left: 23%;
-  top: 5rem;
-  color: #fff;
-  text-align: center;
-  font-family: "Libre Franklin";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.6px;
+  left: 16%;
+  top: 3rem;
   background: #e0b0ff;
-  padding: 2px;
-  transition: transform 0.3s ease;
+  z-index: 4; 
 }
+
 .dot4-infra:hover {
-  transform: scale(1.2); /* Increase size on hover */
+  transform: scale(1.2);
+  z-index: 999; 
 }
-.figma2001-infra:hover .dot4-infra:not(:hover) {
-  transform: scale(0.8); /* Decrease size of non-hovered circles on hover */
-}
+
 .dot5-infra {
   height: 132px;
   width: 132px;
-  /* background: linear-gradient(169deg, #6458e7 26.53%, #9760f4 55.47%); */
   border-radius: 50%;
   display: flex;
   justify-content: center;

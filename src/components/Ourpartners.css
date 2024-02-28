@@ -10,7 +10,7 @@
   @apply flex justify-center px-6 lg:px-0;
 }
 .maindevelop-partners {
-  @apply w-full flex flex-col lg:flex-row
+  @apply w-full flex flex-col lg:flex-row;
 }
 .leftdevelop-partners {
   @apply flex-1;
@@ -98,6 +98,12 @@
   font-weight: 600;
   font-size: 18px;
   background: #f07576;
+  z-index: 1;
+  transition: transform 0.8s ease;
+}
+.dot1:hover {
+  transform: scale(1.2);
+  z-index: 9999;
 }
 
 .dot2 {
@@ -108,12 +114,18 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 47%;
+  left: 50%;
   top: -345px;
   color: #fff;
   font-weight: 500;
   font-size: 16px;
   background: #9474f6;
+  transition: transform 0.8s ease;
+  z-index: 2;
+}
+.dot2:hover {
+  transform: scale(1.2);
+  z-index: 999;
 }
 .dot3 {
   height: 206px;
@@ -131,6 +143,12 @@
   font-weight: 500;
   font-size: 12px;
   background: #84e0c2;
+  z-index: 3;
+  transition: transform 0.8s ease;
+}
+.dot3:hover {
+  transform: scale(1.2);
+  z-index: 999;
 }
 .dot4 {
   height: 180px;
@@ -150,12 +168,18 @@
   letter-spacing: 0.6px;
   background: #e0b0ff;
   padding: 2px;
+  z-index: 4;
+  transition: transform 0.8s ease;
+}
+.dot4:hover {
+  transform: scale(1.2);
+  z-index: 999;
 }
 .dot5 {
   height: 155px;
   width: 155px;
   border-radius: 50%;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Libre Franklin";
   font-size: 40px;
@@ -163,10 +187,16 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
-  background: #D59BB7;
-  left: 50%;
+  background: #d59bb7;
+  left: 53%;
   position: relative;
   margin-top: 11%;
+  z-index: 5;
+  transition: transform 0.8s ease;
+}
+.dot5:hover {
+  transform: scale(1.2);
+  z-index: 999;
 }
 .dot6 {
   height: 58px;
@@ -210,7 +240,7 @@
     rgba(148, 116, 246, 0.2) 76.04%
   );
 }
-.dot9{
+.dot9 {
   height: 58px;
   width: 58px;
   display: flex;
@@ -332,15 +362,6 @@
   background: linear-gradient(180deg, #a562f7 0%, #3b4e9a 100%);
 }
 
-
-
-
-
-
-
-
-
-
 /* @keyframes scale {
   0%, 100% {
     transform: scale(1);
@@ -366,17 +387,13 @@
   animation-delay: 2s;
 } */
 
-
-
-
-
-
 .dot-animationflex {
-  animation: scaleAndOpacityChange 5s ease-in-out infinite; 
+  animation: scaleAndOpacityChange 5s ease-in-out infinite;
 }
 
 @keyframes scaleAndOpacityChange {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     opacity: 1;
   }
@@ -386,7 +403,11 @@
   }
 }
 
-.dot1, .dot2, .dot3, .dot4, .dot5 {
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5 {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -397,18 +418,17 @@
 }
 
 .dot2 {
-  animation-delay: 0.5s; 
+  animation-delay: 0.5s;
 }
 
 .dot3 {
-  animation-delay: 1s; 
+  animation-delay: 1s;
 }
 
 .dot4 {
-  animation-delay: 1.5s; 
+  animation-delay: 1.5s;
 }
 
 .dot5 {
-  animation-delay: 2s; 
+  animation-delay: 2s;
 }
-

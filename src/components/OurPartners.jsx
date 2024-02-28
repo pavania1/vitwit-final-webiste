@@ -167,7 +167,7 @@ const OurPartners = () => {
             <div className="sm:hidden xs:hidden lg:block">
               <div className="figma2001-infra">
                 <div className="circles-infra ">
-                  <div className="dot1 dot-animationflex flex flex-col justify-center items-center">
+                  <div className="dot1  flex flex-col justify-center items-center">
                     <span className="count-text">
                       $
                       <CountUp
@@ -180,7 +180,7 @@ const OurPartners = () => {
                     </span>
                     <span className="text-stats">AUM</span>
                   </div>
-                  <div className="dot2 dot-animationflex flex flex-col justify-center items-center">
+                  <div className="dot2  flex flex-col justify-center items-center">
                     <span className="count-text">
                       <CountUp
                         start={0}
@@ -193,7 +193,7 @@ const OurPartners = () => {
 
                     <span className="text-stats">Deligators</span>
                   </div>
-                  <div className="dot3 dot-animationflex flex flex-col justify-center items-center">
+                  <div className="dot3  flex flex-col justify-center items-center">
                     <span className="count-text">
                       <CountUp start={0} end={22} duration={3} />
                       <span>+</span>{" "}
@@ -201,7 +201,7 @@ const OurPartners = () => {
 
                     <span className="text-stats"> Validators</span>
                   </div>
-                  <div className="dot4 dot-animationflex flex-col justify-center items-center">
+                  <div className="dot4  flex-col justify-center items-center">
                     <span className="count-text">
                       <CountUp start={0} end={5} duration={3} />
                     </span>
@@ -209,7 +209,7 @@ const OurPartners = () => {
                       Validator <br></br>Advisors{" "}
                     </span>
                   </div>
-                  <div className="dot5 dot-animationflex flex-col flex justify-center items-center">
+                  <div className="dot5 flex-col flex justify-center items-center">
                     <span className="count-text">
                       <CountUp start={0} end={10} duration={3} />
                       <span>+</span>
