@@ -4,7 +4,7 @@ import YoutubeLogo from "../assets/social-icons/youtube.png";
 import SkypeLogo from "../assets/social-icons/skype.png";
 import GithubLogo from "../assets/social-icons/github.png";
 import LinkedInLogo from "../assets/social-icons/linkedln.png";
-import VitwitLogo from "../assets/footer-vitwit-logo.png";
+import VitwitLogo from "../assets/vitwit-logo.png";
 import TwitterLogo from "../assets/social-icons/twitter.png";
 import TelegramLogo from "../assets/social-icons/telegram.png";
 import { Link } from "react-router-dom";
@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="footer">
       <div className="flex justify-between">
         <div className="flex flex-col items-start gap-6 sm:hidden xs:hidden md:block">
-          <img className="" src={VitwitLogo} alt="Vitwit Logo" />
+          <img className="w-[30%]" src={VitwitLogo} alt="Vitwit Logo" />
           <p className="text-white text-sm font-normal leading-6 text-left  tracking-[0.6px] mt-4">
             {" "}
             Feel free to conatct us by filling this form or you can even reach

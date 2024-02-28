@@ -34,7 +34,7 @@ body {
     @apply flex justify-between items-start w-full  lg:px-0;
   }
   .nav__logo {
-    @apply w-[150px] h-[39.725px] shrink-0;
+    @apply w-[150px] h-[39.725px] lg:w-[200px] lg:h-[45px] shrink-0;
   }
   .menu-list {
     @apply flex justify-end items-start gap-12  cursor-pointer;
