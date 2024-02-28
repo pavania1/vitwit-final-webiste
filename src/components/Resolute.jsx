@@ -72,6 +72,8 @@ const Resolute = () => {
               </div>
               <div className="relative">
                 <video
+                  playsInline
+                  autoPlay={false}
                   ref={videoRef2}
                   className="myVideop"
                   onEnded={() => setIsPlaying(false)}

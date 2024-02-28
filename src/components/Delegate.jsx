@@ -83,29 +83,29 @@ const Delegate = () => {
               </p>
             </div>
             <div className="">
-              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-10">
-                <div className="flex justify-center items-center">
+              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-10">
+                <div className="flex">
                   <img src={Akash} alt="Akash" className="w-[100px] md:w-fit" />
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex items-center">
                   <img
                     src={Cosmos}
                     alt="Cosmos"
-                    className="w-[100px] md:w-fit"
+                    className="w-[100px] md:w-fit mx-auto"
                   />
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex">
                   <img
                     src={Polygen}
                     alt="Polygen"
-                    className="w-[100px] md:w-fit"
+                    className="w-[100px] md:w-fit ml-auto"
                   />
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center ">
                   <img
                     src={Passage}
                     alt="Passage"
-                    className="w-[100px] md:w-[200px]"
+                    className="w-[100px] md:w-[200px] ml-auto"
                   />
                 </div>
                 <div className="flex items-center justify-center">
@@ -115,16 +115,16 @@ const Delegate = () => {
                   <img
                     src={Chainflow}
                     alt="Chainflow"
-                    className="w-[100px] md:w-fit"
+                    className="w-[100px] md:w-fit mr-auto"
                   />
                 </div>
-                <div className="flex justify-center items-center">
-                  <img
-                    src={Polama}
-                    alt="Cosmoa"
-                    className="w-[100px] md:w-[177px]"
-                  />
-                </div>
+              </div>
+              <div className="flex mt-10 ">
+                <img
+                  src={Polama}
+                  alt="Cosmoa"
+                  className="w-[100px] md:w-[177px] mx-auto"
+                />
               </div>
             </div>
           </div>
