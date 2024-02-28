@@ -54,8 +54,8 @@ const Resolute = () => {
               Your browser does not support the video tag.
             </video>
             {/* Your small screen interface here */}
-            <div className="flex flex-col content-overlay mobile-reolute">
-              <div className="infrastructure-services-h1 lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mt-4">
+            <div className="flex flex-col content-overlay mobile-reolute ">
+              <div className="resolute-h1 lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mt-4 text-left pr-4 pl-4">
                 <h1>
                   Resolute &nbsp;
                   <span className="infrastructure-services lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
@@ -63,7 +63,7 @@ const Resolute = () => {
                   </span>
                 </h1>
               </div>
-              <div className="text-xs not-italic font-normal leading-[18px] justify-center mt-4 pr-4 pl-4 text-[rgb(225,225,225)] mb-4">
+              <div className="text-xs not-italic font-normal leading-[18px] text-left mt-5 pr-4 pl-4 text-[rgb(225,225,225)] mb-5">
                 <p className="">
                   We are a core tech company passionate about the research and
                   development of technology solutions that transform
@@ -94,7 +94,7 @@ const Resolute = () => {
                     <img
                       src={PlayImage}
                       alt="Play-Icon"
-                      className="mx-auto mt-[15%]"
+                      className="mx-auto mt-[20%] w-[15%]"
                     />
                   </div>
                 )}

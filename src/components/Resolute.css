@@ -1,6 +1,5 @@
 .resolute {
   width: 100%;
-
   display: flex;
 }
 .maindevelop-resolute {
@@ -89,6 +88,14 @@
   transform: translate(-50%, -50%);
   position: absolute;
   z-index: 30;
+}
+.resolute-h1 {
+  color: white;
+  /* text-align: center; */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  justify-content: center;
 }
 /* .resolute-btn {
   display: flex;
