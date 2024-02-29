@@ -28,8 +28,8 @@ const Backtotop = () => {
             position: "fixed",
             bottom: "10px",
             right: "5px",
-            // height: "50px",
-            width: "50px",
+            height: "45px",
+            width: "40px",
             fontSize: "30px",
             color: "white",
             

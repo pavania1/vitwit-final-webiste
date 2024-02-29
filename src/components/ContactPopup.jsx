@@ -18,9 +18,10 @@ const ContactPopup = ({ open, close }) => {
       <DialogContent sx={{ padding: 0 }}>
         <div className="contact-grid">
           <div className="flex flex-col items-start gap-4 self-stretch px-6 py-10">
-            <h1 className="text-white text-xl not-italic font-bold leading-[18px] underline">
+            <h1 className="text-white text-xl not-italic font-bold leading-[18px]">
               Contact Us
             </h1>
+            <div className="getintouch-v-line"></div>
             <p className="text-white text-[10px] not-italic font-light leading-[18px]">
               We are a core tech company passionate about the research and{" "}
               
