@@ -27,7 +27,7 @@ const Development = () => {
             </div>
           </div>
           <div className="flex-col xs:block lg:hidden">
-            <div className="subleftdevelop1-infra">
+            <div className="subleftdevelop1-infra mb-4">
               <h1 className="lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl m-0 p-0">
                 Development &nbsp;
                 <span className="servicesdevelop-infra lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">

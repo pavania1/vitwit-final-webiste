@@ -236,7 +236,7 @@ const OurPartners = () => {
             <div className="subleftdevelop1-partners text-center  justify-center flex md:hidden mb-3">
               <h1 className="sm:text-2xl xs:text-xl">Networks</h1>{" "}
               &nbsp;
-              <span className="servicesdevelop sm:text-2xl xs:text-xl mb-10">
+              <span className="servicesdevelop sm:text-2xl xs:text-xl mb-10 text-bold">
                 We Support
               </span>
             </div>
