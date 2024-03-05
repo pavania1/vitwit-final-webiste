@@ -227,15 +227,12 @@ const OurPartners = () => {
           <div className="RightDevelop-partners">
             <div className="ourpartners-text hidden  lg:text-sm md:text-sm sm:text-xs xs:text-xs md:block">
               <p>
-                Discover unparalleled expertise in blockchain development and
-                consulting. Our dedicated team guides you through the
-                complexities of blockchain technology, delivering innovative
-                solutions that drive your business forward.
+                We are one of the builders of Cosmos-SDK and we know how it
+                works best.
               </p>
             </div>
             <div className="subleftdevelop1-partners text-center  justify-center flex md:hidden mb-3">
-              <h1 className="sm:text-2xl xs:text-xl">Networks</h1>{" "}
-              &nbsp;
+              <h1 className="sm:text-2xl xs:text-xl">Networks</h1> &nbsp;
               <span className="servicesdevelop sm:text-2xl xs:text-xl mb-10 text-bold">
                 We Support
               </span>
@@ -257,7 +254,7 @@ const OurPartners = () => {
                             src={logo.icon}
                             alt={`${logo.name}-logo`}
                             // className={`w-[${logo.mobileSize}px] h-[${logo.mobileSize}px] lg:w-[${logo.size}px] lg:h-[${logo.size}px]`}
-                          className="sm:w-[30px] xs:w-[40px] lg:w-[55px]"
+                            className="sm:w-[30px] xs:w-[40px] lg:w-[55px]"
                           />
                         )}
                       </div>
@@ -283,7 +280,9 @@ const OurPartners = () => {
 
             <div className="hidden md:block">
               <button className="infra-btn infra-icons-text">
-                Stake with VITWIT
+                <a href=" https://resolute.vitwit.com/staking/validator/witval ">
+                  Stake with VITWIT
+                </a>
               </button>
             </div>
           </div>

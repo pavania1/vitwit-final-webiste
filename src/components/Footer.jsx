@@ -16,13 +16,11 @@ const Footer = () => {
         <div className="flex flex-col items-start gap-6 sm:hidden xs:hidden md:block">
           <img className="w-[30%]" src={VitwitLogo} alt="Vitwit Logo" />
           <p className="text-white text-sm font-normal leading-6 text-left  tracking-[0.6px] mt-4">
-            {" "}
-            Feel free to conatct us by filling this form or you can even reach
-            us out <p className="">from the social media links below.</p>
+          Premier Cosmos Development, Consulting, and Infrastructure Services. 
           </p>
         </div>
         <img className="md:hidden sm:block w-[40%] mx-auto" src={VitwitLogo} alt="Vitwit Logo" />
-        <div className="flex flex-col gap-6 mt-12 xs:hidden sm:hidden md:block">
+        <div className="flex flex-col gap-6 mt-10 xs:hidden sm:hidden md:block">
           <div className="text-white text-xl not-italic font-bold leading-5 text-left mb-5">
             {" "}
             Join our community

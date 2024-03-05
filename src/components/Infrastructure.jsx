@@ -38,13 +38,16 @@ const Infrastructure = () => {
                     <div className="validator-dot mb-3">
                       <img src={Validator} alt="Validator-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Validator</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
+                      Validator
+                    </span>
                   </div>
                 }
                 description={
                   <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
-                    Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment.
+                    Our validator ops are fine-tuned to ensure maximum security
+                    and performance, optimizing your network's efficiency and
+                    reliability.
                   </span>
                 }
               />
@@ -57,13 +60,16 @@ const Infrastructure = () => {
                     <div className="relayer-dot mb-3">
                       <img src={Relayer} alt="Relayer-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Relayer</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
+                      Relayer
+                    </span>
                   </div>
                 }
                 description={
                   <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
-                    Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment.
+                    Operating highly available IBC-Relayers, we elevate your
+                    appchain experience. Scale seamlessly with our dedicated
+                    relayer service.
                   </span>
                 }
               />
@@ -76,13 +82,16 @@ const Infrastructure = () => {
                     <div className="advisory-dot mb-3">
                       <img src={Advisory} alt="validatoradvisory-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Validator advisory</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
+                      Validator advisory
+                    </span>
                   </div>
                 }
                 description={
                   <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
-                    Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment.
+                    Expertise in all things validation. Enhance your governance,
+                    validator community management and foundation delegation
+                    processes with our comprehensive advisory service.
                   </span>
                 }
               />
@@ -95,13 +104,16 @@ const Infrastructure = () => {
                     <div className="testing-dot mb-3">
                       <img src={Testing} alt="testing-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">E2E testing</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
+                      Software Upgrades and Testing
+                    </span>
                   </div>
                 }
                 description={
                   <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs ">
-                    Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment.
+                    Supporting teams with network, IBC, and software upgrades
+                    testing, our services guarantee that every update is
+                    implemented smoothly and precisely
                   </span>
                 }
               />
@@ -121,8 +133,9 @@ const Infrastructure = () => {
                 }
                 description={
                   <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
-                    Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment.
+                    Launch and expand your validator business with our
+                    white-label services, backed by highly secure infrastructure
+                    operated for our clients.
                   </span>
                 }
               />
@@ -135,13 +148,16 @@ const Infrastructure = () => {
                     <div className="genesis-dot mb-3">
                       <img src={Genesis} alt="genesis-icon" />
                     </div>
-                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Genesis Launch</span>
+                    <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
+                      Genesis Launch
+                    </span>
                   </div>
                 }
                 description={
                   <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
-                    Akash Network, the world’s first decentralized and
-                    open-source cloud, accelerates deployment.
+                    Collaborating with teams for a worry-free network launch, we
+                    provide specialized tooling for testing and ensuring an
+                    accurate Genesis launch.
                   </span>
                 }
               />

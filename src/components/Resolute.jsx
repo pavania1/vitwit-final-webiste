@@ -37,7 +37,7 @@ const Resolute = () => {
         }
       >
         {isSmallScreen ? (
-          <div className="small-screen-interface">
+          <div className="small-screen-interface py-6">
             {/* Background Video */}
             <video
               autoPlay
@@ -64,21 +64,17 @@ const Resolute = () => {
                 </h1>
               </div>
               <div className="text-xs not-italic font-normal leading-[18px] text-left mt-5 pr-4 pl-4 text-[rgb(225,225,225)] mb-5">
-                <p className="">
-                  We are a core tech company passionate about the research and
-                  development of technology solutions that transform
-                  businesses.chnology solutions that transaction.
-                </p>
+                <p>Your Gateway to the Cosmos Ecosystem.</p>
                 <br />
-                <br/>
-                <p className="">
-                  We are a core tech company passionate about the research and
-                  development of technology solutions that transform
-                  businesses.chnology solutions that transaction.
+                <p>
+                  Navigate the vast Cosmos ecosystem with ease using Resolute,
+                  the all-in-one interface designed to streamline your
+                  experience. From basic banking and staking to advanced
+                  management of authz and multisigs, Resolute places the power
+                  of the Cosmos at your fingertips.
                 </p>
-               
               </div>
-              <br/>
+              <br />
               <div className="relative">
                 <video
                   playsInline
@@ -86,7 +82,6 @@ const Resolute = () => {
                   ref={videoRef2}
                   className="myVideopsmall max-w-none"
                   onEnded={() => setIsPlaying(false)}
-                  
                 >
                   <source
                     src={process.env.PUBLIC_URL + "/videos/resolute-video.mp4"}
@@ -109,18 +104,53 @@ const Resolute = () => {
                   </div>
                 )}
               </div>
-              <br/>
+              <br />
               <div className="text-xs not-italic font-normal leading-[18px] text-left mt-5 pr-4 pl-4 text-[rgb(225,225,225)] mb-5">
-                
+                <p className="text-bold text-sm">Key Features:</p> <br/>
+                <ul className="text-left">
+                  <li>
+                    <input type="checkbox" id="multisig" name="multisig" />
+                    &nbsp; <label for="multisig">Multisig Wallet</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="authz" name="authz" />
+                    &nbsp; <label for="authz">Authz</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="multisend" name="multisend" />
+                    &nbsp; <label for="multisend">Multisend</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="feeGrant" name="feeGrant" />
+                    &nbsp; <label for="feeGrant">Fee Grant</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="transactionBuilder"
+                      name="transactionBuilder"
+                    />
+                    &nbsp;{" "}
+                    <label for="transactionBuilder">Transaction Builder</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="multiMessageTransactions"
+                      name="multiMessageTransactions"
+                    />
+                    &nbsp;{" "}
+                    <label for="multiMessageTransactions">
+                      Multi-Message Transactions
+                    </label>
+                  </li>
+                </ul>
+                <br />
                 <p>
-                  We are a core tech company passionate about the research and
-                  development of techn`ology solutions that transform
-                  businesses.chnology solutions that transaction. We are a core
-                  tech company passionate about the research and development of
-                  technology solutions that transform businesses.chnology
-                  solutions that transaction.
+                  Resolute integrates these powerful features into a
+                  user-friendly interface, making it the definitive tool for
+                  engaging with the Cosmos ecosystem.
                 </p>
-                <br/>
               </div>
             </div>
           </div>
@@ -148,19 +178,60 @@ const Resolute = () => {
                   </span>
                 </div>
                 <div className="text-frame">
-                  <p>
-                    We are a core tech company passionate about the research and
-                    development of technology solutions that transform
-                    businesses.chnology solutions that transaction.
-                  </p>
+                  <p>Your Gateway to the Cosmos Ecosystem.</p>
                   <br />
                   <p>
-                    We are a core tech company passionate about the research and
-                    development of techn`ology solutions that transform
-                    businesses.chnology solutions that transaction. We are a
-                    core tech company passionate about the research and
-                    development of technology solutions that transform
-                    businesses.chnology solutions that transaction.
+                    Navigate the vast Cosmos ecosystem with ease using Resolute,
+                    the all-in-one interface designed to streamline your
+                    experience. From basic banking and staking to advanced
+                    management of authz and multisigs, Resolute places the power
+                    of the Cosmos at your fingertips.
+                  </p>
+                  <p>Key Features:</p>
+                  <ul className="text-left">
+                    <li>
+                      <input type="checkbox" id="multisig" name="multisig" />
+                      &nbsp; <label for="multisig">Multisig Wallet</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="authz" name="authz" />
+                      &nbsp; <label for="authz">Authz</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="multisend" name="multisend" />
+                      &nbsp; <label for="multisend">Multisend</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="feeGrant" name="feeGrant" />
+                      &nbsp; <label for="feeGrant">Fee Grant</label>
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        id="transactionBuilder"
+                        name="transactionBuilder"
+                      />
+                      &nbsp;{" "}
+                      <label for="transactionBuilder">
+                        Transaction Builder
+                      </label>
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        id="multiMessageTransactions"
+                        name="multiMessageTransactions"
+                      />
+                      &nbsp;{" "}
+                      <label for="multiMessageTransactions">
+                        Multi-Message Transactions
+                      </label>
+                    </li>
+                  </ul>
+                  <p>
+                    Resolute integrates these powerful features into a
+                    user-friendly interface, making it the definitive tool for
+                    engaging with the Cosmos ecosystem.
                   </p>
                 </div>
 
