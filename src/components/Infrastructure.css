@@ -106,18 +106,7 @@
 .alert-right2-infra {
   /* margin-top: 20%; */
 }
-.cosmos {
-  border-radius: 16px;
-  width: 80%;
-  height: 70px;
-  flex-shrink: 0;
-  color: white;
-  font-family: "Libre Franklin";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px; /* 120% */
-}
+
 .cosmos-infra {
   text-align: center;
   justify-content: center;

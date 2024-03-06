@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./Resolute.css";
 import PlayImage from "../assets/play.png";
+import checkPoint from "../assets/checkpoint.svg";
 
 const Resolute = () => {
   const videoRef1 = useRef();
@@ -37,7 +38,7 @@ const Resolute = () => {
         }
       >
         {isSmallScreen ? (
-          <div className="small-screen-interface py-6">
+          <div className="small-screen-interface">
             {/* Background Video */}
             <video
               autoPlay
@@ -54,25 +55,22 @@ const Resolute = () => {
               Your browser does not support the video tag.
             </video>
             {/* Your small screen interface here */}
-            <div className="flex flex-col content-overlay mobile-reolute pt-10 pb-10">
-              <div className="resolute-h1 lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mt-4 text-left pr-4 pl-4">
-                <h1>
-                  Resolute &nbsp;
-                  <span className="infrastructure-services lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
-                    Interchain Interface
-                  </span>
-                </h1>
-              </div>
-              <div className="text-xs not-italic font-normal leading-[18px] text-left mt-5 pr-4 pl-4 text-[rgb(225,225,225)] mb-5">
-                <p>Your Gateway to the Cosmos Ecosystem.</p>
-                <br />
-                <p>
-                  Navigate the vast Cosmos ecosystem with ease using Resolute,
-                  the all-in-one interface designed to streamline your
-                  experience. From basic banking and staking to advanced
-                  management of authz and multisigs, Resolute places the power
-                  of the Cosmos at your fingertips.
-                </p>
+            <div className="flex flex-col content-overlay mobile-reolute">
+              <div className="px-6 py-0">
+                <div className="resolute-h1 pb-6">
+                  <h1>Resolute</h1>
+                </div>
+                <div className="flex flex-col infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs ">
+                  <p>Your Gateway to the Cosmos Ecosystem.</p>
+                  <br />
+                  <p className="text-left">
+                    Navigate the vast Cosmos ecosystem with ease using Resolute,
+                    the all-in-one interface designed to streamline your
+                    experience. From basic banking and staking to advanced
+                    management of authz and multisigs, Resolute places the power
+                    of the Cosmos at your fingertips.
+                  </p>
+                </div>
               </div>
               <br />
               <div className="relative">
@@ -105,52 +103,46 @@ const Resolute = () => {
                 )}
               </div>
               <br />
-              <div className="text-xs not-italic font-normal leading-[18px] text-left mt-5 pr-4 pl-4 text-[rgb(225,225,225)] mb-5">
-                <p className="text-bold text-sm">Key Features:</p> <br/>
-                <ul className="text-left">
-                  <li>
-                    <input type="checkbox" id="multisig" name="multisig" />
-                    &nbsp; <label for="multisig">Multisig Wallet</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="authz" name="authz" />
-                    &nbsp; <label for="authz">Authz</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="multisend" name="multisend" />
-                    &nbsp; <label for="multisend">Multisend</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="feeGrant" name="feeGrant" />
-                    &nbsp; <label for="feeGrant">Fee Grant</label>
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      id="transactionBuilder"
-                      name="transactionBuilder"
-                    />
-                    &nbsp;{" "}
-                    <label for="transactionBuilder">Transaction Builder</label>
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      id="multiMessageTransactions"
-                      name="multiMessageTransactions"
-                    />
-                    &nbsp;{" "}
-                    <label for="multiMessageTransactions">
-                      Multi-Message Transactions
-                    </label>
-                  </li>
-                </ul>
-                <br />
-                <p>
+
+              <div className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs text-left pr-4 pl-4">
+                <p className="pb-[10%]">
                   Resolute integrates these powerful features into a
                   user-friendly interface, making it the definitive tool for
                   engaging with the Cosmos ecosystem.
                 </p>
+                <div className="grid grid-cols-2 text-xs gap-4">
+                  <div className="flex space-x-2">
+                    <img src={checkPoint} alt="Checkpoint" />
+                    <label for="multisig">Multisig Wallet</label>
+                  </div>
+
+                  <div className="flex space-x-2">
+                    <img src={checkPoint} alt="Checkpoint" />
+                    <label for="authz">Authz</label>
+                  </div>
+
+                  <div className="flex space-x-2">
+                    <img src={checkPoint} alt="Checkpoint" />
+                    <label for="multisend">Multisend</label>
+                  </div>
+
+                  <div className="flex space-x-2">
+                    <img src={checkPoint} alt="Checkpoint" />
+                    <label for="multiMessageTransactions">
+                      Multi-Message Transactions
+                    </label>
+                  </div>
+
+                  <div className="flex space-x-2">
+                    <img src={checkPoint} alt="Checkpoint" />
+                    <label for="transactionBuilder">Transaction Builder</label>
+                  </div>
+
+                  <div className="flex space-x-2">
+                    <img src={checkPoint} alt="Checkpoint" />
+                    <label for="feeGrant">Fee Grant</label>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -170,16 +162,14 @@ const Resolute = () => {
               />
             </video>
             <div className="leftdevelop-resolute flex left-bg w-full ">
-              <div className=" text pl-10">
-                <div className="py-10 ">
-                  <span className="text-style-1 text-[35px]">Resolute</span>
-                  <span className="Resolute-Interchain-Interface">
-                    Interchain Interface
-                  </span>
+              <div className="text flex flex-col justify-center items-start gap-10 self-stretch pl-10">
+                <div className=" ">
+                  <span className="text-style-1 text-[54px]">Resolute</span>
                 </div>
                 <div className="text-frame">
                   <p>Your Gateway to the Cosmos Ecosystem.</p>
-                  <br />
+                </div>
+                <div className="text-frame">
                   <p>
                     Navigate the vast Cosmos ecosystem with ease using Resolute,
                     the all-in-one interface designed to streamline your
@@ -187,48 +177,48 @@ const Resolute = () => {
                     management of authz and multisigs, Resolute places the power
                     of the Cosmos at your fingertips.
                   </p>
-                  <p>Key Features:</p>
-                  <ul className="text-left">
-                    <li>
-                      <input type="checkbox" id="multisig" name="multisig" />
-                      &nbsp; <label for="multisig">Multisig Wallet</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" id="authz" name="authz" />
-                      &nbsp; <label for="authz">Authz</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" id="multisend" name="multisend" />
-                      &nbsp; <label for="multisend">Multisend</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" id="feeGrant" name="feeGrant" />
-                      &nbsp; <label for="feeGrant">Fee Grant</label>
-                    </li>
-                    <li>
-                      <input
-                        type="checkbox"
-                        id="transactionBuilder"
-                        name="transactionBuilder"
-                      />
-                      &nbsp;{" "}
-                      <label for="transactionBuilder">
-                        Transaction Builder
-                      </label>
-                    </li>
-                    <li>
-                      <input
-                        type="checkbox"
-                        id="multiMessageTransactions"
-                        name="multiMessageTransactions"
-                      />
-                      &nbsp;{" "}
+                </div>
+                <div className="key-features-text">
+                  {/* <p className="text-sm text-start">Key Features:</p> */}
+
+                  <div className="grid grid-cols-2 text-xs gap-4">
+                    <div className="flex space-x-2">
+                      <img src={checkPoint} alt="Checkpoint" />
+                      <label for="multisig">Multisig Wallet</label>
+                    </div>
+
+                    <div className="flex space-x-2">
+                      <img src={checkPoint} alt="Checkpoint" />
+                      <label for="authz">Authz</label>
+                    </div>
+
+                    <div className="flex space-x-2">
+                      <img src={checkPoint} alt="Checkpoint" />
+                      <label for="multisend">Multisend</label>
+                    </div>
+
+                    <div className="flex space-x-2">
+                      <img src={checkPoint} alt="Checkpoint" />
                       <label for="multiMessageTransactions">
                         Multi-Message Transactions
                       </label>
-                    </li>
-                  </ul>
-                  <p>
+                    </div>
+
+                    <div className="flex space-x-2">
+                      <img src={checkPoint} alt="Checkpoint" />
+                      <label for="transactionBuilder">
+                        Transaction Builder
+                      </label>
+                    </div>
+
+                    <div className="flex space-x-2">
+                      <img src={checkPoint} alt="Checkpoint" />
+                      <label for="feeGrant">Fee Grant</label>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-frame">
+                  <p className="text-left">
                     Resolute integrates these powerful features into a
                     user-friendly interface, making it the definitive tool for
                     engaging with the Cosmos ecosystem.

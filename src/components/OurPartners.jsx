@@ -231,11 +231,12 @@ const OurPartners = () => {
                 works best.
               </p>
             </div>
-            <div className="subleftdevelop1-partners text-center  justify-center flex md:hidden mb-3">
-              <h1 className="sm:text-2xl xs:text-xl">Networks</h1> &nbsp;
-              <span className="servicesdevelop sm:text-2xl xs:text-xl mb-10 text-bold">
-                We Support
-              </span>
+
+            <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-12 md:hidden">
+              <h1 style={{ fontFamily: "Libre Franklin" }}>
+                Networks &nbsp;
+                <span className="servicesdevelop">We Support</span>
+              </h1>
             </div>
             <div className="grid grid-cols-3  gap-y-14">
               {LOGOS.map((logo, logoId) => (
@@ -260,7 +261,7 @@ const OurPartners = () => {
                       </div>
                       <div>
                         <button
-                          className="cosmos"
+                          className="cosmos text-[10px] md:text-xs lg:text-[16px]"
                           style={{ backgroundColor: logo.bgColor }}
                           onMouseOver={(e) =>
                             (e.target.style.backgroundColor = logo.hoverColor)

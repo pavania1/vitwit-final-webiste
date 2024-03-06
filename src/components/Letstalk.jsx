@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Letstalk.css";
 import ContactPopup from "./ContactPopup";
+import OurPartners from "./OurPartners";
+import Delegate from "./Delegate";
 
 const Letstalk = () => {
   const [showContactPopup, setShowContactPopup] = useState(false);
@@ -9,6 +11,7 @@ const Letstalk = () => {
   };
   return (
     <div id="letstalk" className="letstalk-main">
+      <Delegate />
       <div className="letstalk-head">
         <div className="lets-text lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl hidden md:block">
           Let's &nbsp;<span className="talk-text">Talk</span>
@@ -39,9 +42,12 @@ const Letstalk = () => {
           </button>
         </div>
       </div>
-      <ContactPopup open={showContactPopup} close={()=>{
-        setShowContactPopup(false)
-      }}/>
+      <ContactPopup
+        open={showContactPopup}
+        close={() => {
+          setShowContactPopup(false);
+        }}
+      />
     </div>
   );
 };

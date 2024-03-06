@@ -1,10 +1,10 @@
 .letstalk-main {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   width: 100%;
   /* margin-top: 10%;
   margin-bottom: 10%; */
-  padding: 80px 0px;
+  padding: 0px 0px 40px 0px;
   @apply px-6 lg:px-0;
 }
 
@@ -32,7 +32,6 @@
 
   font-style: normal;
   font-weight: 700;
- 
 }
 .lets-text {
   color: white;

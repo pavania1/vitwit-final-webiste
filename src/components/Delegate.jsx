@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import "./Delegate.css";
 import { Alert, Space } from "antd";
-import Person from "../assets/person.svg";
 import Twitter from "../assets/partnerstwitter.svg";
 import Favorite from "../assets/favorite.svg";
 import Passage from "../assets/partners/passage.png";
@@ -17,46 +16,30 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Delegate = () => {
-  const currentAlerts = alertsData.slice(0, 3);
-  const [alertsToShow, setAlertsToShow] = useState(currentAlerts);
-  const [fixedAlertsCount, setFixedAlertsCount] = useState(3);
+  const [leftCardIndex, setLeftCardIndex] = useState(null);
+  const [rightCardIndex, setRightCardIndex] = useState(null);
 
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
   };
-
-  // useEffect(() => {
-  //   let index = 0;
-  //   const interval = setInterval(() => {
-  //     if (fixedAlertsCount === 3) {
-  //       index += 3;
-  //       if (index > alertsData.length) index = 0;
-
-  //       const currentAlerts = alertsData.slice(index, index + 3);
-
-  //       if (currentAlerts.length > 0) {
-  //         setAlertsToShow(currentAlerts);
-  //         setFixedAlertsCount(0);
-  //       }
-  //     } else {
-  //       setFixedAlertsCount(3);
-  //     }
-  //   }, 5000);
-
-  //   return () => clearInterval(interval);
-  // }, []);
+  useMemo(() => {
+    if (leftCardIndex === null && rightCardIndex === null) {
+      setLeftCardIndex(0);
+      setRightCardIndex(2);
+    }
+  }, []);
 
   return (
     <>
       <div id="partners" className="main-delegate">
         <div className="main22-delegate">
           <div className="delegate-main-head">
-            <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-5">
+            {/* <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-5">
               <h1 style={{ fontFamily: "Libre Franklin" }}>
                 Our Partners &nbsp;
                 <span className="servicesdevelop">& Clients</span>
@@ -129,17 +112,36 @@ const Delegate = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div>
-            <div className="bottom-text xs:hidden sm:hidden md:block mt-10 mb-[8%] lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+            <div className="bottom-text xs:hidden sm:hidden md:block  mb-[8%] lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
               Don’t just take our word for it! Here’s what people say about
               Vitwit
             </div>
             <div className="xs:hidden sm:hidden md:block lg:block mt-10">
-              <Slider {...settings} autoplaySpeed={5000} autoplay>
-                {alertsToShow.map((alert, index) => (
-                  <div className="" key={index}>
+              <Slider
+                beforeChange={(oldIndex, newIndex) => {
+                  console.log("fgxsgflef", oldIndex, newIndex);
+
+                  setLeftCardIndex(oldIndex % 9);
+                  setRightCardIndex((newIndex + 2) % 9);
+                }}
+                {...settings}
+                autoplaySpeed={5000}
+                autoplay
+              >
+                {alertsData.map((alert, index) => (
+                  <div
+                    className={
+                      index === leftCardIndex
+                        ? "fade-out-cards"
+                        : index === rightCardIndex
+                        ? "fade-in-cards"
+                        : ""
+                    }
+                    key={index}
+                  >
                     <a
                       href={alert.link}
                       target="_blank"

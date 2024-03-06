@@ -348,6 +348,18 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.cosmos {
+  border-radius: 16px;
+  width: 80%;
+  height: 70px;
+  flex-shrink: 0;
+  color: white;
+  font-family: "Libre Franklin";
+  /* font-size: 16px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+} 
 .infra-btn {
   display: flex;
   width: 100%;

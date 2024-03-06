@@ -152,6 +152,40 @@
     transform: translateX(0%);
   }
 }
+.fade-in-cards {
+  opacity: 0;
+  animation: fadeInAnimation 3s ease forwards; 
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  40%{
+      opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out-cards {
+  opacity: 1;
+  animation: fadeOutAnimation 3s ease forwards; 
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+      opacity: 1;
+  }
+  60% {
+      opacity: 0;
+  }
+  100% {
+    opacity: 1;
+}
+}
+
 
 /* .partners-logo-1,
 .partners-logo-2 {

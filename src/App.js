@@ -47,9 +47,9 @@ function App() {
           <OurPartners />
         </div>
       </div>
-      <div className="max-w-[1280px] ">
+      {/* <div className="max-w-[1280px] ">
         <Delegate />
-      </div>
+      </div> */}
       <div className="w-full relative">
         <Resolute />
       </div>
@@ -63,7 +63,6 @@ function App() {
         style={{ background: "rgba(255, 255, 255, 0.06)" }}
       >
         <Footer />
-       
       </div>
       <Backtotop />
     </div>
