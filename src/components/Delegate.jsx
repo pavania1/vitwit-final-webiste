@@ -3,14 +3,9 @@ import "./Delegate.css";
 import { Alert, Space } from "antd";
 import Twitter from "../assets/partnerstwitter.svg";
 import Favorite from "../assets/favorite.svg";
-import Passage from "../assets/partners/passage.png";
-import Chainflow from "../assets/partners/chainflow.svg";
+
 import alertsData from "./alertdata";
-import Akash from "../assets/partners/akash.svg";
-import Regen from "../assets/partners/regen.svg";
-import Polygen from "../assets/partners/polygon.svg";
-import Cosmos from "../assets/partners/cosmos.svg";
-import Polama from "../assets/partners/paloma final.png";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

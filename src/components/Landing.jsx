@@ -1,24 +1,30 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Landing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-
-
+import Akash from "../assets/partners/akash.png";
+import Regen from "../assets/partners/regen.svg";
+import Polygen from "../assets/partners/polygon.png";
+import Cosmos from "../assets/partners/cosmos.png";
+import Polama from "../assets/partners/paloma final.png";
+import Passage from "../assets/partners/passage.png";
+import Chainflow from "../assets/partners/chainflow.png";
+import ContactPopup from "./ContactPopup";
+import AgeFund from "../assets/partners/age.png";
+import Binarybuilders from "../assets/partners/binarybuilders.png";
+import Avail from "../assets/partners/avail .png";
+import Cheqd from "../assets/partners/cheqd.png";
+import Marquee from "react-fast-marquee";
+import GetinTouch from "./GetinTouch";
 const Landing = () => {
-  const videoRef = useRef();
   const words = [
-    "Appchain development",
-    "IBC-app development",
-    "Road to mainnet",
-    "Protocol research",
-    "Web3 infrastructure",
+    "Appchain Development",
+    "IBC-App Development",
+    "Roadto mainnet",
+    "Protocol Research",
+    "Web3 Infrastructure",
   ];
 
-  const [text] = useTypewriter({
-    words,
-    loop: 0,
-    typeSpeed: 120,
-    deleteSpeed: 120,
-  });
+  const videoRef = useRef();
 
   useEffect(() => {
     if (videoRef.current) {
@@ -26,52 +32,212 @@ const Landing = () => {
     }
   }, []);
 
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const [typing, setTyping] = useState(true);
+  const [displayedText, setDisplayedText] = useState(["", ""]);
+  const [showGetInTouch, setShowGetInTouch] = useState(false);
+  const handleGetInTouchClick = () => {
+    setShowGetInTouch(true);
+  };
+  useEffect(() => {
+    const currentWord = words[currentWordIndex];
+    let timeout;
+
+    if (typing) {
+      timeout = setTimeout(() => {
+        if (displayedText[0].length < currentWord.split(" ")[0].length) {
+          setDisplayedText([
+            currentWord.split(" ")[0].substring(0, displayedText[0].length + 1),
+            displayedText[1],
+          ]);
+        } else if (displayedText[1].length < currentWord.split(" ")[1].length) {
+          setDisplayedText([
+            displayedText[0],
+            currentWord.split(" ")[1].substring(0, displayedText[1].length + 1),
+          ]);
+        }
+      }, 200); // Adjust typing speed here
+    } else {
+      timeout = setTimeout(() => {
+        if (displayedText[1].length > 0) {
+          setDisplayedText([
+            displayedText[0],
+            currentWord.split(" ")[1].substring(0, displayedText[1].length - 1),
+          ]);
+        } else if (displayedText[0].length > 0) {
+          setDisplayedText([
+            displayedText[0].substring(0, displayedText[0].length - 1),
+            displayedText[1],
+          ]);
+        }
+      }, 100); // Adjust erasing speed here
+    }
+
+    if (
+      typing &&
+      displayedText[0] === currentWord.split(" ")[0] &&
+      displayedText[1] === currentWord.split(" ")[1]
+    ) {
+      setTyping(false);
+      setTimeout(() => {
+        setTyping(true);
+        setCurrentWordIndex((currentWordIndex + 1) % words.length);
+        setDisplayedText(["", ""]);
+      }, 1000); // Delay before erasing next word
+    }
+
+    return () => clearTimeout(timeout);
+  }, [typing, displayedText, currentWordIndex, words]);
+  const [showContactPopup, setShowContactPopup] = useState(false);
+  const handleConnectClick = () => {
+    setShowContactPopup(true);
+  };
+
   return (
     <div id="landing" className="main22-landing">
       {/* maindevelop cantioner start */}
       <div className="maindevelop-landing">
         <video autoPlay muted loop ref={videoRef} className="myVideo">
           <source
-            src={process.env.PUBLIC_URL + "/videos/background-video.mp4"}
+            src={process.env.PUBLIC_URL + "/videos/landingbackground.mp4"}
             type="video/mp4"
           />
         </video>
         {/* leftdevelop cantioner start */}
-        <div className="landing flex w-full ">
+        <div className="landing flex w-full relative h-[100vh]">
           <div className="h-full">
-            <div className="leftdevelop-landing mx-auto lg:background-layer md:background-layer lg:w-[70%] sm:p-4 xs:p-4 ">
-              <div className="subleftdevelop1-landing lg:text-4xl md:text-3xl sm:text-base xs:text-sm sm:text-left xs:text-left lg:text-center">
-                <h1 className="lg:gap-20">Trusted partners for your </h1>
-                <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-2xl xs:text-2xl">{text}</span>
+            <div className="leftdevelop-landing mx-auto  sm:p-4 xs:p-4 ">
+              <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left  pt-40 lg:hidden xs:block sm:block">
+                <h1 className=" text-left mb-5">Trusted partners for your </h1>
+                <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
+                  {displayedText[0]}
+                </span>{" "}
+                <br />
+                <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl">
+                  {displayedText[1]}
+                </span>
+                <Cursor />
+              </div>
+              <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left  pt-40 lg:block xs:hidden sm:hidden">
+                <h1 className=" text-left mb-5">Trusted partners for your </h1>
+                <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
+                  {displayedText[0]} {displayedText[1]}
+                </span>
                 <Cursor />
               </div>
 
               <div className="landing-text-main">
-                <div className="landing-text-para lg:text-center lg:w-full lg:text-base md:text-sm sm:text-xs xs:text-xs xs:text-left sm:text-left xs:w-[80%] sm:w-[80%]">
-                  From strategic planning to execution, our comprehensive
-                  services are tailored to meet your unique needs. Partner with
-                  us to harness the power of blockchain and unlock new
-                  opportunities for growth and efficiency. With Vitwit, you get
-                  personalized support every step of the way.
+                <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] sm:w-[80%] lg:w-[50%]">
+                  Partner with us to harness the power of blockchain and unlock
+                  new opportunities for growth and efficiency. With Vitwit, you
+                  get personalized support every step of the way.
                 </div>
               </div>
               <div className="sm:hidden xs:hidden lg:block">
-                <button className="get-touch-btn nav-text mx-auto">
-                  <a href="#development">Know More</a>
+                <button
+                  className="get-touch-btn nav-text "
+                  onClick={handleGetInTouchClick}
+                >
+                  Connect With Us
                 </button>
+              </div>
+              <GetinTouch
+                open={showGetInTouch}
+                close={() => {
+                  setShowGetInTouch(false);
+                }}
+              />
+              <div className="sm:hidden xs:block lg:hidden ">
+                <button
+                  className="get-touch-btn nav-text"
+                  onClick={handleConnectClick}
+                >
+                  Connect With Us
+                </button>
+              </div>
+              <ContactPopup
+                open={showContactPopup}
+                close={() => {
+                  setShowContactPopup(false);
+                }}
+              />
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bottom-0  w-full">
+        <div className="partners-bgrnd flex flex-col md:flex-row overflow-hidden">
+          <div className="ourpartners-landing-text text-[14px] lg:hidden mx-auto w-full">
+            Our Partners
+          </div>
+          <div className="max-w-[1280px] flex justify-center items-center overflow-hidden ">
+            <div className="partners-logos relative">
+              <div className="ourpartners-landing-text lg:text-[18px]">
+                Our&nbsp;Partners
+              </div>
+
+              <div className="relative">
+                <div className="absolute top-0 z-10  w-full h-full partners-layer"></div>
+                <Marquee autoFill className="max-w-[1100px] ">
+                  <img src={Akash} alt="Akash" className="partner-logo mx-10" />
+                  <img
+                    src={Cosmos}
+                    alt="Cosmos"
+                    className="partner-logo mx-10"
+                  />
+                  <img
+                    src={Polygen}
+                    alt="Polygen"
+                    className="partner-logo mx-10"
+                  />
+
+                  <img
+                    src={Avail}
+                    alt="Avail"
+                    className="partner-logo mx-10 w-[120px] h-[40px]"
+                  />
+                  <img
+                    src={Passage}
+                    alt="Passage"
+                    className="partner-logo mx-10"
+                  />
+                  <img
+                    src={Binarybuilders}
+                    alt="BinaryBuilders"
+                    className="partner-logo mx-10 h-[40px]"
+                  />
+                  <img
+                    src={Chainflow}
+                    alt="Chainflow"
+                    className="partner-logo mx-10"
+                  />
+                  <img
+                    src={Regen}
+                    alt="Regen"
+                    className="partner-logo mx-10 w-[120px] h-[60px]"
+                  />
+                  <img
+                    src={Polama}
+                    alt="Paloma"
+                    className="partner-logo w-[120px] h-[60px] mx-10"
+                  />
+                  <img
+                    src={AgeFund}
+                    alt="AgeFund"
+                    className="partner-logo mx-10 w-[140px] h-[40px]"
+                  />
+                  <img
+                    src={Cheqd}
+                    alt="Cheqd"
+                    className="partner-logo mx-10 w-[120px] h-[40px]"
+                  />
+                </Marquee>
               </div>
             </div>
           </div>
-          {/* leftdevelop cantioner end */}
-
-          {/* RightDevelop cantioner start */}
-          {/* <div className="RightDevelop-landing">
-              <img src={LandingImage} alt="Landing-Image" className=" h-[36rem] w-[57rem]"/>
-            </div> */}
-          {/*RightDevelop cantioner end */}
         </div>
       </div>
-      {/* maindevelop cantioner end */}
     </div>
   );
 };
