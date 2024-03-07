@@ -167,8 +167,8 @@ const Landing = () => {
         </div>
       </div>
       <div className="absolute bottom-0  w-full">
-        <div className="partners-bgrnd flex flex-col md:flex-row overflow-hidden">
-          <div className="ourpartners-landing-text text-[14px] lg:hidden mx-auto w-full">
+        <div className="partners-bgrnd flex flex-col md:flex-row overflow-hidden px-6 py-4;">
+          <div className="ourpartners-landing-text text-[14px] lg:hidden mx-auto w-full ">
             Our Partners
           </div>
           <div className="max-w-[1280px] flex justify-center items-center overflow-hidden ">
@@ -195,7 +195,7 @@ const Landing = () => {
                   <img
                     src={Avail}
                     alt="Avail"
-                    className="partner-logo mx-10 w-[120px] h-[40px]"
+                    className="partner-logo mx-10 w-[80px] lg:w-[120px] h-[40px]"
                   />
                   <img
                     src={Passage}
@@ -210,27 +210,27 @@ const Landing = () => {
                   <img
                     src={Chainflow}
                     alt="Chainflow"
-                    className="partner-logo mx-10"
+                    className="partner-logo mx-10 w-[80px] lg:w-[120px] h-[60px]"
                   />
                   <img
                     src={Regen}
                     alt="Regen"
-                    className="partner-logo mx-10 w-[120px] h-[60px]"
+                    className="partner-logo mx-10 w-[80px] lg:w-[120px] h-[60px]"
                   />
                   <img
                     src={Polama}
                     alt="Paloma"
-                    className="partner-logo w-[120px] h-[60px] mx-10"
+                    className="partner-logo w-[80px] lg:w-[120px] h-[60px] mx-10"
                   />
                   <img
                     src={AgeFund}
                     alt="AgeFund"
-                    className="partner-logo mx-10 w-[140px] h-[40px]"
+                    className="partner-logo mx-10 w-[80px] lg:w-[140px] h-[40px]"
                   />
                   <img
                     src={Cheqd}
                     alt="Cheqd"
-                    className="partner-logo mx-10 w-[120px] h-[40px]"
+                    className="partner-logo mx-10 w-[80px] lg:w-[120px] h-[40px]"
                   />
                 </Marquee>
               </div>
