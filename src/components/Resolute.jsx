@@ -61,7 +61,7 @@ const Resolute = () => {
                   <h1>Resolute</h1>
                 </div>
                 <div className="flex flex-col infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs ">
-                  <p>Your Gateway to the Cosmos Ecosystem.</p>
+                  <p className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Your Gateway to the Cosmos Ecosystem.</p>
                   <br />
                   <p className="text-left">
                     Navigate the vast Cosmos ecosystem with ease using Resolute,
