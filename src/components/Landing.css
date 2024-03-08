@@ -68,7 +68,7 @@
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 700;
-  background: linear-gradient(180deg, #fff 43.57%, #a562f7 75.71%);
+  background: linear-gradient(185deg, #fff 25%, #a562f7 75%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -83,15 +83,16 @@
   
 }
 .ourpartners-landing-text {
-  background: linear-gradient(180deg, #fff 30.45%, #a562f7 77.27%);
+  background: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
+  /* text-align: center; */
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 600;
   line-height: 22px;
+ 
 }
 .partners-container {
   /* width: 100%;

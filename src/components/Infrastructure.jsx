@@ -142,7 +142,7 @@ const Infrastructure = () => {
             </div>
             <div className="infra-right-parent">
               <Alert
-                className="infra-bg infra-right md:infra border-none lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]"
+                className="infra-bg infra-right md:infra border-none lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px] alert3003"
                 message={
                   <div>
                     <div className="genesis-dot mb-3">

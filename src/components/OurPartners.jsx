@@ -238,7 +238,7 @@ const OurPartners = () => {
                 <span className="servicesdevelop">We Support</span>
               </h1>
             </div>
-            <div className="grid grid-cols-3  gap-y-14">
+            <div className="grid grid-cols-3  gap-y-14 gap-x-6">
               {LOGOS.map((logo, logoId) => (
                 <div key={logoId} className="grid-item ">
                   <a href={logo.link} target="_blank" rel="noopener noreferrer">

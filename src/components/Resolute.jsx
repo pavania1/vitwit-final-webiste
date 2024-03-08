@@ -162,14 +162,16 @@ const Resolute = () => {
               />
             </video>
             <div className="leftdevelop-resolute flex left-bg w-full ">
-              <div className="text flex flex-col justify-center items-start gap-10 self-stretch pl-10">
+              <div className="text flex flex-col justify-center items-start self-stretch pl-10">
                 <div className=" ">
-                  <span className="text-style-1 text-[54px]">Resolute</span>
+                  <span className="text-style-1 text-[54px] mb-3">
+                    Resolute
+                  </span>
                 </div>
-                <div className="text-frame">
+                <div className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm mb-8">
                   <p>Your Gateway to the Cosmos Ecosystem.</p>
                 </div>
-                <div className="text-frame">
+                <div className="text-frame mb-5">
                   <p>
                     Navigate the vast Cosmos ecosystem with ease using Resolute,
                     the all-in-one interface designed to streamline your
@@ -178,7 +180,7 @@ const Resolute = () => {
                     of the Cosmos at your fingertips.
                   </p>
                 </div>
-                <div className="key-features-text">
+                <div className="key-features-text mb-5">
                   {/* <p className="text-sm text-start">Key Features:</p> */}
 
                   <div className="grid grid-cols-2 text-xs gap-4">
@@ -217,7 +219,7 @@ const Resolute = () => {
                     </div>
                   </div>
                 </div>
-                <div className="text-frame">
+                <div className="text-frame mb-6">
                   <p className="text-left">
                     Resolute integrates these powerful features into a
                     user-friendly interface, making it the definitive tool for
@@ -225,7 +227,7 @@ const Resolute = () => {
                   </p>
                 </div>
 
-                <div className="pb-10">
+                <div className="">
                   <a
                     href="https://resolute.vitwit.com"
                     target="_blank"

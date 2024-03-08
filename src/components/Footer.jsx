@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
         <img className="md:hidden sm:block w-[40%] mx-auto" src={VitwitLogo} alt="Vitwit Logo" />
-        <div className="flex flex-col gap-6 mt-10 xs:hidden sm:hidden md:block">
+        <div className="flex flex-col gap-6 xs:hidden sm:hidden md:block">
           <div className="text-white text-xl not-italic font-bold leading-5 text-left mb-5">
             {" "}
             Join our community

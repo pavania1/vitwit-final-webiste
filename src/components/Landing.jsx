@@ -108,7 +108,7 @@ const Landing = () => {
           <div className="h-full">
             <div className="leftdevelop-landing mx-auto  sm:p-4 xs:p-4 ">
               <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left  pt-40 lg:hidden xs:block sm:block">
-                <h1 className=" text-left mb-5">Trusted partners for your </h1>
+                <h1 className="text-left mb-5 ">Trusted partners for your </h1>
                 <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
                   {displayedText[0]}
                 </span>{" "}
@@ -119,7 +119,7 @@ const Landing = () => {
                 <Cursor />
               </div>
               <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left  pt-40 lg:block xs:hidden sm:hidden">
-                <h1 className=" text-left mb-5">Trusted partners for your </h1>
+                <h1 className=" text-left mb-5 lg:text-4xl md:text-4xl">Trusted partners for your </h1>
                 <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
                   {displayedText[0]} {displayedText[1]}
                 </span>
@@ -168,13 +168,13 @@ const Landing = () => {
       </div>
       <div className="absolute bottom-0  w-full">
         <div className="partners-bgrnd flex flex-col md:flex-row overflow-hidden px-6 py-4;">
-          <div className="ourpartners-landing-text text-[14px] lg:hidden mx-auto w-full ">
+          <div className="ourpartners-landing-text text-[14px] lg:hidden mx-auto w-full mt-4 ">
             Our Partners
           </div>
           <div className="max-w-[1280px] flex justify-center items-center overflow-hidden ">
             <div className="partners-logos relative">
-              <div className="ourpartners-landing-text lg:text-[18px]">
-                Our&nbsp;Partners
+              <div className="ourpartners-landing-text lg:text-[18px] mr-20 text-left">
+                Our Partners
               </div>
 
               <div className="relative">

@@ -27,7 +27,7 @@ const Letstalk = () => {
           Feel free to conatct us by filling this form or you can even reach us
           out from the social media links below.
         </p>
-        <div className="v-line"></div>
+        {/* <div className="v-line"></div> */}
         <div className="xs:hidden sm:hidden lg:block">
           <button className="get-touch-btn nav-text mt-5 mx-auto">
             <a href="mailto:contact@vitwit.com">Connect to us</a>
