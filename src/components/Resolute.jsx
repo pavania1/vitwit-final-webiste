@@ -31,16 +31,16 @@ const Resolute = () => {
   };
 
   return (
-    <div id="resolute" className="resolute">
+    <div id="resolute" className="resolute bg-black">
       <div
         className={
-          isSmallScreen ? "flex flex-col items-center" : "maindevelop-resolute"
+          isSmallScreen ? "flex flex-col items-center" : "maindevelop-resolute myVideores"
         }
       >
         {isSmallScreen ? (
-          <div className="small-screen-interface">
-            {/* Background Video */}
-            <video
+          <div className="small-screen-interface background-video">
+           
+            {/* <video
               autoPlay
               muted
               loop
@@ -53,7 +53,7 @@ const Resolute = () => {
                 type="video/mp4"
               />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
             {/* Your small screen interface here */}
             <div className="flex flex-col content-overlay mobile-reolute">
               <div className="px-6 py-0">
@@ -161,7 +161,7 @@ const Resolute = () => {
                 type="video/mp4"
               />
             </video>
-            <div className="leftdevelop-resolute flex left-bg w-full ">
+            <div className="leftdevelop-resolute flex left-bg w-full">
               <div className="text flex flex-col justify-center items-start self-stretch pl-10">
                 <div className=" ">
                   <span className="text-style-1 text-[54px] mb-3">

@@ -74,14 +74,15 @@
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  background: #f07576;
-  z-index: 1; 
+  /* background: #f07576; */
+  background: radial-gradient(circle at 100px 100px, #f07576, #000);
+  z-index: 1;
   transition: transform 0.8s ease;
 }
 
 .dot1-infra:hover {
   transform: scale(1.2);
-  z-index: 9999; 
+  z-index: 9999;
 }
 
 .dot2-infra,
@@ -101,8 +102,9 @@
 .dot2-infra {
   right: 0;
   top: 7rem;
-  background: #9474f6;
-  z-index: 2; 
+  /* background: #9474f6; */
+  background: radial-gradient(circle at 100px 100px,#9474f6, #000);
+  z-index: 2;
 }
 
 .dot2-infra:hover {
@@ -113,25 +115,27 @@
 .dot3-infra {
   left: 1%;
   top: 12rem;
-  background: #84e0c2;
-  z-index: 3; 
+  /* background: #84e0c2; */
+  background: radial-gradient(circle at 100px 100px,#84e0c2, #000);
+  z-index: 3;
 }
 
 .dot3-infra:hover {
   transform: scale(1.2);
-  z-index: 999; 
+  z-index: 999;
 }
 
 .dot4-infra {
   left: 16%;
   top: 3rem;
-  background: #e0b0ff;
-  z-index: 4; 
+  /* background: #e0b0ff; */
+  background: radial-gradient(circle at 100px 100px,#e0b0ff, #000);
+  z-index: 4;
 }
 
 .dot4-infra:hover {
   transform: scale(1.2);
-  z-index: 999; 
+  z-index: 999;
 }
 
 .dot5-infra {
@@ -158,8 +162,9 @@
   border-radius: 50%;
   position: absolute;
   left: 10%;
-  top: 30%;
-  background: rgba(148, 116, 246, 0.4);
+  top: 35%;
+  /* background: rgba(148, 116, 246, 0.4); */
+  background: radial-gradient(circle at 100px 100px,rgba(148, 116, 246, 0.4), #000);
 }
 .dot7-infra {
   height: 41px;
@@ -172,7 +177,9 @@
   left: 68%;
   top: 15%;
   /* margin-top: 40%; */
-  background: rgba(224, 176, 255, 0.2);
+  /* background: rgba(224, 176, 255, 0.2); */
+  background: radial-gradient(circle at 100px 100px,rgba(224, 176, 255, 0.2), #000);
+  
 }
 .dot8-infra {
   height: 16px;
@@ -204,7 +211,8 @@
   /* top: 100%; */
   bottom: -12rem;
   /* margin-top: 2%; */
-  background: rgba(132, 224, 194, 0.8);
+  /* background: rgba(132, 224, 194, 0.8); */
+  background: radial-gradient(circle at 100px 100px,rgba(132, 224, 194, 0.8), #000);
 }
 .dot10-infra {
   height: 67px;
@@ -218,7 +226,8 @@
   right: 60px;
   top: 23rem;
   /* margin-top: -12%; */
-  background: rgba(240, 117, 118, 0.6);
+  /* background: rgba(240, 117, 118, 0.6); */
+  background: radial-gradient(circle at 100px 100px,rgba(240, 117, 118, 0.6), #000);
 }
 .figma2001-infra {
   margin-right: 20%;
@@ -234,7 +243,7 @@
   /* font-size: 20px; */
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; 
+  line-height: 24px;
 }
 .development-alert-text {
   color: white;

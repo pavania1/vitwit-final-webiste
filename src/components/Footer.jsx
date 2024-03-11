@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer bg-black">
       <div className="flex justify-between">
         <div className="flex flex-col items-start gap-6 sm:hidden xs:hidden md:block">
           <img className="w-[30%]" src={VitwitLogo} alt="Vitwit Logo" />

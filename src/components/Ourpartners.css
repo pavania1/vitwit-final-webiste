@@ -97,9 +97,10 @@
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  background: #f07576;
+  /* background: #f07576; */
   z-index: 1;
   transition: transform 0.8s ease;
+  background: radial-gradient(circle at 100px 100px,#f07576, #000);
 }
 .dot1:hover {
   transform: scale(1.2);
@@ -122,6 +123,7 @@
   background: #9474f6;
   transition: transform 0.8s ease;
   z-index: 2;
+  background: radial-gradient(circle at 100px 100px,#9474f6, #000);
 }
 .dot2:hover {
   transform: scale(1.2);
@@ -145,6 +147,7 @@
   background: #84e0c2;
   z-index: 3;
   transition: transform 0.8s ease;
+  background: radial-gradient(circle at 100px 100px,#84e0c2, #000);
 }
 .dot3:hover {
   transform: scale(1.2);
@@ -170,6 +173,7 @@
   padding: 2px;
   z-index: 4;
   transition: transform 0.8s ease;
+  background: radial-gradient(circle at 100px 100px,#e0b0ff, #000);
 }
 .dot4:hover {
   transform: scale(1.2);
@@ -193,6 +197,7 @@
   margin-top: 11%;
   z-index: 5;
   transition: transform 0.8s ease;
+  background: radial-gradient(circle at 100px 100px,#d59bb7, #000);
 }
 .dot5:hover {
   transform: scale(1.2);
@@ -209,7 +214,8 @@
   position: relative;
   left: 4%;
   margin-top: -59%;
-  background: rgba(148, 116, 246, 0.4);
+  /* background: rgba(148, 116, 246, 0.4); */
+  background: radial-gradient(circle at 100px 100px,rgba(148, 116, 246), #000);
 }
 .dot7 {
   height: 41px;
@@ -221,7 +227,8 @@
   position: relative;
   left: 52%;
   margin-top: 56%;
-  background: rgba(224, 176, 255, 0.2);
+  /* background: rgba(224, 176, 255, 0.2); */
+  background: radial-gradient(circle at 100px 100px,rgba(224, 176, 255), #000);
 }
 .dot8 {
   height: 16px;
@@ -251,7 +258,8 @@
   position: relative;
   left: 14%;
   margin-top: -13%;
-  background: rgba(132, 224, 194, 0.8);
+  /* background: rgba(132, 224, 194, 0.8); */
+  background: radial-gradient(circle at 100px 100px,rgba(132, 224, 194), #000);
 }
 .dot10 {
   height: 58px;
@@ -263,7 +271,8 @@
   position: relative;
   left: 52%;
   margin-top: -12%;
-  background: rgba(240, 117, 118, 0.6);
+  /* background: rgba(240, 117, 118, 0.6); */
+  background: radial-gradient(circle at 100px 100px,rgba(240, 117, 118), #000);
 }
 .alert-right1 {
   margin-top: 15%;
@@ -351,7 +360,7 @@
 .cosmos {
   border-radius: 16px;
   width: 100%;
-  height: 70px;
+  /* height: 70px; */
   flex-shrink: 0;
   color: white;
   font-family: "Libre Franklin";

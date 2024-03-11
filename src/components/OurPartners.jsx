@@ -261,7 +261,7 @@ const OurPartners = () => {
                       </div>
                       <div>
                         <button
-                          className="cosmos text-[10px] md:text-xs lg:text-[16px]"
+                          className="cosmos text-[10px] md:text-xs lg:text-[16px] h-[55px] lg:h-[70px]"
                           style={{ backgroundColor: logo.bgColor }}
                           onMouseOver={(e) =>
                             (e.target.style.backgroundColor = logo.hoverColor)
