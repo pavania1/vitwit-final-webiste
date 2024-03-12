@@ -164,7 +164,7 @@ const OurPartners = () => {
                 </span>
               </h1>
             </div>
-            <div className="sm:hidden xs:hidden lg:block">
+            <div className="block">
               <div className="figma2001-infra">
                 <div className="circles-infra ">
                   <div className="dot1  flex flex-col justify-center items-center">

@@ -129,10 +129,10 @@ const Development = () => {
             {/* leftdevelop cantioner end */}
 
             {/* RightDevelop cantioner start */}
-            <div className="RightDevelop-infra sm:hidden xs:hidden lg:block">
+            <div className="RightDevelop-infra h-[50vh]">
               <div className="figma2001-infra relative">
-                <div className="dot1-infra   flex flex-col justify-center items-center">
-                  <span className="count-text">
+                <div className="dot1-infra w-[200px] h-[200px] lg:w-[320px] lg:h-[320px] top-[7rem] lg:top-[10rem] flex flex-col justify-center items-center">
+                  <span className="count-text text-[20px] lg:text-[40px]">
                     <CountUp
                       start={0}
                       end={1000}
@@ -141,37 +141,37 @@ const Development = () => {
                     />
                     <span>+</span>{" "}
                   </span>
-                  <span className="text-stats">Open Source Commits</span>
+                  <span className="text-stats text-[14px] lg:text-[20px]">Open Source Commits</span>
                 </div>
-                <div className="dot2-infra  flex flex-col justify-center items-center">
-                  <span className="count-text">
+                <div className="dot2-infra w-[140px] h-[140px] lg:w-[240px] lg:h-[240px] top-[5rem] right-[-145px] lg:right-0  lg:top-[5rem] flex flex-col justify-center items-center">
+                  <span className="count-text text-[20px] lg:text-[40px]">
                     <CountUp start={0} end={10} duration={2.5} separator="," />
                     <span>+</span>{" "}
                   </span>
 
-                  <span className="text-stats">Projects Delivered</span>
+                  <span className="text-stats text-[14px] lg:text-[20px]">Projects Delivered</span>
                 </div>
-                <div className="dot3-infra  flex flex-col justify-center items-center">
-                  <span className="count-text">
-                    <CountUp start={0} end={8} duration={3} />
+                <div className="dot3-infra  w-[140px] h-[140px] lg:w-[240px] lg:h-[240px] left-[44%] top-[16rem] lg:left-[1%] lg:top-[12rem] flex flex-col justify-center items-center">
+                  <span className="count-text text-[20px] lg:text-[40px]">
+                    <CountUp start={0} end={11} duration={3} />
                     <span>+</span>{" "}
                   </span>
 
-                  <span className="text-stats"> Partnerships</span>
+                  <span className="text-stats text-[14px] lg:text-[20px]"> Partnerships</span>
                 </div>
-                <div className="dot4-infra  flex-col justify-center items-center">
-                  <span className="count-text">
+                <div className="dot4-infra w-[140px] h-[140px] lg:w-[240px] lg:h-[240px] left-[-4%] top-[5rem] lg:left-[16%] lg:top-[3rem] flex-col justify-center items-center">
+                  <span className="count-text text-[20px] lg:text-[40px]">
                     <CountUp start={0} end={4} duration={3} />
                     <span>+</span>{" "}
                   </span>
-                  <span className="text-stats">
+                  <span className="text-stats text-[14px] lg:text-[20px]">
                     Mainnet <br></br>Launches{" "}
                   </span>
                 </div>
-                <span className="dot6-infra"></span>
-                <span className="dot10-infra"></span>
-                <span className="dot7-infra"></span>
-                <span className="dot9-infra"></span>
+                <span className="dot6-infra left-[54%] top-[9%] lg:left-[10%] lg:top-[35%]"></span>
+                <span className="dot10-infra right-[-129px] top-[19rem] lg:right-[60px] lg:top-[23rem]"></span>
+                <span className="dot7-infra left-[117%] lg:left-[68%]"></span>
+                <span className="dot9-infra left-[-3%] bottom-[-10rem] lg:left-[26%] lg:bottom-[-12rem]"></span>
               </div>
             </div>
           </div>

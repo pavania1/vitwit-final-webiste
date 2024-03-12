@@ -34,13 +34,12 @@ const Resolute = () => {
     <div id="resolute" className="resolute bg-black">
       <div
         className={
-          isSmallScreen ? "flex flex-col items-center" : "maindevelop-resolute myVideores"
+          isSmallScreen ? "flex flex-col items-center" : "maindevelop-resolute"
         }
       >
         {isSmallScreen ? (
-          <div className="small-screen-interface background-video">
-           
-            {/* <video
+          <div className="small-screen-interface ">
+            <video
               autoPlay
               muted
               loop
@@ -53,7 +52,7 @@ const Resolute = () => {
                 type="video/mp4"
               />
               Your browser does not support the video tag.
-            </video> */}
+            </video>
             {/* Your small screen interface here */}
             <div className="flex flex-col content-overlay mobile-reolute">
               <div className="px-6 py-0">
@@ -61,7 +60,9 @@ const Resolute = () => {
                   <h1>Resolute</h1>
                 </div>
                 <div className="flex flex-col infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs ">
-                  <p className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">Your Gateway to the Cosmos Ecosystem.</p>
+                  <p className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
+                    Your Gateway to the Cosmos Ecosystem.
+                  </p>
                   <br />
                   <p className="text-left">
                     Navigate the vast Cosmos ecosystem with ease using Resolute,
@@ -105,40 +106,40 @@ const Resolute = () => {
               <br />
 
               <div className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs text-left pr-4 pl-4">
-                <p className="pb-[10%]">
+                <p className="pb-[8%]">
                   Resolute integrates these powerful features into a
                   user-friendly interface, making it the definitive tool for
                   engaging with the Cosmos ecosystem.
                 </p>
-                <div className="grid grid-cols-2 text-xs gap-4">
-                  <div className="flex space-x-2">
+                <div className="grid grid-cols-2 text-xs gap-4 font-bold">
+                  <div className="flex space-x-2 key-features-bgrnd">
                     <img src={checkPoint} alt="Checkpoint" />
                     <label for="multisig">Multisig Wallet</label>
                   </div>
 
-                  <div className="flex space-x-2">
+                  <div className="flex space-x-2 key-features-bgrnd ">
                     <img src={checkPoint} alt="Checkpoint" />
                     <label for="authz">Authz</label>
                   </div>
 
-                  <div className="flex space-x-2">
+                  <div className="flex space-x-2 key-features-bgrnd">
                     <img src={checkPoint} alt="Checkpoint" />
                     <label for="multisend">Multisend</label>
                   </div>
 
-                  <div className="flex space-x-2">
+                  <div className="flex space-x-2 key-features-bgrnd">
                     <img src={checkPoint} alt="Checkpoint" />
                     <label for="multiMessageTransactions">
                       Multi-Message Transactions
                     </label>
                   </div>
 
-                  <div className="flex space-x-2">
+                  <div className="flex space-x-2 key-features-bgrnd">
                     <img src={checkPoint} alt="Checkpoint" />
                     <label for="transactionBuilder">Transaction Builder</label>
                   </div>
 
-                  <div className="flex space-x-2">
+                  <div className="flex space-x-2 key-features-bgrnd">
                     <img src={checkPoint} alt="Checkpoint" />
                     <label for="feeGrant">Fee Grant</label>
                   </div>
@@ -171,7 +172,7 @@ const Resolute = () => {
                 <div className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm mb-8">
                   <p>Your Gateway to the Cosmos Ecosystem.</p>
                 </div>
-                <div className="text-frame mb-5">
+                <div className="text-frame mb-10">
                   <p>
                     Navigate the vast Cosmos ecosystem with ease using Resolute,
                     the all-in-one interface designed to streamline your
@@ -180,40 +181,40 @@ const Resolute = () => {
                     of the Cosmos at your fingertips.
                   </p>
                 </div>
-                <div className="key-features-text mb-5">
+                <div className="key-features-text mb-10">
                   {/* <p className="text-sm text-start">Key Features:</p> */}
 
                   <div className="grid grid-cols-2 text-xs gap-4">
-                    <div className="flex space-x-2">
+                    <div className="flex key-features-bgrnd">
                       <img src={checkPoint} alt="Checkpoint" />
                       <label for="multisig">Multisig Wallet</label>
                     </div>
 
-                    <div className="flex space-x-2">
+                    <div className="flex key-features-bgrnd">
                       <img src={checkPoint} alt="Checkpoint" />
                       <label for="authz">Authz</label>
                     </div>
 
-                    <div className="flex space-x-2">
+                    <div className="flex key-features-bgrnd">
                       <img src={checkPoint} alt="Checkpoint" />
                       <label for="multisend">Multisend</label>
                     </div>
 
-                    <div className="flex space-x-2">
+                    <div className="flex key-features-bgrnd ">
                       <img src={checkPoint} alt="Checkpoint" />
                       <label for="multiMessageTransactions">
                         Multi-Message Transactions
                       </label>
                     </div>
 
-                    <div className="flex space-x-2">
+                    <div className="flex key-features-bgrnd">
                       <img src={checkPoint} alt="Checkpoint" />
                       <label for="transactionBuilder">
                         Transaction Builder
                       </label>
                     </div>
 
-                    <div className="flex space-x-2">
+                    <div className="flex key-features-bgrnd">
                       <img src={checkPoint} alt="Checkpoint" />
                       <label for="feeGrant">Fee Grant</label>
                     </div>

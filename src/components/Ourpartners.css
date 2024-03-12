@@ -10,7 +10,7 @@
   @apply flex justify-center px-6 lg:px-0;
 }
 .maindevelop-partners {
-  @apply w-full flex flex-col lg:flex-row;
+  @apply w-full flex flex-col-reverse lg:flex-row;
 }
 .leftdevelop-partners {
   @apply flex-1;

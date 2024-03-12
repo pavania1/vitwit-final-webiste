@@ -19,7 +19,7 @@ const Landing = () => {
   const words = [
     "Appchain Development",
     "IBC-App Development",
-    "Roadto mainnet",
+    "Road-To Mainnet",
     "Protocol Research",
     "Web3 Infrastructure",
   ];
