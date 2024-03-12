@@ -131,7 +131,7 @@ const Development = () => {
             {/* RightDevelop cantioner start */}
             <div className="RightDevelop-infra h-[50vh]">
               <div className="figma2001-infra relative">
-                <div className="dot1-infra w-[200px] h-[200px] lg:w-[320px] lg:h-[320px] top-[7rem] lg:top-[10rem] flex flex-col justify-center items-center">
+                <div className="dot1-infra w-[180px] h-[180px] lg:w-[320px] lg:h-[320px] top-[7rem] left-[43%] lg:left-[30%] lg:top-[10rem] flex flex-col justify-center items-center">
                   <span className="count-text text-[20px] lg:text-[40px]">
                     <CountUp
                       start={0}
@@ -141,25 +141,35 @@ const Development = () => {
                     />
                     <span>+</span>{" "}
                   </span>
-                  <span className="text-stats text-[14px] lg:text-[20px]">Open Source Commits</span>
+                  <span className="text-stats text-[14px] lg:text-[20px] xs:hidden lg:flex">
+                    Open Source Commits
+                  </span>
+                  <span className="text-stats text-[14px] lg:text-[20px] lg:hidden">
+                    Open Source <br/> Commits
+                  </span>
                 </div>
-                <div className="dot2-infra w-[140px] h-[140px] lg:w-[240px] lg:h-[240px] top-[5rem] right-[-145px] lg:right-0  lg:top-[5rem] flex flex-col justify-center items-center">
+                <div className="dot2-infra w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] top-[5rem] right-[-155px] lg:right-0  lg:top-[5rem] flex flex-col justify-center items-center">
                   <span className="count-text text-[20px] lg:text-[40px]">
                     <CountUp start={0} end={10} duration={2.5} separator="," />
                     <span>+</span>{" "}
                   </span>
 
-                  <span className="text-stats text-[14px] lg:text-[20px]">Projects Delivered</span>
+                  <span className="text-stats text-[14px] lg:text-[20px]">
+                    Projects Delivered
+                  </span>
                 </div>
-                <div className="dot3-infra  w-[140px] h-[140px] lg:w-[240px] lg:h-[240px] left-[44%] top-[16rem] lg:left-[1%] lg:top-[12rem] flex flex-col justify-center items-center">
+                <div className="dot3-infra  w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] left-[-7%] top-[9rem] lg:left-[1%] lg:top-[12rem] flex flex-col justify-center items-center">
                   <span className="count-text text-[20px] lg:text-[40px]">
                     <CountUp start={0} end={11} duration={3} />
                     <span>+</span>{" "}
                   </span>
 
-                  <span className="text-stats text-[14px] lg:text-[20px]"> Partnerships</span>
+                  <span className="text-stats text-[14px] lg:text-[20px]">
+                    {" "}
+                    Partnerships
+                  </span>
                 </div>
-                <div className="dot4-infra w-[140px] h-[140px] lg:w-[240px] lg:h-[240px] left-[-4%] top-[5rem] lg:left-[16%] lg:top-[3rem] flex-col justify-center items-center">
+                <div className="dot4-infra w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] left-[10%] top-[4rem] lg:left-[16%] lg:top-[3rem] flex-col justify-center items-center">
                   <span className="count-text text-[20px] lg:text-[40px]">
                     <CountUp start={0} end={4} duration={3} />
                     <span>+</span>{" "}
@@ -168,10 +178,10 @@ const Development = () => {
                     Mainnet <br></br>Launches{" "}
                   </span>
                 </div>
-                <span className="dot6-infra left-[54%] top-[9%] lg:left-[10%] lg:top-[35%]"></span>
-                <span className="dot10-infra right-[-129px] top-[19rem] lg:right-[60px] lg:top-[23rem]"></span>
-                <span className="dot7-infra left-[117%] lg:left-[68%]"></span>
-                <span className="dot9-infra left-[-3%] bottom-[-10rem] lg:left-[26%] lg:bottom-[-12rem]"></span>
+                <span className="dot6-infra h-[50px] w-[50px] lg:w-[67px] lg:h-[67px] left-[100%] top-[16%] lg:left-[10%] lg:top-[35%]"></span>
+                <span className="dot10-infra w-[50px] h-[50px] lg:h-[67px] lg:w-[67px] right-[-129px] top-[17rem] lg:right-[60px] lg:top-[23rem]"></span>
+                <span className="dot7-infra lg:h-[70px] lg:w-[70px] left-[117%] lg:left-[56%]"></span>
+                <span className="dot9-infra w-[50px] h-[50px] lg:h-[67px] lg:w-[67px] left-[28%] bottom-[-10rem] lg:left-[26%] lg:bottom-[-12rem]"></span>
               </div>
             </div>
           </div>

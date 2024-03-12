@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   /* gap: 40px; */
-  @apply px-6 pb-6 pt-10 lg:px-0 lg:py-10;
+  @apply px-6 pb-6 pt-10 lg:px-0 lg:py-20;
 }
 .maindevelop-infra {
   /* width: 90%; */
@@ -69,7 +69,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 30%;
+  /* left: 30%; */
   /* top: 10rem; */
   color: #fff;
   font-weight: 600;
@@ -154,8 +154,8 @@
   background: linear-gradient(90deg, #e0b0ff 0%, #9474f6 76.04%);
 }
 .dot6-infra {
-  height: 67px;
-  width: 67px;
+  /* height: 67px;
+  width: 67px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,8 +167,8 @@
   background: radial-gradient(circle at 100px 100px,rgba(148, 116, 246, 0.4), #000);
 }
 .dot7-infra {
-  height: 41px;
-  width: 41px;
+  /* height: 70px;
+  width: 70px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,8 +199,8 @@
   );
 }
 .dot9-infra {
-  height: 67px;
-  width: 67px;
+  /* height: 67px;
+  width: 67px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,8 +215,8 @@
   background: radial-gradient(circle at 100px 100px,rgba(132, 224, 194, 0.8), #000);
 }
 .dot10-infra {
-  height: 67px;
-  width: 67px;
+  /* height: 67px;
+  width: 67px; */
   display: flex;
   justify-content: center;
   align-items: center;

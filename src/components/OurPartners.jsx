@@ -165,10 +165,10 @@ const OurPartners = () => {
               </h1>
             </div>
             <div className="block">
-              <div className="figma2001-infra">
-                <div className="circles-infra ">
-                  <div className="dot1  flex flex-col justify-center items-center">
-                    <span className="count-text">
+              <div className="figma2001-infra  h-[58vh] ">
+                <div className="relative">
+                  <div className="dot1 w-[200px] h-[200px] lg:w-[275px] lg:h-[275px]  flex flex-col justify-center items-center">
+                    <span className="count-text text-[20px] lg:text-[40px]">
                       $
                       <CountUp
                         start={0}
@@ -178,10 +178,12 @@ const OurPartners = () => {
                       />
                       M<span>+</span>{" "}
                     </span>
-                    <span className="text-stats">AUM</span>
+                    <span className="text-stats text-[14px] lg:text-[20px]">
+                      AUM
+                    </span>
                   </div>
-                  <div className="dot2  flex flex-col justify-center items-center">
-                    <span className="count-text">
+                  <div className="dot2 w-[140px] h-[140px] lg:w-[210px] lg:h-[210px] left-[58%] lg:left-[50%] flex flex-col justify-center items-center">
+                    <span className="count-text text-[20px] lg:text-[40px]">
                       <CountUp
                         start={0}
                         end={"19"}
@@ -191,35 +193,42 @@ const OurPartners = () => {
                       K <span>+</span>{" "}
                     </span>
 
-                    <span className="text-stats">Deligators</span>
+                    <span className="text-stats text-[14px] lg:text-[20px]">
+                      Deligators
+                    </span>
                   </div>
-                  <div className="dot3  flex flex-col justify-center items-center">
-                    <span className="count-text">
+                  <div className="dot3 w-[134px] h-[134px] lg:w-[206px] lg:h-[206px] flex flex-col justify-center items-center">
+                    <span className="count-text text-[20px] lg:text-[40px]">
                       <CountUp start={0} end={22} duration={3} />
                       <span>+</span>{" "}
                     </span>
 
-                    <span className="text-stats"> Validators</span>
+                    <span className="text-stats text-[14px] lg:text-[20px]">
+                      {" "}
+                      Validators
+                    </span>
                   </div>
-                  <div className="dot4  flex-col justify-center items-center">
-                    <span className="count-text">
+                  <div className="dot4 w-[100px] h-[100px] lg:w-[180px] lg:h-[180px] left-[22%] lg:left-[13%] translate-y-[-363px] hover:scale-[1.2] hover:translate-y-[-363px]  lg:translate-y-[-546px] lg:hover:translate-y-[-530px]  flex-col justify-center items-center">
+                    <span className="count-text text text-[20px] lg:text-[40px]">
                       <CountUp start={0} end={5} duration={3} />
                     </span>
-                    <span className="text-stats">
+                    <span className="text-stats text-[14px] lg:text-[20px]">
                       Validator <br></br>Advisors{" "}
                     </span>
                   </div>
-                  <div className="dot5 flex-col flex justify-center items-center">
-                    <span className="count-text">
+                  <div className="dot5 w-[90px] h-[90px] lg:w-[155px] lg:h-[155px] left-[65%] lg:left-[53%] flex-col flex justify-center items-center">
+                    <span className="count-text  text-[20px] lg:text-[40px] ">
                       <CountUp start={0} end={10} duration={3} />
                       <span>+</span>
                     </span>
-                    <span className="text-stats">Relayers</span>
+                    <span className="text-stats text-[14px] lg:text-[20px]">
+                      Relayers
+                    </span>
                   </div>
-                  <span className="dot6"></span>
-                  <span className="dot10"></span>
-                  <span className="dot7"></span>
-                  <span className="dot9"></span>
+                  <div className="dot6 w-[40px] h-[40px] lg:h-[58px] lg:w-[58px] translate-y-[-64vh] lg:translate-y-[-95vh]"></div>
+                  <span className="dot10 h-[40px] w-[40px] lg:w-[58px] lg:h-[58px] translate-y-[-1364%] lg:translate-y-[-1516%] left-[56%] lg:left-[52%]"></span>
+                  <span className="dot7 w-[40px] h-[40px] lg:h-[58px] lg:w-[58px] translate-y-[-36vh] lg:translate-y-[-56vh]"></span>
+                  <span className="dot9 w-[40px] h-[40px] lg:h-[58px] lg:w-[58px] translate-y-[-50vh] lg:translate-y-[-65vh] left-[7%] lg:left-[14%]"></span>
                 </div>
               </div>
             </div>
@@ -280,11 +289,16 @@ const OurPartners = () => {
             </div>
 
             <div className="hidden md:block">
-              <button className="infra-btn infra-icons-text">
-                <a href=" https://resolute.vitwit.com/staking/validator/witval ">
+              <a
+                href=" https://resolute.vitwit.com/staking/validator/witval"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="infra-btn infra-icons-text">
+                  {" "}
                   Stake with VITWIT
-                </a>
-              </button>
+                </button>
+              </a>
             </div>
           </div>
 

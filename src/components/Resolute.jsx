@@ -31,14 +31,14 @@ const Resolute = () => {
   };
 
   return (
-    <div id="resolute" className="resolute bg-black">
+    <div id="resolute" className="resolute">
       <div
         className={
           isSmallScreen ? "flex flex-col items-center" : "maindevelop-resolute"
         }
       >
         {isSmallScreen ? (
-          <div className="small-screen-interface ">
+          <div className="small-screen-interface">
             <video
               autoPlay
               muted
@@ -56,7 +56,7 @@ const Resolute = () => {
             {/* Your small screen interface here */}
             <div className="flex flex-col content-overlay mobile-reolute">
               <div className="px-6 py-0">
-                <div className="resolute-h1 pb-6">
+                <div className="resolute-h1 pb-3">
                   <h1>Resolute</h1>
                 </div>
                 <div className="flex flex-col infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs ">
@@ -130,7 +130,7 @@ const Resolute = () => {
                   <div className="flex space-x-2 key-features-bgrnd">
                     <img src={checkPoint} alt="Checkpoint" />
                     <label for="multiMessageTransactions">
-                      Multi-Message Transactions
+                      Multi-Msg Transactions
                     </label>
                   </div>
 
@@ -203,7 +203,7 @@ const Resolute = () => {
                     <div className="flex key-features-bgrnd ">
                       <img src={checkPoint} alt="Checkpoint" />
                       <label for="multiMessageTransactions">
-                        Multi-Message Transactions
+                        Multi-Msg Transactions
                       </label>
                     </div>
 

@@ -5,9 +5,7 @@
 }
 .main22-ourpartners {
   width: 100%;
-  /* margin-bottom: 10%; */
-  padding: 40px 0px;
-  @apply flex justify-center px-6 lg:px-0;
+  @apply flex justify-center px-6 pb-6 pt-10 lg:px-0 lg:py-20;
 }
 .maindevelop-partners {
   @apply w-full flex flex-col-reverse lg:flex-row;
@@ -85,82 +83,68 @@
   font-family: "Libre Franklin";
 }
 .dot1 {
-  height: 275px;
-  width: 275px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   left: 21%;
-  margin-top: 45%;
+  transform: translateY(100%);
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  /* background: #f07576; */
   z-index: 1;
   transition: transform 0.8s ease;
   background: radial-gradient(circle at 100px 100px,#f07576, #000);
 }
 .dot1:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) translateY(80%);
   z-index: 9999;
 }
 
 .dot2 {
-  height: 210px;
-  width: 210px;
+  /* height: 210px;
+  width: 210px; */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 50%;
-  top: -345px;
+  /* left: 50%; */
+  transform: translatey(-30%);
   color: #fff;
-  font-weight: 500;
-  font-size: 16px;
-  background: #9474f6;
+  font-weight: 600;
+  font-size: 18px;
+  z-index: 1;
   transition: transform 0.8s ease;
-  z-index: 2;
   background: radial-gradient(circle at 100px 100px,#9474f6, #000);
 }
 .dot2:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) translatey(-30%);
   z-index: 999;
 }
 .dot3 {
-  height: 206px;
-  width: 206px;
-  /* background: linear-gradient(169deg, #6458e7 26.53%, #9760f4 55.47%); */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* left: 80%; */
-  right: -5%;
-  top: -562px;
+  transform: translateY(-120%);
   color: #fff;
-  font-weight: 500;
-  font-size: 12px;
-  background: #84e0c2;
-  z-index: 3;
+  font-weight: 600;
+  font-size: 18px;
+  z-index: 1;
   transition: transform 0.8s ease;
   background: radial-gradient(circle at 100px 100px,#84e0c2, #000);
 }
 .dot3:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) translateY(-90%);
   z-index: 999;
 }
 .dot4 {
-  height: 180px;
-  width: 180px;
   border-radius: 50%;
   display: flex;
   position: relative;
-  left: 21%;
-  margin-top: -844px;
   color: #fff;
   text-align: center;
   font-family: "Libre Franklin";
@@ -176,12 +160,9 @@
   background: radial-gradient(circle at 100px 100px,#e0b0ff, #000);
 }
 .dot4:hover {
-  transform: scale(1.2);
   z-index: 999;
 }
 .dot5 {
-  height: 155px;
-  width: 155px;
   border-radius: 50%;
   color: #fff;
   text-align: center;
@@ -192,41 +173,40 @@
   line-height: normal;
   letter-spacing: 0.6px;
   background: #d59bb7;
-  left: 53%;
   position: relative;
-  margin-top: 11%;
+  transform: translateY(-319%);
   z-index: 5;
   transition: transform 0.8s ease;
   background: radial-gradient(circle at 100px 100px,#d59bb7, #000);
 }
 .dot5:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) translateY(-260%);
   z-index: 999;
 }
 .dot6 {
-  height: 58px;
-  width: 58px;
+  /* height: 58px;
+  width: 58px; */
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(251, 250, 250, 0.04); */
-  border-radius: 50%;
-  position: relative;
-  left: 4%;
-  margin-top: -59%;
-  /* background: rgba(148, 116, 246, 0.4); */
+  position: absolute;
+  /* transform: translateY(-95vh); */
+  z-index: 1;
+  transition: transform 0.8s ease;
   background: radial-gradient(circle at 100px 100px,rgba(148, 116, 246), #000);
 }
 .dot7 {
-  height: 41px;
-  width: 41px;
+  /* height: 41px;
+  width: 41px; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   position: relative;
   left: 52%;
-  margin-top: 56%;
+  /* transform: translateY(-56vh); */
+  /* margin-top: 56%; */
   /* background: rgba(224, 176, 255, 0.2); */
   background: radial-gradient(circle at 100px 100px,rgba(224, 176, 255), #000);
 }
@@ -248,29 +228,31 @@
   );
 }
 .dot9 {
-  height: 58px;
-  width: 58px;
+  /* height: 58px;
+  width: 58px; */
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: rgba(251, 250, 250, 0.04); */
   border-radius: 50%;
   position: relative;
-  left: 14%;
-  margin-top: -13%;
+  /* left: 14%; */
+  /* transform: translateY(-65vh); */
+  /* margin-top: -13%; */
   /* background: rgba(132, 224, 194, 0.8); */
   background: radial-gradient(circle at 100px 100px,rgba(132, 224, 194), #000);
 }
 .dot10 {
-  height: 58px;
-  width: 58px;
+  /* height: 58px;
+  width: 58px; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   position: relative;
-  left: 52%;
-  margin-top: -12%;
+  /* left: 52%; */
+  /* margin-top: -12%; */
+  /* transform: translateY(-1516%); */
   /* background: rgba(240, 117, 118, 0.6); */
   background: radial-gradient(circle at 100px 100px,rgba(240, 117, 118), #000);
 }

@@ -75,7 +75,7 @@ body {
   .social-icon {
     @apply w-[25px] h-[25px];
   }
-  .divider-line {
+  .divider-line-footer {
     @apply h-0.5  self-stretch opacity-20;
     background: rgba(255, 255, 255, 0.5);
   }

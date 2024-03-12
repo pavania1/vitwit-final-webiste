@@ -110,7 +110,7 @@ const Delegate = () => {
             </div> */}
           </div>
           <div>
-            <div className="bottom-text xs:hidden sm:hidden md:block  mb-[8%] lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
+            <div className="bottom-text xs:hidden sm:hidden md:block  mb-[8%] lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px] mt-[2%]">
               Don’t just take our word for it! Here’s what people say about
               Vitwit
             </div>

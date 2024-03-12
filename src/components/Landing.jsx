@@ -99,13 +99,11 @@ const Landing = () => {
       <div className="maindevelop-landing myVideo bg-black">
         <div className="landing flex relative  w-full">
           <div className="flex sm:flex-col-reverse xs:flex-col-reverse lg:flex-row justify-between w-full">
-            <div className="sm:w-full lg:w-[50%]">
+            <div className="sm:w-full lg:w-[50%] flex justify-center items-center">
               <div className="h-full">
-                <div className="leftdevelop-landing mx-auto  sm:p-4 xs:p-4 ">
+                <div className="leftdevelop-landing mx-auto  sm:p-4 xs:p-4">
                   <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:hidden xs:block sm:block">
-                    <h1 className="text-left  ">
-                      Trusted partners for your{" "}
-                    </h1>
+                    <h1 className="text-left  ">Trusted partners for your </h1>
                     <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-4xl xs:text-4xl text-left">
                       {displayedText[0]}
                     </span>{" "}
@@ -119,13 +117,13 @@ const Landing = () => {
                     <h1 className=" text-left mb-5 lg:text-4xl md:text-4xl">
                       Trusted partners for your{" "}
                     </h1>
-                    <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
-                      {displayedText[0]}
+                    <span className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
+                      {displayedText[0]} {displayedText[1]}
                     </span>
-                    <br/>
+                    {/* <br />
                     <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
                       {displayedText[1]}
-                    </span>
+                    </span> */}
                     <Cursor />
                   </div>
 
@@ -183,19 +181,23 @@ const Landing = () => {
 
       <div className="absolute bottom-0  w-full">
         <div className="partners-bgrnd flex flex-col md:flex-row overflow-hidden ">
-          <div className="ourpartners-landing-text text-[12px] lg:hidden mx-auto w-full pt-2">
-            Our Partners
+          <div className="ourpartners-landing-text text-[12px] lg:hidden mx-auto w-full pt-2 ">
+            Our Partners & Clients
           </div>
           <div className="max-w-[1280px] flex justify-center items-center overflow-hidden ">
             <div className="partners-logos relative">
-              <div className="ourpartners-landing-text lg:text-[14px] mr-20 text-left">
-                Our Partners
+              <div className="ourpartners-landing-text lg:text-[14px] mr-20 text-left ">
+                Our Partners & Clients
               </div>
 
               <div className="relative">
                 <div className="absolute top-0 z-10  w-full h-full partners-layer"></div>
-                <Marquee autoFill className="max-w-[1130px] ">
-                  <img src={Akash} alt="Akash" className="partner-logo mx-5 lg:mx-10"/>
+                <Marquee autoFill className="max-w-[1100px] ">
+                  <img
+                    src={Akash}
+                    alt="Akash"
+                    className="partner-logo mx-5 lg:mx-10"
+                  />
                   <img
                     src={Cosmos}
                     alt="Cosmos"
