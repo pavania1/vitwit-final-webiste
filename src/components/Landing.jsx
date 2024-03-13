@@ -178,7 +178,9 @@ const Landing = () => {
           </div>
         </div>
       </div>
-
+      <button className="badge nav-text fixed right-[-58px] top-[40%] rotate-[-90deg] z-50">
+        Connect With Us
+      </button>
       <div className="absolute bottom-0  w-full">
         <div className="partners-bgrnd flex flex-col md:flex-row overflow-hidden ">
           <div className="ourpartners-landing-text text-[12px] lg:hidden mx-auto w-full pt-2 ">

@@ -46,7 +46,10 @@ body {
   .nav-text {
     @apply text-white text-center text-sm not-italic font-normal leading-9;
     font-family: "Libre Franklin";
-   
+  }
+  .badge {
+    @apply flex justify-center items-center gap-2.5 h-10  px-6 py-2  border-solid rounded-t-lg;
+    background: linear-gradient(45deg, #2f50da 0%, #a562f7 100%);
   }
   .navbar-fixed {
     @apply absolute top-0 w-full;
