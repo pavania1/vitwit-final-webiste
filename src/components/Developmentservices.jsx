@@ -91,21 +91,7 @@ const Development = () => {
                   }
                   style={{ padding: 30, marginBottom: "10px", width: "100%" }}
                 />
-                {/* <Alert
-                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background"
-                  message={
-                    <span className="development-alert-head">Code Audits</span>
-                  }
-                  description={
-                    <span className="development-alert-text">
-                      Elevate the security and reliability of your blockchain
-                      applications with our comprehensive code audit services.
-                      We scrutinize every line to identify vulnerabilities,
-                      ensuring your codebase is robust and ready for deployment.
-                    </span>
-                  }
-                  style={{ padding: 30, marginBottom: "10px", width: "100%" }}
-                /> */}
+
                 <Alert
                   className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
                   message={
@@ -145,7 +131,7 @@ const Development = () => {
                     Open Source Commits
                   </span>
                   <span className="text-stats text-[14px] lg:text-[20px] lg:hidden">
-                    Open Source <br/> Commits
+                    Open Source <br /> Commits
                   </span>
                 </div>
                 <div className="dot2-infra w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] top-[5rem] right-[-155px] lg:right-0  lg:top-[5rem] flex flex-col justify-center items-center">

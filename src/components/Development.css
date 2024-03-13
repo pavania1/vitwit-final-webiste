@@ -6,24 +6,16 @@
 .main22-infra {
   width: 100%;
   display: flex;
-  /* padding: 80px 0px; */
   flex-direction: column;
   align-items: center;
-  /* gap: 40px; */
   @apply px-6 pb-6 pt-10 lg:px-0 lg:py-20;
 }
 .maindevelop-infra {
-  /* width: 90%; */
   margin: auto;
   display: flex;
 }
-.leftdevelop-infra {
-  /* width: 45%; */
-  /* margin-left: -1%; */
-}
 .RightDevelop-infra {
   width: 52%;
-  /* margin-left: 5%; */
 }
 .RightDevelop-infra p {
   text-align: start;
@@ -33,19 +25,9 @@
 .subleftdevelop1-infra h1 {
   color: white;
   font-weight: 600;
-  /* width: 50%; */
-  /* text-align: start; */
   font-family: "Libre Franklin";
   margin-bottom: 1%;
 }
-
-/* .alert2001-infra-mobile {
-  width: 100%;
-  padding: 30px;
-  text-align: start;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.08);
-} */
 .alert2001-infra {
   width: 100%;
   padding: 30px;
@@ -62,19 +44,14 @@
   font-family: "Libre Franklin";
 }
 .dot1-infra {
-  /* height: 320px;
-  width: 320px; */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* left: 30%; */
-  /* top: 10rem; */
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  /* background: #f07576; */
   background: radial-gradient(circle at right bottom, #f07576, #000);
   z-index: 1;
   transition: transform 0.8s ease;
@@ -88,8 +65,6 @@
 .dot2-infra,
 .dot3-infra,
 .dot4-infra {
-  /* height: 240px;
-  width: 240px; */
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -100,10 +75,7 @@
 }
 
 .dot2-infra {
-  /* right: 0;
-  top: 7rem; */
-  /* background: #9474f6; */
-  background: radial-gradient(circle at  right bottom,#9474f6, #000);
+  background: radial-gradient(circle at right bottom, #9474f6, #000);
   z-index: 2;
 }
 
@@ -113,10 +85,7 @@
 }
 
 .dot3-infra {
-  /* left: 1%;
-  top: 12rem; */
-  /* background: #84e0c2; */
-  background: radial-gradient(circle at  right bottom,#84e0c2, #000);
+  background: radial-gradient(circle at right bottom, #84e0c2, #000);
   z-index: 3;
 }
 
@@ -126,10 +95,7 @@
 }
 
 .dot4-infra {
-  /* left: 16%;
-  top: 3rem; */
-  /* background: #e0b0ff; */
-  background: radial-gradient(circle at  right bottom,#e0b0ff, #000);
+  background: radial-gradient(circle at right bottom, #e0b0ff, #000);
   z-index: 4;
 }
 
@@ -154,32 +120,29 @@
   background: linear-gradient(90deg, #e0b0ff 0%, #9474f6 76.04%);
 }
 .dot6-infra {
-  /* height: 67px;
-  width: 67px; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   position: absolute;
-  /* left: 10%; */
-  /* top: 35%; */
-  /* background: rgba(148, 116, 246, 0.4); */
-  background: radial-gradient(circle at 100px 100px,rgba(148, 116, 246, 0.4), #000);
+  background: radial-gradient(
+    circle at 100px 100px,
+    rgba(148, 116, 246, 0.4),
+    #000
+  );
 }
 .dot7-infra {
-  /* height: 70px;
-  width: 70px; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   position: absolute;
-  /* left: 68%; */
   top: 15%;
-  /* margin-top: 40%; */
-  /* background: rgba(224, 176, 255, 0.2); */
-  background: radial-gradient(circle at 100px 100px,rgba(224, 176, 255, 0.2), #000);
-  
+  background: radial-gradient(
+    circle at 100px 100px,
+    rgba(224, 176, 255, 0.2),
+    #000
+  );
 }
 .dot8-infra {
   height: 16px;
@@ -187,11 +150,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(251, 250, 250, 0.04); */
   border-radius: 50%;
   position: relative;
   left: 72%;
-  /* margin-top: -10%; */
   background: linear-gradient(
     90deg,
     rgba(224, 176, 255, 0.2) 0%,
@@ -199,48 +160,36 @@
   );
 }
 .dot9-infra {
-  /* height: 67px;
-  width: 67px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(251, 250, 250, 0.04); */
   border-radius: 50%;
   position: absolute;
-  /* left: 26%; */
-  /* top: 100%; */
-  /* bottom: -12rem; */
-  /* margin-top: 2%; */
-  /* background: rgba(132, 224, 194, 0.8); */
-  background: radial-gradient(circle at 100px 100px,rgba(132, 224, 194, 0.8), #000);
+  background: radial-gradient(
+    circle at 100px 100px,
+    rgba(132, 224, 194, 0.8),
+    #000
+  );
 }
 .dot10-infra {
-  /* height: 67px;
-  width: 67px; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   position: absolute;
-  /* left: 71%; */
-  /* right: 60px; */
-  /* top: 23rem; */
-  /* margin-top: -12%; */
-  /* background: rgba(240, 117, 118, 0.6); */
-  background: radial-gradient(circle at 100px 100px,rgba(240, 117, 118, 0.6), #000);
+  background: radial-gradient(
+    circle at 100px 100px,
+    rgba(240, 117, 118, 0.6),
+    #000
+  );
 }
 .figma2001-infra {
   margin-right: 20%;
   width: 100%;
-  /* margin-top: 45%; */
-}
-.circles-infra {
-  /* margin-right: -15%; */
 }
 .development-alert-head {
   color: white;
   font-family: "Libre Franklin";
-  /* font-size: 20px; */
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -248,7 +197,6 @@
 .development-alert-text {
   color: white;
   font-family: "Libre Franklin";
-  /* font-size: 12px; */
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
@@ -258,7 +206,6 @@
   color: #fff;
   text-align: center;
   font-family: "Libre Franklin";
-  /* font-size: 20px; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -268,7 +215,6 @@
   color: #fff;
   text-align: center;
   font-family: "Libre Franklin";
-  /* font-size: 40px; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
