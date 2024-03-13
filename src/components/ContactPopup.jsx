@@ -1,5 +1,6 @@
 import React from "react";
-import { Dialog, DialogContent } from "@mui/material";
+import { Dialog, DialogContent, IconButton } from "@mui/material";
+import CloseIcon from "../assets/CloseIcon";
 import Envelope from "../assets/envelope.svg";
 import Map from "../assets/map.svg";
 
@@ -7,7 +8,6 @@ const ContactPopup = ({ open, close }) => {
   return (
     <Dialog
       open={open}
-      onClose={close}
       maxWidth="sm"
       PaperProps={{
         sx: {
@@ -17,14 +17,19 @@ const ContactPopup = ({ open, close }) => {
     >
       <DialogContent sx={{ padding: 0 }}>
         <div className="contact-grid">
+          <div
+            onClick={close}
+            className=" cursor-pointer right-5 absolute pt-4"
+          >
+            <CloseIcon height={12} width={12}/>
+          </div>
           <div className="flex flex-col items-start gap-4 self-stretch px-6 py-10">
-            <h1 className="text-white text-xl not-italic font-bold leading-[18px]">
+            <h1 className="text-white text-[15px] not-italic font-bold leading-[18px]">
               Contact Us
             </h1>
             <div className="getintouch-v-line"></div>
             <p className="text-white text-[10px] not-italic font-light leading-[18px]">
               We are a core tech company passionate about the research and{" "}
-              
               development of technology solutions.
             </p>
 

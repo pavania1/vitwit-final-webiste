@@ -117,8 +117,6 @@ const Delegate = () => {
             <div className="xs:hidden sm:hidden md:block lg:block mt-10">
               <Slider
                 beforeChange={(oldIndex, newIndex) => {
-                  console.log("fgxsgflef", oldIndex, newIndex);
-
                   setLeftCardIndex(oldIndex % 9);
                   setRightCardIndex((newIndex + 2) % 9);
                 }}

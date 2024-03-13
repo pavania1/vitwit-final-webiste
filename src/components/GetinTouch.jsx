@@ -6,21 +6,32 @@ import GithubLogo from "../assets/social-icons/github.png";
 import LinkedInLogo from "../assets/social-icons/linkedln.png";
 import TwitterLogo from "../assets/social-icons/twitter.png";
 import TelegramLogo from "../assets/social-icons/telegram.png";
+import CloseIcon from "../assets/CloseIcon";
 
 const GetinTouch = ({ open, close }) => {
   return (
-    <Dialog open={open} onClose={close} maxWidth="lg" PaperProps={{
-        sx:{
-            borderRadius: 4
-        }
-    }}>
+    <Dialog
+      open={open}
+      maxWidth="lg"
+      PaperProps={{
+        sx: {
+          borderRadius: 4,
+        },
+      }}
+    >
       <DialogContent sx={{ padding: 0 }}>
         <div className="getintouch-grid">
-          <div className="flex gap-10">
+          <div
+            onClick={close}
+            className="cursor-pointer flex justify-end items-center "
+          >
+            <CloseIcon />
+          </div>
+          <div className="flex gap-10 justify-center items-center">
             <div>
               <img src={GetinTouchImage} alt="GetinTouch Image" />
             </div>
-            <div className="flex flex-col justify-center items-center gap-6 flex-[1_0_0] self-stretch">
+            <div className="flex flex-col justify-center items-center gap-6 self-stretch">
               <div className="text-white text-center text-[44px] not-italic font-bold leading-[54px]">
                 Get in touch with us
               </div>
@@ -42,7 +53,7 @@ export default GetinTouch;
 
 const SocialIcons = () => {
   return (
-    <div className="flex w-full justify-between">
+    <div className="flex gap-10">
       <SocialLink link="https://twitter.com/vitwit_" icon={TwitterLogo} />
       <SocialLink link="https://github.com/vitwit" icon={GithubLogo} />
       <SocialLink

@@ -75,7 +75,7 @@
   font-weight: 600;
   font-size: 18px;
   /* background: #f07576; */
-  background: radial-gradient(circle at 100px 100px, #f07576, #000);
+  background: radial-gradient(circle at right bottom, #f07576, #000);
   z-index: 1;
   transition: transform 0.8s ease;
 }
@@ -103,7 +103,7 @@
   /* right: 0;
   top: 7rem; */
   /* background: #9474f6; */
-  background: radial-gradient(circle at 100px 100px,#9474f6, #000);
+  background: radial-gradient(circle at  right bottom,#9474f6, #000);
   z-index: 2;
 }
 
@@ -116,7 +116,7 @@
   /* left: 1%;
   top: 12rem; */
   /* background: #84e0c2; */
-  background: radial-gradient(circle at 100px 100px,#84e0c2, #000);
+  background: radial-gradient(circle at  right bottom,#84e0c2, #000);
   z-index: 3;
 }
 
@@ -129,7 +129,7 @@
   /* left: 16%;
   top: 3rem; */
   /* background: #e0b0ff; */
-  background: radial-gradient(circle at 100px 100px,#e0b0ff, #000);
+  background: radial-gradient(circle at  right bottom,#e0b0ff, #000);
   z-index: 4;
 }
 

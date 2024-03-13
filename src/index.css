@@ -34,7 +34,7 @@ body {
     @apply flex justify-between items-start w-full  lg:px-0;
   }
   .nav__logo {
-    @apply w-[145px] h-[32px] lg:w-[220px] lg:h-[45px] shrink-0;
+    @apply w-[145px] h-[32px] lg:w-[220px] lg:h-[45px] shrink-0 px-4 lg:px-0;
   }
   .menu-list {
     @apply flex justify-end items-start gap-12  cursor-pointer;
@@ -166,7 +166,7 @@ body {
   }
   /* Get in Touch */
   .getintouch-grid {
-    @apply flex flex-col justify-center items-center gap-10 shrink-0 p-10;
+    @apply flex flex-col  shrink-0 py-10 pr-10 w-[800px];
     background: linear-gradient(180deg, #2f50da 0%, #a562f7 100%);
   }
   .getintouch-v-line {

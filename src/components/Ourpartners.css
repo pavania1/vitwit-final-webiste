@@ -153,7 +153,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
-  background: #e0b0ff;
+  /* background: #e0b0ff; */
   padding: 2px;
   z-index: 4;
   transition: transform 0.8s ease;
@@ -172,7 +172,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
-  background: #d59bb7;
+  /* background: #d59bb7; */
   position: relative;
   transform: translateY(-319%);
   z-index: 5;

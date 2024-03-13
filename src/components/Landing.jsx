@@ -101,7 +101,7 @@ const Landing = () => {
           <div className="flex sm:flex-col-reverse xs:flex-col-reverse lg:flex-row justify-between w-full">
             <div className="sm:w-full lg:w-[50%] flex justify-center items-center">
               <div className="h-full">
-                <div className="leftdevelop-landing mx-auto  sm:p-4 xs:p-4">
+                <div className="leftdevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
                   <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:hidden xs:block sm:block">
                     <h1 className="text-left  ">Trusted partners for your </h1>
                     <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-4xl xs:text-4xl text-left">
@@ -167,10 +167,10 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[50%] xs:mx-auto xs:w-[70%] flex justify-center items-center ">
+            <div className="lg:w-[50%] xs:mx-auto xs:w-[70%] flex justify-center items-center ">
               <video autoPlay muted loop ref={videoRef} className="">
                 <source
-                  src={process.env.PUBLIC_URL + "/videos/output.mp4"}
+                  src={process.env.PUBLIC_URL + "/videos/pol.mp4"}
                   type="video/mp4"
                 />
               </video>
