@@ -3,6 +3,10 @@ import GregoryLandua from "../assets/tweetsprofile/gregorylandua.jpg";
 import OmniFlixNetwork from "../assets/tweetsprofile/omniflix.jpg";
 import PersistenceOne from "../assets/tweetsprofile/persistence.jpg";
 import GregOsuri from "../assets/tweetsprofile/gregosuri.jpg";
+import SarahBax from "../assets/tweetsprofile/sarahbax.jpg";
+import Jayantikanani from "../assets/tweetsprofile/jayanthikanani.jpg";
+import AdamBozanich from "../assets/tweetsprofile/adambozanich.jpg";
+import Boz from "../assets/tweetsprofile/boz.png";
 const alertsData = [
   {
     profileImage: {
@@ -36,18 +40,33 @@ const alertsData = [
   },
   {
     profileImage: {
-      src: OmniFlixNetwork,
+      src: SarahBax,
       width: 48,
       height: 48,
       borderRadius: 30,
     },
-    name: "OmniFlixNetwork",
-    username: "@OmniFlixNetwork",
+    name: "Sarah Bax",
+    username: "@erde_kette",
     message:
-      "Spl. thanks to our friends at @vitwit_/WitVal, who deployed @ankea_io for OmniFlix! FlixNet-2 saw a lot:-200+ validators bootstrap a chain in 1min-patch to fix the mismatch of IBC versions-high storage consumption & the best is yet to come!",
-    likes: 10,
-    date: "Sep 16, 2021",
-    link: "https://twitter.com/OmniFlixNetwork/status/1438467922268016643",
+      "Team @Vitwit_ were fantastic reliable partners on the @cosmossdk contact partnering with @regen_network;we are grateful for their part in the ecosystem",
+    likes: 11,
+    date: "Oct 22, 2023",
+    link: "https://twitter.com/erde_kette/status/1715984151642525748",
+  },
+  {
+    profileImage: {
+      src: Jayantikanani,
+      width: 48,
+      height: 48,
+      borderRadius: 30,
+    },
+    name: "Jayanti Kanani(JD)",
+    username: "@jdkanani",
+    message:
+      "It is always great working with @murthy_vitwit @anilcse_ and @murthy_vitwit team. HAppy birthday @vitwit",
+    likes: 19,
+    date: "Jul 14, 2021",
+    link: "https://twitter.com/jdkanani/status/1415262124838903815",
   },
   {
     profileImage: {
@@ -59,25 +78,10 @@ const alertsData = [
     name: "Gregory Landua",
     username: "@gregory_landua",
     message:
-      "Another smooth as silk @regen_network(testnet) upgrade using the cosmosd tool developed by @arroncraelius and Ethan Frey with the @Vitwit_India and @tendermint_team teams. Thanks to @joe__bowman and the @ChorusOne for the superb leadership and @_anilCSE and the vitwit crew.",
-    likes: 24,
-    date: "Jan 26,2020",
-    link: "https://twitter.com/gregory_landua/status/1221208245504790528",
-  },
-  {
-    profileImage: {
-      src: PersistenceOne,
-      width: 48,
-      height: 48,
-      borderRadius: 30,
-    },
-    name: "Persistence One",
-    username: "@PersistenceOne",
-    message:
-      "1/ Ecosystem Week Day 4: Our Third Blockchain Explorer, Powered by @aneka_io, is Now Live! Aneka, created by the @vitwit_team, is heavily utilized in the @cosmos ecosystem and features even more metrics & integration than our current ecplorers.",
-    likes: 44,
-    date: "Jul 2, 2021",
-    link: "https://twitter.com/PersistenceOne/status/1410988512946626560",
+      "Happy birthday! @cosmos and @regen_network would not be the same (or perhaps even here at all!) without you!",
+    likes: 9,
+    date: "Jul 24,2021",
+    link: "https://twitter.com/gregory_landua/status/1415332850593828867",
   },
   {
     profileImage: {
@@ -112,6 +116,21 @@ const alertsData = [
   },
   {
     profileImage: {
+      src: AdamBozanich,
+      width: 48,
+      height: 48,
+      borderRadius: 30,
+    },
+    name: "Adam Bozanich",
+    username: "@abozanich",
+    message:
+      "We couldn't have done this without @vitwit_ -thank you so much @anilcse_ and @akhil7947 for leading theway through this upgrade and for your invaluable contributions leading up to it.",
+    likes: 10,
+    date: "Mar 9, 2021",
+    link: "https://twitter.com/abozanich/status/1369187203260182530",
+  },
+  {
+    profileImage: {
       src: GregOsuri,
       width: 48,
       height: 48,
@@ -120,10 +139,55 @@ const alertsData = [
     name: "Greg Osuri",
     username: "@gregosuri",
     message:
-      "Just had an amazing meeting with the @Vitwit_india team, happy to announce we'll be engaging them to complement our development efforts. Their work with @regen_network is a testament to hard work and talent.",
+      "@vitwit_'s contributions and commitment to $ATOM ecosystem is super underrated",
     likes: 7,
-    date: "Feb 25,2020",
-    link: "https://twitter.com/gregosuri/status/1232011838339964928",
+    date: "Feb 22, 2021",
+    link: "https://twitter.com/joe__bowman/status/1363862759503519751",
+  },
+  {
+    profileImage: {
+      src: Jackzampolin,
+      width: 48,
+      height: 48,
+      borderRadius: 30,
+    },
+    name: "Jack Zampolin",
+    username: "@jackzampolin",
+    message:
+      "They are also the unsung heros #stargaze doing a lot of work on te proto migration",
+    likes: 12,
+    date: "Feb 22, 2021",
+    link: "https://twitter.com/jackzampolin/status/1363866840787607563",
+  },
+  {
+    profileImage: {
+      src: Boz,
+      width: 48,
+      height: 48,
+      borderRadius: 30,
+    },
+    name: "Boz",
+    username: "@boz_menzalji",
+    message:
+      "DEv agencies constantly reach out to provide blockchain services, etc, If you're in the @cosmos ecosystem, the number 1 partner you should consider is @vitwit_    Reputable. High integriry.  Responsive.  Flexible.  Trusted. We're lucky to work with @anilcse_&@murthy_vitwit",
+    likes: 22,
+    date: "May 2, 2020",
+    link: "https://twitter.com/boz_menzalji/status/1256305688541708288",
+  },
+   {
+    profileImage: {
+      src: SarahBax,
+      width: 48,
+      height: 48,
+      borderRadius: 30,
+    },
+    name: "Sarah Bax",
+    username: "@erde_kette",
+    message:
+      "Team  @vitwit_  were fantastic reliable partners on the  @cosmossdk  contact partnering with  @regen_network  ; we are grateful for their part in the ecosystem",
+    likes: 11,
+    date: "Oct 22, 2023",
+    link: "https://twitter.com/erde_kette/status/1715984151642525748",
   },
   {
     profileImage: {
