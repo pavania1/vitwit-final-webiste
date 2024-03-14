@@ -31,8 +31,8 @@ const GetinTouch = ({ open, close }) => {
             <div>
               <img src={GetinTouchImage} alt="GetinTouch Image" />
             </div>
-            <div className="flex flex-col justify-center items-center gap-6 self-stretch">
-              <div className="text-white text-center text-[44px] not-italic font-bold leading-[54px]">
+            <div className="flex flex-col justify-center items-center gap-6 flex-[1_0_0] self-stretch">
+              <div className="text-white text-center text-[36px] not-italic font-bold leading-[54px]">
                 Get in touch with us
               </div>
               <div className="text-white text-center text-base not-italic font-normal leading-6">
@@ -71,7 +71,7 @@ const SocialIcons = () => {
 
 const SocialLink = ({ link, icon }) => {
   return (
-    <div className="contact__socials items-center flex justify-center">
+    <div className="contact__socials__popup items-center flex justify-center">
       <a
         href={link}
         target="_blank"

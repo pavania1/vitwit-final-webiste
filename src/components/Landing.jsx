@@ -15,6 +15,7 @@ import Avail from "../assets/partners/avail .png";
 import Cheqd from "../assets/partners/cheqd.png";
 import Marquee from "react-fast-marquee";
 import GetinTouch from "./GetinTouch";
+import Rocket from "../assets/rocket.png"
 const Landing = () => {
   const words = [
     "Appchain Development",
@@ -178,7 +179,8 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="badge development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm fixed right-[-68px] top-[40%] rotate-[-90deg] z-50 sm:hidden xs:hidden md:hidden lg:block">
+      <div className="badge  development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm fixed right-[-86px] top-[40%] rotate-[-90deg] z-50 sm:hidden xs:hidden md:hidden lg:flex">
+        <img src={Rocket} alt="Rocket-Icon" className="w-[24px] h-[24px]" />
         <button className="" onClick={handleGetInTouchClick}>
           Connect With Us
         </button>
