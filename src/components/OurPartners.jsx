@@ -119,7 +119,7 @@ const LOGOS = [
     icon: "",
     size: 55,
     mobileSize: 30,
-    bgColor: "#808080",
+    bgColor: "#80808060",
   },
 ];
 const OurPartners = () => {
