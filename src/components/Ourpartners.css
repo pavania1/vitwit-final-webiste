@@ -95,11 +95,14 @@
   font-size: 18px;
   z-index: 1;
   transition: transform 0.8s ease;
-  background: radial-gradient(circle at 100px 100px,#f07576, #000);
 }
 .dot1:hover {
   transform: scale(1.2) translateY(80%);
   z-index: 9999;
+}
+.dot1-gradient {
+  background: radial-gradient(circle at 100px 100px, #f07576, #000);
+  animation: rotateRadialBg 8s linear infinite;
 }
 
 .dot2 {
@@ -117,11 +120,14 @@
   font-size: 18px;
   z-index: 1;
   transition: transform 0.8s ease;
-  background: radial-gradient(circle at 100px 100px,#9474f6, #000);
 }
 .dot2:hover {
   transform: scale(1.2) translatey(-30%);
   z-index: 999;
+}
+.dot2-gradient {
+  background: radial-gradient(circle at 100px 100px, #9474f6, #000);
+  animation: rotateRadialBg 8s linear infinite;
 }
 .dot3 {
   border-radius: 50%;
@@ -135,11 +141,14 @@
   font-size: 18px;
   z-index: 1;
   transition: transform 0.8s ease;
-  background: radial-gradient(circle at 100px 100px,#84e0c2, #000);
 }
 .dot3:hover {
   transform: scale(1.2) translateY(-90%);
   z-index: 999;
+}
+.dot3-gradient {
+  background: radial-gradient(circle at 100px 100px, #84e0c2, #000);
+  animation: rotateRadialBg 8s linear infinite;
 }
 .dot4 {
   border-radius: 50%;
@@ -157,10 +166,13 @@
   padding: 2px;
   z-index: 4;
   transition: transform 0.8s ease;
-  background: radial-gradient(circle at 100px 100px,#e0b0ff, #000);
 }
 .dot4:hover {
   z-index: 999;
+}
+.dot4-gradient {
+  background: radial-gradient(circle at 100px 100px, #e0b0ff, #000);
+  animation: rotateRadialBg 8s linear infinite;
 }
 .dot5 {
   border-radius: 50%;
@@ -177,11 +189,15 @@
   transform: translateY(-319%);
   z-index: 5;
   transition: transform 0.8s ease;
-  background: radial-gradient(circle at 100px 100px,#d59bb7, #000);
+  /* background: radial-gradient(circle at 100px 100px, #d59bb7, #000); */
 }
 .dot5:hover {
   transform: scale(1.2) translateY(-260%);
   z-index: 999;
+}
+.dot5-gradient {
+  background: radial-gradient(circle at 100px 100px, #d59bb7, #000);
+  animation: rotateRadialBg 8s linear infinite;
 }
 .dot6 {
   /* height: 58px;
@@ -194,7 +210,7 @@
   /* transform: translateY(-95vh); */
   z-index: 1;
   transition: transform 0.8s ease;
-  background: radial-gradient(circle at 100px 100px,rgba(148, 116, 246), #000);
+  background: radial-gradient(circle at 100px 100px, rgba(148, 116, 246), #000);
 }
 .dot7 {
   /* height: 41px;
@@ -208,7 +224,7 @@
   /* transform: translateY(-56vh); */
   /* margin-top: 56%; */
   /* background: rgba(224, 176, 255, 0.2); */
-  background: radial-gradient(circle at 100px 100px,rgba(224, 176, 255), #000);
+  background: radial-gradient(circle at 100px 100px, rgba(224, 176, 255), #000);
 }
 .dot8 {
   height: 16px;
@@ -240,7 +256,7 @@
   /* transform: translateY(-65vh); */
   /* margin-top: -13%; */
   /* background: rgba(132, 224, 194, 0.8); */
-  background: radial-gradient(circle at 100px 100px,rgba(132, 224, 194), #000);
+  background: radial-gradient(circle at 100px 100px, rgba(132, 224, 194), #000);
 }
 .dot10 {
   /* height: 58px;
@@ -254,7 +270,7 @@
   /* margin-top: -12%; */
   /* transform: translateY(-1516%); */
   /* background: rgba(240, 117, 118, 0.6); */
-  background: radial-gradient(circle at 100px 100px,rgba(240, 117, 118), #000);
+  background: radial-gradient(circle at 100px 100px, rgba(240, 117, 118), #000);
 }
 .alert-right1 {
   margin-top: 15%;
@@ -350,10 +366,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 120% */
-} 
+}
 .infra-btn {
   display: flex;
-  width:100%;
+  width: 100%;
   height: 80px;
   justify-content: center;
   align-items: center;

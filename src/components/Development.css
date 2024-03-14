@@ -52,7 +52,6 @@
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  background: radial-gradient(circle at right bottom, #f07576, #000);
   z-index: 1;
   transition: transform 0.8s ease;
 }
@@ -60,6 +59,10 @@
 .dot1-infra:hover {
   transform: scale(1.2);
   z-index: 9999;
+}
+.dot1-infra-gradient {
+  background: radial-gradient(circle at 100px 100px, #f07576, #000);
+  animation: rotateRadialBg 8s linear infinite;
 }
 
 .dot2-infra,
@@ -75,8 +78,11 @@
 }
 
 .dot2-infra {
-  background: radial-gradient(circle at right bottom, #9474f6, #000);
   z-index: 2;
+}
+.dot2-infra-gradient {
+  background: radial-gradient(circle at 100px 100px, #9474f6, #000);
+  animation: rotateRadialBg 8s linear infinite;
 }
 
 .dot2-infra:hover {
@@ -85,8 +91,11 @@
 }
 
 .dot3-infra {
-  background: radial-gradient(circle at right bottom, #84e0c2, #000);
   z-index: 3;
+}
+.dot3-infra-gradient {
+  background: radial-gradient(circle at 100px 100px, #84e0c2, #000);
+  animation: rotateRadialBg 8s linear infinite;
 }
 
 .dot3-infra:hover {
@@ -95,8 +104,21 @@
 }
 
 .dot4-infra {
-  background: radial-gradient(circle at right bottom, #e0b0ff, #000);
   z-index: 4;
+}
+
+.dot4-infra-gradient {
+  background: radial-gradient(circle at 100px 100px, #e0b0ff, #000);
+  animation: rotateRadialBg 8s linear infinite;
+}
+
+@keyframes rotateRadialBg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .dot4-infra:hover {

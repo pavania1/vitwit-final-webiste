@@ -117,52 +117,69 @@ const Development = () => {
             {/* RightDevelop cantioner start */}
             <div className="RightDevelop-infra h-[50vh]">
               <div className="figma2001-infra relative">
-                <div className="dot1-infra w-[180px] h-[180px] lg:w-[320px] lg:h-[320px] top-[7rem] left-[43%] lg:left-[30%] lg:top-[10rem] flex flex-col justify-center items-center">
-                  <span className="count-text text-[20px] lg:text-[40px]">
-                    <CountUp
-                      start={0}
-                      end={1000}
-                      duration={2.5}
-                      separator=","
-                    />
-                    <span>+</span>{" "}
-                  </span>
-                  <span className="text-stats text-[14px] lg:text-[20px] xs:hidden lg:flex">
-                    Open Source Commits
-                  </span>
-                  <span className="text-stats text-[14px] lg:text-[20px] lg:hidden">
-                    Open Source <br /> Commits
-                  </span>
+                <div className="dot1-infra w-[180px] h-[180px] relative overflow-hidden lg:w-[320px] lg:h-[320px] top-[7rem] left-[43%] lg:left-[30%] lg:top-[10rem] flex flex-col justify-center items-center">
+                  <div className="absolute dot1-infra-gradient h-full w-full top-0 left-0 "></div>
+                  <div className="z-10 flex flex-col">
+                    <div className="count-text text-[20px] lg:text-[40px]">
+                      <CountUp
+                        start={0}
+                        end={1000}
+                        duration={2.5}
+                        separator=","
+                      />
+                      <span>+</span>{" "}
+                    </div>
+                    <div className="text-stats text-[14px] lg:text-[20px] xs:hidden lg:flex">
+                      Open Source Commits
+                    </div>
+                    <div className="text-stats text-[14px] lg:text-[20px] lg:hidden">
+                      Open Source <br /> Commits
+                    </div>
+                  </div>
                 </div>
-                <div className="dot2-infra w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] top-[5rem] right-[-155px] lg:right-0  lg:top-[5rem] flex flex-col justify-center items-center">
-                  <span className="count-text text-[20px] lg:text-[40px]">
-                    <CountUp start={0} end={10} duration={2.5} separator="," />
-                    <span>+</span>{" "}
-                  </span>
+                <div className="dot2-infra w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] top-[5rem] right-[-155px] lg:right-0  lg:top-[5rem] flex flex-col justify-center items-center relative overflow-hidden">
+                  <div className="absolute dot2-infra-gradient h-full w-full top-0 left-0 "></div>
+                  <div className="z-10 flex flex-col">
+                    <div className="count-text text-[20px] lg:text-[40px]">
+                      <CountUp
+                        start={0}
+                        end={10}
+                        duration={2.5}
+                        separator=","
+                      />
+                      <span>+</span>{" "}
+                    </div>
 
-                  <span className="text-stats text-[14px] lg:text-[20px]">
-                    Projects Delivered
-                  </span>
+                    <div className="text-stats text-[14px] lg:text-[20px]">
+                      Projects Delivered
+                    </div>
+                  </div>
                 </div>
-                <div className="dot3-infra  w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] left-[-7%] top-[9rem] lg:left-[1%] lg:top-[12rem] flex flex-col justify-center items-center">
-                  <span className="count-text text-[20px] lg:text-[40px]">
-                    <CountUp start={0} end={11} duration={3} />
-                    <span>+</span>{" "}
-                  </span>
+                <div className="dot3-infra  w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] left-[-7%] top-[9rem] lg:left-[1%] lg:top-[12rem] flex flex-col justify-center items-center relative overflow-hidden">
+                  <div className="absolute dot3-infra-gradient h-full w-full top-0 left-0"></div>
+                  <div className="z-10 flex flex-col">
+                    <div className="count-text text-[20px] lg:text-[40px]">
+                      <CountUp start={0} end={11} duration={3} />
+                      <span>+</span>{" "}
+                    </div>
 
-                  <span className="text-stats text-[14px] lg:text-[20px]">
-                    {" "}
-                    Partnerships
-                  </span>
+                    <div className="text-stats text-[14px] lg:text-[20px]">
+                      {" "}
+                      Partnerships
+                    </div>
+                  </div>
                 </div>
-                <div className="dot4-infra w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] left-[10%] top-[4rem] lg:left-[16%] lg:top-[3rem] flex-col justify-center items-center">
-                  <span className="count-text text-[20px] lg:text-[40px]">
-                    <CountUp start={0} end={4} duration={3} />
-                    <span>+</span>{" "}
-                  </span>
-                  <span className="text-stats text-[14px] lg:text-[20px]">
-                    Mainnet <br></br>Launches{" "}
-                  </span>
+                <div className="dot4-infra w-[120px] h-[120px] lg:w-[240px] relative overflow-hidden lg:h-[240px] left-[10%] top-[4rem] lg:left-[16%] lg:top-[3rem] flex-col justify-center items-center">
+                  <div className="absolute dot4-infra-gradient h-full w-full top-0 left-0 "></div>
+                  <div className="z-10 flex flex-col">
+                    <div className="count-text text-[20px] lg:text-[40px]">
+                      <CountUp start={0} end={4} duration={3} />
+                      <span>+</span>{" "}
+                    </div>
+                    <div className="text-stats text-[14px] lg:text-[20px]">
+                      Mainnet Launches{" "}
+                    </div>
+                  </div>
                 </div>
                 <span className="dot6-infra h-[50px] w-[50px] lg:w-[67px] lg:h-[67px] left-[100%] top-[16%] lg:left-[10%] lg:top-[35%]"></span>
                 <span className="dot10-infra w-[50px] h-[50px] lg:h-[67px] lg:w-[67px] right-[-129px] top-[17rem] lg:right-[60px] lg:top-[23rem]"></span>

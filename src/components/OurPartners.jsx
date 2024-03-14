@@ -167,68 +167,83 @@ const OurPartners = () => {
             <div className="block">
               <div className="figma2001-infra  h-[58vh] ">
                 <div className="relative">
-                  <div className="dot1 w-[200px] h-[200px] lg:w-[275px] lg:h-[275px]  flex flex-col justify-center items-center">
-                    <span className="count-text text-[20px] lg:text-[40px]">
-                      $
-                      <CountUp
-                        start={0}
-                        end={40}
-                        duration={2.5}
-                        separator=","
-                      />
-                      M<span>+</span>{" "}
-                    </span>
-                    <span className="text-stats text-[14px] lg:text-[20px]">
-                      AUM
-                    </span>
+                  <div className="dot1 w-[200px] h-[200px] lg:w-[275px] lg:h-[275px] relative overflow-hidden flex flex-col justify-center items-center">
+                    <div className="absolute dot1-gradient h-full w-full top-0 left-0 "></div>
+                    <div className="z-10 flex flex-col">
+                      <div className="count-text text-[20px] lg:text-[40px]">
+                        $
+                        <CountUp
+                          start={0}
+                          end={40}
+                          duration={2.5}
+                          separator=","
+                        />
+                        M<span>+</span>{" "}
+                      </div>
+                      <div className="text-stats text-[14px] lg:text-[20px]">
+                        AUM
+                      </div>
+                    </div>
                   </div>
-                  <div className="dot2 w-[140px] h-[140px] lg:w-[210px] lg:h-[210px] left-[58%] lg:left-[50%] flex flex-col justify-center items-center">
-                    <span className="count-text text-[20px] lg:text-[40px]">
-                      <CountUp
-                        start={0}
-                        end={"19"}
-                        duration={2.5}
-                        separator=","
-                      />
-                      K <span>+</span>{" "}
-                    </span>
+                  <div className="dot2 relative overflow-hidden w-[140px] h-[140px] lg:w-[210px] lg:h-[210px] left-[58%] lg:left-[50%] flex flex-col justify-center items-center">
+                    <div className="absolute dot2-gradient h-full w-full top-0 left-0 "></div>
+                    <div className="z-10 flex flex-col">
+                      <div className="count-text text-[20px] lg:text-[40px]">
+                        <CountUp
+                          start={0}
+                          end={"19"}
+                          duration={2.5}
+                          separator=","
+                        />
+                        K <span>+</span>{" "}
+                      </div>
 
-                    <span className="text-stats text-[14px] lg:text-[20px]">
-                      Deligators
-                    </span>
+                      <div className="text-stats text-[14px] lg:text-[20px]">
+                        Deligators
+                      </div>
+                    </div>
                   </div>
-                  <div className="dot3 w-[134px] h-[134px] lg:w-[206px] lg:h-[206px] flex flex-col justify-center items-center">
-                    <span className="count-text text-[20px] lg:text-[40px]">
-                      <CountUp start={0} end={22} duration={3} />
-                      <span>+</span>{" "}
-                    </span>
+                  <div className="dot3 relative overflow-hidden w-[134px] h-[134px] lg:w-[206px] lg:h-[206px] flex flex-col justify-center items-center">
+                    <div className="absolute dot3-gradient h-full w-full top-0 left-0 "></div>
+                    <div className="z-10 flex flex-col">
+                      <div className="count-text text-[20px] lg:text-[40px]">
+                        <CountUp start={0} end={22} duration={3} />
+                        <span>+</span>{" "}
+                      </div>
 
-                    <span className="text-stats text-[14px] lg:text-[20px]">
-                      {" "}
-                      Validators
-                    </span>
+                      <div className="text-stats text-[14px] lg:text-[20px]">
+                        {" "}
+                        Validators
+                      </div>
+                    </div>
                   </div>
-                  <div className="dot4 w-[100px] h-[100px] lg:w-[180px] lg:h-[180px] left-[22%] lg:left-[13%] translate-y-[-363px] hover:scale-[1.2] hover:translate-y-[-363px]  lg:translate-y-[-546px] lg:hover:translate-y-[-530px]  flex-col justify-center items-center">
-                    <span className="count-text text text-[20px] lg:text-[40px]">
-                      <CountUp start={0} end={5} duration={3} />
-                    </span>
-                    <span className="text-stats text-[14px] lg:text-[20px]">
-                      Validator <br></br>Advisors{" "}
-                    </span>
+                  <div className="dot4 relative overflow-hidden w-[100px] h-[100px] lg:w-[180px] lg:h-[180px] left-[22%] lg:left-[13%] translate-y-[-363px] hover:scale-[1.2] hover:translate-y-[-363px]  lg:translate-y-[-546px] lg:hover:translate-y-[-530px]  flex-col justify-center items-center">
+                    <div className="absolute dot4-gradient h-full w-full top-0 left-0 "></div>
+                    <div className="z-10 flex flex-col">
+                      <div className="count-text text text-[20px] lg:text-[40px]">
+                        <CountUp start={0} end={5} duration={3} />
+                      </div>
+                      <div className="text-stats text-[14px] lg:text-[20px]">
+                        Validator <br></br>Advisors{" "}
+                      </div>
+                    </div>
                   </div>
-                  <div className="dot5 w-[90px] h-[90px] lg:w-[155px] lg:h-[155px] left-[65%] lg:left-[53%] flex-col flex justify-center items-center">
-                    <span className="count-text  text-[20px] lg:text-[40px] ">
-                      <CountUp start={0} end={10} duration={3} />
-                      <span>+</span>
-                    </span>
-                    <span className="text-stats text-[14px] lg:text-[20px]">
-                      Relayers
-                    </span>
+                  <div className="dot5 relative overflow-hidden w-[90px] h-[90px] lg:w-[155px] lg:h-[155px] left-[65%] lg:left-[53%] flex-col flex justify-center items-center">
+                    <div className="absolute dot5-gradient h-full w-full top-0 left-0 "></div>
+                    <div className="z-10 flex flex-col">
+                      <div className="count-text text-[20px] lg:text-[40px]">
+                        <CountUp start={0} end={10} duration={3} />
+                        <span>+</span>
+                      </div>
+                      <div className="text-stats text-[14px] lg:text-[20px]">
+                        Relayers
+                      </div>
+                    </div>
                   </div>
-                  <div className="dot6 w-[40px] h-[40px] lg:h-[58px] lg:w-[58px] translate-y-[-64vh] lg:translate-y-[-95vh]"></div>
+                  <div className="dot6 w-[40px] h-[40px] lg:h-[50px] lg:w-[50px] translate-y-[-64vh] lg:translate-y-[-95vh]"></div>
                   <span className="dot10 h-[40px] w-[40px] lg:w-[58px] lg:h-[58px] translate-y-[-1364%] lg:translate-y-[-1516%] left-[56%] lg:left-[52%]"></span>
-                  <span className="dot7 w-[40px] h-[40px] lg:h-[58px] lg:w-[58px] translate-y-[-36vh] lg:translate-y-[-56vh]"></span>
-                  <span className="dot9 w-[40px] h-[40px] lg:h-[58px] lg:w-[58px] translate-y-[-50vh] lg:translate-y-[-65vh] left-[7%] lg:left-[14%]"></span>
+                  <span className="dot7 w-[40px] h-[40px] lg:h-[54px] lg:w-[54px] translate-y-[-36vh] lg:translate-y-[-56vh]"></span>
+                  <span className="dot9 w-[40px] h-[40px] lg:h-[54px] lg:w-[54px] translate-y-[-50vh] lg:translate-y-[-65vh] left-[7%] lg:left-[14%]"></span>
                 </div>
               </div>
             </div>
