@@ -178,7 +178,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <button className="badge nav-text fixed right-[-58px] top-[40%] rotate-[-90deg] z-50">
+      <button className="badge nav-text fixed right-[-58px] top-[40%] rotate-[-90deg] z-50 sm:hidden xs:hidden md:hidden lg:block">
         Connect With Us
       </button>
       <div className="absolute bottom-0  w-full">
