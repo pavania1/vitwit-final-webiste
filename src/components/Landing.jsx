@@ -15,7 +15,7 @@ import Avail from "../assets/partners/avail .png";
 import Cheqd from "../assets/partners/cheqd.png";
 import Marquee from "react-fast-marquee";
 import GetinTouch from "./GetinTouch";
-import Rocket from "../assets/rocket.png"
+import Rocket from "../assets/rocket.png";
 const Landing = () => {
   const words = [
     "Appchain Development",
@@ -103,7 +103,7 @@ const Landing = () => {
             <div className="sm:w-full lg:w-[50%] flex justify-center items-center">
               <div className="h-full">
                 <div className="leftdevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
-                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:hidden xs:block sm:block">
+                  {/* <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:hidden xs:block sm:block">
                     <h1 className="text-left  ">Trusted partners for your </h1>
                     <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-4xl xs:text-4xl text-left">
                       {displayedText[0]}
@@ -113,14 +113,36 @@ const Landing = () => {
                       {displayedText[1]}
                     </span>
                     <Cursor />
-                  </div>
-                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left   lg:block xs:hidden sm:hidden">
+                  </div> */}
+                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left">
                     <h1 className=" text-left mb-5 lg:text-4xl md:text-4xl">
                       Trusted partners for your{" "}
                     </h1>
-                    <span className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
+                    <div className="relative h-[60px] overflow-hidden ">
+                      <div className="absolute z-10 top-0 left-0 translation-text">
+                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                          Appchain Development
+                        </h1>
+                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                          IBC app development
+                        </h1>
+                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                          Road to mainnet
+                        </h1>
+                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                          Protocol Research
+                        </h1>
+                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                          Web3 Infrastructure
+                        </h1>
+                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                          Appchain Development
+                        </h1>
+                      </div>
+                    </div>
+                    {/* <span className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
                       {displayedText[0]} {displayedText[1]}
-                    </span>
+                    </span> */}
                     {/* <br />
                     <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
                       {displayedText[1]}
@@ -129,14 +151,14 @@ const Landing = () => {
                   </div>
 
                   <div className="landing-text-main">
-                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] ">
+                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8">
                       Partner with us to harness the power of blockchain and
                       unlock new opportunities for growth and efficiency. With
                       Vitwit, you get personalized support every step of the
                       way.
                     </div>
                   </div>
-                  <div className="sm:hidden xs:hidden lg:block">
+                  <div className="sm:hidden xs:hidden lg:block pt-3">
                     <button
                       className="get-touch-btn nav-text "
                       onClick={handleGetInTouchClick}

@@ -28,7 +28,7 @@
   flex-direction: column;
   justify-content: center;
   /* gap: 40px; */
-  @apply xs:gap-5 sm:gap-5 lg:gap-10;
+  /* @apply xs:gap-5 sm:gap-5 lg:gap-10; */
 }
 .landing-text-main {
   display: flex;
@@ -144,4 +144,29 @@
   object-fit: cover;
   /* opacity: 30%; */
   /* z-index: 10; */
+}
+.translation-text {
+  transform: translateY(0px);
+  animation: text-landing-rotate 10s  ease infinite ;
+}
+
+@keyframes text-landing-rotate {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-60px);
+  }
+  40% {
+    transform: translateY(-120px);
+  }
+  60% {
+    transform: translateY(-180px);
+  }
+  80% {
+    transform: translateY(-240px);
+  }
+  100% {
+    transform: translateY(-300px);
+  }
 }
