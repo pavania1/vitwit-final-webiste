@@ -24,13 +24,15 @@ const Letstalk = () => {
         </div>
         <p className="letstalk-para-text  sm:text-xs xs:text-xs lg:text-sm md:text-sm text-center">
           {" "}
-          Feel free to conatct us by filling this form or you can even reach us
-          out from the social media links below.
+          If you have any questions or are interested in discussing anything
+          related to Web3, please don't hesitate to connect with us through any
+          of the social channels or via email below. We're here to help and
+          eager to engage in conversation!
         </p>
         {/* <div className="v-line"></div> */}
         <div className="xs:hidden sm:hidden lg:block">
           <button className="get-touch-btn nav-text mt-5 mx-auto">
-            <a href="mailto:contact@vitwit.com">Connect to us</a>
+            <a href="mailto:contact@vitwit.com">Email us</a>
           </button>
         </div>
         <div className="lg:hidden">

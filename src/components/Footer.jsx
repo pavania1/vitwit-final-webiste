@@ -17,6 +17,9 @@ const Footer = () => {
           <img className="w-[30%]" src={VitwitLogo} alt="Vitwit Logo" />
           <p className="text-white text-sm font-normal leading-6 text-left  tracking-[0.6px] mt-4">
             Premier Cosmos Development, Consulting, and Infrastructure Services.
+            <br />
+            We help you with building, testing and launching your web3
+            applications smoothly.
           </p>
         </div>
         <div className="flex flex-col">
@@ -27,6 +30,8 @@ const Footer = () => {
           />
           <p className="text-white text-[12px] font-normal leading-6  tracking-[0.6px] lg:hidden ">
             Premier Cosmos Development, Consulting, and Infrastructure Services.
+            We help you with building, testing and launching your web3
+            applications smoothly.
           </p>
         </div>
         <div className="flex flex-col gap-6 xs:hidden sm:hidden md:block">

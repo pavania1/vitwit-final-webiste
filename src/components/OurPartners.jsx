@@ -252,7 +252,8 @@ const OurPartners = () => {
             <div className="ourpartners-text hidden  lg:text-sm md:text-sm sm:text-xs xs:text-xs md:block">
               <p>
                 We are one of the builders of Cosmos-SDK and we know how it
-                works best.
+                works best. Our secure infrastructure and automated monitoring
+                helps us to operate high-scale validators.
               </p>
             </div>
 
