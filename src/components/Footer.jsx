@@ -28,7 +28,7 @@ const Footer = () => {
             src={VitwitLogo}
             alt="Vitwit Logo"
           />
-          <p className="text-white text-[12px] font-normal leading-6  tracking-[0.6px] lg:hidden ">
+          <p className="text-white text-[12px] font-normal leading-6  tracking-[0.6px] lg:hidden mt-5">
             Premier Cosmos Development, Consulting, and Infrastructure Services.
             We help you with building, testing and launching your web3
             applications smoothly.

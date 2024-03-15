@@ -21,7 +21,7 @@ const ContactPopup = ({ open, close }) => {
             onClick={close}
             className=" cursor-pointer right-5 absolute pt-4"
           >
-            <CloseIcon height={12} width={12}/>
+            <CloseIcon height={12} width={12} />
           </div>
           <div className="flex flex-col items-start gap-4 self-stretch px-6 py-10">
             <h1 className="text-white text-[15px] not-italic font-bold leading-[18px]">
@@ -29,8 +29,9 @@ const ContactPopup = ({ open, close }) => {
             </h1>
             <div className="getintouch-v-line"></div>
             <p className="text-white text-[10px] not-italic font-light leading-[18px]">
-              We are a core tech company passionate about the research and{" "}
-              development of technology solutions.
+              Premier Cosmos Development, Consulting, and Infrastructure
+              Services. We help you with building, testing and launching your
+              web3 applications smoothly.
             </p>
 
             <div className="flex space-x-2 items-start">
