@@ -110,7 +110,7 @@
   @apply md:h-[100%];
 }
 .myVideopsmall {
-  width: 140%;
+  width: 110%;
   object-fit: cover;
   object-position: left;
   transform: translateX(-10%);

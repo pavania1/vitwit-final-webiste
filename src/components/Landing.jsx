@@ -17,13 +17,7 @@ import Marquee from "react-fast-marquee";
 import GetinTouch from "./GetinTouch";
 import Rocket from "../assets/rocket.png";
 const Landing = () => {
-  // const words = [
-  //   "Appchain Development",
-  //   "IBC-App Development",
-  //   "Road-To Mainnet",
-  //   "Protocol Research",
-  //   "Web3 Infrastructure",
-  // ];
+ 
 
   const videoRef = useRef();
 
@@ -105,27 +99,27 @@ const Landing = () => {
               <div className="h-full">
                 <div className="leftdevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
                   <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left">
-                    <h1 className=" text-left lg:mb-5 md:mb-5 lg:text-4xl md:text-4xl">
+                    <h1 className=" text-left lg:mb-5 md:mb-5 xs:mb-0 lg:text-4xl md:text-4xl">
                       Trusted partners for your{" "}
                     </h1>
-                    <div className="relative xs:h-[40px] md:h-[60px] lg:h-[60px] overflow-hidden ">
+                    <div className="relative xs:h-[40px] md:h-[50px] lg:h-[50px] overflow-hidden ">
                       <div className="absolute z-10 top-0 left-0 translation-text">
-                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                           Appchain Development
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                           IBC app development
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                           Road to mainnet
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                           Protocol Research
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                           Web3 Infrastructure
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                           Appchain Development
                         </h1>
                       </div>
@@ -141,7 +135,7 @@ const Landing = () => {
                   </div>
 
                   <div className="landing-text-main">
-                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8">
+                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8 xs:pb-5 sm:pb-5">
                       Partner with us to harness the power of blockchain and
                       unlock new opportunities for growth and efficiency. With
                       Vitwit, you get personalized support every step of the
@@ -181,7 +175,7 @@ const Landing = () => {
               </div>
             </div>
             <div className="lg:w-[40%] xs:mx-auto xs:w-[70%] flex justify-center items-center ">
-              <video autoPlay muted loop ref={videoRef} className="">
+              <video autoPlay muted loop ref={videoRef} playsInline className="">
                 <source
                   src={process.env.PUBLIC_URL + "/videos/pol.mp4"}
                   type="video/mp4"

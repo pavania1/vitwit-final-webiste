@@ -98,7 +98,7 @@ const Resolute = () => {
                     <img
                       src={PlayImage}
                       alt="Play-Icon"
-                      className="mx-auto mt-[30%] w-[15%]"
+                      className="mx-auto mt-[24%] w-[15%]"
                     />
                   </div>
                 )}

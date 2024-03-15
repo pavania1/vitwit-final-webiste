@@ -73,7 +73,7 @@ body {
 
   /* footer */
   .footer {
-    @apply flex flex-col gap-10 pt-10 pb-10 lg:px-20 sm:px-4 xs:px-4 w-full;
+    @apply flex flex-col gap-10 pt-10 pb-10 lg:px-20 sm:px-6 xs:px-6 w-full;
   }
   .social-icon {
     @apply w-[25px] h-[25px];
