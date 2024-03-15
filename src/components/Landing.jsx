@@ -17,13 +17,13 @@ import Marquee from "react-fast-marquee";
 import GetinTouch from "./GetinTouch";
 import Rocket from "../assets/rocket.png";
 const Landing = () => {
-  const words = [
-    "Appchain Development",
-    "IBC-App Development",
-    "Road-To Mainnet",
-    "Protocol Research",
-    "Web3 Infrastructure",
-  ];
+  // const words = [
+  //   "Appchain Development",
+  //   "IBC-App Development",
+  //   "Road-To Mainnet",
+  //   "Protocol Research",
+  //   "Web3 Infrastructure",
+  // ];
 
   const videoRef = useRef();
 
@@ -33,62 +33,63 @@ const Landing = () => {
     }
   }, []);
 
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [typing, setTyping] = useState(true);
-  const [displayedText, setDisplayedText] = useState(["", ""]);
+  // const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  // const [typing, setTyping] = useState(true);
+  // const [displayedText, setDisplayedText] = useState(["", ""]);
   const [showGetInTouch, setShowGetInTouch] = useState(false);
   const handleGetInTouchClick = () => {
     setShowGetInTouch(true);
   };
-  useEffect(() => {
-    const currentWord = words[currentWordIndex];
-    let timeout;
+  // useEffect(() => {
+  //   const currentWord = words[currentWordIndex];
+  //   let timeout;
 
-    if (typing) {
-      timeout = setTimeout(() => {
-        if (displayedText[0].length < currentWord.split(" ")[0].length) {
-          setDisplayedText([
-            currentWord.split(" ")[0].substring(0, displayedText[0].length + 1),
-            displayedText[1],
-          ]);
-        } else if (displayedText[1].length < currentWord.split(" ")[1].length) {
-          setDisplayedText([
-            displayedText[0],
-            currentWord.split(" ")[1].substring(0, displayedText[1].length + 1),
-          ]);
-        }
-      }, 200); // Adjust typing speed here
-    } else {
-      timeout = setTimeout(() => {
-        if (displayedText[1].length > 0) {
-          setDisplayedText([
-            displayedText[0],
-            currentWord.split(" ")[1].substring(0, displayedText[1].length - 1),
-          ]);
-        } else if (displayedText[0].length > 0) {
-          setDisplayedText([
-            displayedText[0].substring(0, displayedText[0].length - 1),
-            displayedText[1],
-          ]);
-        }
-      }, 100); // Adjust erasing speed here
-    }
+  //   if (typing) {
+  //     timeout = setTimeout(() => {
+  //       if (displayedText[0].length < currentWord.split(" ")[0].length) {
+  //         setDisplayedText([
+  //           currentWord.split(" ")[0].substring(0, displayedText[0].length + 1),
+  //           displayedText[1],
+  //         ]);
+  //       } else if (displayedText[1].length < currentWord.split(" ")[1].length) {
+  //         setDisplayedText([
+  //           displayedText[0],
+  //           currentWord.split(" ")[1].substring(0, displayedText[1].length + 1),
+  //         ]);
+  //       }
+  //     }, 200);
+  //   } else {
+  //     timeout = setTimeout(() => {
+  //       if (displayedText[1].length > 0) {
+  //         setDisplayedText([
+  //           displayedText[0],
+  //           currentWord.split(" ")[1].substring(0, displayedText[1].length - 1),
+  //         ]);
+  //       } else if (displayedText[0].length > 0) {
+  //         setDisplayedText([
+  //           displayedText[0].substring(0, displayedText[0].length - 1),
+  //           displayedText[1],
+  //         ]);
+  //       }
+  //     }, 100);
+  //   }
 
-    if (
-      typing &&
-      displayedText[0] === currentWord.split(" ")[0] &&
-      displayedText[1] === currentWord.split(" ")[1]
-    ) {
-      setTyping(false);
-      setTimeout(() => {
-        setTyping(true);
-        setCurrentWordIndex((currentWordIndex + 1) % words.length);
-        setDisplayedText(["", ""]);
-      }, 1000); // Delay before erasing next word
-    }
+  //   if (
+  //     typing &&
+  //     displayedText[0] === currentWord.split(" ")[0] &&
+  //     displayedText[1] === currentWord.split(" ")[1]
+  //   ) {
+  //     setTyping(false);
+  //     setTimeout(() => {
+  //       setTyping(true);
+  //       setCurrentWordIndex((currentWordIndex + 1) % words.length);
+  //       setDisplayedText(["", ""]);
+  //     }, 1000);
+  //   }
 
-    return () => clearTimeout(timeout);
-  }, [typing, displayedText, currentWordIndex, words]);
+  //   return () => clearTimeout(timeout);
+  // }, [typing, displayedText, currentWordIndex, words]);
+
   const [showContactPopup, setShowContactPopup] = useState(false);
   const handleConnectClick = () => {
     setShowContactPopup(true);
@@ -100,42 +101,31 @@ const Landing = () => {
       <div className="maindevelop-landing myVideo bg-black">
         <div className="landing flex relative  w-full">
           <div className="flex sm:flex-col-reverse xs:flex-col-reverse lg:flex-row justify-between w-full">
-            <div className="sm:w-full lg:w-[50%] flex justify-center items-center">
+            <div className="sm:w-full lg:w-[60%] flex justify-center items-center">
               <div className="h-full">
                 <div className="leftdevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
-                  {/* <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:hidden xs:block sm:block">
-                    <h1 className="text-left  ">Trusted partners for your </h1>
-                    <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-4xl xs:text-4xl text-left">
-                      {displayedText[0]}
-                    </span>{" "}
-                    <br />
-                    <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-4xl xs:text-4xl">
-                      {displayedText[1]}
-                    </span>
-                    <Cursor />
-                  </div> */}
                   <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left">
-                    <h1 className=" text-left mb-5 lg:text-4xl md:text-4xl">
+                    <h1 className=" text-left lg:mb-5 md:mb-5 lg:text-4xl md:text-4xl">
                       Trusted partners for your{" "}
                     </h1>
-                    <div className="relative h-[60px] overflow-hidden ">
+                    <div className="relative xs:h-[40px] md:h-[60px] lg:h-[60px] overflow-hidden ">
                       <div className="absolute z-10 top-0 left-0 translation-text">
-                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
                           Appchain Development
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
                           IBC app development
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
                           Road to mainnet
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
                           Protocol Research
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
                           Web3 Infrastructure
                         </h1>
-                        <h1 className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
+                        <h1 className="servicesdevelop-landing lg:text-5xl md:text-5xl sm:text-2xl xs:text-2xl text-left">
                           Appchain Development
                         </h1>
                       </div>
@@ -190,7 +180,7 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-[50%] xs:mx-auto xs:w-[70%] flex justify-center items-center ">
+            <div className="lg:w-[40%] xs:mx-auto xs:w-[70%] flex justify-center items-center ">
               <video autoPlay muted loop ref={videoRef} className="">
                 <source
                   src={process.env.PUBLIC_URL + "/videos/pol.mp4"}
