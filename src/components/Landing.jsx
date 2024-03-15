@@ -224,7 +224,7 @@ const Landing = () => {
                   <img
                     src={Avail}
                     alt="Avail"
-                    className="partner-logo mx-5 lg:mx-10 w-[100px] h-[30px] lg:w-[120px] lg:h-[40px]"
+                    className="partner-logo mx-5 lg:mx-10 w-[100px] h-[30px] lg:w-[125px] lg:h-[40px]"
                   />
                   <img
                     src={Passage}
@@ -239,7 +239,7 @@ const Landing = () => {
                   <img
                     src={Chainflow}
                     alt="Chainflow"
-                    className="partner-logo mx-5 lg:mx-10 w-[80px] lg:w-[120px] h-[60px]"
+                    className="partner-logo mx-5 lg:mx-10 w-[120px] lg:w-[120px] h-[60px]"
                   />
                   <img
                     src={Regen}
@@ -254,7 +254,7 @@ const Landing = () => {
                   <img
                     src={AgeFund}
                     alt="AgeFund"
-                    className="partner-logo mx-5 lg:mx-10 w-[80px] lg:w-[140px] h-[40px]"
+                    className="partner-logo mx-5 lg:mx-10 w-[100px] lg:w-[130px] h-[40px]"
                   />
                   <img
                     src={Cheqd}
