@@ -241,9 +241,9 @@ const OurPartners = () => {
                     </div>
                   </div>
                   <div className="dot6 w-[40px] h-[40px] lg:h-[50px] lg:w-[50px] translate-y-[-64vh] lg:translate-y-[-95vh] hidden lg:flex "></div>
-                  <span className="dot10 h-[40px] w-[40px] lg:w-[58px] lg:h-[58px] translate-y-[-1364%] lg:translate-y-[-1516%] left-[56%] lg:left-[52%]"></span>
+                  <span className="dot10 h-[40px] w-[40px] lg:w-[58px] lg:h-[58px] translate-y-[-1364%] lg:translate-y-[-1516%] left-[56%] lg:left-[52%] hidden lg:flex"></span>
                   <span className="dot7 w-[40px] h-[40px] lg:h-[54px] lg:w-[54px] translate-y-[-36vh] lg:translate-y-[-56vh] hidden lg:flex"></span>
-                  <span className="dot9 w-[40px] h-[40px] lg:h-[54px] lg:w-[54px] translate-y-[-50vh] lg:translate-y-[-65vh] left-[7%] lg:left-[14%]"></span>
+                  <span className="dot9 w-[40px] h-[40px] lg:h-[54px] lg:w-[54px] translate-y-[-50vh] lg:translate-y-[-65vh] left-[7%] lg:left-[14%] hidden lg:flex"></span>
                 </div>
               </div>
             </div>

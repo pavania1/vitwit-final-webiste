@@ -228,7 +228,7 @@
 .dot8 {
   height: 16px;
   width: 16px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   /* background-color: rgba(251, 250, 250, 0.04); */
@@ -245,7 +245,7 @@
 .dot9 {
   /* height: 58px;
   width: 58px; */
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   /* background-color: rgba(251, 250, 250, 0.04); */

@@ -25,9 +25,9 @@ const Letstalk = () => {
         <p className="letstalk-para-text  sm:text-xs xs:text-xs lg:text-sm md:text-sm text-center">
           {" "}
           If you have any questions or are interested in discussing anything
-          related to Web3, please don't hesitate to connect with us through any
-          of the social channels or via email below. We're here to help and
-          eager to engage in conversation!
+          related to Web3, <br /> please don't hesitate to connect with us
+          through any of the social channels or via email below. We're here to
+          help and eager to engage in conversation!
         </p>
         {/* <div className="v-line"></div> */}
         <div className="xs:hidden sm:hidden lg:block">
@@ -36,11 +36,8 @@ const Letstalk = () => {
           </button>
         </div>
         <div className="lg:hidden">
-          <button
-            className="nav-text mt-5 get-touch-btn mx-auto"
-            onClick={handleConnectClick}
-          >
-            Connect With Us
+          <button className="nav-text mt-5 get-touch-btn mx-auto">
+            <a href="mailto:contact@vitwit.com">Email us</a>
           </button>
         </div>
       </div>
