@@ -2,9 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import "./Delegate.css";
 import Twitter from "../assets/partnerstwitter.svg";
 import Favorite from "../assets/favorite.svg";
-
 import alertsData from "./alertdata";
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

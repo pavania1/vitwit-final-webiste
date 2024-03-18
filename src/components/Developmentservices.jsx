@@ -1,6 +1,5 @@
 import React from "react";
 import "./Development.css";
-import { Alert, Space } from "antd";
 import CountUp from "react-countup";
 const Development = () => {
   return (
@@ -44,43 +43,35 @@ const Development = () => {
           </div>
           <div className="flex flex-col-reverse md:flex-row">
             <div className="leftdevelop-infra md:w-[45%]">
-              <Space
+              <div
                 className="space-alert-dev gap-8"
                 direction="vertical"
                 style={{
                   width: "100%",
                 }}
               >
-                <Alert
-                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
-                  message={
+                <div className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]">
+                  <div>
                     <span className="development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm ">
                       Blockchain Development Using Cosmos SDK
                     </span>
-                  }
-                  description={
+                  </div>
+                  <div>
                     <span className="development-alert-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                       Harness the power of the Cosmos SDK to build scalable,
                       interoperable blockchain networks. Our expertise ensures
                       your project is developed with cutting-edge technology for
                       maximum efficiency and performance.
                     </span>
-                  }
-                  style={{
-                    padding: 30,
-                    marginBottom: "10px",
-                    marginTop: "15px",
-                    width: "100%",
-                  }}
-                />
-                <Alert
-                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
-                  message={
+                  </div>
+                </div>
+                <div className="w-full my-10 text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]">
+                  <div>
                     <span className="development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm">
                       IBC Apps and Rollapps Development
                     </span>
-                  }
-                  description={
+                  </div>
+                  <div>
                     <span className="development-alert-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                       Expand your blockchain's capabilities with IBC apps and
                       Rollapps, creating seamless connections and
@@ -88,18 +79,16 @@ const Development = () => {
                       services open new pathways for interoperability and
                       innovation.
                     </span>
-                  }
-                  style={{ padding: 30, marginBottom: "10px", width: "100%" }}
-                />
+                  </div>
+                </div>
 
-                <Alert
-                  className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]"
-                  message={
+                <div className="w-full text-start p-[30px] rounded-2xl border-none bg-[#ffffff14] lg:develop-alert-background  md:develop-alert-background hover:bg-[#372752]">
+                  <div>
                     <span className="development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm">
                       CosmWasm Smart Contract Development
                     </span>
-                  }
-                  description={
+                  </div>
+                  <div>
                     <span className="development-alert-text lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                       Leverage the flexibility of CosmWasm for building
                       powerful, secure smart contracts. Our team specializes in
@@ -107,10 +96,9 @@ const Development = () => {
                       functionalities to life, meeting the highest standards of
                       quality and innovation.
                     </span>
-                  }
-                  style={{ padding: 30, marginBottom: "10px", width: "100%" }}
-                />
-              </Space>
+                  </div>
+                </div>
+              </div>
             </div>
             {/* leftdevelop cantioner end */}
 
