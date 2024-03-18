@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Letstalk.css";
 import ContactPopup from "./ContactPopup";
-import OurPartners from "./OurPartners";
 import Delegate from "./Delegate";
 
 const Letstalk = () => {
@@ -29,7 +28,6 @@ const Letstalk = () => {
           through any of the social channels or via email below. We're here to
           help and eager to engage in conversation!
         </p>
-        {/* <div className="v-line"></div> */}
         <div className="xs:hidden sm:hidden lg:block">
           <button className="get-touch-btn nav-text mt-5 mx-auto">
             <a href="mailto:contact@vitwit.com">Email us</a>

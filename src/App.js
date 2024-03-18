@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-import Delegate from "./components/Delegate";
 import Development from "./components/Developmentservices";
 import Footer from "./components/Footer";
 import Infrastructure from "./components/Infrastructure";
@@ -47,9 +46,6 @@ function App() {
           <OurPartners />
         </div>
       </div>
-      {/* <div className="max-w-[1280px] ">
-        <Delegate />
-      </div> */}
       <div className="w-full relative">
         <Resolute />
       </div>

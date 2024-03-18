@@ -1,6 +1,5 @@
 import Jackzampolin from "../assets/tweetsprofile/jackzampolin.jpg";
 import GregoryLandua from "../assets/tweetsprofile/gregorylandua.jpg";
-import OmniFlixNetwork from "../assets/tweetsprofile/omniflix.jpg";
 import PersistenceOne from "../assets/tweetsprofile/persistence.jpg";
 import GregOsuri from "../assets/tweetsprofile/gregosuri.jpg";
 import SarahBax from "../assets/tweetsprofile/sarahbax.jpg";

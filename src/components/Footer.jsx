@@ -1,7 +1,5 @@
 import React from "react";
-import MailLogo from "../assets/social-icons/mail.png";
 import YoutubeLogo from "../assets/social-icons/youtube.png";
-import SkypeLogo from "../assets/social-icons/skype.png";
 import GithubLogo from "../assets/social-icons/github.png";
 import LinkedInLogo from "../assets/social-icons/linkedln.png";
 import VitwitLogo from "../assets/vitwit-logo.png";

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import "./Delegate.css";
 import Twitter from "../assets/partnerstwitter.svg";
 import Favorite from "../assets/favorite.svg";
@@ -30,82 +30,7 @@ const Delegate = () => {
     <>
       <div id="partners" className="main-delegate">
         <div className="main22-delegate">
-          <div className="delegate-main-head">
-            {/* <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-5">
-              <h1 style={{ fontFamily: "Libre Franklin" }}>
-                Our Partners &nbsp;
-                <span className="servicesdevelop">& Clients</span>
-              </h1>
-            </div>
-            <div className="delegate-text-delegate  sm:hidden xs:hidden md:block">
-              Meet our trusted partners, a network of leading companies and
-              innovators united in driving <br /> blockchain technology forward.
-              Together, we're shaping the future
-            </div>
-            <div className="">
-              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-8">
-                <div className="flex">
-                  <div className="logo-bgrnd lg:bg-[#ffffff0f] sm:bg-transparent w-[92px] h-[46px] lg:w-[330px] lg:h-[150px] ">
-                    <img src={Akash} alt="Akash" className=" md:w-fit" />
-                  </div>
-                </div>
-                <div className="flex ">
-                  <div className="logo-bgrnd mx-auto lg:bg-[#ffffff0f] sm:bg-transparent w-[92px] h-[46px] lg:w-[330px] lg:h-[150px]">
-                    <img
-                      src={Cosmos}
-                      alt="Cosmos"
-                      className="w-[100px] md:w-fit"
-                    />
-                  </div>
-                </div>
-                <div className="flex">
-                  <div className="logo-bgrnd ml-auto lg:bg-[#ffffff0f] sm:bg-transparent w-[92px] h-[46px] lg:w-[330px] lg:h-[150px]">
-                    <img
-                      src={Polygen}
-                      alt="Polygen"
-                      className="w-[100px] md:w-fit "
-                    />
-                  </div>
-                </div>
-                <div className="flex  ">
-                  <div className="logo-bgrnd lg:bg-[#ffffff0f] sm:bg-transparent w-[92px] h-[46px] lg:w-[330px] lg:h-[150px]">
-                    <img
-                      src={Passage}
-                      alt="Passage"
-                      className="w-[100px] md:w-[200px] "
-                    />
-                  </div>
-                </div>
-                <div className="flex ">
-                  <div className="logo-bgrnd mx-auto lg:bg-[#ffffff0f] sm:bg-transparent w-[92px] h-[46px] lg:w-[330px] lg:h-[150px]">
-                    <img
-                      src={Regen}
-                      alt="Regen"
-                      className="w-[100px] md:w-fit"
-                    />
-                  </div>
-                </div>
-                <div className="flex ">
-                  <div className="logo-bgrnd ml-auto lg:bg-[#ffffff0f] sm:bg-transparent w-[92px] h-[46px] lg:w-[330px] lg:h-[150px]">
-                    <img
-                      src={Chainflow}
-                      alt="Chainflow"
-                      className="w-[100px] md:w-fit"
-                    />
-                  </div>
-                </div>
-                <div className="flex col-span-3">
-                  <div className="logo-bgrnd mx-auto lg:bg-[#ffffff0f] sm:bg-transparent w-[92px] h-[46px] lg:w-[330px] lg:h-[150px]">
-                    <img
-                      src={Polama}
-                      alt="Cosmoa"
-                      className="w-[100px] md:w-[177px] "
-                    />
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </div>
+          <div className="delegate-main-head"></div>
           <div>
             <div className="bottom-text xs:hidden sm:hidden md:block  mb-[8%] lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
               Community ACKs

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Landing.css";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { Cursor } from "react-simple-typewriter";
 import Akash from "../assets/partners/akash.png";
 import Regen from "../assets/partners/regen.svg";
 import Polygen from "../assets/partners/polygon.png";
@@ -17,8 +17,6 @@ import Marquee from "react-fast-marquee";
 import GetinTouch from "./GetinTouch";
 import Rocket from "../assets/rocket.png";
 const Landing = () => {
- 
-
   const videoRef = useRef();
 
   useEffect(() => {
@@ -26,63 +24,10 @@ const Landing = () => {
       videoRef.current.play();
     }
   }, []);
-
-  // const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  // const [typing, setTyping] = useState(true);
-  // const [displayedText, setDisplayedText] = useState(["", ""]);
   const [showGetInTouch, setShowGetInTouch] = useState(false);
   const handleGetInTouchClick = () => {
     setShowGetInTouch(true);
   };
-  // useEffect(() => {
-  //   const currentWord = words[currentWordIndex];
-  //   let timeout;
-
-  //   if (typing) {
-  //     timeout = setTimeout(() => {
-  //       if (displayedText[0].length < currentWord.split(" ")[0].length) {
-  //         setDisplayedText([
-  //           currentWord.split(" ")[0].substring(0, displayedText[0].length + 1),
-  //           displayedText[1],
-  //         ]);
-  //       } else if (displayedText[1].length < currentWord.split(" ")[1].length) {
-  //         setDisplayedText([
-  //           displayedText[0],
-  //           currentWord.split(" ")[1].substring(0, displayedText[1].length + 1),
-  //         ]);
-  //       }
-  //     }, 200);
-  //   } else {
-  //     timeout = setTimeout(() => {
-  //       if (displayedText[1].length > 0) {
-  //         setDisplayedText([
-  //           displayedText[0],
-  //           currentWord.split(" ")[1].substring(0, displayedText[1].length - 1),
-  //         ]);
-  //       } else if (displayedText[0].length > 0) {
-  //         setDisplayedText([
-  //           displayedText[0].substring(0, displayedText[0].length - 1),
-  //           displayedText[1],
-  //         ]);
-  //       }
-  //     }, 100);
-  //   }
-
-  //   if (
-  //     typing &&
-  //     displayedText[0] === currentWord.split(" ")[0] &&
-  //     displayedText[1] === currentWord.split(" ")[1]
-  //   ) {
-  //     setTyping(false);
-  //     setTimeout(() => {
-  //       setTyping(true);
-  //       setCurrentWordIndex((currentWordIndex + 1) % words.length);
-  //       setDisplayedText(["", ""]);
-  //     }, 1000);
-  //   }
-
-  //   return () => clearTimeout(timeout);
-  // }, [typing, displayedText, currentWordIndex, words]);
 
   const [showContactPopup, setShowContactPopup] = useState(false);
   const handleConnectClick = () => {
@@ -124,13 +69,6 @@ const Landing = () => {
                         </h1>
                       </div>
                     </div>
-                    {/* <span className="servicesdevelop-landing lg:text-4xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
-                      {displayedText[0]} {displayedText[1]}
-                    </span> */}
-                    {/* <br />
-                    <span className="servicesdevelop-landing lg:text-6xl md:text-5xl sm:text-5xl xs:text-5xl text-left">
-                      {displayedText[1]}
-                    </span> */}
                     <Cursor />
                   </div>
 
@@ -175,7 +113,14 @@ const Landing = () => {
               </div>
             </div>
             <div className="lg:w-[40%] xs:mx-auto xs:w-[70%] flex justify-center items-center ">
-              <video autoPlay muted loop ref={videoRef} playsInline className="">
+              <video
+                autoPlay
+                muted
+                loop
+                ref={videoRef}
+                playsInline
+                className=""
+              >
                 <source
                   src={process.env.PUBLIC_URL + "/videos/pol.mp4"}
                   type="video/mp4"
