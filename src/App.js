@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import OurPartners from "./components/OurPartners";
 import Resolute from "./components/Resolute";
 import Backtotop from "./components/Backtotop";
+import Delegate from "./components/Delegate";
 
 function App() {
   const [colorChange, setColorchange] = useState(false);
@@ -50,6 +51,14 @@ function App() {
         <Resolute />
       </div>
       <div className="w-full flex flex-col justify-center items-center justify-items-center">
+        <div className=" max-w-[1280px]">
+          <Delegate />
+        </div>
+      </div>
+      <div
+        className="w-full flex flex-col justify-center items-center justify-items-center"
+        style={{ background: "rgba(255, 255, 255, 0.06)" }}
+      >
         <div className=" max-w-[1280px]">
           <Letstalk />
         </div>

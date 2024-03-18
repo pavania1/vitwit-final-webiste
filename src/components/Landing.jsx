@@ -43,37 +43,38 @@ const Landing = () => {
             <div className="sm:w-full lg:w-[60%] flex justify-center items-center">
               <div className="h-full">
                 <div className="leftdevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
-                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left">
+                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:pb-4">
                     <h1 className=" text-left lg:mb-5 md:mb-5 xs:mb-0 lg:text-4xl md:text-4xl">
                       Trusted partners for your{" "}
                     </h1>
-                    <div className="relative xs:h-[40px] md:h-[50px] lg:h-[50px] overflow-hidden ">
-                      <div className="absolute z-10 top-0 left-0 translation-text">
-                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
-                          Appchain Development
-                        </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
-                          IBC app development
-                        </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
-                          Road to mainnet
-                        </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
-                          Protocol Research
-                        </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
-                          Web3 Infrastructure
-                        </h1>
-                        <h1 className="servicesdevelop-landing lg:text-5xl font-bold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
-                          Appchain Development
-                        </h1>
-                      </div>
+                  </div>
+                  <div className="relative xs:h-[40px] md:h-[50px] lg:h-[60px] overflow-hidden">
+                    <div className="absolute z-10 top-0 left-0 translation-text">
+                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                        Appchain Development
+                      </h1>
+                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                        IBC app development
+                      </h1>
+                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                        Road to mainnet
+                      </h1>
+                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                        Protocol Research
+                      </h1>
+                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                        Web3 Infrastructure
+                      </h1>
+                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                        Appchain Development
+                      </h1>
                     </div>
+
                     <Cursor />
                   </div>
 
                   <div className="landing-text-main">
-                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8 xs:pb-5 sm:pb-5">
+                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8 xs:pb-5 sm:pb-5 pt-8">
                       Partner with us to harness the power of blockchain and
                       unlock new opportunities for growth and efficiency. With
                       Vitwit, you get personalized support every step of the

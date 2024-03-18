@@ -67,12 +67,11 @@
 .servicesdevelop-landing {
   font-family: "Libre Franklin";
   font-style: normal;
-  /* font-weight: 700; */
   background: linear-gradient(185deg, #fff 25%, #a562f7 75%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 40px;
+  line-height: 50px;
 }
 .partners-bgrnd {
   align-content: center;
@@ -83,7 +82,7 @@
   
 }
 .ourpartners-landing-text {
-  background: white;
+  background: #a562f7;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -148,7 +147,7 @@
 }
 .translation-text {
   transform: translateY(0px);
-  animation: text-landing-rotate 10s  ease infinite ;
+  animation: text-landing-rotate 10s  ease-in-out infinite ;
 }
 
 @keyframes text-landing-rotate {
@@ -156,18 +155,18 @@
     transform: translateY(0px);
   }
   20% {
-    transform: translateY(-50px);
+    transform: translateY(-60px);
   }
   40% {
-    transform: translateY(-100px);
+    transform: translateY(-120px);
   }
   60% {
-    transform: translateY(-150px);
+    transform: translateY(-180px);
   }
   80% {
-    transform: translateY(-200px);
+    transform: translateY(-240px);
   }
   100% {
-    transform: translateY(-250px);
+    transform: translateY(-300px);
   }
 }

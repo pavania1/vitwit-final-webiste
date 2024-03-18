@@ -32,9 +32,12 @@ const Delegate = () => {
         <div className="main22-delegate">
           <div className="delegate-main-head"></div>
           <div>
-            <div className="bottom-text xs:hidden sm:hidden md:block  mb-[8%] lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px]">
-              Community ACKs
+            <div className="lets-text xs:hidden sm:hidden md:block  mb-[8%] lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mt-8">
+            Community &nbsp;<span className="talk-text"> ACKs</span>
             </div>
+            {/* <div className="lets-text lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl hidden md:block">
+              Community &nbsp;<span className="talk-text"> ACKs</span>
+            </div> */}
             <div className="xs:hidden sm:hidden md:block lg:block mt-10">
               <Slider
                 beforeChange={(oldIndex, newIndex) => {
