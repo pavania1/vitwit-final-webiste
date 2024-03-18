@@ -18,14 +18,11 @@
 }
 .RightDevelop-partners p {
   text-align: start;
-  color: #fff;
-  /* margin-left: 18px; */
+  color: rgb(225, 225,225);
 }
 .subleftdevelop1-partners h1 {
-  color: white;
+  color: rgb(225,225,225);
   font-weight: 600;
-  /* font-size: 54px; */
-  /* text-align: start; */
   font-family: "Libre Franklin";
 }
 .alert-main {
@@ -90,7 +87,7 @@
   position: relative;
   left: 21%;
   transform: translateY(100%);
-  color: #fff;
+  color: rgb(225, 225,225);
   font-weight: 600;
   font-size: 18px;
   z-index: 1;
@@ -115,7 +112,7 @@
   position: relative;
   /* left: 50%; */
   transform: translatey(-30%);
-  color: #fff;
+  color: rgb(225, 225,225);
   font-weight: 600;
   font-size: 18px;
   z-index: 1;
@@ -136,7 +133,7 @@
   align-items: center;
   position: relative;
   transform: translateY(-120%);
-  color: #fff;
+  color: rgb(225, 225,225);
   font-weight: 600;
   font-size: 18px;
   z-index: 1;
@@ -154,7 +151,7 @@
   border-radius: 50%;
   display: flex;
   position: relative;
-  color: #fff;
+  color: rgb(225, 225,225);
   text-align: center;
   font-family: "Libre Franklin";
   font-size: 40px;
@@ -176,7 +173,7 @@
 }
 .dot5 {
   border-radius: 50%;
-  color: #fff;
+  color: rgb(225, 225,225);
   text-align: center;
   font-family: "Libre Franklin";
   font-size: 40px;
@@ -297,7 +294,7 @@
   line-height: 1.71;
   letter-spacing: 0.6px;
   text-align: left;
-  color: white;
+  color: rgb(225, 225,225);
   margin-top: 5%;
   margin-bottom: 20%;
 }
@@ -305,7 +302,7 @@
   /* margin-left: -43%; */
 }
 .head-text {
-  color: #fff;
+  color: rgb(225, 225,225);
   font-family: "Libre Franklin";
   font-size: 20px;
   font-style: normal;
@@ -313,7 +310,7 @@
   line-height: 24px; /* 120% */
 }
 .para-text {
-  color: #fff;
+  color: rgb(225, 225,225);
   font-family: "Libre Franklin";
   font-size: 14px;
   font-style: normal;
@@ -359,7 +356,7 @@
   width: 100%;
   /* height: 70px; */
   flex-shrink: 0;
-  color: white;
+  color: rgb(225, 225,225);
   font-family: "Libre Franklin";
   /* font-size: 16px; */
   font-style: normal;

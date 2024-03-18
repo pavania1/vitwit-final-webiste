@@ -19,11 +19,11 @@
 }
 .RightDevelop-infra p {
   text-align: start;
-  color: white;
+  color: rgb(225, 225, 225);
   margin-left: 18px;
 }
 .subleftdevelop1-infra h1 {
-  color: white;
+  color: rgb(225, 225, 225);
   font-weight: 600;
   font-family: "Libre Franklin";
   margin-bottom: 1%;
@@ -210,14 +210,14 @@
   width: 100%;
 }
 .development-alert-head {
-  color: white;
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
 .development-alert-text {
-  color: white;
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 400;
@@ -225,7 +225,7 @@
   letter-spacing: 0.6px;
 }
 .text-stats {
-  color: #fff;
+  color: rgb(225, 225, 225);
   text-align: center;
   font-family: "Libre Franklin";
   font-style: normal;
@@ -234,7 +234,7 @@
   letter-spacing: 0.6px;
 }
 .count-text {
-  color: #fff;
+  color: rgb(225, 225, 225);
   text-align: center;
   font-family: "Libre Franklin";
   font-style: normal;

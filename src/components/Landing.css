@@ -36,28 +36,17 @@
   gap: 24px;
 }
 .RightDevelop-landing {
-  /* width: 40%; */
-  /* overflow: hidden; */
-  /* position: absolute; */
-  /* left: 50%;
-  top: -5%; */
-  /* margin-top: 12%; */
   text-align: end;
   justify-content: end;
 }
-.subleftdevelop1-landing {
-  /* text-align: left; */
-}
-
 .subleftdevelop1-landing h1 {
-  color: white;
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 500;
   line-height: 40px;
 }
 .landing-text-para {
-  color: white;
+  color: rgb(225,225,225);
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 400;

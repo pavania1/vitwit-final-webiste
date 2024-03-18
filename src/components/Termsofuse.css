@@ -2,7 +2,7 @@
     /* width: 1280px; */
 }
 .terms-head {
-  color: #fff;
+  color: rgb(225,225,225);
   font-family: "Libre Franklin";
   font-size: 24px;
   font-style: normal;
@@ -12,7 +12,7 @@
 }
 .date {
   text-align: right;
-  color: #fff;
+  color: rgb(225,225,225);
   font-family: "Libre Franklin";
   font-size: 14px;
   font-style: normal;
@@ -26,7 +26,7 @@
   align-self: stretch;
 }
 .welcome-head {
-  color: #fff;
+  color: rgb(225,225,225);
   font-family: "Libre Franklin";
   font-size: 18px;
   font-style: normal;
@@ -34,7 +34,7 @@
   line-height: 20px; /* 100% */
 }
 .term-para-text {
-  color: #fff;
+  color: rgb(225,225,225);
   font-family: "Libre Franklin";
   font-size: 14px;
   font-style: normal;
@@ -42,7 +42,7 @@
   line-height: 32px; /* 228.571% */
 }
 .item-para {
-  color: #fff;
+  color: rgb(225,225,225);
   font-family: "Libre Franklin";
   font-size: 14px;
   font-style: normal;
@@ -50,7 +50,7 @@
   line-height: 24px; /* 171.429% */
 }
 .item-text {
-  color: #fff;
+  color: rgb(225,225,225);
   font-family: "Libre Franklin";
   font-size: 16px;
   font-style: normal;

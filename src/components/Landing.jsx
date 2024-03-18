@@ -43,7 +43,7 @@ const Landing = () => {
             <div className="sm:w-full lg:w-[60%] flex justify-center items-center">
               <div className="h-full">
                 <div className="leftdevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
-                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:pb-4">
+                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:pb-4 text-[rgb(225,225,225)]">
                     <h1 className=" text-left lg:mb-5 md:mb-5 xs:mb-0 lg:text-4xl md:text-4xl">
                       Trusted partners for your{" "}
                     </h1>

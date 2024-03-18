@@ -33,7 +33,7 @@ const Delegate = () => {
           <div className="delegate-main-head"></div>
           <div>
             <div className="lets-text xs:hidden sm:hidden md:block  mb-[10%] lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mt-8">
-              Community &nbsp;<span className="talk-text"> ACKs</span>
+              Clients &nbsp;<span className="talk-text"> ACKs</span>
             </div>
 
             <div className="xs:hidden sm:hidden md:block lg:block mt-10">

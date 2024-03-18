@@ -44,7 +44,7 @@ body {
     background: linear-gradient(45deg, #2f50da 0%, #a562f7 100%);
   }
   .nav-text {
-    @apply text-white text-center text-sm not-italic font-normal leading-9;
+    @apply text-[rgb(225,225,225)] text-center text-sm not-italic font-normal leading-9;
     font-family: "Libre Franklin";
   }
   .badge {
@@ -104,7 +104,7 @@ body {
     background: rgba(255, 255, 255, 0.08);
   }
   .fotter-text {
-    @apply text-white text-center not-italic font-normal leading-9;
+    @apply text-[rgb(225,225,225)] text-center not-italic font-normal leading-9;
     font-family: "Libre Franklin";
     /* color: rgb(225, 225, 225); */
   }

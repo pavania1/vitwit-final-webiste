@@ -2,7 +2,7 @@
   /* width: 1280px; */
 }
 .policy-head {
-  color: #fff;
+  color: rgb(225,225,225);
   font-family: "Libre Franklin";
   font-size: 24px;
   font-style: normal;
@@ -11,7 +11,7 @@
   text-align: center;
 }
 .policy-para-text {
-    color: #fff;
+    color: rgb(225,225,225);
     font-family: "Libre Franklin";
     font-size: 14px;
     font-style: normal;
