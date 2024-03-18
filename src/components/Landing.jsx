@@ -86,7 +86,7 @@ const Landing = () => {
                       className="get-touch-btn nav-text "
                       onClick={handleGetInTouchClick}
                     >
-                      Connect With Us
+                      Connect with us
                     </button>
                   </div>
                   <GetinTouch
@@ -100,7 +100,7 @@ const Landing = () => {
                       className="get-touch-btn nav-text"
                       onClick={handleConnectClick}
                     >
-                      Connect With Us
+                      Connect with us
                     </button>
                   </div>
                   <ContactPopup
@@ -134,7 +134,7 @@ const Landing = () => {
       <div className="badge  development-alert-head lg:text-base md:text-base sm:text-sm xs:text-sm fixed right-[-86px] top-[40%] rotate-[-90deg] z-50 sm:hidden xs:hidden md:hidden lg:flex">
         <img src={Rocket} alt="Rocket-Icon" className="w-[24px] h-[24px]" />
         <button className="" onClick={handleGetInTouchClick}>
-          Connect With Us
+          Connect with us
         </button>
       </div>
       <div className="absolute bottom-0  w-full">

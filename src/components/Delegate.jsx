@@ -32,12 +32,10 @@ const Delegate = () => {
         <div className="main22-delegate">
           <div className="delegate-main-head"></div>
           <div>
-            <div className="lets-text xs:hidden sm:hidden md:block  mb-[8%] lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mt-8">
-            Community &nbsp;<span className="talk-text"> ACKs</span>
-            </div>
-            {/* <div className="lets-text lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl hidden md:block">
+            <div className="lets-text xs:hidden sm:hidden md:block  mb-[10%] lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mt-8">
               Community &nbsp;<span className="talk-text"> ACKs</span>
-            </div> */}
+            </div>
+
             <div className="xs:hidden sm:hidden md:block lg:block mt-10">
               <Slider
                 beforeChange={(oldIndex, newIndex) => {
@@ -65,8 +63,8 @@ const Delegate = () => {
                       rel="noopener noreferrer"
                       className="alert-link"
                     >
-                      <div className="alert2001 border-none px-6 py-6 rounded-xl">
-                        <div className="flex justify-between">
+                      <div className="alert2001 border-none px-10 py-10 rounded-xl">
+                        <div className="flex justify-between mb-4">
                           <div className="flex space-x-2">
                             <img
                               src={alert.profileImage.src}
@@ -89,7 +87,7 @@ const Delegate = () => {
 
                         <div className="mt-2">
                           <span className="twitter-text">{alert.message}</span>
-                          <div className="flex justify-between">
+                          <div className="flex justify-between mt-3">
                             <div className="flex">
                               <img src={Favorite} alt="Favorite-icon" />
                               <p className="date-text">{alert.likes}</p>

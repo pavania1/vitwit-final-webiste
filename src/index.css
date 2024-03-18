@@ -73,7 +73,7 @@ body {
 
   /* footer */
   .footer {
-    @apply flex flex-col gap-10 pt-10 pb-10 lg:px-20 sm:px-6 xs:px-6 w-full;
+    @apply flex flex-col gap-10 pt-10 pb-10 lg:px-20 lg:pt-24 lg:pb-24 sm:px-6 xs:px-6 w-full;
   }
   .social-icon {
     @apply w-[25px] h-[25px];
@@ -136,7 +136,7 @@ body {
       rgba(255, 255, 255, 0.06) 0.03%,
       rgba(255, 255, 255, 0) 101.65%
     );
-    @apply lg:h-[235px]
+    @apply lg:h-[235px];
   }
   .infra-left {
     @apply text-start rounded-[0px_16px_16px_0px] w-[80%];
