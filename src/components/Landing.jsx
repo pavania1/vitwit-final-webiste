@@ -43,8 +43,8 @@ const Landing = () => {
             <div className="sm:w-full lg:w-[60%] flex justify-center items-center">
               <div className="h-full">
                 <div className="leftdevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
-                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:pb-4 text-[rgb(225,225,225)]">
-                    <h1 className=" text-left lg:mb-5 md:mb-5 xs:mb-0 lg:text-4xl md:text-4xl">
+                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:pb-5 text-[rgb(225,225,225)]">
+                    <h1 className=" text-left lg:mb-7 md:mb-5 xs:mb-0 lg:text-4xl md:text-4xl">
                       Trusted partners for your{" "}
                     </h1>
                   </div>
@@ -74,14 +74,14 @@ const Landing = () => {
                   </div>
 
                   <div className="landing-text-main">
-                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8 xs:pb-5 sm:pb-5 pt-8">
+                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8 xs:pb-5 sm:pb-5 pt-10">
                       Partner with us to harness the power of blockchain and
                       unlock new opportunities for growth and efficiency. With
                       Vitwit, you get personalized support every step of the
                       way.
                     </div>
                   </div>
-                  <div className="sm:hidden xs:hidden lg:block pt-3">
+                  <div className="sm:hidden xs:hidden lg:block pt-4">
                     <button
                       className="get-touch-btn nav-text "
                       onClick={handleGetInTouchClick}
