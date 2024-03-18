@@ -9,7 +9,7 @@ const Development = () => {
         <div className="flex m-auto flex-col">
           {/* leftdevelop cantioner start */}
           <div className="justify-between xs:hidden sm:hidden lg:flex">
-            <div className="subleftdevelop1-infra lg:text-left mb-4">
+            <div className="subleftdevelop1-infra lg:text-left mb-10">
               <h1 className="lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl m-0 p-0 ">
                 Development
                 <br></br>
