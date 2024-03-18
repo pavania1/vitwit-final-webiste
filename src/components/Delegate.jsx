@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
 import "./Delegate.css";
-import { Alert, Space } from "antd";
 import Twitter from "../assets/partnerstwitter.svg";
 import Favorite from "../assets/favorite.svg";
 
@@ -140,47 +139,39 @@ const Delegate = () => {
                       rel="noopener noreferrer"
                       className="alert-link"
                     >
-                      <Alert
-                        className="alert2001 border-none"
-                        message={
+                      <div className="alert2001 border-none px-6 py-6 rounded-xl">
+                        <div className="flex justify-between">
+                          <div className="flex space-x-2">
+                            <img
+                              src={alert.profileImage.src}
+                              alt="Person Image"
+                              width={alert.profileImage.width}
+                              height={alert.profileImage.height}
+                              style={{
+                                borderRadius: `${alert.profileImage.borderRadius}px`,
+                              }}
+                            />
+                            <div className="">
+                              <div className="Jack-Zampolin ">{alert.name}</div>
+                              <span className="Jackk_1234">
+                                {alert.username}
+                              </span>
+                            </div>
+                          </div>
+                          <img src={Twitter} alt="Twitter" />
+                        </div>
+
+                        <div className="mt-2">
+                          <span className="twitter-text">{alert.message}</span>
                           <div className="flex justify-between">
-                            <div className="flex space-x-2">
-                              <img
-                                src={alert.profileImage.src}
-                                alt="Person Image"
-                                width={alert.profileImage.width}
-                                height={alert.profileImage.height}
-                                style={{
-                                  borderRadius: `${alert.profileImage.borderRadius}px`,
-                                }}
-                              />
-                              <div className="">
-                                <div className="Jack-Zampolin ">
-                                  {alert.name}
-                                </div>
-                                <span className="Jackk_1234">
-                                  {alert.username}
-                                </span>
-                              </div>
+                            <div className="flex">
+                              <img src={Favorite} alt="Favorite-icon" />
+                              <p className="date-text">{alert.likes}</p>
                             </div>
-                            <img src={Twitter} alt="Twitter" />
+                            <div className="date-text">{alert.date}</div>
                           </div>
-                        }
-                        description={
-                          <div className="">
-                            <span className="twitter-text">
-                              {alert.message}
-                            </span>
-                            <div className="flex justify-between">
-                              <div className="flex">
-                                <img src={Favorite} alt="Favorite-icon" />
-                                <p className="date-text">{alert.likes}</p>
-                              </div>
-                              <div className="date-text">{alert.date}</div>
-                            </div>
-                          </div>
-                        }
-                      />
+                        </div>
+                      </div>
                     </a>
                   </div>
                 ))}
