@@ -18,8 +18,6 @@ const Navbar = () => {
       <div className="menu-list nav-text sm:hidden  xs:hidden md:flex lg:flex">
         <a href="#landing">About Us</a>
         <a href="#infrastructure">Services</a>
-
-        <a href="#partners">Partners</a>
         <a href="#resolute">Resolute</a>
         <div>
           <button className="get-touch-btn" onClick={handleGetInTouchClick}>
@@ -48,10 +46,6 @@ const Navbar = () => {
             </a>
             <a className="my-4" href="#infrastructure">
               Services
-            </a>
-
-            <a className="my-4" href="#partners">
-              Partners
             </a>
             <a className="my-4" href="#resolute">
               Resolute
