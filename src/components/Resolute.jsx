@@ -40,6 +40,7 @@ const Resolute = () => {
         {isSmallScreen ? (
           <div className="small-screen-interface">
             <video
+              playsInline
               autoPlay
               muted
               loop

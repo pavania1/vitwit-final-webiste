@@ -36,7 +36,7 @@ const Landing = () => {
 
   return (
     <div id="landing" className="main22-landing">
-      <div className="mainDevelop-landing myVideo bg-black">
+      <div className="mainDevelop-landing myVideo min-h-[100vh] bg-black h-[100vh] xs:min-h-[90vh] sm:min-h-[90vh] xs:h-[90vh] sm:h-[90vh]">
         <div className="landing flex relative  w-full">
           <div className="flex sm:flex-col-reverse xs:flex-col-reverse lg:flex-row justify-between w-full">
             <div className="sm:w-full lg:w-[60%] flex justify-center items-center">
@@ -73,7 +73,7 @@ const Landing = () => {
                   </div>
 
                   <div className="landing-text-main">
-                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8 xs:pb-5 sm:pb-5 pt-10">
+                    <div className="landing-text-para  lg:text-base md:text-sm sm:text-xs xs:text-[14px] xs:text-left sm:text-left xs:w-[80%] pb-8 xs:pb-5 sm:pb-5 pt-10 lg:pb-8">
                       Partner with us to harness the power of blockchain and
                       unlock new opportunities for growth and efficiency. With
                       Vitwit, you get personalized support every step of the
@@ -136,7 +136,7 @@ const Landing = () => {
           Connect with us
         </button>
       </div>
-      <div className="absolute bottom-0  w-full">
+      <div className="absolute bottom-0  w-full bg-blue-500">
         <div className="partners-bgrnd flex flex-col md:flex-row overflow-hidden ">
           <div className="ourpartners-landing-text text-[12px] lg:hidden mx-auto w-full pt-2 ">
             Our Partners & Clients

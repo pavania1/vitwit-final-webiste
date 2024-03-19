@@ -192,7 +192,7 @@ const OurPartners = () => {
                   </div>
                   <div className="dot4 relative overflow-hidden w-[100px] h-[100px] lg:w-[180px] lg:h-[180px] left-[22%] lg:left-[13%] translate-y-[-363px] hover:scale-[1.2] hover:translate-y-[-363px]  lg:translate-y-[-546px] lg:hover:translate-y-[-530px]  flex-col justify-center items-center">
                     <div className="absolute dot4-gradient h-full w-full top-0 left-0 "></div>
-                    <div className="z-10 flex flex-col">
+                    <div className="z-10 flex flex-col items-center">
                       <div className="count-text text text-[20px] lg:text-[40px]">
                         <CountUp start={0} end={5} duration={3} />
                       </div>
