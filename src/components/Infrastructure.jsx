@@ -119,7 +119,7 @@ const Infrastructure = () => {
               </div>
             </div>
             <div className="infra-right-parent">
-              <div className="infra-bg infra-right md:infra border-none lg:text-xs md:text-xs sm:text-[10px] xs:text-[10px] alert3003 p-6">
+              <div className="infra-bg infra-right md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="genesis-dot mb-3">
                     <img src={Genesis} alt="genesis-icon" />
@@ -129,7 +129,7 @@ const Infrastructure = () => {
                   </span>
                 </div>
 
-                <span className="infra-text-para  lg:text-sm md:text-sm sm:text-xs xs:text-xs">
+                <span className="infra-text-para lg:text-sm md:text-sm sm:text-xs xs:text-xs">
                   Collaborating with teams for a worry-free network launch, we
                   provide specialized tooling for testing and ensuring an
                   accurate Genesis launch.

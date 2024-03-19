@@ -14,7 +14,7 @@ const Termsofuse = () => {
         <div className="welcome-head">Welcome to Vitwit Technologies!</div>
         <br />
         <p className="term-para-text">
-          These terms of use ("Terms") govern your access to and use of VitWit
+          These terms of use ("Terms") govern your access to and use of Vitwit
           Technologies' website, mobile applications, and other online products
           and services (collectively, the "Services"). By accessing or using the
           Services, you agree to be bound by these Terms.
@@ -31,7 +31,7 @@ const Termsofuse = () => {
           <li className="term-item">
             <span className="item-text">2.Changes to Terms</span>
             <p className="item-para">
-              VitWit Technologies reserves the right to modify, update, or
+              Vitwit Technologies reserves the right to modify, update, or
               replace these Terms at any time. We will notify you of any changes
               by posting the new Terms on this page. Your continued use of the
               Services after any such changes constitutes your acceptance of the

@@ -11,7 +11,7 @@ const Privacypolicy = () => {
         <hr className="divider-line" />
         <br />
         <div className="policy-para-text">
-          VitWit Technologies ("us", "we", or "our") operates the VitWit
+          Vitwit Technologies ("us", "we", or "our") operates the Vitwit
           Technologies website, mobile applications, and other online products
           and services (collectively, the "Services"). This page informs you of
           our policies regarding the collection, use, and disclosure of personal
@@ -47,7 +47,7 @@ const Privacypolicy = () => {
           <li>
             <span className="item-text">3.Use of Data</span>
             <p className="para-text">
-              VitWit Technologies uses the collected data for various purposes:{" "}
+              Vitwit Technologies uses the collected data for various purposes:{" "}
             </p>
             <ul className="policy-list-text para-text">
               <li>To provide and maintain our Services</li>
@@ -82,7 +82,7 @@ const Privacypolicy = () => {
             <ul className="policy-list-text para-text">
               <li>To comply with a legal obligation</li>
               <li>
-                To protect and defend the rights or property of VitWit
+                To protect and defend the rights or property of Vitwit
                 Technologies
               </li>
               <li>
