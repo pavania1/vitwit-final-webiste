@@ -36,8 +36,10 @@ const GetinTouch = ({ open, close }) => {
                 Get in touch with us
               </div>
               <div className="text-white text-center text-base not-italic font-normal leading-6">
-                If you’re a project interested in getting in touch with our team
-                for a potential investment, please reach out below.
+                If you have any questions or are interested in discussing
+                anything related to Web3, please don't hesitate to connect with
+                us through any of the social channels below or via email :
+                contact@vitwit.com
               </div>
               <div className="getintouch-v-line"></div>
               <SocialIcons />
@@ -55,16 +57,16 @@ const SocialIcons = () => {
   return (
     <div className="flex gap-10">
       <SocialLink link="https://twitter.com/vitwit_" icon={TwitterLogo} />
+      <SocialLink link="https://t.me/+3bXmS6GE4HRjYmU1" icon={TelegramLogo} />
       <SocialLink link="https://github.com/vitwit" icon={GithubLogo} />
-      <SocialLink
-        link="https://www.youtube.com/@vitwit8623"
-        icon={YoutubeLogo}
-      />
       <SocialLink
         link="https://www.linkedin.com/company/vitwit/mycompany/"
         icon={LinkedInLogo}
       />
-      <SocialLink link="https://t.me/+3bXmS6GE4HRjYmU1" icon={TelegramLogo} />
+      <SocialLink
+        link="https://www.youtube.com/@vitwit8623"
+        icon={YoutubeLogo}
+      />
     </div>
   );
 };
