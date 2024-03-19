@@ -2,7 +2,7 @@ import React from "react";
 import YoutubeLogo from "../assets/social-icons/youtube.png";
 import GithubLogo from "../assets/social-icons/github.png";
 import LinkedInLogo from "../assets/social-icons/linkedln.png";
-import VitwitLogo from "../assets/vitwit-logo.png";
+import VitwitLogo from "../assets/vitwit-logo.svg";
 import TwitterLogo from "../assets/social-icons/twitter.png";
 import TelegramLogo from "../assets/social-icons/telegram.png";
 import { Link } from "react-router-dom";

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import VitwitLogo from "../assets/vitwit-logo.png";
+import VitwitLogo from "../assets/vitwit-logo.svg";
 import HamburgerIcon from "../assets/HamburgerIcon";
 import CloseIcon from "../assets/CloseIcon";
 import GetinTouch from "./GetinTouch";
