@@ -230,7 +230,7 @@ const OurPartners = () => {
               </p>
               <div className="hidden md:block mb-28">
                 <a
-                  href=" https://resolute.vitwit.com/staking/validator/witval"
+                  href="https://resolute.vitwit.com/validator/vitwit"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
