@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "./Letstalk.css";
 import ContactPopup from "./ContactPopup";
+import { Snackbar } from "@mui/material";
 
 const Letstalk = () => {
   const [showContactPopup, setShowContactPopup] = useState(false);
+  const [snackbarVisible, setSnackbarVisibility] = useState(false);
+
   const handleConnectClick = () => {
     setShowContactPopup(true);
   };
@@ -29,12 +32,28 @@ const Letstalk = () => {
             We're here to help and eager to engage in conversation!
           </p>
           <div className="xs:hidden sm:hidden lg:block">
-            <button className="get-touch-btn nav-text mt-5 mx-auto">
+            <button
+              onClick={() => {
+                navigator.clipboard.writeText("contact@vitwit.com");
+                setSnackbarVisibility(true);
+              }}
+              className="get-touch-btn nav-text mt-5 mx-auto"
+            >
               <a href="mailto:contact@vitwit.com">
                 Email us : <span className="font-bold">contact@vitwit.com</span>
               </a>
             </button>
           </div>
+          <Snackbar
+            anchorOrigin={{ vertical: "top", horizontal: "right" }}
+            open={snackbarVisible}
+            autoHideDuration={6000}
+            onClose={() => {
+              setSnackbarVisibility(false);
+            }}
+            message="Copied to clipboard"
+            // action={action}
+          />
           <div className="lg:hidden">
             <button className="nav-text mt-5 get-touch-btn mx-auto">
               <a href="mailto:contact@vitwit.com">Email us</a>
