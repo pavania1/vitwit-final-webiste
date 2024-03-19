@@ -18,10 +18,10 @@
 }
 .RightDevelop-partners p {
   text-align: start;
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
 }
 .subleftdevelop1-partners h1 {
-  color: rgb(225,225,225);
+  color: rgb(225, 225, 225);
   font-weight: 600;
   font-family: "Libre Franklin";
 }
@@ -87,7 +87,7 @@
   position: relative;
   left: 21%;
   transform: translateY(100%);
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
   font-weight: 600;
   font-size: 18px;
   z-index: 1;
@@ -112,7 +112,7 @@
   position: relative;
   /* left: 50%; */
   transform: translatey(-30%);
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
   font-weight: 600;
   font-size: 18px;
   z-index: 1;
@@ -133,7 +133,7 @@
   align-items: center;
   position: relative;
   transform: translateY(-120%);
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
   font-weight: 600;
   font-size: 18px;
   z-index: 1;
@@ -151,7 +151,7 @@
   border-radius: 50%;
   display: flex;
   position: relative;
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
   text-align: center;
   font-family: "Libre Franklin";
   font-size: 40px;
@@ -173,7 +173,7 @@
 }
 .dot5 {
   border-radius: 50%;
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
   text-align: center;
   font-family: "Libre Franklin";
   font-size: 40px;
@@ -206,7 +206,11 @@
   /* transform: translateY(-95vh); */
   z-index: 1;
   transition: transform 0.8s ease;
-  background: radial-gradient(circle at right bottom, rgba(148, 116, 246,0.08), #000);
+  background: radial-gradient(
+    circle at right bottom,
+    rgba(148, 116, 246, 0.08),
+    #000
+  );
 }
 .dot7 {
   /* height: 41px;
@@ -294,15 +298,15 @@
   line-height: 1.71;
   letter-spacing: 0.6px;
   text-align: left;
-  color: rgb(225, 225,225);
-  margin-top: 5%;
-  margin-bottom: 20%;
+  color: rgb(225, 225, 225);
+  /* margin-top: 5%; */
+  /* margin-bottom: 20%; */
 }
 .figma2001-partners {
   /* margin-left: -43%; */
 }
 .head-text {
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 20px;
   font-style: normal;
@@ -310,7 +314,7 @@
   line-height: 24px; /* 120% */
 }
 .para-text {
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   font-size: 14px;
   font-style: normal;
@@ -356,7 +360,7 @@
   width: 100%;
   /* height: 70px; */
   flex-shrink: 0;
-  color: rgb(225, 225,225);
+  color: rgb(225, 225, 225);
   font-family: "Libre Franklin";
   /* font-size: 16px; */
   font-style: normal;

@@ -230,6 +230,18 @@ const OurPartners = () => {
                 works best. Our secure infrastructure and automated monitoring
                 helps us to operate high-scale validators.
               </p>
+              <div className="hidden md:block mb-28">
+                <a
+                  href=" https://resolute.vitwit.com/staking/validator/witval"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="get-touch-btn nav-text w-full mt-5">
+                    {" "}
+                    Stake with VITWIT
+                  </button>
+                </a>
+              </div>
             </div>
 
             <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-12 md:hidden">
@@ -277,19 +289,6 @@ const OurPartners = () => {
                   </a>
                 </div>
               ))}
-            </div>
-
-            <div className="hidden md:block">
-              <a
-                href=" https://resolute.vitwit.com/staking/validator/witval"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="infra-btn infra-icons-text">
-                  {" "}
-                  Stake with VITWIT
-                </button>
-              </a>
             </div>
           </div>
 
