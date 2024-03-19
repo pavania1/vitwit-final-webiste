@@ -34,7 +34,7 @@ const Resolute = () => {
     <div id="resolute" className="resolute">
       <div
         className={
-          isSmallScreen ? "flex flex-col items-center" : "maindevelop-resolute"
+          isSmallScreen ? "flex flex-col items-center" : "mainDevelop-resolute"
         }
       >
         {isSmallScreen ? (
@@ -54,7 +54,7 @@ const Resolute = () => {
               Your browser does not support the video tag.
             </video>
             {/* Your small screen interface here */}
-            <div className="flex flex-col content-overlay mobile-reolute">
+            <div className="flex flex-col content-overlay mobile-Resolute">
               <div className="px-6 py-0">
                 <div className="resolute-h1 pb-3">
                   <h1>Resolute</h1>
@@ -162,7 +162,7 @@ const Resolute = () => {
                 type="video/mp4"
               />
             </video>
-            <div className="leftdevelop-resolute flex left-bg w-full">
+            <div className="leftDevelop-resolute flex left-bg w-full">
               <div className="text flex flex-col justify-center items-start self-stretch pl-10">
                 <div className=" ">
                   <span className="text-style-1 text-[54px] mb-3">

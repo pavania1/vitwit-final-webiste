@@ -1,7 +1,7 @@
 import React from "react";
 import "./Ourpartners.css";
 import Cosmos from "../assets/infra-icons/cosmos.png";
-import Polygen from "../assets/infra-icons/polygon.png";
+import Polygon from "../assets/infra-icons/polygon.png";
 import Osmosis from "../assets/infra-icons/osmosis.png";
 import Akash from "../assets/infra-icons/akash.png";
 import Passage from "../assets/infra-icons/passage.png";
@@ -33,7 +33,7 @@ const LOGOS = [
   },
   {
     name: "Polygon",
-    icon: Polygen,
+    icon: Polygon,
     size: 55,
     mobileSize: 30,
     bgColor: "#9757da",
@@ -125,16 +125,14 @@ const LOGOS = [
 const OurPartners = () => {
   return (
     <>
-      <div className="main22-ourpartners">
-        {/* maindevelop cantioner start */}
-        <div className="maindevelop-partners">
-          {/* leftdevelop cantioner start */}
-          <div className="leftdevelop-partners">
-            <div className="subleftdevelop1-partners text-start hidden md:block">
+      <div className="main22-ourPartners">
+        <div className="mainDevelop-partners">
+          <div className="leftDevelop-partners">
+            <div className="subLeftDevelop1-partners text-start hidden md:block">
               <h1 className="lg:text-5xl md:text-4xl">
                 Why Delegate
                 <br></br>
-                <span className="servicesdevelop lg:text-5xl md:text-4xl">
+                <span className="servicesDevelop lg:text-5xl md:text-4xl">
                   to us?
                 </span>
               </h1>
@@ -224,7 +222,7 @@ const OurPartners = () => {
             </div>
           </div>
           <div className="RightDevelop-partners">
-            <div className="ourpartners-text hidden  lg:text-sm md:text-sm sm:text-xs xs:text-xs md:block">
+            <div className="ourPartners-text hidden  lg:text-sm md:text-sm sm:text-xs xs:text-xs md:block">
               <p>
                 We are one of the builders of Cosmos-SDK and we know how it
                 works best. Our secure infrastructure and automated monitoring
@@ -238,16 +236,16 @@ const OurPartners = () => {
                 >
                   <button className="get-touch-btn nav-text w-full mt-5">
                     {" "}
-                    Stake with VITWIT
+                    Stake with Vitwit
                   </button>
                 </a>
               </div>
             </div>
 
-            <div className="subleftdevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-12 md:hidden">
+            <div className="subLeftDevelop1-delegate lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl mb-12 md:hidden">
               <h1 style={{ fontFamily: "Libre Franklin" }}>
                 Networks &nbsp;
-                <span className="servicesdevelop">We Support</span>
+                <span className="servicesDevelop">We Support</span>
               </h1>
             </div>
             <div className="grid grid-cols-3  gap-y-14 gap-x-6">
@@ -261,12 +259,11 @@ const OurPartners = () => {
                           : "cursor-default"
                       }`}
                     >
-                      <div className="comsos-logo-style">
+                      <div className="cosmos-logo-style">
                         {logo.icon && (
                           <img
                             src={logo.icon}
                             alt={`${logo.name}-logo`}
-                            // className={`w-[${logo.mobileSize}px] h-[${logo.mobileSize}px] lg:w-[${logo.size}px] lg:h-[${logo.size}px]`}
                             className="sm:w-[30px] xs:w-[40px] lg:w-[55px]"
                           />
                         )}
@@ -291,10 +288,7 @@ const OurPartners = () => {
               ))}
             </div>
           </div>
-
-          {/*RightDevelop cantioner end */}
         </div>
-        {/* maindevelop cantioner end */}
       </div>
     </>
   );

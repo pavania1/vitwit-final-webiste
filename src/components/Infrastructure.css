@@ -4,7 +4,6 @@
   justify-content: center;
   gap: 40px;
   @apply px-6 pb-6 pt-10 lg:px-0 lg:py-20;
-  /* background: rgba(255, 255, 255, 0.06); */
 }
 .infrasturcture-main-head {
   display: flex;

@@ -3,14 +3,14 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.main22-ourpartners {
+.main22-ourPartners {
   width: 100%;
   @apply flex justify-center px-6 pb-6 pt-10 lg:px-0 lg:py-20;
 }
-.maindevelop-partners {
+.mainDevelop-partners {
   @apply w-full flex flex-col-reverse lg:flex-row;
 }
-.leftdevelop-partners {
+.leftDevelop-partners {
   @apply flex-1;
 }
 .RightDevelop-partners {
@@ -20,7 +20,7 @@
   text-align: start;
   color: rgb(225, 225, 225);
 }
-.subleftdevelop1-partners h1 {
+.subLeftDevelop1-partners h1 {
   color: rgb(225, 225, 225);
   font-weight: 600;
   font-family: "Libre Franklin";
@@ -73,7 +73,7 @@
     rgba(255, 255, 255, 0) 99.98%
   );
 }
-.servicesdevelop {
+.servicesDevelop {
   background: linear-gradient(169deg, #6458e7 26.53%, #9760f4 55.47%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -289,7 +289,7 @@
   transform: translate(-50%, -50%);
 }
 
-.ourpartners-text {
+.ourPartners-text {
   font-family: "Libre Franklin";
   /* font-size: 14px; */
   font-weight: normal;
@@ -349,7 +349,7 @@
   position: relative;
 }
 
-.comsos-logo-style {
+.cosmos-logo-style {
   position: absolute;
   top: -5%;
   left: 50%;

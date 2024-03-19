@@ -5,15 +5,13 @@ const Development = () => {
   return (
     <>
       <div id="development" className="main22-infra">
-        {/* maindevelop cantioner start */}
         <div className="flex m-auto flex-col">
-          {/* leftdevelop cantioner start */}
           <div className="justify-between xs:hidden sm:hidden lg:flex">
-            <div className="subleftdevelop1-infra lg:text-left mb-10">
+            <div className="subLeftDevelop1-infra lg:text-left mb-10">
               <h1 className="lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl m-0 p-0 ">
                 Development
                 <br></br>
-                <span className="servicesdevelop-infra lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
+                <span className="servicesDevelop-infra lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
                   Services
                 </span>
               </h1>
@@ -26,10 +24,10 @@ const Development = () => {
             </div>
           </div>
           <div className="flex-col xs:block lg:hidden">
-            <div className="subleftdevelop1-infra mb-4">
+            <div className="subLeftDevelop1-infra mb-4">
               <h1 className="lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl m-0 p-0">
                 Development &nbsp;
-                <span className="servicesdevelop-infra lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
+                <span className="servicesDevelop-infra lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl">
                   Services
                 </span>
               </h1>
@@ -42,7 +40,7 @@ const Development = () => {
             </div>
           </div>
           <div className="flex flex-col-reverse md:flex-row">
-            <div className="leftdevelop-infra md:w-[45%]">
+            <div className="leftDevelop-infra md:w-[45%]">
               <div
                 className="space-alert-dev gap-8"
                 direction="vertical"
@@ -100,9 +98,7 @@ const Development = () => {
                 </div>
               </div>
             </div>
-            {/* leftdevelop cantioner end */}
 
-            {/* RightDevelop cantioner start */}
             <div className="RightDevelop-infra h-[50vh]">
               <div className="figma2001-infra relative">
                 <div className="dot1-infra w-[180px] h-[180px] relative overflow-hidden lg:w-[320px] lg:h-[320px] top-[7rem] left-[43%] lg:left-[30%] lg:top-[10rem] flex flex-col justify-center items-center">
@@ -176,9 +172,7 @@ const Development = () => {
               </div>
             </div>
           </div>
-          {/*RightDevelop cantioner end */}
         </div>
-        {/* maindevelop cantioner end */}
       </div>
       <br></br>
     </>

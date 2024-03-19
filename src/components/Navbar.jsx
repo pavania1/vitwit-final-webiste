@@ -3,7 +3,6 @@ import VitwitLogo from "../assets/vitwit-logo.png";
 import HamburgerIcon from "../assets/HamburgerIcon";
 import CloseIcon from "../assets/CloseIcon";
 import GetinTouch from "./GetinTouch";
-import "./Navbar.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

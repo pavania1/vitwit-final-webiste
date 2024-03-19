@@ -1,28 +1,18 @@
-.letstalk-main {
-  /* display: flex; */
+.letsTalk-main {
   align-items: center;
   width: 100%;
-  /* margin-top: 10%;
-  margin-bottom: 10%; */
-  /* padding: 0px 0px 80px 0px; */
   @apply px-6 pb-6 pt-6 lg:px-0 lg:py-28;
 }
 
-.letstalk-para-text {
-  /* font-size: 0.875rem; */
-  /* line-height: 1.25rem; */
+.letsTalk-para-text {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5rem;
   color: rgb(225,225,225);
-  /* text-align: left; */
-  /* margin-bottom: 3%; */
   letter-spacing: 0.6px;
   font-family: "Libre Franklin";
 }
-.letstalk-form {
-  display: flex;
-}
+
 .talk-text {
   background: linear-gradient(169deg, #6458e7 26.53%, #9760f4 55.47%);
   background-clip: text;
@@ -42,7 +32,7 @@
   /* line-height: 64px;  */
   /* margin-bottom: 3%; */
 }
-.right-letstalk {
+.right-letsTalk {
   margin-bottom: -5%;
   width: 50%;
 }
@@ -89,7 +79,7 @@
   border-radius: 10px;
   padding: 0px 10px;
 }
-.left-letstalk {
+.left-letsTalk {
   width: 50%;
 }
 .contact {
@@ -102,22 +92,6 @@
   line-height: 24px; /* 70.588% */
   justify-content: center;
 }
-/* .contact-btn {
-  
-  color: #fff;
-  font-family: "Libre Franklin";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  margin-top: 5%;
-  cursor: pointer;
-justify-content: center;
-align-items: center;
-
-  
-} */
-
 .v-line {
   height: 1px;
   background: rgba(255, 255, 255, 0.2);

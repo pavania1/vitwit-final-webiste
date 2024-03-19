@@ -3,9 +3,9 @@ import "./Landing.css";
 import { Cursor } from "react-simple-typewriter";
 import Akash from "../assets/partners/akash.png";
 import Regen from "../assets/partners/regen.svg";
-import Polygen from "../assets/partners/polygon.png";
+import Polygon from "../assets/partners/polygon.png";
 import Cosmos from "../assets/partners/cosmos.png";
-import Polama from "../assets/partners/paloma final.png";
+import Paloma from "../assets/partners/paloma final.png";
 import Passage from "../assets/partners/passage.png";
 import Chainflow from "../assets/partners/chainflow.png";
 import ContactPopup from "./ContactPopup";
@@ -36,36 +36,35 @@ const Landing = () => {
 
   return (
     <div id="landing" className="main22-landing">
-      {/* maindevelop cantioner start */}
-      <div className="maindevelop-landing myVideo bg-black">
+      <div className="mainDevelop-landing myVideo bg-black">
         <div className="landing flex relative  w-full">
           <div className="flex sm:flex-col-reverse xs:flex-col-reverse lg:flex-row justify-between w-full">
             <div className="sm:w-full lg:w-[60%] flex justify-center items-center">
               <div className="h-full">
-                <div className="leftdevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
-                  <div className="subleftdevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:pb-5 text-[rgb(225,225,225)]">
+                <div className="leftDevelop-landing mx-auto lg:p-0  sm:p-4 xs:p-4">
+                  <div className="subLeftDevelop1-landing lg:text-2xl md:text-2xl sm:text-xl xs:text-xl sm:text-left xs:text-left lg:pb-5 text-[rgb(225,225,225)]">
                     <h1 className=" text-left lg:mb-7 md:mb-5 xs:mb-0 lg:text-4xl md:text-4xl">
                       Trusted partners for your{" "}
                     </h1>
                   </div>
                   <div className="relative xs:h-[40px] md:h-[50px] lg:h-[60px] overflow-hidden">
                     <div className="absolute z-10 top-0 left-0 translation-text">
-                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                      <h1 className="servicesDevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                         Appchain Development
                       </h1>
-                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                      <h1 className="servicesDevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                         IBC app development
                       </h1>
-                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                      <h1 className="servicesDevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                         Road to mainnet
                       </h1>
-                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                      <h1 className="servicesDevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                         Protocol Research
                       </h1>
-                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                      <h1 className="servicesDevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                         Web3 Infrastructure
                       </h1>
-                      <h1 className="servicesdevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
+                      <h1 className="servicesDevelop-landing lg:text-6xl font-semibold md:text-5xl pb-[10px] sm:text-2xl xs:text-2xl text-left">
                         Appchain Development
                       </h1>
                     </div>
@@ -162,8 +161,8 @@ const Landing = () => {
                     className="partner-logo mx-5 lg:mx-10"
                   />
                   <img
-                    src={Polygen}
-                    alt="Polygen"
+                    src={Polygon}
+                    alt="Polygon"
                     className="partner-logo mx-5 lg:mx-10"
                   />
 
@@ -193,7 +192,7 @@ const Landing = () => {
                     className="partner-logo mx-5 lg:mx-10 w-[80px] lg:w-[120px] h-[60px]"
                   />
                   <img
-                    src={Polama}
+                    src={Paloma}
                     alt="Paloma"
                     className="partner-logo w-[80px] lg:w-[120px] h-[60px] mx-5 lg:mx-10"
                   />

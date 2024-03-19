@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
 }
-.maindevelop-resolute {
+.mainDevelop-resolute {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
   margin-bottom: 5%;
   margin-top: 5%;
 }
-.leftdevelop-resolute {
+.leftDevelop-resolute {
   width: 100%;
   max-width: 1280px;
   top: 50%;
@@ -42,19 +42,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-.Resolute-Interchain-Interface {
-  display: flex;
-  text-align: start;
-  justify-content: start;
-  margin-top: 3%;
-  color: rgb(225,225,225);
-  font-family: "Libre Franklin";
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-}
 .text-frame {
   color: rgb(225,225,225);
   font-family: "Libre Franklin";
@@ -79,7 +66,7 @@
   object-fit: cover;
   opacity: 30%;
 }
-.mobile-reolute {
+.mobile-Resolute {
   width: 100%;
   max-width: 1280px;
   top: 50%;

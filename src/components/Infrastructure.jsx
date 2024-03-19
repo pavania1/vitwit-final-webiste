@@ -68,7 +68,7 @@ const Infrastructure = () => {
               <div className="infra-bg infra-left md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="advisory-dot mb-3">
-                    <img src={Advisory} alt="validatoradvisory-icon" />
+                    <img src={Advisory} alt="validatorAdvisory-icon" />
                   </div>
                   <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                     Validator advisory
@@ -104,7 +104,7 @@ const Infrastructure = () => {
               <div className="infra-bg infra-left md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="white-label mb-3">
-                    <img src={WhiteLabel} alt="whitelabel-icon" />
+                    <img src={WhiteLabel} alt="whiteLabel-icon" />
                   </div>
                   <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                     White-label services

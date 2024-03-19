@@ -10,7 +10,7 @@
   align-items: center;
   @apply px-6 pb-6 pt-10 lg:px-0 lg:py-20;
 }
-.maindevelop-infra {
+.mainDevelop-infra {
   margin: auto;
   display: flex;
 }
@@ -22,7 +22,7 @@
   color: rgb(225, 225, 225);
   margin-left: 18px;
 }
-.subleftdevelop1-infra h1 {
+.subLeftDevelop1-infra h1 {
   color: rgb(225, 225, 225);
   font-weight: 600;
   font-family: "Libre Franklin";
@@ -37,7 +37,7 @@
 .alert2001-infra:hover {
   background: #372752;
 }
-.servicesdevelop-infra {
+.servicesDevelop-infra {
   background: linear-gradient(169deg, #6458e7 26.53%, #9760f4 55.47%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

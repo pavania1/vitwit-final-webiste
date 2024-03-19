@@ -8,7 +8,7 @@ const Letstalk = () => {
     setShowContactPopup(true);
   };
   return (
-    <div id="letstalk" className="letstalk-main w-full">
+    <div id="letstalk" className="letsTalk-main w-full">
       <div className="w-full">
         <div className="letstalk-head">
           <div className="lets-text lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl hidden md:block mb-14">
@@ -20,7 +20,7 @@ const Letstalk = () => {
               Touch
             </span>
           </div>
-          <p className="letstalk-para-text  sm:text-xs xs:text-xs lg:text-sm md:text-sm text-center lg:mb-14">
+          <p className="letsTalk-para-text  sm:text-xs xs:text-xs lg:text-sm md:text-sm text-center lg:mb-14">
             {" "}
             If you have any questions or are interested in discussing anything
             related to Web3,

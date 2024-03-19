@@ -6,14 +6,10 @@
 .main22-landing {
   width: 100%;
 }
-.maindevelop-landing {
+.mainDevelop-landing {
   height: 100%;
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 .landing {
-  /* width: 100%; */
   max-width: 1280px;
   top: 50%;
   left: 50%;
@@ -21,14 +17,10 @@
   position: absolute;
   z-index: 30;
 }
-.leftdevelop-landing {
-  /* width: 70%; */
+.leftDevelop-landing {
   display: flex;
-  /* padding: 60px 40px; */
   flex-direction: column;
   justify-content: center;
-  /* gap: 40px; */
-  /* @apply xs:gap-5 sm:gap-5 lg:gap-10; */
 }
 .landing-text-main {
   display: flex;
@@ -39,7 +31,7 @@
   text-align: end;
   justify-content: end;
 }
-.subleftdevelop1-landing h1 {
+.subLeftDevelop1-landing h1 {
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 500;
@@ -53,7 +45,7 @@
   letter-spacing: 0.6px;
 }
 
-.servicesdevelop-landing {
+.servicesDevelop-landing {
   font-family: "Libre Franklin";
   font-style: normal;
   background: linear-gradient(185deg, #fff 25%, #a562f7 75%);
