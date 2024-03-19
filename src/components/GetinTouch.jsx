@@ -38,8 +38,10 @@ const GetinTouch = ({ open, close }) => {
               <div className="text-white text-center text-base not-italic font-normal leading-6">
                 If you have any questions or are interested in discussing
                 anything related to Web3, please don't hesitate to connect with
-                us through any of the social channels below or via email :
-                contact@vitwit.com
+                us through any of the social channels below or via
+                <br />
+                email :
+                <span className="font-bold"> contact@vitwit.com</span>
               </div>
               <div className="getintouch-v-line"></div>
               <SocialIcons />
