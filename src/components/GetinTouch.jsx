@@ -31,16 +31,15 @@ const GetinTouch = ({ open, close }) => {
             <div>
               <img src={GetinTouchImage} alt="GetinTouch Image" />
             </div>
-            <div className="flex flex-col justify-center items-center gap-6 flex-[1_0_0] self-stretch">
-              <div className="text-white text-center text-[36px] not-italic font-bold leading-[54px]">
+            <div className="flex flex-col justify-center gap-6 flex-[1_0_0] self-stretch">
+              <div className="text-white text-left text-[36px] not-italic font-bold leading-[54px]">
                 Get in touch with us
               </div>
-              <div className="text-white text-center text-base not-italic font-normal leading-6">
+              <div className="text-white text-base not-italic font-normal leading-6 text-left">
                 If you have any questions or are interested in discussing
-                anything related to Web3, please don't hesitate to connect with
-                us through any of the social channels below or via
-                <br />
-                email :
+                anything related to Web3, <br />
+                please don't hesitate to connect with us through any of the
+                social channels below or via email :
                 <span className="font-bold"> contact@vitwit.com</span>
               </div>
               <div className="getintouch-v-line"></div>
