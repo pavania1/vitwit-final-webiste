@@ -262,6 +262,7 @@ const OurPartners = () => {
                       <div className="cosmos-logo-style">
                         {logo.icon && (
                           <img
+                            loading="lazy"
                             src={logo.icon}
                             alt={`${logo.name}-logo`}
                             className="sm:w-[30px] xs:w-[40px] lg:w-[55px]"
