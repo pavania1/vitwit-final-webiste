@@ -32,7 +32,7 @@ const Infrastructure = () => {
               <div className="infra-bg infra-left md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="validator-dot mb-3">
-                    <img src={Validator} alt="Validator-icon" />
+                    <img src={Validator} loading="lazy" alt="Validator-icon" />
                   </div>
                   <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                     Validator
@@ -50,7 +50,7 @@ const Infrastructure = () => {
               <div className="infra-bg infra-right md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="relayer-dot mb-3">
-                    <img src={Relayer} alt="Relayer-icon" />
+                    <img src={Relayer} loading="lazy" alt="Relayer-icon" />
                   </div>
                   <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                     Relayer
@@ -68,7 +68,7 @@ const Infrastructure = () => {
               <div className="infra-bg infra-left md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="advisory-dot mb-3">
-                    <img src={Advisory} alt="validatorAdvisory-icon" />
+                    <img src={Advisory} loading="lazy" alt="validatorAdvisory-icon" />
                   </div>
                   <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                     Validator advisory
@@ -86,7 +86,7 @@ const Infrastructure = () => {
               <div className="infra-bg infra-right md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="testing-dot mb-3">
-                    <img src={Testing} alt="testing-icon" />
+                    <img src={Testing} loading="lazy" alt="testing-icon" />
                   </div>
                   <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                     Software Upgrades and Testing
@@ -104,7 +104,7 @@ const Infrastructure = () => {
               <div className="infra-bg infra-left md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="white-label mb-3">
-                    <img src={WhiteLabel} alt="whiteLabel-icon" />
+                    <img src={WhiteLabel} loading="lazy" alt="whiteLabel-icon" />
                   </div>
                   <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                     White-label services
@@ -122,7 +122,7 @@ const Infrastructure = () => {
               <div className="infra-bg infra-right md:infra border-none hover:bg-[#372752] p-6">
                 <div>
                   <div className="genesis-dot mb-3">
-                    <img src={Genesis} alt="genesis-icon" />
+                    <img src={Genesis} loading="lazy" alt="genesis-icon" />
                   </div>
                   <span className="infra-icons-text lg:text-base md:text-base sm:text-sm xs:text-sm">
                     Genesis Launch
