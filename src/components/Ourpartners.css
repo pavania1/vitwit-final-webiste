@@ -5,7 +5,7 @@
 }
 .main22-ourPartners {
   width: 100%;
-  @apply flex justify-center px-6 pb-6 pt-10 lg:px-0 lg:py-20;
+  @apply flex justify-center px-6 pb-6 pt-10 lg:px-0 lg:pt-20 lg:pb-40;
 }
 .mainDevelop-partners {
   @apply w-full flex flex-col-reverse lg:flex-row;
